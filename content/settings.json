@@ -1,23 +1,20 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "https://gatsbystarterportfoliomin93305.gatsbyjs.io/",
+    "title": "Antalpha Labs",
+    "titleTemplate": "%s · Antalpha Labs",
+    "description": "A global web3 developers community.",
+    "author": "Antalpha Labs",
     "avatar": "../content/images/gatsby.png",
     "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/Antalpha-Labs",
+      "discord": "https://discord.com"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Antalpha Labs" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
@@ -27,8 +24,8 @@
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "label": "Discord",
+        "url": "https://discord.com"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
