@@ -10,11 +10,11 @@
   },
   "title": "Antalpha Labs is a global web3 developers community",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
+    "prefix": "Let's learn, communicate and build ",
+    "highlight": "together",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "Click below links to learn more about us.",
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
     "showIcons": false
