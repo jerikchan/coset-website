@@ -2,29 +2,19 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🕹️ GameFi",
+      "title": "GameFi Profit Management",
+      "description": "At present, the game of the treasure dao ecosystem has been preliminarily available. Players hope to intuitively see the cost of investment, how much profit can be harvested each month, and when to pay back the cost (profit tax return in the future). The initial idea is based on treasure dao to complete the mvp version of this application, which mainly supports two games: https://bridgeworld.treasure.lol and https://www.talesofelleria.com.",
+      "tags": ["GameFi", "Profit Management", "Play to earn"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "alt": "GameFi"
       },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
+      "links": []
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
+      "category": "🧰 Defi",
       "title": "Add more sections!",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
       "tags": ["Custom Sections", "Easy-2-Use"],
@@ -43,6 +33,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/Antalpha-Labs"
   }
 }

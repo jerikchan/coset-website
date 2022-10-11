@@ -19,8 +19,8 @@ export default function IndexPage() {
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <AboutSection sectionId="about" heading="About Antalpha Labs" />
         <InterestsSection sectionId="roles" heading="Community Roles" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <ProjectsSection sectionId="features" heading="Open Source Projects" />
+        <ContactSection sectionId="github" heading="Want to talk with us?" />
       </Page>
     </>
   );
