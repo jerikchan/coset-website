@@ -16,7 +16,7 @@
   },
   "description": "Click below links to learn more about us.",
   "socialProfiles": {
-    "from": [ "Github", "Discord"],
+    "from": [ "Github"],
     "showIcons": false
   }
 }
