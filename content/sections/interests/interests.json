@@ -35,5 +35,10 @@
         "alt": ""
       }
     }
-  ]
+  ],
+  "button": {
+    "visible": false,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
 }
