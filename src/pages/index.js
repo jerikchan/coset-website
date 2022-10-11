@@ -18,7 +18,7 @@ export default function IndexPage() {
         <HeroSection sectionId="hero" />
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
         <AboutSection sectionId="about" heading="About Antalpha Labs" />
-        <InterestsSection sectionId="details" heading="Details" />
+        <InterestsSection sectionId="roles" heading="Community Roles" />
         <ProjectsSection sectionId="features" heading="Built-in Features" />
         <ContactSection sectionId="github" heading="Issues?" />
       </Page>
