@@ -19,7 +19,7 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Projects", "url": "/#projects" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
@@ -28,8 +28,8 @@
         "url": "https://discord.gg/5VDVhY6czv"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Discord", "url": "https://discord.gg/5VDVhY6czv" },
+        { "label": "Github", "url": "https://github.com/Antalpha-Labs" }
       ]
     },
     "featureToggles": {
