@@ -1,7 +1,7 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsbystarterportfoliomin93305.gatsbyjs.io/",
+    "siteUrl": "https://labs.antalpha.com",
     "title": "Antalpha Labs",
     "titleTemplate": "%s · Antalpha Labs",
     "description": "A web3 developers community.",
@@ -18,17 +18,14 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Projects", "url": "/#projects" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Projects", "url": "/#projects" }
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Discord",
-        "url": "https://discord.gg/5VDVhY6czv"
+        "label": "Github",
+        "url": "https://github.com/Antalpha-Labs"
       },
       "footer": [
-        { "label": "Discord", "url": "https://discord.gg/5VDVhY6czv" },
         { "label": "Github", "url": "https://github.com/Antalpha-Labs" }
       ]
     },

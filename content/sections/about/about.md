@@ -11,4 +11,4 @@ We are here to:
 - Build open source projects.
 - Support open source projects by grant and user growth strategy.
 
-Join our <a href="https://discord.gg/5VDVhY6czv" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Discord</u></a>
+<!-- Join our <a href="https://discord.gg/5VDVhY6czv" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Discord</u></a> -->

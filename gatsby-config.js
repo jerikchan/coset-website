@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+        siteUrl: "https://labs.antalpha.com", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/favicon.ico", // Path is relative to the root
           siteName: "Antalpha Labs", // Used in manifest.json
