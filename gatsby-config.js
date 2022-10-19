@@ -5,7 +5,7 @@ module.exports = {
       options: {
         siteUrl: "https://antalphalabs.gatsbyjs.io", // Used for sitemap generation
         manifestSettings: {
-          favicon: "./content/images/favicon.ico", // Path is relative to the root
+          favicon: "./content/images/favicon.png", // Path is relative to the root
           siteName: "Antalpha Labs", // Used in manifest.json
           shortName: "Antalpha Labs", // Used in manifest.json
           startUrl: "/", // Used in manifest.json
