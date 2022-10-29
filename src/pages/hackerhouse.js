@@ -14,21 +14,20 @@ import {Seo} from "gatsby-theme-portfolio-minimal";
 export default function HackerHouse() {
     return (<>
         <Seo title="Antalpha Labs-Web3 developers community"/>
-        <div className="container"> 
-        {/* 1、这里是标题和活动介绍 */}
+        <div className="container"> {/* 1、这里是标题和活动介绍 */}
             <div className="hackerhouse1">
                 <div className="hackerhouse-title">
                     <img src={logo}
                         alt=""
                         className="Icon"/>
                 </div>
-                
+
                 <div className="project">
                     <div className="hackerhouse-project">
                         <div className="hackerhouse-project-title">
                             <span className="line"></span>ENTER THE HOUSE</div>
                         <div className="hackerhouse-project-detail">Antalpha Hacker House aims to spread Hacker culture and promote global Hacker collaboration</div>
-                        <a href="https://tally.so/r/mJ1qBK" >
+                        <a href="https://tally.so/r/mJ1qBK">
                             <img src={applybutton}
                                 alt=""
                                 className="apply-button"></img>
@@ -75,9 +74,7 @@ export default function HackerHouse() {
                 <div className="hackerhouse-partners"></div>
             </div>
         </div>
-          
 
 
     </>);
 }
-
