@@ -27,7 +27,7 @@ export default function HackerHouse() {
                         <div className="hackerhouse-project-title">
                             <span className="line"></span>ENTER THE HOUSE</div>
                         <div className="hackerhouse-project-detail">Antalpha Hacker House aims to spread Hacker culture and promote global Hacker collaboration</div>
-                        <a href="https://tally.so/r/mJ1qBK">
+                        <a href="https://tally.so/r/mJ1qBK" className="hackerhouse-link">
                             <img src={applybutton}
                                 alt=""
                                 className="apply-button"></img>

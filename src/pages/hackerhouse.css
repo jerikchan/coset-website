@@ -1,149 +1,201 @@
 @font-face {
-    font-family:Montserrat;
-    src: url(../font/Montserrat-Bold-3.otf);
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Bold-3.otf);
 }
 @font-face {
-    font-family:Montserrat2;
-    src: url(../font/Montserrat-Regular-8.otf);
+  font-family: Montserrat2;
+  src: url(../font/Montserrat-Regular-8.otf);
 }
 
-.hackerhouse1{
-    position: relative;
-    height:800px;
-    background-image: url("../../content/images/background.png");
+.hackerhouse1 {
+  position: relative;
+  height: 800px;
+  background-image: url("../../content/images/background.png");
 }
 
 .hackerhouse1:before {
-    background-image: url("../../content/images/gradient.png");
-    background-size: 100% 100%;
+  background-image: url("../../content/images/gradient.png");
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hackerhouse-title {
+  padding-top: 40px;
+  margin-left: 50px;
+}
+
+.project {
+  width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.hackerhouse-project-title {
+  margin-top: 150px;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+}
+.hackerhouse-project-title .line {
+  position: absolute;
+  left: 40px;
+  top: -48px;
+  width: 80px;
+  height: 8px;
+  background-color: black;
+}
+
+.hackerhouse-project-title::before {
+  padding-right: 10px;
+  content: "[";
+  font-size: 62px;
+}
+.hackerhouse-project-title::after {
+  padding-left: 10px;
+  content: "]";
+  font-size: 65px;
+}
+
+.hackerhouse-project-detail {
+  margin-top: 60px;
+  width: 680px;
+  font-size: 24px;
+  font-family: "Montserrat2";
+}
+
+.apply-button {
+  margin-top: 40px;
+  width: 180px;
+  height: 70px;
+}
+
+.hackerhouse-time {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.hackerhouse-time::before {
+  display: inline-block;
+  margin-right: 7px;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../../content/images/time.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.hackerhouse-location {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hackerhouse-location::before {
+  display: inline-block;
+  margin-right: 7px;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../../content/images/location.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nextpage {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 35px;
+  z-index: 4;
+  cursor: pointer;
+}
+.hackerhouse-offer-tittle {
+  font-family: "Montserrat1";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  color: #0f1227;
+  text-align: center;
+  margin: 80px 0;
+}
+
+.hackerhouse-offer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.hackerhouse-offer {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+/* 媒体查询 */
+
+@media only screen and (max-width: 500px) {
+  .project {
+    width: 100%;
+  }
+  .hackerhouse1 {
+    height: 700px;
+  }
+  .hackerhouse-project-title {
+    width: 100%;
+    margin-top: 90px;
+    font-size: 36px;
+  }
+
+  .hackerhouse-project-title .line {
     position: absolute;
-    left:0;
-    top:0;
-    content:"";
-    width:100%;
-    height:100%;
-    z-index:-1; 
+    left: 20px;
+    top: -20px;
+    width: 50px;
+    height: 5px;
+}
+  .hackerhouse-project-title::after, .hackerhouse-project-title::before{
+    font-size: 28px;
 }
 
-.hackerhouse-title{
-    padding-top: 40px;
-    margin-left: 50px;
-}
-
-.project{
-    width:1200px;
-    margin: 0 auto;
-    z-index: 1;
-}
-.hackerhouse-project-title{
-    margin-top: 150px;
-    font-size: 90px;
-    font-weight: bold;
-    font-family: "Montserrat";
-    display: flex;
-    box-sizing: border-box;
-    position: relative;
-}
-.hackerhouse-project-title .line{
-    position: absolute;
-    left:40px;
-    top:-48px;
-    width:80px;
-    height:8px;
-    background-color: black;
-}
-
-.hackerhouse-project-title::before{
-    padding-right: 10px;
-    content: "[";
-    font-size: 62px;
-}
-.hackerhouse-project-title::after{
-    padding-left: 10px;
-    content: "]";
-    font-size: 65px;
-}
-
-.hackerhouse-project-detail{
-    margin-top: 60px;
-    width: 680px;
-    font-size: 24px; 
-    font-family: "Montserrat2";
-}
-
-.apply-button{
-    margin-top: 40px;
-    width: 180px;
-    height: 70px;
-    
-}
- 
-.hackerhouse-time{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.hackerhouse-time::before{
-    display: inline-block;
-    margin-right: 7px;
-    width: 20px;
-    height: 20px;
-    content: "";
-    background-image: url("../../content/images/time.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.hackerhouse-location{
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.hackerhouse-location::before{
-    display: inline-block;
-    margin-right: 7px;
-    width: 20px;
-    height: 20px;
-    content: "";
-    background-image: url("../../content/images/location.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.nextpage{
-    position:absolute;
-    left: 50%;
-    transform:translateX(-50%);
-    bottom:35px;
-    z-index:4;
-    cursor: pointer; 
-}
-.hackerhouse-offer-tittle{
-    font-family: 'Montserrat1';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    color: #0F1227;
+  .hackerhouse-project-detail {
+    width: 100%;
     text-align: center;
-    margin: 80px 0;
-}
-
-.hackerhouse-offer-container{
+    font-size: 18px;
+  }
+  .hackerhouse-link {
     display: flex;
-    justify-content:space-between;
-    width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-    box-sizing: border-box;
-}
+    width: 100%;
+    justify-content: center;
+  }
 
-.hackerhouse-offer{
-    width: 220px;
-    display: flex;
+  .hackerhouse-time,
+  .hackerhouse-location {
+    justify-content: center;
+  }
+
+  .hackerhouse-offer-container {
+    justify-content: center;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    text-align: center;
+    gap: 40px 0;
+  }
+  .hackerhouse-offer {
+    width: 80vw;
+  }
 }
-
