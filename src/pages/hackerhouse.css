@@ -71,10 +71,14 @@
   font-family: "Montserrat2";
 }
 
+.hackerhouse-link{
+    margin-top: 40px;
+    width: 180px;
+    height: 70px;
+}
+
 .apply-button {
-  margin-top: 40px;
-  width: 180px;
-  height: 70px;
+  width: 180px; 
 }
 
 .hackerhouse-time {
