@@ -158,24 +158,27 @@
   .hackerhouse-project-title {
     width: 100%;
     margin-top: 90px;
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 1.3em;
+    align-items: center;
+    justify-content: center;
   }
-
   .hackerhouse-project-title .line {
     position: absolute;
-    left: 20px;
+    left: 50px;
     top: -20px;
     width: 50px;
     height: 5px;
-}
-  .hackerhouse-project-title::after, .hackerhouse-project-title::before{
+  }
+  .hackerhouse-project-title::after,
+  .hackerhouse-project-title::before {
     font-size: 28px;
-}
-
+  }
   .hackerhouse-project-detail {
     width: 100%;
     text-align: center;
     font-size: 18px;
+    margin-top: 30px;
   }
   .hackerhouse-link {
     display: flex;
