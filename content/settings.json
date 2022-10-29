@@ -17,6 +17,7 @@
     "logo": { "text": "Antalpha Labs" },
     "navigation": {
       "header": [
+        { "label": "Hacker House", "url": "/hackerhouse" },
         { "label": "About", "url": "/#about" },
         { "label": "Projects", "url": "/#projects" }
       ],
