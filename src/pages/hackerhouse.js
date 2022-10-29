@@ -50,22 +50,22 @@ export default function HackerHouse() {
                     <div className="hackerhouse-offer">
                         <img src={freeaccommodation}></img>
                         <h4>Free Accommodation</h4>
-                        <span>Provide excellent accommodation and view Erhai Lake near Cangshan Mountain</span>
+                        <span>We provide excellent accommodation environment near Cangshan Mountain and around with Erhai Lake</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={industrymentor}></img>
                         <h4>Industry Mentor</h4>
-                        <span>Technology experts and industry leaders enjoy silky development experience</span>
+                        <span>Many technology experts  & industry leaders. You can enjoy a good development experience here.</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={businesscoach}></img>
                         <h4>Business Coach</h4>
-                        <span>Provide business consultation and guidance for participants and assist in project implementation</span>
+                        <span>Provide business consultation & guidance for participants and assist in project landing implementation</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={communityatmosphere}></img>
                         <h4>Community Atmosphere</h4>
-                        <span>Organize various leisure activities and organically combine with Dali local communities</span>
+                        <span>Organize various leisure activities & spontaneously combine with Dali‘s local communities</span>
                     </div>
 
 
