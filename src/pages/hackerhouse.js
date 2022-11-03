@@ -49,23 +49,23 @@ export default function HackerHouse() {
                 <div className="hackerhouse-offer-container">
                     <div className="hackerhouse-offer">
                         <img src={freeaccommodation}></img>
-                        <h4>Free Accommodation</h4>
-                        <span>We provide excellent accommodation environment near Cangshan Mountain and around with Erhai Lake</span>
+                        <span className="hackerhouse-offer-littletittle" >Free Accommodation</span>
+                        <span>Provide excellent accommodation with a view of the Erhai Lake by the Cang Mountain</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={industrymentor}></img>
-                        <h4>Industry Mentor</h4>
-                        <span>Many technology experts  & industry leaders. You can enjoy a good development experience here.</span>
+                        <span className="hackerhouse-offer-littletittle">Tech Mentors</span>
+                        <span>Enjoy a smooth development experience with the presence of technical experts and industry experts</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={businesscoach}></img>
-                        <h4>Business Coach</h4>
-                        <span>Provide business consultation & guidance for participants and assist in project landing implementation</span>
+                        <span className="hackerhouse-offer-littletittle">Business Coach</span>
+                        <span>Provide participants with business consulting and coaching to assist in project implementation</span>
                     </div>
                     <div className="hackerhouse-offer">
                         <img src={communityatmosphere}></img>
-                        <h4>Community Atmosphere</h4>
-                        <span>Organize various leisure activities & spontaneously combine with Dali‘s local communities</span>
+                        <span className="hackerhouse-offer-littletittle">Community Vibe</span>
+                        <span>Organizing various activities, and integrating with the local community in Dali</span>
                     </div>
 
 
