@@ -202,9 +202,11 @@
     margin-top: 30px;
   }
   .hackerhouse-link {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    /* display: flex; */
+    display:block; 
+    margin:40px auto;
+    width: 180px;
+    /* justify-content: center; */
   }
 
   .hackerhouse-time,
