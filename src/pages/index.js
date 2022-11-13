@@ -91,13 +91,14 @@ export default function IndexPage() {
                         <a href="https://discord.gg/fhhecXWh"><button className="botton">Join us</button></a>
                     </div>
 
-                    <a href="#showcase" className="nextpage">
+                    <a href="#aboutus" className="nextpage">
                         <img src={nextpage}
                             alt=""></img>
                     </a>
                 </div>
 
-                {/* 2、关于我们 */}ç
+                {/* 2、关于我们 */}
+                <div id="aboutus">
                 <div className="antalpha-container1">
                     <div className="about-antalpha">
                         <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
@@ -110,7 +111,7 @@ export default function IndexPage() {
                         </ul>
                     </div>
                 </div>
-
+                </div>
                 {/* 3、案例 */}
                 <div id="showcase">
                     <div className="antalpha-showcase">
