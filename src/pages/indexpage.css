@@ -248,9 +248,8 @@ width:190px;
   padding: 0px;
   gap: 28px;  
   position: relative;
-  width: 4601px;
+  width: 4660px;
   height: 420.96px; 
-
   /* height: 540px; */
   margin: 100px 0px 100px 72px;
   display: flex;
@@ -258,7 +257,6 @@ width:190px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
 }
 
 .thefirsthacker-case {
