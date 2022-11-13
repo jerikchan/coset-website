@@ -1,0 +1,280 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Light-6.otf);
+}
+@font-face {
+  font-family: Montserrat2;
+  src: url(../font/Montserrat-ExtraLight-5.otf);
+}
+@font-face {
+  font-family: Montserrat3;
+  src: url(../font/Montserrat-Regular-8.otf);
+}
+@font-face {
+  font-family: Montserrat4;
+  src: url(../font/Montserrat-Bold-3.otf);
+}
+
+.antalpha-container1 {
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+  background-image: url("../../content/images/antalpha/noise.png");
+}
+
+.antalpha-navigator {
+  width: 1360px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.antalpha-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.antalpha-navi {
+  display: flex;
+  gap: 60px;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.hackerhouse-navi::before {
+  position:absolute;
+  left:-18px;
+  padding-right: 8px;
+  content: "<";
+  font-size: 25px;
+  color: #435AFF;
+}
+.hackerhouse-navi::after {
+  position:absolute;
+  padding-left: 8px;  
+  content: ">";
+  font-size: 25px;
+  color: #435AFF;
+}
+
+.hackerhouse-navi{
+  position: relative;
+}
+
+.line{
+  position:absolute;
+  width:0px;
+  height:1px;
+  background-color: #2222FF;
+  bottom: 0;
+  transition: width ease 0.3s;
+}
+
+
+.hackerhouse-navi:hover .line{
+  width:100%;
+}
+
+.showcase-navi{
+  position: relative;
+}
+
+.showcase-navi:hover .line{
+  width:100%;
+}
+
+.antalpha-mianlogo {
+  margin-top: 30px;
+  width: 1220px;
+  height: 530px;
+}
+.antalpha-intro {
+  display: flex;
+  font-family: "Montserrat2";
+  font-size: 24px;
+  width: 740px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botton {
+  position: relative;
+  box-sizing: border-box;
+  border:2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 26px;
+  gap: 10px;
+  font-family: "Montserrat3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(
+    99.7deg,
+    rgba(128, 146, 255, 0.17) 0%,
+    rgba(234, 239, 254, 0.17) 49.71%,
+    rgba(104, 159, 255, 0.17) 98.21%
+  );
+  box-shadow: 0px 6px 9px rgba(120, 137, 255, 0.29);
+  backdrop-filter: blur(4px);
+  border-radius: 68px;
+}
+
+.botton:hover {
+  border-color: #2222FF;
+  color:#2222FF;
+  /* -webkit-box-shadow: 10px 10px 99px 6px #2222FF;
+  -moz-box-shadow: 10px 10px 99px 6px #2222FF;
+  box-shadow: 10px 10px 99px 6px #2222FF; */
+}
+
+.botton:active{
+  background-color: #2222FF;
+  border-color: white;
+  color:white;
+  /* -webkit-box-shadow: 10px 10px 99px 6px #2222FF;
+  -moz-box-shadow: 10px 10px 99px 6px #2222FF;
+  box-shadow: 10px 10px 99px 6px #2222FF;  */
+}
+
+.nextpage {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 35px;
+  z-index: 4;
+  cursor: pointer;
+  user-select:none;
+}
+
+/* 第二页 */
+
+.about-antalpha {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+  height: 629px;
+  background-image: url("../../content/images/antalpha/background.png");
+}
+
+.antalpha-title {
+  width: 630px;
+  margin-left: 620px;
+  margin-bottom: 30px;
+}
+
+.antalpha-bigtitle {
+  font-family: "Montserrat3";
+  font-size: 56px;
+  font-weight: 700;
+}
+.antalpha-detailintro {
+  font-family: "Montserrat2";
+  font-size: 20px;
+}
+.antalpha-aboutus {
+  font-family: "Montserrat3";
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.antalpha-aboutuslist {
+  padding-left: 2px;
+}
+
+.antalpha-title li {
+  margin-bottom: 20px;
+  margin-left: -22px;
+  font-family: "Montserrat2";
+  font-size: 20px;
+  list-style-type: none;
+}
+
+/* 第三页 */
+.antalpha-showcase {
+  height: 800px;
+  background-image: url("../../content/images/antalpha/noise.png");
+}
+
+.showcase-title {
+  display: flex;
+  padding: 35px 72px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat3";
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.viewall-button{
+width:190px;
+
+}
+
+.arrow{
+  transform: rotate(-45deg); 
+}
+
+.showcase-cutline {
+  height: 6px;
+  background-image: url("../../content/images/antalpha/cutline.svg");
+  margin-left: 72px;
+}
+
+
+.showcase-scroll{
+  position: relative;
+  width: 1440px;
+  height: 540px;
+  left: 0px;
+  overflow:scroll;
+  overflow-y: hidden; 
+}
+
+.showcase-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;  
+  position: relative;
+  width: 4601px;
+  height: 420.96px; 
+
+  /* height: 540px; */
+  margin: 100px 0px 100px 72px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.thefirsthacker-case {
+  display: flex;
+  flex-direction: column;
+  font-family: "Alibaba PuHuiTi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  gap: 38px;
+}
+
+.case-photo {
+  width: 491px;
+  height: 310px;
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  filter: drop-shadow(0px 4px 9px rgba(175, 185, 252, 0.32));
+  border-radius: 40px;
+}

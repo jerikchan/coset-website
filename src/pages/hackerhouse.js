@@ -1,12 +1,12 @@
 import React from "react"
 import "./hackerhouse.css"
-import logo from "../../content/images/antalpha.png"
-import applybutton from "../../content/images/applybutton.png"
-import nextpage from "../../content/images/nextpage.png"
-import freeaccommodation from "../../content/images/freeaccommodation.png"
-import communityatmosphere from "../../content/images/communityatmosphere.png"
-import businesscoach from "../../content/images/businesscoach.png"
-import industrymentor from "../../content/images/industrymentor.png"
+import logo from "../../content/images/hackerhouse/antalpha.png"
+import applybutton from "../../content/images/hackerhouse/applybutton.png"
+import nextpage from "../../content/images/hackerhouse/nextpage.png"
+import freeaccommodation from "../../content/images/hackerhouse/freeaccommodation.png"
+import communityatmosphere from "../../content/images/hackerhouse/communityatmosphere.png"
+import businesscoach from "../../content/images/hackerhouse/businesscoach.png"
+import industrymentor from "../../content/images/hackerhouse/industrymentor.png"
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";

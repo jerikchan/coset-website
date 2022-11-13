@@ -10,15 +10,17 @@
   font-family: Montserrat3;
   src: url(../font/Montserrat-ExtraLight-5.otf);
 }
-
+/* 1、这里是标题和活动介绍  */
 .hackerhouse1 {
   position: relative;
   height: 800px;
-  background-image: url("../../content/images/background.png");
+  background-image: url("../../content/images/hackerhouse/background.png");
+  background-image: url("../../content/images/antalpha/noise.png");
+  /* 需要加上噪点图 */
 }
 
 .hackerhouse1:before {
-  background-image: url("../../content/images/gradient.png");
+  background-image: url("../../content/images/hackerhouse/gradient.png");
   background-size: 100% 100%;
   position: absolute;
   left: 0;
@@ -97,7 +99,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url("../../content/images/time.png");
+  background-image: url("../../content/images/hackerhouse/time.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -113,7 +115,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url("../../content/images/location.png");
+  background-image: url("../../content/images/hackerhouse/location.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -126,6 +128,7 @@
   z-index: 4;
   cursor: pointer;
 }
+/* 2、活动提供的福利 */
 .hackerhouse-offer-tittle {
   font-family: "Montserrat1";
   font-style: normal;
@@ -171,10 +174,10 @@
   }
   .hackerhouse1 {
     height: 700px;
-    background-image: url("../../content/images/background-media.png");
+    background-image: url("../../content/images/hackerhouse/background-media.png");
   }
   .hackerhouse1:before {
-    background-image: url("../../content/images/gradient-media.png");
+    background-image: url("../../content/images/hackerhouse/gradient-media.png");
   }
   .hackerhouse-project-title {
     width: 100%;
