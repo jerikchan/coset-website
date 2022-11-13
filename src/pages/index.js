@@ -75,8 +75,14 @@ export default function IndexPage() {
                                 className="Icon"/>
                         </div>
                         <div className="antalpha-navi">
-                            <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi"><span>Hacker House</span><div className="line"></div></a>
-                            <a href="#showcase" className="showcase-navi"><span>Showcase</span><div className="line"></div></a>
+                            <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi">
+                                <span>Hacker House</span>
+                                <div className="line"></div>
+                            </a>
+                            <a href="#showcase" className="showcase-navi">
+                                <span>Showcase</span>
+                                <div className="line"></div>
+                            </a>
                         </div>
                     </div>
                     {/* 主要内容 */}
@@ -88,7 +94,9 @@ export default function IndexPage() {
 
                     <div className="antalpha-intro">
                         <div>Antalpha Labs is a web3 developer community...</div>
-                        <a href="https://discord.gg/fhhecXWh"><button className="botton">Join us</button></a>
+                        <a href="https://discord.gg/fhhecXWh">
+                            <button className="botton">Join us</button>
+                        </a>
                     </div>
 
                     <a href="#aboutus" className="nextpage">
@@ -99,18 +107,18 @@ export default function IndexPage() {
 
                 {/* 2、关于我们 */}
                 <div id="aboutus">
-                <div className="antalpha-container1">
-                    <div className="about-antalpha">
-                        <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
-                        <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
-                        <div className="antalpha-title antalpha-aboutus">We are here to:</div>
-                        <ul className="antalpha-title antalpha-aboutuslist">
-                            <li>✓ Learn web3 technology.</li>
-                            <li>✓ Build open source projects.</li>
-                            <li>✓ Support open source projects by grant and user growth strategy.</li>
-                        </ul>
+                    <div className="antalpha-container1">
+                        <div className="about-antalpha">
+                            <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
+                            <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
+                            <div className="antalpha-title antalpha-aboutus">We are here to:</div>
+                            <ul className="antalpha-title antalpha-aboutuslist">
+                                <li>✓ Learn web3 technology.</li>
+                                <li>✓ Build open source projects.</li>
+                                <li>✓ Support open source projects by grant and user growth strategy.</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 {/* 3、案例 */}
                 <div id="showcase">
@@ -126,7 +134,6 @@ export default function IndexPage() {
                         <div className="showcase-cutline"></div>
                         <div className="showcase-scroll">
                             <div className="showcase-list">
-
                                 {
                                 imglist.map(({
                                     text,
@@ -147,7 +154,6 @@ export default function IndexPage() {
                                     )
                                 })
                             }
-
                                 <div className="thefirsthacker-case">
                                     <img src={chatbot}></img>
                                     <span>Chatbot Trainer DAO</span>
