@@ -1,4 +1,5 @@
 import React from "react"
+import "./global.css";
 import "./hackerhouse.css"
 import logo from "../../content/images/hackerhouse/antalpha.png"
 import applybutton from "../../content/images/hackerhouse/applybutton.png"

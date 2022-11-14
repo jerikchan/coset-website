@@ -1,4 +1,5 @@
 import React from "react";
+import "./global.css";
 import "./indexpage.css";
 import logo from "../../content/images/antalpha/antalphalogo.svg"
 import logo2 from "../../content/images/antalpha/antalphalogo2.svg"
@@ -129,7 +130,7 @@ export default function IndexPage() {
 
                 {/* 2、关于我们 */}
                 <div id="aboutus">
-                    <div className="antalpha-container1">
+                    <div className="antalpha-containe1">
                         <div className="about-antalpha">
                             <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
                             <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
@@ -178,10 +179,7 @@ export default function IndexPage() {
                                     )
                                 })
                                }
-                                <div className="thefirsthacker-case">
-                                    <img src={chatbot}></img>
-                                    <span>Chatbot Trainer DAO</span>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

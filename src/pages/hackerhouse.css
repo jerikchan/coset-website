@@ -10,6 +10,13 @@
   font-family: Montserrat3;
   src: url(../font/Montserrat-ExtraLight-5.otf);
 }
+
+
+.container{
+  background: url("../../content/images/antalpha/noise.png") repeat;
+  background-size: 100% 100%;
+}
+
 /* 1、这里是标题和活动介绍  */
 .hackerhouse1 {
   position: relative;
