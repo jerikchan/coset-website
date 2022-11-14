@@ -16,6 +16,7 @@
 }
 
 .antalpha-container1 {
+  max-width: 90rem;
   height: 50rem;
   margin: auto;
   padding: 1.875rem 0px;
@@ -168,6 +169,8 @@
 #aboutus {
   height: 50rem;
   padding-top: 70px;
+  max-width: 90rem;
+  margin: auto;
 }
 
 .about-antalpha {
@@ -219,6 +222,8 @@
 .antalpha-showcase {
   height: 50rem;
   padding:35px 0px 0px 72px;
+  max-width: 90rem;
+  margin: auto;
 }
 
 
@@ -305,4 +310,10 @@ a.thefirsthacker-linkcase:focus{
 }
 .showcase-scroll {
   width:100%;
+}
+
+/* 媒体查询 */
+
+@media only screen and (max-width: 500px) {
+ 
 }
