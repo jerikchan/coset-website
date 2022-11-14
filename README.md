@@ -1,14 +1,13 @@
-<img src="screenshot.png" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
+<img src="website.jpg" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
 
 <a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme" target="_blank">
 <img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud" />
 </a>
 
-# Gatsby Starter Portfolio Minimal Theme
+# Antalpha Website
 
-#### A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.
+#### A Gatsby Starter Project to easily get started.
 
-Portfolio Minimal is a Gatsby Theme that let's you create outstanding one-page portfolios within minutes. This Gatsby Starter is a boilerplate project that has the theme pre-installed and pre-configured.
 
 Just clone this Gatsby Starter, add the content. And that's it!
 
@@ -46,9 +45,3 @@ Just clone this Gatsby Starter, add the content. And that's it!
 If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
 
 Thanks a lot for using this starter! 💪
-
----
-
-<a href="https://www.buymeacoffee.com/kmuenster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Konstantin Münster – [konstantin.digital](https://konstantin.digital)
