@@ -145,6 +145,7 @@ export default function IndexPage() {
                 <div id="aboutus">
                     <div className="antalpha-containe1">
                         <div className="about-antalpha">
+                            <div className="about-antalpha-box">
                             <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
                             <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
                             <div className="antalpha-title antalpha-aboutus">We are here to:</div>
@@ -153,6 +154,7 @@ export default function IndexPage() {
                                 <li><img src={check} alt=""></img>Build open source projects.</li>
                                 <li><img src={check} alt=""></img>Support open source projects by grant and user growth strategy.</li>
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -169,7 +171,7 @@ export default function IndexPage() {
                                     {/* <img src={arrow} alt="" className="arrow" ></img>  */}
                             <div className="viewAll-arrow"> </div>
                                 </button>
-                            </a>
+                        </a>
                         </div>
                         <div className="showcase-cutline"></div>
                         <div className="showcase-scroll">
