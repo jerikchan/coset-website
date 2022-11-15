@@ -15,6 +15,11 @@
   src: url(../font/Montserrat-Bold-3.otf);
 }
 
+@font-face {
+  font-family: Alibaba_PuHuiTi;
+  src: url(../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+}
+
 .antalpha-container1 {
   max-width: 90rem;
   height: 50rem;
@@ -26,12 +31,12 @@
   position: relative;
 }
 
-.about{
+.about {
   padding: 1.875rem 0;
 }
 .antalpha-navigator {
   width: 100%;
-  margin:0 4.5rem;
+  margin: 0 2.5rem 0 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +45,7 @@
 .antalpha-logo {
   display: flex;
   align-items: center;
-  gap: .625rem;
+  gap: 0.625rem;
 }
 
 .antalpha-navi {
@@ -48,49 +53,48 @@
   gap: 3.75rem;
   font-family: "Montserrat";
   font-size: 24px;
-  margin-right: 6.25rem;
+  margin-right: 5rem;
 }
 
 .hackerhouse-navi::before {
-  position:absolute;
-  left:-18px;
-  padding-right: .5rem;
+  position: absolute;
+  left: -18px;
+  padding-right: 0.5rem;
   content: "<";
   font-size: 25px;
-  color: #435AFF;
+  color: #435aff;
 }
 .hackerhouse-navi::after {
-  position:absolute;
-  padding-left: 8px;  
+  position: absolute;
+  padding-left: 8px;
   content: ">";
   font-size: 25px;
-  color: #435AFF;
+  color: #435aff;
 }
 
-.hackerhouse-navi{
+.hackerhouse-navi {
   position: relative;
 }
 
-.line{
-  position:absolute;
-  width:0px;
-  height:1px;
-  background-color: #2222FF;
+.line {
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #2222ff;
   bottom: 0;
   transition: width ease 0.3s;
 }
 
-
-.hackerhouse-navi:hover .line{
-  width:100%;
+.hackerhouse-navi:hover .line {
+  width: 100%;
 }
 
-.showcase-navi{
+.showcase-navi {
   position: relative;
 }
 
-.showcase-navi:hover .line{
-  width:100%;
+.showcase-navi:hover .line {
+  width: 100%;
 }
 
 .antalpha-mianlogo {
@@ -98,11 +102,17 @@
   width: 76.25rem;
   height: 33.125rem;
 }
+
+.antalpha-mianlogo img {
+  position: absolute;
+  left: 5.8125rem;
+}
+
 .antalpha-intro {
   display: flex;
   font-family: "Montserrat2";
   font-size: 24px;
-  width: 740px;
+  width: 48.125rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -110,7 +120,7 @@
 .botton {
   position: relative;
   box-sizing: border-box;
-  border:2px solid white;
+  border: 2px solid white;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -134,25 +144,15 @@
   border-radius: 68px;
 }
 
- /* a.hackerhouse-navi:focus {
-  outline:none;
-} */
-
 .botton:hover {
-  border-color: #2222FF;
-  color:#2222FF;
-  /* -webkit-box-shadow: 10px 10px 99px 6px #2222FF;
-  -moz-box-shadow: 10px 10px 99px 6px #2222FF;
-  box-shadow: 10px 10px 99px 6px #2222FF; */
+  border-color: #2222ff;
+  color: #2222ff;
 }
 
-.botton:active{
-  background-color: #2222FF;
+.botton:active {
+  background-color: #2222ff;
   border-color: white;
-  color:white;
-  /* -webkit-box-shadow: 10px 10px 99px 6px #2222FF;
-  -moz-box-shadow: 10px 10px 99px 6px #2222FF;
-  box-shadow: 10px 10px 99px 6px #2222FF;  */
+  color: white;
 }
 
 .nextpage {
@@ -162,7 +162,7 @@
   bottom: 1.875rem;
   z-index: 4;
   cursor: pointer;
-  user-select:none;
+  user-select: none;
 }
 
 /* 第二页 */
@@ -182,12 +182,12 @@
   width: 100%;
   height: 39.3125rem;
   background-image: url("../../content/images/antalpha/background.png");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .antalpha-title {
-  width: 39.375rem;
+  width: 39.375rem; 
   margin-left: 38.75rem;
   margin-bottom: 1.875rem;
 }
@@ -197,35 +197,42 @@
   font-size: 56px;
   font-weight: 700;
 }
+
 .antalpha-detailintro {
   font-family: "Montserrat2";
   font-size: 20px;
 }
+
 .antalpha-aboutus {
   font-family: "Montserrat3";
   font-size: 24px;
   margin-bottom: 0px;
 }
+
 .antalpha-aboutuslist {
   padding-left: 2px;
 }
 
 .antalpha-title li {
   margin-bottom: 1.25rem;
-  margin-left: -1.375rem;
   font-family: "Montserrat2";
-  font-size: 1.25rem;
+  font-size: 20px;
   list-style-type: none;
+  position: relative;
+}
+
+.antalpha-title li img {
+  left: -2.1875rem;
+  position: absolute;
 }
 
 /* 第三页 */
 .antalpha-showcase {
   height: 50rem;
-  padding:35px 0px 0px 72px;
+  padding: 35px 0px 0px 72px;
   max-width: 90rem;
   margin: auto;
 }
-
 
 .showcase-title {
   display: flex;
@@ -236,14 +243,34 @@
   font-size: 56px;
   font-weight: 700;
 }
-
-.viewall-button{
-width:11.875rem;
-
+.viewAll-href{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewall-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.875rem;
 }
 
-.arrow{
-  transform: rotate(-45deg); 
+
+.viewAll-arrow{
+  width: 28px;
+  height: 28px;
+  background: url("../../content/images/antalpha/arrow-up-right.svg") no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.viewall-button:hover .viewAll-arrow{
+  background-image: url("../../content/images/antalpha/arrow-up-right\ -blue.svg");
+
+}
+.viewall-button:active .viewAll-arrow{
+  /* onclick style... */
+  background-image: url("../../content/images/antalpha/arrow-up-right\ -white.svg");
 }
 
 .showcase-cutline {
@@ -253,14 +280,13 @@ width:11.875rem;
   background-repeat: no-repeat;
 }
 
-
-.showcase-scroll{
+.showcase-scroll {
   position: relative;
   width: 90rem;
   height: 33.75rem;
   left: 0px;
-  overflow:scroll;
-  overflow-y: hidden; 
+  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .showcase-list {
@@ -268,10 +294,10 @@ width:11.875rem;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 28px;  
+  gap: 28px;
   position: relative;
-  width: 312.5rem; 
-  height: 26.25rem; 
+  width: 312.5rem;
+  height: 26.25rem;
   /* height: 540px; */
   margin: 100px 0px;
   display: flex;
@@ -284,36 +310,144 @@ width:11.875rem;
 a.thefirsthacker-linkcase {
   display: flex;
   flex-direction: column;
-  font-family: "Alibaba PuHuiTi";
+  font-family: "Alibaba_PuHuiTi";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   gap: 38px;
 }
 
-a.thefirsthacker-linkcase:focus{
-  outline:none;
+a.thefirsthacker-linkcase:focus {
+  outline: none;
 }
 
 .case-photo {
-  width: 491px;
-  height: 310px;
+  width: 30.6875rem;
+  height: 19.375rem;
   border: 1px solid rgba(255, 255, 255, 0.62);
   filter: drop-shadow(0px 4px 9px rgba(175, 185, 252, 0.32));
   border-radius: 40px;
 }
 
 .antalpha-container {
-  overflow:hidden;
+  overflow: hidden;
   background-image: url("../../content/images/antalpha/noise.png");
-
 }
+
 .showcase-scroll {
-  width:100%;
+  width: 100%;
 }
 
 /* 媒体查询 */
 
 @media only screen and (max-width: 500px) {
- 
+  .antalpha-container {
+    background-image: url("../../content/images/antalpha/noise.png");
+  }
+
+  .antalpha-container1 {
+    height: 40rem;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .antalpha-navigator {
+    margin: 0 1rem;
+  }
+
+  .antalpha-navi {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 10px;
+    margin-right: 1.2rem;
+  }
+
+  .antalpha-mianlogo {
+    width: 30rem;
+    height: 20rem;
+    margin-top: 0;
+    background-image: url("../../content/images/antalpha/mainlogo.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .antalpha-mianlogo img {
+    display: none;
+  }
+
+  .antalpha-intro {
+    display: flex;
+    font-size: 15px;
+    width: 22rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 6vw;
+  }
+
+  .antalpha-intro a button {
+    width: 34vw;
+  }
+
+  .antalpha-intro a button {
+    text-align: center;
+  }
+
+  #aboutus {
+    height: 41rem;
+    padding-top: 10px;
+  }
+
+  .antalpha-bigtitle {
+    font-size: 24px;
+  }
+
+  .antalpha-title {
+    margin-left: 6rem;
+  }
+
+  .antalpha-detailintro {
+    width: 65%;
+    font-size: 14px;
+  }
+
+  .antalpha-aboutus {
+    font-size: 18px;
+  }
+
+  .antalpha-title li {
+    font-size: 10px;
+    margin-left: -0.5rem;
+    width: 45%;
+  }
+
+  .antalpha-showcase {
+    height: 160vw;
+    padding: 35px 0px 0px 3vw;
+  }
+
+  .botton {
+    font-size: 16px;
+    width: 40vw;
+    margin-left: 18vw;
+  }
+
+  .showcase-title {
+    width: 100%;
+    font-size: 20px;
+    padding: 30px 10px 20px 0px;
+  }
+  .case-photo {
+    width: 16rem;
+    height: 10rem;
+  }
+  .showcase-list {
+    margin-top: 2.5rem;
+    width: 195rem;
+  }
+
+  a.thefirsthacker-linkcase {
+    font-size: 20px;
+    gap: 15px;
+  }
 }
