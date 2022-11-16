@@ -112,7 +112,7 @@ export default function IndexPage() {
                         </div>
                         <div className="antalpha-navi">
                             <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi">
-                                <span>Hacker House</span>
+                                <span>HackerHouse</span>
                                 <div className="line"></div>
                             </a>
                             <a href="#showcase" className="showcase-navi">
