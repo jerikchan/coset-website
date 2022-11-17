@@ -414,22 +414,20 @@ a.thefirsthacker-linkcase:focus {
    height: 50%;
   }
 
-
-
   #aboutus {
-    height: 41rem;
+    height: 35rem;
     padding-top: 10px;
   }
 
   .about-antalpha {
     padding-right: 10px;  
-    height:660px; 
+    height:540px; 
     background-image: url("../../content/images/antalpha/backgroud-media.svg");
   }
 
   .about-antalpha-box{
-    width:100%;
-    margin-top: -6.875rem;
+    width:95%;
+    margin-top: -2.875rem;
   }
 
   .antalpha-bigtitle {
@@ -464,8 +462,6 @@ a.thefirsthacker-linkcase:focus {
     left: -1.35rem;
     top:.1875rem; 
   }
-
-
 
   .antalpha-showcase {
     height: 200vw;
