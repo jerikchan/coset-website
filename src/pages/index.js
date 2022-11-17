@@ -105,10 +105,10 @@ export default function IndexPage() {
                         <div className="antalpha-logo">
                             <img src={logo}
                                 alt=""
-                                className="Icon"/>
+                                className="Icon1"/>
                             <img src={logo2}
                                 alt=""
-                                className="Icon"/>
+                                className="Icon2"/>
                         </div>
                         <div className="antalpha-navi">
                             <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi">
@@ -152,7 +152,7 @@ export default function IndexPage() {
                             <ul className="antalpha-title antalpha-aboutuslist">
                                 <li><img src={check} alt=""></img>Learn web3 technology.</li>
                                 <li><img src={check} alt=""></img>Build open source projects.</li>
-                                <li><img src={check} alt=""></img>Support open source projects by grant and user growth strategy.</li>
+                                <li className="check3"><img src={check} alt="" ></img>Support open source projects by grant and user growth strategy.</li>
                             </ul>
                             </div>
                         </div>
