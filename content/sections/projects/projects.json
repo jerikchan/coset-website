@@ -22,7 +22,7 @@
       "description": "At present, the game of the treasure dao ecosystem has been preliminarily available. Players hope to intuitively see the cost of investment, how much profit can be harvested each month, and when to pay back the cost (profit tax return in the future). The initial idea is based on treasure dao to complete the mvp version of this application, which mainly supports two games: https://bridgeworld.treasure.lol and https://www.talesofelleria.com.",
       "tags": ["GameFi", "Profit Management", "Play to earn"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/favicon.png",
         "alt": "GameFi"
       },
       "links": [{

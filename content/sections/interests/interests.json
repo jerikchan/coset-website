@@ -3,35 +3,35 @@
     {
       "label": "Developers",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/favicon.png",
         "alt": ""
       }
     },
     {
       "label": "Researchers",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/favicon.png",
         "alt": ""
       }
     },
     {
       "label": "Designers",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/favicon.png",
         "alt": ""
       }
     },
     {
       "label": "Writers",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/favicon.png",
         "alt": ""
       }
     },
     {
       "label": "Event Organizers",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/favicon.png",
         "alt": ""
       }
     }

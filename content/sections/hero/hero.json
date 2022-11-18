@@ -1,11 +1,11 @@
 {
   "intro": "Hello",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/favicon.png",
     "alt": "My Photo"
   },
   "image": {
-    "src": "../../images/waving-hand.png",
+    "src": "../../images/favicon.png",
     "alt": "Waving Hand Emoji"
   },
   "title": "Antalpha Labs is a web3 developer community",
