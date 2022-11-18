@@ -17,12 +17,13 @@ export default function HackerHouse() {
         <Seo title="Antalpha Labs-Web3 developers community"/>
         <div className="container"> {/* 1、这里是标题和活动介绍 */}
             <div className="hackerhouse1">
+            <a href="/" target="_self">
                 <div className="hackerhouse-title">
                     <img src={logo}
                         alt=""
                         className="Icon"/>
                 </div>
-
+            </a>
                 <div className="project">
                     <div className="hackerhouse-project">
                         <div className="hackerhouse-project-title">

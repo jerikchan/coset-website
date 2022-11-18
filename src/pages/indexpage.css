@@ -294,7 +294,7 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 28px;
+  gap: 58px;
   position: relative;
   width: 312.5rem;
   height: 26.25rem;
@@ -313,7 +313,7 @@ a.thefirsthacker-linkcase {
   font-family: "Alibaba_PuHuiTi";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   gap: 38px;
 }
 
@@ -322,8 +322,8 @@ a.thefirsthacker-linkcase:focus {
 }
 
 .case-photo {
-  width: 30.6875rem;
-  height: 19.375rem;
+  width: 27rem;
+  height: 17rem;
   border: 1px solid rgba(255, 255, 255, 0.62);
   filter: drop-shadow(0px 4px 9px rgba(175, 185, 252, 0.32));
   border-radius: 40px;
