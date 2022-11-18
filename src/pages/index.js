@@ -87,12 +87,11 @@ export default function IndexPage() {
         }
     ]
     let arrowImg = arrow
-    const viewAllOnchange =(type)=>{
-        if (type="focus") {
-       arrowImg = arrow2     
-    }else if(type="click"){
-        arrowImg = arrow3     
-        
+    const viewAllOnchange = (type) => {
+        if (type = "focus") {
+            arrowImg = arrow2
+        } else if (type = "click") {
+            arrowImg = arrow3
         }
     }
     return (
@@ -102,14 +101,16 @@ export default function IndexPage() {
                 {/* 顶部导航 */}
                 <div className="antalpha-container1">
                     <div className="antalpha-navigator">
-                        <div className="antalpha-logo">
-                            <img src={logo}
-                                alt=""
-                                className="Icon1"/>
-                            <img src={logo2}
-                                alt=""
-                                className="Icon2"/>
-                        </div>
+                        <a href="/" target="_self">
+                            <div className="antalpha-logo">
+                                <img src={logo}
+                                    alt=""
+                                    className="Icon1"/>
+                                <img src={logo2}
+                                    alt=""
+                                    className="Icon2"/>
+                            </div>
+                        </a>
                         <div className="antalpha-navi">
                             <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi">
                                 <span>HackerHouse</span>
@@ -146,14 +147,20 @@ export default function IndexPage() {
                     <div className="antalpha-containe1">
                         <div className="about-antalpha">
                             <div className="about-antalpha-box">
-                            <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
-                            <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
-                            <div className="antalpha-title antalpha-aboutus">We are here to:</div>
-                            <ul className="antalpha-title antalpha-aboutuslist">
-                                <li><img src={check} alt=""></img>Learn web3 technology.</li>
-                                <li><img src={check} alt=""></img>Build open source projects.</li>
-                                <li className="check3"><img src={check} alt="" ></img>Support open source projects by grant and user growth strategy.</li>
-                            </ul>
+                                <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
+                                <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
+                                <div className="antalpha-title antalpha-aboutus">We are here to:</div>
+                                <ul className="antalpha-title antalpha-aboutuslist">
+                                    <li>
+                                        <img src={check}
+                                            alt=""></img>Learn web3 technology.</li>
+                                    <li>
+                                        <img src={check}
+                                            alt=""></img>Build open source projects.</li>
+                                    <li className="check3">
+                                        <img src={check}
+                                            alt=""></img>Support open source projects by grant and user growth strategy.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -164,14 +171,17 @@ export default function IndexPage() {
                         <div className="showcase-title">
                             <div>Showcase</div>
                             <a className="viewALl-href" href="https://hackerhouses.notion.site/1402cb855603469a932054804e9716a6?v=11bf455c9bb04042956d82a7bff200b3">
-                                <button className="botton viewall-button" onFocus={()=>viewAllOnchange("focus")}
-                                onClick={()=>viewAllOnchange("click")}
-                                >View all
-                                    {/*arrowImg*/}
+                                <button className="botton viewall-button"
+                                    onFocus={
+                                        () => viewAllOnchange("focus")
+                                    }
+                                    onClick={
+                                        () => viewAllOnchange("click")
+                                }>View all {/*arrowImg*/}
                                     {/* <img src={arrow} alt="" className="arrow" ></img>  */}
-                            <div className="viewAll-arrow"> </div>
+                                    <div className="viewAll-arrow"></div>
                                 </button>
-                        </a>
+                            </a>
                         </div>
                         <div className="showcase-cutline"></div>
                         <div className="showcase-scroll">
