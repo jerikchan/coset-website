@@ -117,6 +117,12 @@
   justify-content: space-between;
 }
 
+.antalpha-intro a{
+  color:inherit;
+}
+.viewALl-href{
+  color:inherit;
+}
 .botton {
   position: relative;
   box-sizing: border-box;
@@ -129,6 +135,7 @@
   font-family: "Montserrat7";
   font-style: normal;
   font-weight: 700;
+  color:black;
   font-size: 24px;
   line-height: 1.8125rem;
   align-items: flex-end;
@@ -231,7 +238,6 @@
 
 /* 第三页 */
 .antalpha-showcase {
-  height: 50rem;
   padding: 35px 0px 0px 72px;
   max-width: 90rem;
   margin: auto;
@@ -255,7 +261,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 11.875rem;
+}
+
+.viewALl-href{
+  color:inherit;
 }
 
 .viewAll-arrow {
@@ -296,9 +305,8 @@
   padding: 0px;
   gap: 58px;
   position: relative;
-  width: 312.5rem;
+  width: 312.5rem; 
   height: 26.25rem;
-  /* height: 540px; */
   margin: 100px 0px;
   display: flex;
   flex-direction: row;
@@ -338,10 +346,20 @@ a.thefirsthacker-linkcase:focus {
   width: 100%;
 }
 
+
+
 /* 媒体查询 */
 
 /* 手机端 */
-@media only screen and (max-width: 540px) {
+@media  only screen and (max-width: 320px) {
+
+  .viewall-button {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 320px)  and (max-width: 540px) {
   .antalpha-container {
     background-image: url("../../content/images/antalpha/noise.png");
   }
@@ -458,7 +476,6 @@ a.thefirsthacker-linkcase:focus {
   }
 
   .antalpha-showcase {
-    height: 200vw;
     padding: 35px 0px 0px 3vw;
   }
 
@@ -468,9 +485,15 @@ a.thefirsthacker-linkcase:focus {
     padding: 30px 10px 20px 0px;
   }
 
+  .antalpha-intro a{
+    color:inherit;
+  }
+  .viewALl-href{
+    color:inherit;
+  }
+
   .viewall-button {
-    font-size: 19px;
-    width: 10.625rem;
+    font-size: 18px;
     height: 2.8125rem;
   }
 
@@ -482,11 +505,13 @@ a.thefirsthacker-linkcase:focus {
   .showcase-list {
     margin-top: 2.5rem;
     width: 60rem;
+    gap:28px;
     flex-wrap: wrap;
     white-space: wrap;
   }
   .showcase-scroll {
-    height: 200vw;
+    width: 100%;
+    height: 660px;
   }
 
   a.thefirsthacker-linkcase {
@@ -524,8 +549,17 @@ a.thefirsthacker-linkcase:focus {
     margin-top: 3rem;
     margin-left: -90px;
   }
-  .antalpha-intro a button {
-    width: 150px;
+
+  .antalpha-intro a{
+    color:inherit;
+  }
+
+  .viewALl-href{
+    color:inherit;
+  }
+  .showcase-scroll {
+    width: 100%;
+    height: 800px;
   }
 
   .about-antalpha-box {
