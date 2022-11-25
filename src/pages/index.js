@@ -131,7 +131,7 @@ export default function IndexPage() {
 
                     <div className="antalpha-intro">
                         <div>Antalpha Labs is a web3 developer community...</div>
-                        <a href="https://discord.gg/fhhecXWh">
+                        <a href="https://discord.gg/5VDVhY6czv">
                             <button className="botton">Join us</button>
                         </a>
                     </div>
