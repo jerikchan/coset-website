@@ -1,5 +1,5 @@
 import React from "react"
-import "../pages/footer.css";
+import "./footer.css"
 import footerlogo from "../../content/images/footer/antalpha.svg"
 import notion from "../../content/images/footer/Notion.svg"
 import youtube from "../../content/images/footer/youtube.svg"

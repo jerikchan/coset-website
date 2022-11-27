@@ -2,15 +2,14 @@
 .footer{
     background-color:#2222FF;
     max-width: 90rem;
-    height: 300px;
     margin: auto;
     display: flex;
    justify-content: space-between;
   }
   
   .footer-left{
-    margin-top:70px;
-    margin-left: 40px;
+    margin:70px 40px;
+ 
   }
   
   .footer-text{
@@ -34,4 +33,25 @@
    font-size: 16px;
    color: #F5F5F6;
    font-family: "Montserrat6";
+  }
+
+  @media  only screen and (max-width: 500px) {
+
+    .footer-text{
+      width: 320px;
+     font-size: 16px;
+     color: #F5F5F6;
+     font-family: "Montserrat6";
+     margin-top:30px;
+    }
+
+    .footer{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-right{
+
+      margin: 50px 40px;
+    }
+  
   }
