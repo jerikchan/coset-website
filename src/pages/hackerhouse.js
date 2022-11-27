@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../components/footer"
 import "./global.css";
 import "./hackerhouse.css"
 import logo from "../../content/images/hackerhouse/antalpha.png"
@@ -70,11 +71,11 @@ export default function HackerHouse() {
                         <span>Organizing various activities, and integrating with the local community in Dali</span>
                     </div>
 
-
                 </div>
-                {/* 3、合作伙伴 */}
-                <div className="hackerhouse-partners"></div>
+             
             </div>
+               {/* 3、合作伙伴 */}
+               <Footer></Footer>
         </div>
 
 

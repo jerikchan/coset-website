@@ -1,4 +1,6 @@
 import React from "react";
+
+import Footer from "../components/footer"
 import "./global.css";
 import "./indexpage.css";
 import logo from "../../content/images/antalpha/antalphalogo.svg"
@@ -20,6 +22,8 @@ import daospacenft from "../../content/images/antalpha/daospacenft.png"
 import daoverselink from "../../content/images/antalpha/daoverselink.png"
 import owlad from "../../content/images/antalpha/owlad.png"
 import meow from "../../content/images/antalpha/meow.png"
+
+
 
 import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
 import arrow3 from "../../content/images/antalpha/arrow-up-right -white.svg"
@@ -213,6 +217,26 @@ export default function IndexPage() {
                         </div>
                     </div>
                 </div>
+                    {/* 4、footer */}
+
+
+                    <Footer></Footer>
+                {/* <div className="footer">
+                    <div className="footer-left">
+                            <div className="footer-logo"><img src={footerlogo}  alt=" "></img></div>
+                            <div className="footer-text">
+                                <span>Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</span>
+                            </div>
+                    </div>
+                    <div className="footer-right">
+                        <a href="https://antalpha.notion.site/Antalpha-HackerHouse-13884d3f3d214ed59d430bb472ce523c"><img src={notion} alt=" "></img></a>
+                        <a href="https://www.youtube.com/channel/UCNFowsoGM9OI2NcEP2EFgrw"><img src={youtube} alt=" "></img></a>
+                        <a href="https://twitter.com/Antalpha_Labs"> <img src={twitter} alt=" "></img></a>
+                        <a href="mailto:hello.labs@antalpha.com"> <div className="footer-mail">hello.labs@antalpha.com</div></a>
+                    </div>
+                </div> */}
+
+
             </div>
 
         </>

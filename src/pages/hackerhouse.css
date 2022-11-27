@@ -135,6 +135,7 @@
   z-index: 4;
   cursor: pointer;
 }
+
 /* 2、活动提供的福利 */
 .hackerhouse-offer-tittle {
   font-family: "Montserrat1";
@@ -143,7 +144,7 @@
   font-size: 48px;  
   color: #0f1227;
   text-align: center;
-  margin: 80px 0;
+  padding: 120px 0;
 }
 
 .hackerhouse-offer-container {
@@ -151,14 +152,14 @@
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom:120px;
   box-sizing: border-box;
 }
 .hackerhouse-offer-container  .hackerhouse-offer-littletittle{
   font-family: "Montserrat2";
   font-style: normal;
   font-weight: 700;
-  font-size:24px ;
+  font-size:24px  ;
 }
 
 .hackerhouse-offer {
