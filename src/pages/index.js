@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby"
 
 import Footer from "../components/footer"
 import "./global.css";
@@ -116,10 +117,12 @@ export default function IndexPage() {
                             </div>
                         </a>
                         <div className="antalpha-navi">
-                            <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi">
+                            {/* <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi"> */}
+                               <Link to="/hackerhouse" className="hackerhouse-navi">
                                 <span>HackerHouse</span>
                                 <div className="line"></div>
-                            </a>
+                                </Link>
+                            {/* </a> */}
                             <a href="#showcase" className="showcase-navi">
                                 <span>Showcase</span>
                                 <div className="line"></div>

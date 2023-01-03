@@ -1,0 +1,365 @@
+
+
+@font-face {
+  font-family: Montserrat11;
+  src: url(../font/Montserrat-Regular-8.otf);
+}
+
+@font-face {
+  font-family: Montserrat22;
+  src: url(../font/Montserrat-Light-6.otf);
+}
+
+@font-face {
+  font-family: Montserrat33;
+  src: url(../font/Montserrat-Bold-3.otf);
+}
+
+@font-face {
+  font-family: Alibaba_PuHuiTi;
+  src: url(../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(../font/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: PlusJakartaSansRegular;
+  src: url(../font/PlusJakartaSans-Regular.ttf);
+}
+
+
+.container {
+  max-width: 90rem;
+  margin: auto;
+}
+
+.denver {
+  width: 100%;
+  height: calc(930px + 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fae2a0;
+  position: relative;
+}
+
+.denver_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 930px;
+  min-height: 930px;
+  z-index: 0;
+}
+
+.denver_activity {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.denver_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 27.5 64.5px;
+  gap: 4px;
+  width: 799px;
+  height: 226px;
+  background: rgba(255, 255, 255, 0.26);
+  border: 3.5841px solid rgba(255, 255, 255, 0.1);
+  border-radius: 28.6728px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 25px;
+  margin-top: 100px;
+}
+
+.denver_title {
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 63px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #0f1227;
+}
+
+.denver_theme {
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  color: #2222ff;
+}
+
+.denver_detail {
+  width: 800px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.denver_timeloca {
+  font-family: "Montserrat22";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f1227;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.denver_button {
+  padding: 19px 24px;
+  gap: 10px;
+  width: 155px;
+  height: 62px;
+  background: #2222ff;
+  border-radius: 8px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "PlusJakartaSans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: #2222ff 1px solid;
+}
+
+.denver_contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.denver_add {
+  font-family: "Montserrat22";
+  font-size: 16px;
+  line-height: 20px;
+  color: #56565d;
+  margin-right: 20px;
+}
+
+.denver_email {
+  font-family: "Montserrat11";
+  font-size: 16px;
+  line-height: 20px;
+  color: #53545c;
+}
+
+.FAQsbg {
+  width: 100%;
+  height: 1800px;
+  background-color: #2222ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAQs {
+  display: flex;
+  flex-direction: row;
+  padding: 36px 36px;
+  width: 90%;
+  height: 800px;
+  background: #ffffff;
+  border: 4px solid #2222ff;
+  border-radius: 16px;
+  margin-top: -80px;
+  z-index: 2;
+}
+
+.fbox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxtitle {
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 63px;
+  line-height: 80px;
+  color: #131313;
+  margin-bottom: 25px;
+}
+
+.faqsbox_list ul li {
+  list-style-type: none;
+  width: 100%;
+  height: 70px;
+  padding: 20px 171px 22px 21px;
+  background: rgba(12, 81, 63, 0.02);
+  border: 1px solid #e7eeec;
+  border-radius: 8px;
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #131313;
+  margin-top: 10px;
+  margin-left: -40px;
+  cursor:pointer; 
+}
+.faqsbox_list ul li.highlight{
+  background-color: blue;
+  color: #ffffff;
+  position: relative;
+}
+
+.highlight::after{
+  position: absolute;
+  background-image: url("../../content/images/hackerhouse/yellowstar.png");
+  right:24px;
+  content: '';
+  width: 24px;
+  height: 25px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.ansbox_list {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-color: #fedf89;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 45px 45px 50px;
+  color: #2222ff;
+  font-family: "PlusJakartaSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 12px;
+}
+
+.ansbox_list div img{
+  margin-bottom: 30px;
+}
+
+
+.denver_photos {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 800px;
+  border: 4px solid #2222ff;
+  z-index: 2;
+  margin-top: 75px;
+  gap: 25px;
+}
+
+.denver_photos_leftbox {
+  background: #ffffff;
+  height: 100%;
+  width: 612px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.denver_house_title {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.denver_photos_rightbox {
+  background: #ffffff;
+  height: 100%;
+  width: 642px;
+  border-radius: 16px;
+}
+
+.photos_title {
+  width: 361px;
+  height: 216px;
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -3px;
+  color: #0a0a0a;
+  margin: 40px 0 0 40px;
+}
+
+.twitterbutton {
+  width: 215.47px;
+  height: 48px;
+  left: calc(50% - 215.47px / 2 - 158.27px);
+  top: 278.62px;
+  background: #1da1f2;
+  border-radius: 8px;
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: #1da1f2 1px solid;
+  margin: 25px 0 0 40px;
+  
+}
+
+.twitterbutton img{
+  margin: 0 5px;
+}
+
+.denverhousimg {
+  margin: 80px 0px 30px 0px;
+}
+
+.photos_right_arrow {
+  margin-top: 50px;
+}
+
+.denver_photos_rightbox {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.rightbox {
+  width: 4000px;
+  position: absolute;
+}
+
+.content{
+  margin-left: -10px;
+  margin-top: -30px;
+}
+
+
+.box img {
+  width: 100%;
+  height: 800px;
+}

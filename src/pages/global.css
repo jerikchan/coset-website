@@ -1,3 +1,6 @@
 a,a:focus {
     outline: none!important;
 }
+*{
+    box-sizing: border-box;
+}
