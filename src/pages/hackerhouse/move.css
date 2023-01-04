@@ -59,36 +59,30 @@
   z-index: 1;
 }
 
-
-
 .move_title {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 114px;   
-    display: flex;
-    align-items: center;
-    text-align: right;
-    color: #F5F5F6;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f6;
 }
 
 .move_theme {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 114px;
-  /* 渐变 */
-
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 114px;
   background: linear-gradient(91.12deg, #3f2ed5 -3.18%, #569bed 81.31%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
-
-
 
 .move_timeloca {
   font-family: "Montserrat22";
@@ -101,7 +95,6 @@
 }
 
 .move_button {
-  padding: 19px 24px;
   gap: 10px;
   width: 251px;
   height: 59px;
@@ -109,27 +102,23 @@
   border-radius: 2px;
   color: #ffffff;
   font-family: "Montserrat22";
-  font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0px;
   border: 2px solid #f5f5f6;
   display: flex;
   align-items: center;
-  padding: 15px 40px;
+  justify-content: center;
   cursor: pointer;
 }
 
-
 .move_button:hover {
   background-color: #649be7;
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
-  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
-  border-color:#649be7 ;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+  box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+  border-color: #649be7;
 }
-
 
 .move_contact {
   display: flex;
@@ -140,7 +129,7 @@
   font-family: "Montserrat22";
   font-size: 16px;
   line-height: 20px;
-  color:#b6bac8;
+  color: #b6bac8;
   margin-right: 20px;
 }
 
@@ -151,3 +140,37 @@
   color: #abadb2;
 }
 
+@media only screen and (max-width: 320px) {
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .move_title {
+    font-size: 44px;
+    line-height: 64px;
+    margin: -40px 0px 0px 32px;
+  }
+
+  .move_theme {
+    font-size: 38px;
+  }
+
+  .move_timeloca {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+
+  .move_button {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    margin: 40px 0px;
+  }
+
+  .move_add {
+    font-size: 10px;
+  }
+
+  .move_email {
+    font-size: 12px;
+  }
+}
