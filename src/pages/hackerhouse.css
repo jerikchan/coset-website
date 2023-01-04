@@ -13,7 +13,6 @@
 
 
 
-
 .hackerhouse-title {
   padding-top: 40px;
   margin-left: 112px;
@@ -121,7 +120,6 @@
   line-height: 60px;
   color: #2222ff;
   padding-top: 40px;
-  /* margin-left: 80px; */
 }
 
 
@@ -153,6 +151,7 @@ display: block;
 
 .eventslist li {
   list-style-type: none;
+  cursor: pointer;
 }
 
 .line {
@@ -224,7 +223,6 @@ display: block;
   font-size: 15px;
   text-align: center;
   margin-top: 24px;
-
 }
 
 .event_card button {
@@ -339,7 +337,6 @@ background-color: #FAE5C3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   text-align: center;
   font-family: "Montserrat3";
   font-size: 14px;
