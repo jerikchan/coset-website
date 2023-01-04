@@ -104,7 +104,6 @@
 }
 
 .denver_detail {
-  width: 50rem;
   height: 14.0625rem;
   display: flex;
   flex-direction: column;
@@ -344,7 +343,7 @@
 
 
 
-@media (min-width: 300px) and (max-width: 540px) {
+@media only screen and (max-width: 500px) {
   .denver {
     height: 42rem;
     background-color: transparent;
@@ -370,7 +369,6 @@
   }
   
   .denver_detail {
-    width: 50rem;
     height: 14.0625rem;
     display: flex;
     flex-direction: column;
