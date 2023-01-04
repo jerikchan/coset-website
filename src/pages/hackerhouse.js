@@ -18,7 +18,6 @@ import industrymentor from "../../content/images/hackerhouse/industrymentor.png"
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
-import {time} from "echarts";
 
 export default function HackerHouse() {
 
