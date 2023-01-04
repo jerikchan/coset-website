@@ -152,9 +152,10 @@ display: block;
 .eventslist li {
   list-style-type: none;
   cursor: pointer;
+  border-bottom:2px solid transparent;
 }
-
-.line {
+ 
+.line { 
   position: absolute;
   width: 0px;
   height: 1px;
@@ -165,7 +166,7 @@ display: block;
 
 .eventslist li:hover{
   color: #2222ff;
-  border-bottom: 2px solid #2222ff;
+  border-bottom-color: #2222ff;
 }
 
 
