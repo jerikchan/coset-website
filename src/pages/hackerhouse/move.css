@@ -4,27 +4,27 @@
 
 @font-face {
   font-family: Montserrat11;
-  src: url(../font/Montserrat-Regular-8.otf);
+  src: url(../../font/Montserrat-Regular-8.otf);
 }
 
 @font-face {
   font-family: Montserrat22;
-  src: url(../font/Montserrat-Light-6.otf);
+  src: url(../../font/Montserrat-Light-6.otf);
 }
 
 @font-face {
   font-family: Montserrat33;
-  src: url(../font/Montserrat-Bold-3.otf);
+  src: url(../../font/Montserrat-Bold-3.otf);
 }
 
 @font-face {
   font-family: Alibaba_PuHuiTi;
-  src: url(../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+  src: url(../../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
 }
 
 @font-face {
   font-family: Poppins;
-  src: url(../font/Poppins-Bold.ttf);
+  src: url(../../font/Poppins-Bold.ttf);
 }
 
 .move {
@@ -118,6 +118,7 @@
   display: flex;
   align-items: center;
   padding: 15px 40px;
+  cursor: pointer;
 }
 
 
@@ -149,3 +150,4 @@
   line-height: 20px;
   color: #abadb2;
 }
+

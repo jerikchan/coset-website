@@ -2,37 +2,36 @@
 
 @font-face {
   font-family: Montserrat11;
-  src: url(../font/Montserrat-Regular-8.otf);
+  src: url(../../font/Montserrat-Regular-8.otf);
 }
 
 @font-face {
   font-family: Montserrat22;
-  src: url(../font/Montserrat-Light-6.otf);
+  src: url(../../font/Montserrat-Light-6.otf);
 }
 
 @font-face {
   font-family: Montserrat33;
-  src: url(../font/Montserrat-Bold-3.otf);
+  src: url(../../font/Montserrat-Bold-3.otf);
 }
 
 @font-face {
   font-family: Alibaba_PuHuiTi;
-  src: url(../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+  src: url(../../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
 }
 
 @font-face {
   font-family: PlusJakartaSans;
-  src: url(../font/PlusJakartaSans-ExtraBold.ttf);
+  src: url(../../font/PlusJakartaSans-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: PlusJakartaSansRegular;
-  src: url(../font/PlusJakartaSans-Regular.ttf);
+  src: url(../../font/PlusJakartaSans-Regular.ttf);
 }
 
 
 .container {
-  max-width: 90rem;
   margin: auto;
 }
 
@@ -143,6 +142,7 @@
   margin-top: 18px;
   margin-bottom: 18px;
   border: #2222ff 1px solid;
+  cursor: pointer;
 }
 
 .denver_contact {
@@ -232,7 +232,7 @@
 
 .highlight::after{
   position: absolute;
-  background-image: url("../../content/images/hackerhouse/yellowstar.png");
+  background-image: url("../../../content/images/hackerhouse/yellowstar.png");
   right:24px;
   content: '';
   width: 24px;
@@ -293,7 +293,6 @@
 .denver_photos_rightbox {
   background: #ffffff;
   height: 100%;
-  width: 642px;
   border-radius: 16px;
 }
 
@@ -319,7 +318,7 @@
   top: 278.62px;
   background: #1da1f2;
   border-radius: 8px;
-  font-family: "PlusJakartaSans";
+  font-family: "PlusJakartaSansregular";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -327,7 +326,7 @@
   color: #ffffff;
   border: #1da1f2 1px solid;
   margin: 25px 0 0 40px;
-  
+  cursor: pointer;
 }
 
 .twitterbutton img{
@@ -348,10 +347,6 @@
   overflow: hidden;
 }
 
-.rightbox {
-  width: 4000px;
-  position: absolute;
-}
 
 .content{
   margin-left: -10px;

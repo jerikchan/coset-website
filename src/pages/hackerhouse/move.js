@@ -1,10 +1,10 @@
 import React from "react"
-import Footer from "../components/footer"
-import Navi from "../components/navi"
-import "./global.css";
+import Footer from "../../components/footer"
+import Navi from "../../components/navi"
+import "../global.css";
 import  "./move.css";
 
-import movebg from "../../content/images/hackerhouse/movebg.png";
+import movebg from "../../../content/images/hackerhouse/movebg.png";
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
 

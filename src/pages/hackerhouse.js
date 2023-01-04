@@ -4,9 +4,8 @@ import Footer from "../components/footer"
 import "./global.css";
 import "./hackerhouse.css"
 import Navi from "../components/navi"
+
 import lens from "../../content/images/hackerhouse/lens.svg"
-import logo from "../../content/images/hackerhouse/antalpha.png"
-// import applybutton from "../../content/images/hackerhouse/applybutton.png"
 import comingsoon from "../../content/images/hackerhouse/comingsoon.svg"
 import timearrow from "../../content/images/hackerhouse/timearrow.svg"
 import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
@@ -24,7 +23,7 @@ export default function HackerHouse() {
     const cardlist = [
         {
             id: '1',
-            signuplink: "/zkp",
+            signuplink: "/hackerhouse/zkp",
             theme: "# Zkp",
             "name": "x ETHDenver",
 
@@ -34,7 +33,7 @@ export default function HackerHouse() {
             belong: "UPCOMING"
         }, {
             id: '2',
-            signuplink: "/move",
+            signuplink: "/hackerhouse/move",
             theme: "# Move",
             "name": "x NonceGeek",
             startDate: "21st Feb, 2023",
@@ -107,57 +106,7 @@ export default function HackerHouse() {
                     </div>
                     <div className="event_container">
 
-                        {/* <a href="https://labs.antalpha.com/hackerhouse">
-                        <div className="event_card">
-                            <button>UPCOMING</button>
-                            <div className="event_name">Antalpha HackerHouse</div>
-                            <div className="event_theme"># Zkp</div>
-                            <div className="event_timeandlocation">
-                                <div className="time">
-                                    <span>21st Feb, 2023</span>
-                                    <span>06th, Mar 2023</span>
-                                </div>
-                                <div className="location">@Denver</div>
-                            </div>
-                            <div className="event_footer">
-                                <span>Learn More</span>
-                                <div>11</div>
-                            </div>
-                        </div>
-                        </a>
-                        <div className="event_card">
-                            <button>UPCOMING</button>
-                            <div className="event_name">Antalpha HackerHouse</div>
-                            <div className="event_theme">#  Move</div>
-                            <div className="event_timeandlocation">
-                                <div className="time">
-                                    <span>21st Feb, 2023</span>
-                                    <span>06th, Mar 2023</span>
-                                </div>
-                                <div className="location">@Denver</div>
-                            </div>
-                            <div className="event_footer">
-                                <span>Learn More</span>
-                                <div>11</div>
-                            </div>
-                        </div>
-
-                        <div className="event_card">
-                            <button className="card3">PAST</button>
-                            <div className="event_name">Antalpha HackerHouse</div>
-                            <div className="event_theme">#Infrastructure and open source tools</div>
-                            <div className="event_timeandlocation">
-                                <div className="time">
-                                    <span>21st Feb, 2023</span>
-                                    <span>06th, Mar 2023</span>
-                                </div>
-                                <div className="location">@Denver</div>
-                            </div>
-                            <div className="event_footer">
-                                <span>Learn More</span>
-                                <div>11</div>
-                            </div>
-                        </div> */}
+                     
                         {
                         filteredList.length !== 0 ? filteredList.map((item, idx) => (
 
@@ -224,20 +173,7 @@ export default function HackerHouse() {
                 </div>
 
             </div>
-            {/* <div className="project">
-                       <div className="hackerhouse-project">
-                        <div className="hackerhouse-project-title">
-                            <span className="line"></span>ENTER THE HOUSE</div>
-                        <div className="hackerhouse-project-detail">Antalpha Hacker House aims to spread Hacker culture and promote global Hacker collaboration</div>
-                        <a href="/src/pages/event/zkp.js" className="hackerhouse-link">
-                            <img src={applybutton}
-                                alt=""
-                                className="apply-button"></img>
-                        </a>
-                        <div className="hackerhouse-time">DECEMBER 1-21, 2022</div>
-                        <div className="hackerhouse-location">LOCATION：DALI</div>
-                    </div>
-                </div> */}
+            
 
             <a href="#weoffer" className="weoffer_nextpage">
                 <img src={nextpage}
@@ -275,6 +211,6 @@ export default function HackerHouse() {
             </div>
             {/* 3、合作伙伴 */}
             <Footer></Footer>
-            {/* </div> */} </>
+            </>
     );
 }

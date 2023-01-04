@@ -1,24 +1,21 @@
 import React, {useState} from "react"
-import Footer from "../components/footer"
-import Navi from "../components/navi"
-import "./global.css";
+import Footer from "../../components/footer"
+import Navi from "../../components/navi"
+import "../global.css";
 import "./zkp.css";
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-import star from "../../content/images/hackerhouse/star.png";
-import yellowstar from "../../content/images/hackerhouse/yellowstar.png";
-import denverbg from "../../content/images/hackerhouse/denverbg2.png";
-import denverhouse from "../../content/images/hackerhouse/denverhouse.png";
-import twitter from "../../content/images/hackerhouse/twitter.png";
+import star from "../../../content/images/hackerhouse/star.png";
+import denverbg from "../../../content/images/hackerhouse/denverbg2.png";
+import denverhouse from "../../../content/images/hackerhouse/denverhouse.png";
+import twitter from "../../../content/images/hackerhouse/twitter.png";
 
-import photo_right_arrow from "../../content/images/hackerhouse/photo_right_arrow.png";
-import house1 from "../../content/images/hackerhouse/house1.png";
-import house2 from "../../content/images/hackerhouse/house2.png";
-import house3 from "../../content/images/hackerhouse/house3.png";
-import house4 from "../../content/images/hackerhouse/house4.png";
-import house5 from "../../content/images/hackerhouse/house5.png";
-import house6 from "../../content/images/hackerhouse/house6.png";
-import Swipper from "../components/swipper/index.js"
+import photo_right_arrow from "../../../content/images/hackerhouse/photo_right_arrow.png";
+import house1 from "../../../content/images/hackerhouse/house1.png";
+import house2 from "../../../content/images/hackerhouse/house2.png";
+import house3 from "../../../content/images/hackerhouse/house3.png";
+import house4 from "../../../content/images/hackerhouse/house4.png";
+import house5 from "../../../content/images/hackerhouse/house5.png";
+import house6 from "../../../content/images/hackerhouse/house6.png";
+import Swipper from "../../components/swipper/index.js"
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
