@@ -52,8 +52,8 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 930px;
-  min-height: 930px;
+  height: 58.125rem;
+  min-height: 58.125rem;
   z-index: 0;
 }
 
@@ -72,25 +72,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  width: 799px;
-  height: 226px;
+  gap: .25rem;
+  width: 49.9375rem;
+  height: 14.125rem;
   background: rgba(255, 255, 255, 0.26);
-  border: 3.5841px solid rgba(255, 255, 255, 0.1);
-  border-radius: 28.6728px;
+  border: .224rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.792rem;
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-top: 25px;
-  margin-top: 100px;
+  padding-top: 1.5625rem;
+  margin-top: 6.25rem;
 }
 
 .denver_title {
   font-family: "PlusJakartaSans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 63px;
-  line-height: 80px;
+  font-size: 3.9375rem;
+  line-height: 5rem;
   display: flex;
   align-items: center;
   letter-spacing: -2px;
@@ -99,18 +97,16 @@
 
 .denver_theme {
   font-family: "PlusJakartaSans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 76px;
-  line-height: 86px;
+  font-size: 4.75rem;
+  line-height: 5.375rem;
   display: flex;
   align-items: center;
   color: #2222ff;
 }
 
 .denver_detail {
-  width: 800px;
-  height: 225px;
+  width: 50rem;
+  height: 14.0625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,29 +114,27 @@
 
 .denver_timeloca {
   font-family: "Montserrat22";
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
   color: #0f1227;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .denver_button {
-  padding: 19px 24px;
-  gap: 10px;
-  width: 155px;
-  height: 62px;
+  padding: 1.1875rem 1.5rem;
+  gap: .625rem;
+  width: 9.6875rem;
+  height: 3.875rem;
   background: #2222ff;
-  border-radius: 8px;
-  line-height: 24px;
+  border-radius: .5rem;
+  line-height: 1.5rem;
   color: #ffffff;
   font-family: "PlusJakartaSans";
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
   border: #2222ff 1px solid;
   cursor: pointer;
 }
@@ -152,22 +146,22 @@
 
 .denver_add {
   font-family: "Montserrat22";
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #56565d;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .denver_email {
   font-family: "Montserrat11";
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #53545c;
 }
 
 .FAQsbg {
   width: 100%;
-  height: 1800px;
+  height: 112.5rem;
   background-color: #2222ff;
   display: flex;
   flex-direction: column;
@@ -207,21 +201,19 @@
 .faqsbox_list ul li {
   list-style-type: none;
   width: 100%;
-  height: 70px;
-  padding: 20px 171px 22px 21px;
+  height: 4.375rem;
+  padding: 1.25rem 10.6875rem 1.375rem 1.3125rem;
   background: rgba(12, 81, 63, 0.02);
   border: 1px solid #e7eeec;
-  border-radius: 8px;
+  border-radius: .5rem;
   font-family: "PlusJakartaSans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   display: flex;
   align-items: center;
   color: #131313;
-  margin-top: 10px;
-  margin-left: -40px;
+  margin-top: .625rem;
+  margin-left: -2.5rem;
   cursor:pointer; 
 }
 .faqsbox_list ul li.highlight{
@@ -235,32 +227,29 @@
   background-image: url("../../../content/images/hackerhouse/yellowstar.png");
   right:24px;
   content: '';
-  width: 24px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5625rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-
 .ansbox_list {
   width: 100%;
   height: 100%;
-  border-radius: 16px;
+  border-radius: 1rem;
   background-color: #fedf89;
   display: flex;
   flex-direction: column;
-  padding: 45px 45px 45px 50px;
+  padding: 2.8125rem 2.8125rem 2.8125rem 3.125rem;
   color: #2222ff;
   font-family: "PlusJakartaSansRegular";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-  margin-top: 12px;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+  margin-top: .75rem;
 }
 
 .ansbox_list div img{
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 
@@ -268,18 +257,17 @@
   display: flex;
   justify-content: center;
   width: 90%;
-  height: 800px;
-  border: 4px solid #2222ff;
+  border: 4px s olid #2222ff;
   z-index: 2;
-  margin-top: 75px;
-  gap: 25px;
+  margin-top: 4.6875rem;
+  gap: 1.5625rem;
 }
 
 .denver_photos_leftbox {
   background: #ffffff;
   height: 100%;
-  width: 612px;
-  border-radius: 16px;
+  width: 38.25rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -297,48 +285,44 @@
 }
 
 .photos_title {
-  width: 361px;
-  height: 216px;
+  width: 22.5625rem;
+  height: 13.5rem;
   font-family: "PlusJakartaSans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 58px;
-  line-height: 72px;
+  font-size: 3.625rem;
+  line-height: 4.5rem;
   display: flex;
   align-items: center;
   letter-spacing: -3px;
   color: #0a0a0a;
-  margin: 40px 0 0 40px;
+  margin: 2.5rem 0 0 2.5rem;
 }
 
 .twitterbutton {
-  width: 215.47px;
-  height: 48px;
-  left: calc(50% - 215.47px / 2 - 158.27px);
-  top: 278.62px;
+  width: 13.4669rem;
+  height: 3rem;
+  left: calc(50% - 13.4669rem / 2 - 9.8919rem);
+  top: 17.4138rem;
   background: #1da1f2;
   border-radius: 8px;
   font-family: "PlusJakartaSansregular";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #ffffff;
   border: #1da1f2 1px solid;
-  margin: 25px 0 0 40px;
+  margin: 1.5625rem 0 0 2.5rem;
   cursor: pointer;
 }
 
 .twitterbutton img{
-  margin: 0 5px;
+  margin: 0 .3125rem;
 }
 
 .denverhousimg {
-  margin: 80px 0px 30px 0px;
+  margin: 5rem 0 1.875rem 0;
 }
 
 .photos_right_arrow {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .denver_photos_rightbox {
@@ -349,12 +333,217 @@
 
 
 .content{
-  margin-left: -10px;
-  margin-top: -30px;
+  margin-left: -0.625rem;
+  margin-top: -1.875rem;
 }
 
 
 .box img {
   width: 100%;
-  height: 800px;
+  height: 50rem;
+}
+
+
+
+@media (min-width: 20rem) and (max-width: 33.75rem) {
+  .denver {
+    height: 42rem;
+    background-color: transparent;
+  }
+
+  .denver_box {
+
+    width: 21.875rem;
+    height: 12.5rem;
+    margin: 0 0 3.125rem 0;
+
+  }
+  
+  .denver_title {
+  
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+  }
+  
+  .denver_theme {
+    font-size: 2.875rem;
+    line-height: 5.375rem;
+  }
+  
+  .denver_detail {
+    width: 50rem;
+    height: 14.0625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .denver_timeloca {
+    font-size: 1.125rem;
+    margin-top: 0.75rem;
+  }
+  
+  .denver_button {
+  
+    width: 9.6875rem;
+    height: 3.875rem;
+    font-size: .875rem;
+    margin: 2.725rem 0;
+  }
+  
+  .denver_contact {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .denver_add {
+    font-size: .625rem;
+    padding-top: 2px;
+
+  }
+  
+  .denver_email {
+    font-size: .75rem;
+  }
+  
+  .FAQsbg {
+    height: 120rem;
+  }
+  
+  .FAQs {
+    display: flex;
+    flex-direction: column;
+    padding: 2.25rem 2.25rem;
+    width: 90%;
+    height: 60rem;
+    border-radius: 1rem;
+    margin: 0rem 1.25rem 0 1.25rem;
+  }
+  
+  .fbox {
+    height: 80%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  
+  .boxtitle {
+    font-size: 2.25rem;
+    margin-bottom: -5px;
+  }
+
+  .faqsbox_list ul li {
+    width: 17.5rem;
+    height: 3.125rem;
+    font-size: .875rem;
+    padding: .3125rem 0 0 .625rem;
+  }
+
+  .content{
+    margin-left: -1.25rem;
+    margin-top: 0;
+  }
+  
+  .ansbox_list {
+    font-size: .875rem;
+    line-height: 1.1875rem;
+    margin-top: .75rem;
+    padding: 2.1875rem 1.5625rem 1.5625rem 1.5625rem;
+  }
+
+  
+  .ansbox_list div img{
+    margin-bottom: .625rem;
+  }
+  
+  
+  .denver_photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    border: .25rem solid #2222ff;
+    z-index: 2;
+    margin-top: 4.6875rem;
+    gap: 1.5625rem;
+  }
+  
+  .denver_photos_leftbox {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .denver_house_title {
+    display: flex;
+    gap: 6.25rem;
+  }
+  
+  .denver_photos_rightbox {
+    background: #ffffff;
+    height: 100%;
+    border-radius: 1rem;
+  }
+  
+  .photos_title {
+    font-size: 2.375rem;
+    height: 70%;
+    line-height: 3.25rem;
+    margin: 2.625rem 0 0 2.5rem;
+  }
+  
+ 
+  
+  .twitterbutton img{
+    margin: 0 .3125rem;
+  }
+  
+  .denverhousimg {
+    margin: 5rem 0 1.875rem 0;
+  }
+  
+  .photos_right_arrow {
+    margin-top: 3.125rem;
+  }
+  
+  .denver_photos_rightbox {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    line-height: initial;
+  }
+
+  
+.photos_right_arrow{
+  display: none;
+}
+
+  .denverhousimg{
+    width: 100%;
+    overflow: hidden;
+  }
+  
+
+.swipper{
+  height: 24.5rem;
+}
+
+ .box img{
+  height: 25rem;
+  
+ }
+
+  .denverhousimg img{
+    width: 100%;
+   
+  }
+
+
+  
 }

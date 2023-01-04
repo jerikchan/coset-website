@@ -145,7 +145,7 @@ export default function Zkp() {
                     <div className="denver_photos">
                         <div className="denver_photos_leftbox">
                             <div className="denver_house_title">
-                                <div className="photos_title">Denver HackerHouse Photos</div>
+                                <div className="photos_title">HackerHouse Denver Photos</div>
                                 <div className="photos_right_arrow">
                                     <img src={photo_right_arrow}></img>
                                 </div>
