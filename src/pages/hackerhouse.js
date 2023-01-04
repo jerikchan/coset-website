@@ -70,7 +70,7 @@ export default function HackerHouse() {
             <Seo title="Antalpha Labs-Web3 developers community"/> {/* <div className="container">  */}
             {/* 1、这里是标题和活动介绍 */}
             <div className="hackerhouse_container">
-            <Navi></Navi>
+            <Navi  styles={{padding:'40px 0 0 10px'}}></Navi>
                 <div className="hackerhouse_navi">
                     <div className="hackerhouse_navi_left">
                         <div className="hackerhouse_navi_title">HackerHouse Events</div>
