@@ -102,7 +102,7 @@ export default function IndexPage() {
     const img2list = [
         {
             id: '1',
-            projectlink: 'https://hackerhouses.notion.site/Chatbot-Trainer-DAO-e4d3e2787c6d4dd18b4914332e04c169',
+            projectlink: 'https://www.notion.so/join3-22f2097738b84589aa9e857043ac7531',
             imgurl: join3,
             text: 'join3协作图谱'
         },
