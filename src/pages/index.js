@@ -24,6 +24,14 @@ import daoverselink from "../../content/images/antalpha/daoverselink.png"
 import owlad from "../../content/images/antalpha/owlad.png"
 import meow from "../../content/images/antalpha/meow.png"
 
+import dog from "../../content/images/antalpha/dog.jpg"
+import join3 from "../../content/images/antalpha/join3.jpg"
+import zkdoge from "../../content/images/antalpha/zkdoge.png"
+import wedo from "../../content/images/antalpha/wedo.png"
+import DB3 from "../../content/images/antalpha/DB3.png"
+import GIT3 from "../../content/images/antalpha/GIT3.png"
+import Tokhub from "../../content/images/antalpha/Tokhub.png"
+import upgradedoge from "../../content/images/antalpha/upgradedoge.jpg"
 
 
 import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
@@ -91,6 +99,57 @@ export default function IndexPage() {
             text: 'Meow Metaverse'
         }
     ]
+    const img2list = [
+        {
+            id: '1',
+            projectlink: 'https://hackerhouses.notion.site/Chatbot-Trainer-DAO-e4d3e2787c6d4dd18b4914332e04c169',
+            imgurl: join3,
+            text: 'join3协作图谱'
+        },
+        {
+            id: '2',
+            projectlink: 'https://www.notion.so/ZK-Doge-Airdrop-Protocol-7fdaed22c4bf4671ab26280e0b061fb4',
+            imgurl: zkdoge,
+            text: 'ZK-Doge Airdrop Protocol'
+        },
+        {
+            id: '3',
+            projectlink: 'https://www.notion.so/Db3-Network-34cbb345331746e3b4e6197fc619fe69',
+            imgurl: DB3,
+            text: '去中心化数据库DB3'
+        },
+        {
+            id: '4',
+            projectlink: 'https://www.notion.so/DAO-WeDo-e9ccc44999d746e58c817c07a32aa479',
+            imgurl: wedo,
+            text: 'WeDo-DAO工具'
+        }, 
+         {
+            id: '5',
+            projectlink: 'https://www.notion.so/Upgrade-Doge-upgradeable-smart-contract-toolkit-5c7f4bed24dc45d69ac64436cf463006',
+            imgurl:upgradedoge,
+            text: 'Smart Contract Toolkit'
+        },
+         {
+            id: '6',
+            projectlink: 'https://www.notion.so/Tokhub-Carta-for-Web3-41074f2cda714006bb7441159cace007',
+            imgurl: Tokhub,
+            text: 'Tokhub:Carta for Web3'
+        }, {
+            id: '7',
+            projectlink: 'https://www.notion.so/GitHub-934a2b4c700f41ea9d9d4868770eff81',
+            imgurl: GIT3,
+            text: '去中心化的GitHub'
+        },{
+            id: '8',
+            projectlink: 'https://www.notion.so/DAO-Plugins-based-on-Github-71dd5b41e78f42e295357bd535b05f79',
+            imgurl: dog,
+            text: 'DAO Plugins on GitHub'
+        }
+    ]
+
+
+
     let arrowImg = arrow
     const viewAllOnchange = (type) => {
         if (type = "focus") {
@@ -192,7 +251,33 @@ export default function IndexPage() {
                         </div>
                         <div className="showcase-cutline"></div>
                         <div className="showcase-scroll">
-                            <div className="showcase-list">
+
+                        <div className="showcase-list2">
+                                {
+                                img2list.map(({
+                                    projectlink,
+                                    text,
+                                    imgurl
+                                }, idx) => {
+                                    return (
+                                        <div className="thefirsthacker-case"
+                                            key={
+                                                text + idx
+                                        }>
+                                            <a href={projectlink}
+                                                className=" thefirsthacker-linkcase"
+                                                hidefocus="true">
+                                                <img src={imgurl}
+                                                    className="case-photo"
+                                                    alt=""/>
+
+                                                <span>{text}</span>
+                                            </a>
+                                        </div>
+                                    )
+                                })
+                            } </div>
+                        <div className="showcase-list">
                                 {
                                 imglist.map(({
                                     projectlink,
@@ -217,6 +302,8 @@ export default function IndexPage() {
                                     )
                                 })
                             } </div>
+                      
+                        
                         </div>
                     </div>
                 </div>
