@@ -107,10 +107,9 @@ export default function Zkp() {
                                 currentIndex === 0 ? <div >
                                     <div className="ans">Mandatory requirements (for ETH Denver AHH only):</div>
                                     <ul>
-                                        <li>ZKProof-Engineers or ZK-enthusiasts who’s willing to combine ZKP with their field of expertise (such as AI engineer or game developer).
-                                        </li>
-                                        <li>Building ZKProof-related open-source project during ETH Denver.</li>
-                                        <li>Anyone excited to make new friends!</li>
+                                        <li>ZKProof-Engineers or ZKProof-Enthusiasts (who’s willing to combine ZKP with their field of expertise, such as AI engineer or game developer). </li>
+                                        <li>Participating Buidlathon during ETHDenver.</li>
+                                        <li>Excited to make new friends!</li>
 
                                     </ul>
                                 </div> : currentIndex === 1 ? <div className="content">
