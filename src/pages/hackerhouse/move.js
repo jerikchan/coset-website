@@ -25,7 +25,7 @@ export default function move() {
                     <div className="move_activity ">                    
                             <div className="move_title">Antalpha HackerHouse</div>
                             <span className="move_theme">#Build on Move</span>                              
-                            <span className="move_timeloca">12th Feb 2023 - 04th Mar 2023</span>
+                            <span className="move_timeloca">13th Feb 2023 - 05th Mar 2023</span>
                             <span className="move_timeloca">Yunnan, Dali</span>
                             <a href="https://tally.so/r/n9NMEE">
                             <button className="move_button" onclick="changeColor('green')">Apply to Hack</button>

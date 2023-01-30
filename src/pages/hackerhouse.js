@@ -36,8 +36,8 @@ export default function HackerHouse() {
             signuplink: "/hackerhouse/move",
             theme: "# Move",
             "name": "x NonceGeek",
-            startDate: "21st Feb, 2023",
-            endDate: "06th, Mar 2023",
+            startDate: "13th Feb, 2023",
+            endDate: "05th, Mar 2023",
             location: "@Dali",
             belong: "UPCOMING"
         }, {
