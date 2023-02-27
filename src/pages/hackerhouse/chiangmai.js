@@ -29,7 +29,7 @@ export default function chiangmai() {
                     <span className="chiangmai_time">08th Apr 2023 - 29th Apr 2023</span>
 
                     <a href="https://www.notion.so/antalpha/AHH-Thailand-ZKP-April-2023-6a51c13fdd654a6792d536a4460735ec">
-                        <button className="chiangmai_button" onclick="changeColor('green')">Apply to Hack</button>
+                        <button className="chiangmai_button" onclick="changeColor('green')">Coming soon</button>
                     </a>
                     <div className="chiangmai_contact">
                         <span className="chiangmai_add">Interesting in partnering?</span>

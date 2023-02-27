@@ -161,15 +161,16 @@
   transition: width ease 0.3s;
 }
 
-.eventslist li:hover {
+.eventslist li:active {
   color: #2222ff;
   border-bottom-color: #2222ff;
 }
 
+
 .event_container {
   display: flex;
   flex-wrap:wrap;
-  width: 1200px;
+  width: 75rem;
   margin-top: 35px;
   gap: 12px;
 }
