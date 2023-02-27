@@ -9,11 +9,11 @@ import lens from "../../content/images/hackerhouse/lens.svg"
 import comingsoon from "../../content/images/hackerhouse/comingsoon.svg"
 import timearrow from "../../content/images/hackerhouse/timearrow.svg"
 import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
-import nextpage from "../../content/images/hackerhouse/nextpage.png"
-import freeaccommodation from "../../content/images/hackerhouse/freeaccommodation.png"
-import communityatmosphere from "../../content/images/hackerhouse/communityatmosphere.png"
-import businesscoach from "../../content/images/hackerhouse/businesscoach.png"
-import industrymentor from "../../content/images/hackerhouse/industrymentor.png"
+// import nextpage from "../../content/images/hackerhouse/nextpage.png"
+// import freeaccommodation from "../../content/images/hackerhouse/freeaccommodation.png"
+// import communityatmosphere from "../../content/images/hackerhouse/communityatmosphere.png"
+// import businesscoach from "../../content/images/hackerhouse/businesscoach.png"
+// import industrymentor from "../../content/images/hackerhouse/industrymentor.png"
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
@@ -23,25 +23,39 @@ export default function HackerHouse() {
     const cardlist = [
         {
             id: '1',
+            signuplink: "/hackerhouse/chiangmai",//跳转到notion项目页面
+            theme: "# Zkp",
+            "name": "",
+            startDate: "08th Apr, 2023",
+            endDate: "29th Apr, 2023",
+            location: "@Chiang Mai",
+            belong: "UPCOMING"
+
+           
+        }, {
+            id: '2',
             signuplink: "/hackerhouse/zkp",
             theme: "# Zkp",
             "name": "x ETHDenver",
-
             startDate: "21st Feb, 2023",
             endDate: "06th, Mar 2023",
             location: "@Denver",
-            belong: "UPCOMING"
+            belong: "ONGOING"
+
+           
         }, {
-            id: '2',
+            id: '3',
             signuplink: "/hackerhouse/move",
             theme: "# Move",
             "name": "x NonceGeek",
             startDate: "13th Feb, 2023",
             endDate: "05th, Mar 2023",
             location: "@Dali",
-            belong: "UPCOMING"
-        }, {
-            id: '3',
+            belong: "ONGOING"
+            
+        },
+        {
+            id: '4',
             signuplink: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc",//跳转到notion项目页面
             theme: "# Infra and open source tools",
             "name": "",
@@ -50,7 +64,6 @@ export default function HackerHouse() {
             location: "@Dali",
             belong: "PAST"
         },
-
     ]
     const [filteredList, setFilteredList] = useState(cardlist)
     const navList = ["All", "Upcoming", "Ongoing", "Past"]
@@ -59,10 +72,19 @@ export default function HackerHouse() {
             return setFilteredList(() => cardlist)
         }
 
-        const target = cardlist.filter(item => item.belong.toUpperCase() === value.toUpperCase())
+        const target = cardlist.filter(
+            item => item.belong.toUpperCase() === value.toUpperCase())
         setFilteredList(() => target)
         console.log(filteredList);
 
+
+        // const currentDate = +new Date()
+        // return  cardlist.filter(item =>{
+        //     if(value === "Upcoming") return currentDate> item.startDate.valueOf()
+        //     if(value === "Ongoing") return item.startDate.valueOf() <= currentDate && currentDate <= item.endDate.valueOf()
+        //     if(value === "Past") return currentDate > item.startDate.valueOf()
+        // })
+      
 
     }
     return (
@@ -70,7 +92,7 @@ export default function HackerHouse() {
             <Seo title="Antalpha Labs-Web3 developers community"/> {/* <div className="container">  */}
             {/* 1、这里是标题和活动介绍 */}
             <div className="hackerhouse_container">
-            <Navi  styles={{padding:'40px 0 0 10px'}}></Navi>
+            <Navi  styles={{padding:'0px 20px 40px 0px'}}></Navi>
                 <div className="hackerhouse_navi">
                     <div className="hackerhouse_navi_left">
                         <div className="hackerhouse_navi_title">HackerHouse Events</div>
@@ -162,8 +184,6 @@ export default function HackerHouse() {
                                     </div>
                                     </Link>
                                 {/* </a> */}
-
-
                             </div>
                         )) : (
                             <img src={comingsoon}
@@ -175,14 +195,14 @@ export default function HackerHouse() {
             </div>
             
 
-            <a href="#weoffer" className="weoffer_nextpage">
+            {/* <a href="#weoffer" className="weoffer_nextpage">
                 <img src={nextpage}
                     alt=""></img>
-            </a>
+            </a> */}
             {/* </div> */}
 
             {/* 2、活动提供的福利 */}
-            <div id="weoffer">
+            {/* <div id="weoffer">
                 <div className="hackerhouse-offer-tittle">What We Offer</div>
                 <div className="hackerhouse-offer-container">
                     <div className="hackerhouse-offer">
@@ -205,10 +225,8 @@ export default function HackerHouse() {
                         <span className="hackerhouse-offer-littletittle">Community Vibe</span>
                         <span>Organizing various activities, and integrating with the local community in Dali</span>
                     </div>
-
                 </div>
-
-            </div>
+            </div> */}
             {/* 3、合作伙伴 */}
             <Footer></Footer>
             </>

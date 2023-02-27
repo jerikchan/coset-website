@@ -40,7 +40,7 @@ export default function Zkp() {
 
                 {/* 1、这里是logo */}
                 <Navi styles={
-                    {padding: '32px 32px'}
+                   {padding: '32px 40px'}
                 }></Navi>
 
                 {/* 2、报名页面 */}

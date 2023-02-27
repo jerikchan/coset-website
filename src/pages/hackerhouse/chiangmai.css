@@ -1,0 +1,182 @@
+@font-face {
+  font-family: MontserratLight;
+  src: url(../../font/Montserrat-Light-6.otf);
+}
+
+@font-face {
+  font-family: Montserratregular;
+  src: url(../../font/Montserrat-Regular-8.otf);
+}
+
+.chiangmai {
+  width: 100%;
+  height: 38rem;
+  background-color: #fcf0ec;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.chiangmai_activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chiangmai_activity_pic{
+  width: 100%;
+}
+
+
+.chiangmai_theme {
+  box-sizing: border-box;
+  width: 348.54px;
+  height: 56.45px;
+  left: 522.39px;
+  top: 288.02px;
+
+  background: #73be30;
+  border: 2px solid #00290c;
+  border-radius: 35px;
+  font-family: "Gliker-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  border: 1.88677px solid #00290c;
+}
+
+.chiangmai_title {
+  width: 444px;
+  height: 72px;
+  left: 486.27px;
+  top: 234.75px;
+
+  font-family: "Vantage Point Neo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60.3766px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+
+  color: #e6467f;
+
+  border: 7px solid #ffffff;
+  transform: matrix(1, 0, -0.29, 0.96, 0, 0);
+}
+
+.chiangmai_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13.1478px 35.0609px;
+  gap: 8.77px;
+  cursor:pointer;
+  width: 220px;;
+  height: 50.3px;
+  border: 1.75304px solid #73be30;
+  border-radius: 1.8px;
+  background-color: #fcf0ec;
+  font-family: "MontserratLight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #387600;
+}
+
+.chiangmai_button:hover{
+  background-color:#FFEF6B;
+}
+
+.chiangmai_time {
+  font-family: "MontserratLight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #387600;
+}
+
+.chiangmai_add {
+  font-family: "MontserratLight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #73be30;
+}
+
+.chiangmai_email {
+  font-family: " Montserratregular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #7d9f55
+}
+
+.chiangmai_timelink {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.chiangmai_contact {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .move_title {
+    font-size: 44px;
+    line-height: 64px;
+    text-align: center;
+  }
+
+  .move_theme {
+    font-size: 38px;
+  }
+
+  .move_timeloca {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+
+  .move_button {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    margin: 40px 0px;
+  }
+
+  .move_add {
+    font-size: 10px;
+    padding-top: 2px;
+  }
+
+  .move_email {
+    font-size: 12px;
+  }
+}

@@ -1,4 +1,87 @@
-.navi{
+/* .navi{
     max-width: 90rem;
     margin: auto;
+} */
+
+.hackerhouse-event-container{
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+  }
+  
+  .about {
+    padding: 1.875rem 0;
+  }
+
+  .hackerhouse-navigator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../content/images/navi/Navbar.png");
+  }
+  
+  .antalpha-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+
+.hackerhouse-navigation {
+  display: flex;
+  gap: 3.75rem;
+  font-family: "Montserrat5";
+  font-size: 24px;
+}
+
+.hackerhouse-navi-link::before {
+  position: absolute;
+  left: -18px;
+  padding-right: 0.5rem;
+  content: "<";
+  font-size: 25px;
+  color: #435aff;
+}
+.hackerhouse-navi-link::after {
+  position: absolute;
+  padding-left: 8px;
+  content: ">";
+  font-size: 25px;
+  color: #435aff;
+}
+
+.hackerhouse-navi-link {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #2222ff;
+  bottom: 0;
+  transition: width ease 0.3s;
+}
+
+.hackerhouse-navi-link:hover .line {
+  width: 100%;
+}
+
+.hackerhouse-joinus-navi {
+  position: relative;
+}
+
+.hackerhouse-joinus-navi:hover .line {
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+
 }
