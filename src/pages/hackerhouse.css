@@ -242,8 +242,8 @@
 .event_card button.UPCOMING {
   background-color: #b7ead5;
 }
-.event_card button.Ongoing {
-  background-color: #999;
+.event_card button.ONGOING {
+  background-color: #FFB2DC;
 }
 .event_card button.PAST {
   background-color: #fae5c3;

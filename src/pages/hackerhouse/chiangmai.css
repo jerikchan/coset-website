@@ -81,7 +81,7 @@
   padding: 13.1478px 35.0609px;
   gap: 8.77px;
   cursor:pointer;
-  width: 220px;;
+  width: 210px;;
   height: 50.3px;
   border: 1.75304px solid #73be30;
   border-radius: 1.8px;
@@ -147,36 +147,20 @@
 
 
 
-
 @media only screen and (max-width: 500px) {
-  .move_title {
-    font-size: 44px;
-    line-height: 64px;
-    text-align: center;
+  .chiangmai {
+    display: flex;
+    flex-direction: column;
   }
+  .chiangmai_bgleft {
+    display: none;
+  }
+  .chiangmai_bgleft img{
+    background-image: url('../../../content/images/hackerhouse/chiangmai/top.png');
 
-  .move_theme {
-    font-size: 38px;
   }
-
-  .move_timeloca {
-    font-size: 18px;
-    margin: 10px 0px;
+  .chiangmai_bgright{
+    display: none;   
   }
-
-  .move_button {
-    width: 150px;
-    height: 50px;
-    font-size: 14px;
-    margin: 40px 0px;
-  }
-
-  .move_add {
-    font-size: 10px;
-    padding-top: 2px;
-  }
-
-  .move_email {
-    font-size: 12px;
-  }
+  
 }

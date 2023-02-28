@@ -5,6 +5,7 @@ import "./chiangmai.css";
 import hh_chiangmai  from "../../../content/images/hackerhouse/chiangmai/hh_chiangmai.png";
 import bgleft from "../../../content/images/hackerhouse/chiangmai/bg-left.png";
 import bgright from "../../../content/images/hackerhouse/chiangmai/bg-right.png";
+
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
 export default function chiangmai() {
@@ -17,7 +18,6 @@ export default function chiangmai() {
             }></Navi>
 
             {/* 2、报名页面 */}
-
             <div className="chiangmai">
             <div className="chiangmai_bgleft ">
                 <img src={bgleft}></img>
@@ -42,10 +42,7 @@ export default function chiangmai() {
                 <div className="chiangmai_bgright">
                     <img src={bgright}></img>
                 </div>
-
             </div>
-
-    
         </>
     );
 }
