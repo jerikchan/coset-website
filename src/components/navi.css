@@ -86,4 +86,19 @@
     font-size: .8rem;
   }
 
+  .Icon1 .Icon2{
+    display: none;
+  }
+
+.hackerhouse-navigation{
+  display: none;
+}
+
+  .antalpha-logo{
+    background-image: url(../../content/images/navi/logo.png);
+  }
+.hackerhouse-navigation{
+  background-image: url(../../content/images/navi/menu.png);
+}
+
 }
