@@ -82,18 +82,25 @@
   .hackerhouse-navigation {
     font-size: 0.8rem;
   }
-  .Icon1 .Icon2 {
+   /* .Icon1,.Icon2 {
     display: none;
-  }
+  }  */
 
-  .hackerhouse-navigation {
-    display: none;
-  }
+.hackerhouse-navi-link,.hackerhouse-joinus-navi{
+  display: none;
+}
 
   .antalpha-logo {
     background-image: url(../../content/images/navi/logo.png);
+    background-repeat: no-repeat;
+    width: 6.25rem;
+    height: 1.5rem;
+    display: inline-block;
   }
-  .hackerhouse-navigation {
+  .menu {
+    height: 1.5625rem;
+    width: 1.5625rem;
     background-image: url(../../content/images/navi/menu.png);
   }
+
 }
