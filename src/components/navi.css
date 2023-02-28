@@ -3,33 +3,32 @@
     margin: auto;
 } */
 
-.hackerhouse-event-container{
-    max-width: 90rem;
-    margin: auto;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    position: relative;
-  }
-  
-  .about {
-    padding: 1.875rem 0;
-  }
+.hackerhouse-event-container {
+  max-width: 90rem;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+}
 
-  .hackerhouse-navigator {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-image: url("../../content/images/navi/Navbar.png"); */
-  }
-  
-  .antalpha-logo {
-    display: flex;
-    align-items: center;
-    gap: 0.625rem;
-  }
-  
+.about {
+  padding: 1.875rem 0;
+}
+
+.hackerhouse-navigator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-image: url("../../content/images/navi/Navbar.png"); */
+}
+
+.antalpha-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
 
 .hackerhouse-navigation {
   display: flex;
@@ -48,7 +47,7 @@
 }
 .hackerhouse-navi-link::after {
   position: absolute;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   content: ">";
   font-size: 25px;
   color: #435aff;
@@ -79,26 +78,22 @@
   width: 100%;
 }
 
-
-
 @media only screen and (max-width: 500px) {
   .hackerhouse-navigation {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-
-  .Icon1 .Icon2{
+  .Icon1 .Icon2 {
     display: none;
   }
 
-.hackerhouse-navigation{
-  display: none;
-}
+  .hackerhouse-navigation {
+    display: none;
+  }
 
-  .antalpha-logo{
+  .antalpha-logo {
     background-image: url(../../content/images/navi/logo.png);
   }
-.hackerhouse-navigation{
-  background-image: url(../../content/images/navi/menu.png);
-}
-
+  .hackerhouse-navigation {
+    background-image: url(../../content/images/navi/menu.png);
+  }
 }
