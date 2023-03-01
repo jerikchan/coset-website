@@ -36,6 +36,7 @@
 }
 
 .denver {
+  margin-top: 3.5rem;
   width: 100%;
   height: calc(930px + 80px);
   display: flex;

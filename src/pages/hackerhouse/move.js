@@ -15,9 +15,7 @@ export default function move() {
 
             <Seo title="Antalpha Labs-Web3 developers community"/> 
             {/* 1、这里是导航栏 */}
-            <Navi styles={
-                {padding: '32px 40px'}
-            }></Navi>
+            <Navi></Navi>
 
             {/* 2、报名页面 */}
 

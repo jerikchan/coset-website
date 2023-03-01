@@ -3,65 +3,63 @@
     margin: auto;
 } */
 
-.hackerhouse-event-container {
+@font-face {
+  font-family: mobileMontserrat;
+  src: url(../font/Montserrat-Regular-8.otf);
+}
+
+
+/* PC端 */
+.web {
   position: fixed;
   top: 0;
   max-width: 90rem;
+  height: 5.5rem;
   margin: auto;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   background-color: white;
-  /* position: relative; */
+  background-image: url("../../content/images/navi/Navbar.png");
+  z-index: 9999999999;
 }
 
-.about {
-  padding: 1.875rem 0;
+.logo {
+  margin-left: 2.5rem;
+  width: 18.125rem;
+  height: 2.5rem;
+  background-image: url("../../content/images/navi/logoweb.png");
 }
 
-.hackerhouse-navigator {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* background-image: url("../../content/images/navi/Navbar.png"); */
-}
-
-.antalpha-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
-}
-
-.hackerhouse-navigation {
+.navi-links {
   display: flex;
   gap: 3.75rem;
   font-family: "Montserrat5";
   font-size: 24px;
+  list-style: none;
+  justify-content: center;
+  position: relative;
+  right: 4%;
 }
 
-.hackerhouse-navi-link::before {
-  position: absolute;
-  left: -1.125rem;
+.navi-links__item1::before {
+  /* position: absolute; */
+  left: 0.975rem;
   padding-right: 0.5rem;
   content: "<";
   font-size: 25px;
   color: #435aff;
 }
-.hackerhouse-navi-link::after {
-  position: absolute;
+.navi-links__item1::after {
+  /* position: absolute; */
   padding-left: 0.5rem;
   content: ">";
   font-size: 25px;
   color: #435aff;
 }
 
-.hackerhouse-navi-link {
-  position: relative;
-}
-
 .line {
-  position: absolute;
+  /* position: absolute; */
   width: 0px;
   height: 1px;
   background-color: #2222ff;
@@ -69,75 +67,95 @@
   transition: width ease 0.3s;
 }
 
-.hackerhouse-navi-link:hover .line {
+.navi-links__item1:hover .line {
+  width: 50%;
+}
+
+.navi-links__item2:hover .line {
+  width: 24%;
+}
+
+/* 移动端 */
+
+.web,
+.mobile {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.hackerhouse-joinus-navi {
-  position: relative;
-}
-
-.hackerhouse-joinus-navi:hover .line {
-  width: 100%;
-}
-
-
 
 @media only screen and (max-width: 500px) {
-
-  .hackerhouse-navigator{
-   
-    display: flex;
-    flex-direction: column;
-  }
-
- .antalpha-logo-wrap{
-    display: flex;
-    justify-self:  flex-start;
-    align-items: flex-start;
-  }
-
-
-  .hackerhouse-navigation{
-    font-size: 16px;
-  }
-  /* .Icon1,.Icon2 {
+  .web {
     display: none;
-  }  */
-
-  .hackerhouse-navigation{
-    border: 1px solid red;
-    width: 100px;
-    height: 10px;
-    align-items: flex-start;
-
+  }
+  .mobile {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    background-image: url("../../content/images/navi/navibg_small.png");
+    top: 0;
+    background-color: white;
+    z-index: 9999999999;
   }
 
-.hackerhouse-joinus {
-  border: 1px solid red;
-  width: 100px;
-  height: 10px;
-  align-items: flex-end;
+.mobile .mobilelogo {
+  width: 8.3125rem;
+  height: 1.5625rem;
+  margin-left: 1rem;
+  background-image: url("../../content/images/navi/logo.png"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
-  .hackerhouse-navi-link,
-  .hackerhouse-joinus-navi {
-    display: none;
-  }
-  .antalpha-logo {
-    background-image: url(../../content/images/navi/logo.png);
-    background-repeat: no-repeat;
-    width: 6.25rem;
-    height: 1.5rem;
-    display: inline-block;
-  }
-  .menu {
-    height: 1.5625rem;
-    width: 1.5625rem;
-    background-image: url(../../content/images/navi/menu.png);
-  }
-  .menuclosed {
-    height: 1.5625rem;
-    width: 1.5625rem;
-    background-image: url(../../content/images/navi/close.png);
-  }
+
+.mobile .menu {
+  background-image: url("../../content/images/navi/menu.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1.5625rem;
+  width: 1.5625rem;
+  right: 1rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.mobile ul {
+  width: 100%;
+  top: 5.62rem;
+  flex-direction: column;
+  position: relative;
+  right: 0px;
+}
+
+.navi-links {
+  display: flex;
+  gap: 0rem;
+  justify-content: flex-end;
+  right: 12px;
+}
+
+
+.navi-links__item{
+  font-family: 'mobileMontserrat';
+  font-size: .875rem;
+  height: 3.75rem;
+  background-image: url("../../content/images/navi/navibg_small.png");
+  display: flex;
+  justify-content: flex-end;
+  padding-right:10px;
+  align-items: center;
+  width: 100%;
+}
+
+.navi-links__item img{
+  width: 1.5rem;
+  height:1.5rem;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 1400px) {
+  .mobile{display: none;}
 }

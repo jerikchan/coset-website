@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 import Footer from "../components/footer"
 import "./global.css";
 import "./hackerhouse.css"
@@ -23,7 +23,7 @@ export default function HackerHouse() {
     const cardlist = [
         {
             id: '1',
-            signuplink: "/hackerhouse/chiangmai",//跳转到notion项目页面
+            signuplink: "/hackerhouse/chiangmai", // 跳转到notion项目页面
             theme: "# Zkp",
             "name": "",
             startDate: "08th Apr, 2023",
@@ -31,7 +31,7 @@ export default function HackerHouse() {
             location: "@Chiang Mai",
             belong: "UPCOMING"
 
-           
+
         }, {
             id: '2',
             signuplink: "/hackerhouse/zkp",
@@ -42,7 +42,7 @@ export default function HackerHouse() {
             location: "@Denver",
             belong: "ONGOING"
 
-           
+
         }, {
             id: '3',
             signuplink: "/hackerhouse/move",
@@ -52,11 +52,10 @@ export default function HackerHouse() {
             endDate: "05th, Mar 2023",
             location: "@Dali",
             belong: "ONGOING"
-            
-        },
-        {
+
+        }, {
             id: '4',
-            signuplink: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc",//跳转到notion项目页面
+            signuplink: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
             theme: "# Infra and open source tools",
             "name": "",
             startDate: "1st Dec, 2022",
@@ -66,15 +65,14 @@ export default function HackerHouse() {
         },
     ]
     const [filteredList, setFilteredList] = useState(cardlist)
-    const [menuType, setMenuType]=useState(0)
+    const [menuType, setMenuType] = useState(0)
     const navList = ["All", "Upcoming", "Ongoing", "Past"]
-    const onNavClick = (value,idx) => {
+    const onNavClick = (value, idx) => {
         if (value === "All") {
             return setFilteredList(() => cardlist)
         }
         setMenuType(idx)
-        const target = cardlist.filter(
-            item => item.belong.toUpperCase() === value.toUpperCase())
+        const target = cardlist.filter(item => item.belong.toUpperCase() === value.toUpperCase())
         setFilteredList(() => target)
         console.log(filteredList);
 
@@ -85,126 +83,135 @@ export default function HackerHouse() {
         //     if(value === "Ongoing") return item.startDate.valueOf() <= currentDate && currentDate <= item.endDate.valueOf()
         //     if(value === "Past") return currentDate > item.startDate.valueOf()
         // })
-      
+
 
     }
     return (
         <>
             <Seo title="Antalpha Labs-Web3 developers community"/> {/* <div className="container">  */}
-            {/* 1、这里是标题和活动介绍 */}
-            <div className="hackerhouse_container">
-            <Navi  styles={{padding:'0px 20px 40px 0px'}}></Navi>
-                <div className="hackerhouse_navi">
-                    <div className="hackerhouse_navi_left">
-                        <div className="hackerhouse_navi_title">HackerHouse Events</div>
 
-                        <div className="hackerhous_detail">
-                            <span>Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects.
-                            </span>
-                            <span>Theme, time and location varies from one event to another, but our excitement to meet free-spirited hackers doesn’t!!</span>
-                        </div>
 
-                    </div>
-                    <div className="hackerhouse_navi_right">
-                        <img src={lens}
-                            alt=""></img>
+          
+            <Navi></Navi>
+        {/* 1、这里是标题和活动介绍 */}
+        <div className="hackerhouse_container">
+        
+            <div className="hackerhouse_navi">
+                <div className="hackerhouse_navi_left">
+                    <div className="hackerhouse_navi_title">HackerHouse Events</div>
+
+                    <div className="hackerhous_detail">
+                        <span>Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects.
+                        </span>
+                        <span>Theme, time and location varies from one event to another, but our excitement to meet free-spirited hackers doesn’t!!</span>
                     </div>
 
                 </div>
-                <div className="hackerhouse_events">
-                    <div className="hackerhouse_navi_eventslist">
-                        <ul className="eventslist">
-                            {
-                            navList.map((item, idx) => (
-                                <li key={idx}
-                                   style={{color:menuType==idx?'blue':"" }} 
-                                    onClick={
-                                        () => onNavClick(item,idx)                    
-                                }>
-                                    {item} 
-                                    <div className="line"></div>
-                                    </li>
-                                    
-                            ))
-                        } </ul>
-                    </div>
-                    <div className="event_container">
-
-                     
-                        {
-                        filteredList.length !== 0 ? filteredList.map((item, idx) => (
-
-
-                            <div key={idx}>
-                                {/* <a href={item.signuplink}> */}
-                                <Link to={item.signuplink}>
-                                    <div className="event_card">
-                                        <div className="event_tag">
-                                            <button className={
-                                                item.belong
-                                            }>
-                                                {
-                                                item.belong
-                                            }</button>
-
-                                            <div className="event_theme">
-                                                {
-                                                item.theme
-                                            }</div>
-                                        </div>
-                                        <div className="event_name">
-                                            <div>
-                                                Antalpha HackerHouse
-                                            </div>
-                                            {
-                                            item.name
-                                        }</div>
-
-                                        <div className="event_timeandlocation">
-                                            <div className="time">
-                                                <span>{
-                                                    item.startDate
-                                                }</span>
-                                                <img src={timearrow}
-                                                    alt=""></img>
-                                                <span>{
-                                                    item.endDate
-                                                }</span>
-                                            </div>
-                                            <div className="location">
-                                                {
-                                                item.location
-                                            }</div>
-                                        </div>
-                                        <div className="event_footer">
-                                            <span>Learn More</span>
-
-                                            <img src={rightarrow}
-                                                alt=""></img>
-                                        </div>
-
-                                    </div>
-                                    </Link>
-                                {/* </a> */}
-                            </div>
-                        )) : (
-                            <img src={comingsoon}
-                                className="coming_img"/>
-                        )
-                    } </div>
+                <div className="hackerhouse_navi_right">
+                    <img src={lens}
+                        alt=""></img>
                 </div>
 
             </div>
-            
+            <div className="hackerhouse_events">
+                <div className="hackerhouse_navi_eventslist">
+                    <ul className="eventslist">
+                        {
+                        navList.map((item, idx) => (
+                            <li key={idx}
+                                style={
+                                    {
+                                        color: menuType == idx ? 'blue' : ""
+                                    }
+                                }
+                                onClick={
+                                    () => onNavClick(item, idx)
+                            }>
+                                {item}
+                                <div className="line"></div>
+                            </li>
 
-            {/* <a href="#weoffer" className="weoffer_nextpage">
+                        ))
+                    } </ul>
+                </div>
+                <div className="event_container">
+
+
+                    {
+                    filteredList.length !== 0 ? filteredList.map((item, idx) => (
+
+
+                        <div key={idx}>
+                            {/* <a href={item.signuplink}> */}
+                            <Link to={
+                                item.signuplink
+                            }>
+                                <div className="event_card">
+                                    <div className="event_tag">
+                                        <button className={
+                                            item.belong
+                                        }>
+                                            {
+                                            item.belong
+                                        }</button>
+
+                                        <div className="event_theme">
+                                            {
+                                            item.theme
+                                        }</div>
+                                    </div>
+                                    <div className="event_name">
+                                        <div>
+                                            Antalpha HackerHouse
+                                        </div>
+                                        {
+                                        item.name
+                                    }</div>
+
+                                    <div className="event_timeandlocation">
+                                        <div className="time">
+                                            <span>{
+                                                item.startDate
+                                            }</span>
+                                            <img src={timearrow}
+                                                alt=""></img>
+                                            <span>{
+                                                item.endDate
+                                            }</span>
+                                        </div>
+                                        <div className="location">
+                                            {
+                                            item.location
+                                        }</div>
+                                    </div>
+                                    <div className="event_footer">
+                                        <span>Learn More</span>
+
+                                        <img src={rightarrow}
+                                            alt=""></img>
+                                    </div>
+
+                                </div>
+                            </Link>
+                            {/* </a> */} </div>
+                    )) : (
+                        <img src={comingsoon}
+                            className="coming_img"/>
+                    )
+                } </div>
+            </div>
+
+        </div>
+
+
+        {/* <a href="#weoffer" className="weoffer_nextpage">
                 <img src={nextpage}
                     alt=""></img>
             </a> */}
-            {/* </div> */}
+        {/* </div> */}
 
-            {/* 2、活动提供的福利 */}
-            {/* <div id="weoffer">
+        {/* 2、活动提供的福利 */}
+        {/* <div id="weoffer">
                 <div className="hackerhouse-offer-tittle">What We Offer</div>
                 <div className="hackerhouse-offer-container">
                     <div className="hackerhouse-offer">
@@ -229,8 +236,8 @@ export default function HackerHouse() {
                     </div>
                 </div>
             </div> */}
-            {/* 3、合作伙伴 */}
-            <Footer></Footer>
-            </>
+        {/* 3、合作伙伴 */}
+        <Footer></Footer>
+    </>
     );
 }

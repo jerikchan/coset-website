@@ -380,9 +380,9 @@ a.thefirsthacker-linkcase:focus {
   .antalpha-container1 {
     height: 31rem;
   }
-  .Icon2{
+  /* .Icon2{
     display: none;
-  }
+  } */
 
   .Icon1 {
     width: 12%;
@@ -554,9 +554,9 @@ a.thefirsthacker-linkcase:focus {
 
 @media (min-width: 480px) and (max-width: 540px) {
 
-  .Icon2{
-    display: none;
-  }
+  /* .Icon2{
+    display: block;
+  } */
   .about-antalpha-box {
     width: 85%;
   }

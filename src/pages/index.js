@@ -236,7 +236,7 @@ export default function IndexPage() {
                     <div className="antalpha-showcase">
                         <div className="showcase-title">
                             <div>Showcase</div>
-                            <a className="viewALl-href" href="https://hackerhouses.notion.site/1402cb855603469a932054804e9716a6?v=11bf455c9bb04042956d82a7bff200b3">
+                            <a className="viewALl-href" href="https://antalpha.notion.site/">
                                 <button className="botton viewall-button"
                                     onFocus={
                                         () => viewAllOnchange("focus")

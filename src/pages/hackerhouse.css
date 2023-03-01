@@ -11,6 +11,13 @@
   src: url(../font/Montserrat-ExtraLight-5.otf);
 }
 
+.logo{
+  margin-left: 6.25rem;
+}
+.navi-links{
+right: 10%;
+}
+
 .hackerhouse-title {
   padding-top: 40px;
   margin-left: 112px;
@@ -103,10 +110,12 @@
 
 .hackerhouse_container {
   width: 1220px;
-  margin: 60px auto;
+  margin: 3.75rem  auto;
+  margin-top: 8rem;
 }
 
 .hackerhouse_navi {
+  margin-top: 3.75rem;
   display: flex;
   position: relative;
   gap: 120px;
@@ -225,7 +234,7 @@
 }
 
 .event_card button {
-  height: 28px;
+  height: 1.75rem;
   background: #b7ead5;
   border: 2px solid #2222ff;
   border-radius: 9999px;
@@ -366,6 +375,7 @@
   .hackerhouse_navi {
     flex-direction: column;
     gap: 5px;
+    margin-top: 4.6rem;
   }
 
   .eventslist {

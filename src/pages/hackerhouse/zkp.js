@@ -39,9 +39,7 @@ export default function Zkp() {
             <div className="container">
 
                 {/* 1、这里是logo */}
-                <Navi styles={
-                   {padding: '32px 40px'}
-                }></Navi>
+                <Navi></Navi>
 
                 {/* 2、报名页面 */}
                 <div className="denver">
