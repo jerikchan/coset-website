@@ -141,7 +141,6 @@
   font-size: 14px;
   line-height: 24px;
   /* identical to box height */
-
   color: #73be30;
 }
 
@@ -233,11 +232,11 @@ font-family: 'Inter-Regular';
 }
 
 .contentbox1{
-  margin-bottom: 2.55rem;
+  margin-bottom: 3.65rem;
 }
 
 .contentbox2{
-  margin-bottom: 2.55rem;
+  margin-bottom: 3.65rem;
 }
 .contentbox1 ol{
   padding-left: -0.1rem;
