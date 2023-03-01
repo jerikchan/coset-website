@@ -4,12 +4,15 @@
 } */
 
 .hackerhouse-event-container {
+  position: fixed;
+  top: 0;
   max-width: 90rem;
   margin: auto;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  position: relative;
+  background-color: white;
+  /* position: relative; */
 }
 
 .about {
@@ -78,18 +81,48 @@
   width: 100%;
 }
 
+
+
 @media only screen and (max-width: 500px) {
-  .hackerhouse-navigation {
-    font-size: 0.8rem;
+
+  .hackerhouse-navigator{
+   
+    display: flex;
+    flex-direction: column;
   }
-   /* .Icon1,.Icon2 {
+
+ .antalpha-logo-wrap{
+    display: flex;
+    justify-self:  flex-start;
+    align-items: flex-start;
+  }
+
+
+  .hackerhouse-navigation{
+    font-size: 16px;
+  }
+  /* .Icon1,.Icon2 {
     display: none;
   }  */
 
-.hackerhouse-navi-link,.hackerhouse-joinus-navi{
-  display: none;
-}
+  .hackerhouse-navigation{
+    border: 1px solid red;
+    width: 100px;
+    height: 10px;
+    align-items: flex-start;
 
+  }
+
+.hackerhouse-joinus {
+  border: 1px solid red;
+  width: 100px;
+  height: 10px;
+  align-items: flex-end;
+}
+  .hackerhouse-navi-link,
+  .hackerhouse-joinus-navi {
+    display: none;
+  }
   .antalpha-logo {
     background-image: url(../../content/images/navi/logo.png);
     background-repeat: no-repeat;
@@ -102,5 +135,9 @@
     width: 1.5625rem;
     background-image: url(../../content/images/navi/menu.png);
   }
-
+  .menuclosed {
+    height: 1.5625rem;
+    width: 1.5625rem;
+    background-image: url(../../content/images/navi/close.png);
+  }
 }

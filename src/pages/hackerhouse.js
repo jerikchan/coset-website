@@ -66,12 +66,13 @@ export default function HackerHouse() {
         },
     ]
     const [filteredList, setFilteredList] = useState(cardlist)
+    const [menuType, setMenuType]=useState(0)
     const navList = ["All", "Upcoming", "Ongoing", "Past"]
-    const onNavClick = (value) => {
+    const onNavClick = (value,idx) => {
         if (value === "All") {
             return setFilteredList(() => cardlist)
         }
-
+        setMenuType(idx)
         const target = cardlist.filter(
             item => item.belong.toUpperCase() === value.toUpperCase())
         setFilteredList(() => target)
@@ -116,8 +117,9 @@ export default function HackerHouse() {
                             {
                             navList.map((item, idx) => (
                                 <li key={idx}
+                                   style={{color:menuType==idx?'blue':"" }} 
                                     onClick={
-                                        () => onNavClick(item)
+                                        () => onNavClick(item,idx)                    
                                 }>
                                     {item} 
                                     <div className="line"></div>
