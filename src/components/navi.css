@@ -127,6 +127,7 @@
   flex-direction: column;
   position: relative;
   right: 0px;
+  z-index: 9999;
 }
 
 .navi-links {
@@ -147,6 +148,7 @@
   padding-right:10px;
   align-items: center;
   width: 100%;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 .navi-links__item img{

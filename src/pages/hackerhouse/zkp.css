@@ -33,10 +33,12 @@
 
 .container {
   margin: auto;
+  margin-top: 3rem; 
 }
 
+
 .denver {
-  margin-top: 3.5rem;
+  /* margin-top: 3.5rem; */
   width: 100%;
   height: calc(930px + 80px);
   display: flex;
@@ -345,6 +347,10 @@
 
 
 @media only screen and (max-width: 500px) {
+
+  .container {
+    margin-top: 0rem; 
+  }
   .denver {
     height: 42rem;
     background-color: transparent;

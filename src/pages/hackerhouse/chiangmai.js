@@ -62,7 +62,7 @@ export default function chiangmai() {
                             <p>You&nbsp;
                                 <span>
                                     must</span>
-                                    &nbsp;be</p>
+                                    &nbsp;be:</p>
                             <ol>
                                 <li>Have a&nbsp;
                                     <span>technical background
@@ -82,10 +82,10 @@ export default function chiangmai() {
                             <ol>
                                 <li>
                                     <span>Application prototypes.
-                                    </span>This refers to the end-to-end proof-of-concept implementation of user-facing, ZK-enabled apps. Examples include zkmessage.xyz, zkitter.com, Dark Forest, unirep.social, heyanon, and nightmarket.</li>
+                                    </span>This refers to the end-to-end proof-of-concept implementation of user-facing, ZK-enabled apps. Examples include <a href="https://0xparc.org/blog/zk-group-sigs">zkmessage.xyz</a>, <a href="https://docs.zkitter.com/">zkitter.com</a>, <a href="https://zkga.me/">Dark Forest</a>, <a href="https://about.unirep.social/">unirep.social</a>, <a href="https://www.heyanon.xyz/">heyanon</a>, and <a href="https://nightmart.xyz/">nightmarket</a>.</li>
                                 <li>
                                     <span>Developer tools and infrastructure.
-                                    </span>This includes developer tools and infrastructure such as zkrepl, hardhat-circom, EZKL, or Halo2-WASM port.</li>
+                                    </span>This includes developer tools and infrastructure such as &nbsp;<a href="https://zkrepl.dev/">zkrepl</a>, <a href="https://github.com/projectsophon/hardhat-circom">hardhat-circom</a>,<a href="https://github.com/zkonduit/ezkl"> EZKL</a>, or <a href="https://zcash.github.io/halo2/user/wasm-port.html">Halo2-WASM port</a>.</li>
                             </ol>
                         </div>
                         <div className="contentbox3">
@@ -93,14 +93,14 @@ export default function chiangmai() {
                             <p>The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program.</p>
 
                             <p>
-                                Throughout the program, we will be running events, workshops, and talks, to ensure that participants are kept up to date on the latest developments across the ZK stack. We expect the spring to have a significant educational component as well,
-                                &nbsp;<span>and participants with a strong general math and computer science background but limited prior experience in ZK tech are encouraged to apply.</span>
+                                Throughout the program, we will be running events, workshops, and talks, to ensure that participants are kept up to date on the latest developments across the ZK stack. We
+                                &nbsp;<span>participants with a strong general math and computer science background but limited prior experience in ZK tech are encouraged to apply.</span>
                             </p>
 
                             <p>
                                 Residents should aim to produce the following deliverables by the end of the program:</p>
                             <ul>
-                                <li>At least one technical writeup, research report, or paper. We encourage participants to make their findings public on platforms such as the 0xPARC blog or zkresear.ch.</li>
+                                <li>At least one technical writeup, research report, or paper. We encourage participants to make their findings public on platforms such as the <span><a href="https://0xparc.org/blog">0xPARC blog</a></span> or <span><a href="https://zkresear.ch/">zkresear.ch</a></span>.</li>
                                 <li>A well-documented open-source repository, tool, and/or library, consumable by other teams in the applied ZK space.</li>
                                 <li>(Optionally - where applicable) A live, proof-of-concept prototype of the project in action, accessible by end users. This is more likely to be relevant for application-level teams than infrastructure teams.</li>
                             </ul>
