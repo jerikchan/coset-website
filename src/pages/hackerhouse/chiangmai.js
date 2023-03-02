@@ -44,71 +44,60 @@ export default function chiangmai() {
                     {/* <img src={right}></img> */} </div>
             </div>
 
-            {/* 3、赞助支持 */}
-            <div className="chiangmai_support">
-                <div className="support_box"></div>
 
-            </div>
-
-            {/* 4、参加我们 */}
+            {/* 3、参加我们 */}
             <div className="participate">
                 <div className="participate_wrap">
                     <div className="participate_title">
                         <div className="participate_img"></div>
                     </div>
                     <div className="participate_content">
+                        <div className="contentbox4">
+
+                            <h2>Call for Participants🔥</h2>
+                            <p>We are excited to announce an upcoming event focused on zero-knowledge proof (ZKP) technology. The event aims to <span> deepen participants' knowledge and understanding of ZKP and explore its potential applications</span>.</p>
+                        </div>
+
                         <div className="contentbox1">
-                            <h2>Who is eligible to participate?</h2>
-                            <p>You&nbsp;
-                                <span>
-                                    must</span>
-                                    &nbsp;be:</p>
-                            <ol>
-                                <li>Have a&nbsp;
-                                    <span>technical background
-                                    </span>
-                                    &nbsp; and be proficient in writing code.</li>
-                                <li>Be&nbsp;
-                                    <span>a Zero-knowledge Proof Engineer or Enthusiast
-                                    </span>&nbsp;
-                                    who is interested in integrating ZKP with your area of expertise, such as AI engineering or game development.</li>
-                                <li>Be involved in developing&nbsp;
-                               <span>open-source projects
-                                    </span>&nbsp;that focus on ZK applications or developer tools and infrastructure.</li>
-                            </ol>
+
+                            <h2>Who can Participate?</h2>
+                            <p>We welcome participants who meet one or more of the following criteria:</p>
+                            <ul>
+                                <li>Have <span>programming skills</span>, and preferably have participated in the development of Web3 or ZKP-related open-source projects.</li>
+                                <li>Are <span>ZKP engineers or enthusiasts</span>, with a strong mathematical background and published ZKP-related research results.</li>
+                            </ul>
+                            <p>If you are interested in participating, please submit your application outlining your experience, qualifications, and interest in ZKP technology. </p>
+                            <p>We look forward to reviewing your application.</p>
                         </div>
                         <div className="contentbox2">
-                            <h2>Areas of Focus</h2>
-                            <ol>
-                                <li>
-                                    <span>Application prototypes.
-                                    </span>This refers to the end-to-end proof-of-concept implementation of user-facing, ZK-enabled apps. Examples include <a href="https://0xparc.org/blog/zk-group-sigs">zkmessage.xyz</a>, <a href="https://docs.zkitter.com/">zkitter.com</a>, <a href="https://zkga.me/">Dark Forest</a>, <a href="https://about.unirep.social/">unirep.social</a>, <a href="https://www.heyanon.xyz/">heyanon</a>, and <a href="https://nightmart.xyz/">nightmarket</a>.</li>
-                                <li>
-                                    <span>Developer tools and infrastructure.
-                                    </span>This includes developer tools and infrastructure such as &nbsp;<a href="https://zkrepl.dev/">zkrepl</a>, <a href="https://github.com/projectsophon/hardhat-circom">hardhat-circom</a>,<a href="https://github.com/zkonduit/ezkl"> EZKL</a>, or <a href="https://zcash.github.io/halo2/user/wasm-port.html">Halo2-WASM port</a></li>
-                            </ol>
+                            <h2>Main Focus</h2>
+                            <p>Our event will focus on the following areas:</p>
+                            <ul>
+                                <li>Applications that incorporate <span>ZKP technology</span>, such as games, social applications, NFT, Defi, and other related areas.
+                                </li>
+                                <li>Developer <span> tools and infrastructure</span>, such as web-based integrated development environments (IDEs) or command-line tools.</li>
+                                <li>Other <span>ZKP-related areas</span>.</li>
+                            </ul>
                         </div>
                         <div className="contentbox3">
-                            <h2>Structure</h2>
-                            <p>The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program.</p>
-
+                            <h2>Schedule of Events</h2>
+                            <p>To enhance your knowledge and understanding of ZKP, we will provide you with ZKP learning materials prior to the event. During the event, we will organize a variety of <span>activities, such as lectures, discussions, and brainstorming sessions</span> to help participants develop project ideas. Additionally, we will have mentors available to offer <span>technical and strategic guidance</span>.</p>
                             <p>
-                                Throughout the program, we will be running events, workshops, and talks, to ensure that participants are kept up to date on the latest developments across the ZK stack. We expect the spring to have a significant educational component as well,
-                                &nbsp;<span>and participants with a strong general math and computer science background but limited prior experience in ZK tech are encouraged to apply.</span>
+                                Finally, we will host <span>a Demo Day</span> to showcase the outcomes of the event. We will invite VCs and industry experts to attend and review the projects.
                             </p>
-
-                            <p>
-                                Residents should aim to produce the following deliverables by the end of the program:</p>
-                            <ul>
-                                <li>At least one technical writeup, research report, or paper. We encourage participants to make their findings public on platforms such as the <span><a href="https://0xparc.org/blog">0xPARC blog</a></span> or <span><a href="https://zkresear.ch/">zkresear.ch</a></span>.</li>
-                                <li>A well-documented open-source repository, tool, and/or library, consumable by other teams in the applied ZK space.</li>
-                                <li>(Optionally - where applicable) A live, proof-of-concept prototype of the project in action, accessible by end users. This is more likely to be relevant for application-level teams than infrastructure teams.</li>
-                            </ul>
+                            <p>If you have any questions or concerns about the event, please do not hesitate to contact us. We look forward to working with you!</p>
+                            <p>Thank you for considering this opportunity.</p>
                         </div>
 
 
                     </div>
                 </div>
+            </div>
+
+            {/* 4、赞助支持 */}
+            <div className="chiangmai_support">
+                <div className="support_box"></div>
+
             </div>
             {/* 5、脚注 */}
             <Footer></Footer>

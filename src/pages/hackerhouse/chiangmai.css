@@ -20,15 +20,14 @@
 
 
 .chiangmai {
-  margin-top: 3rem;
-  width: 100%;
+  margin-top: 3.5rem;
+  width: 100vw;
   height: 38rem;
   background-color: #fcf0ec;
   /* display: flex;
   flex-wrap: nowrap; */
   background-image: url("../../../content/images/hackerhouse/chiangmai/ChiangMai.jpg");
   background-size: 100%;
-  width: 100%;
   background-repeat: no-repeat;
   }
 
@@ -151,7 +150,6 @@
   font-size: 15px;
   line-height: 17px;
   /* identical to box height */
-
   color: #7d9f55
 }
 
@@ -187,16 +185,15 @@
 
 .participate{
   width: 100%;
-  height: 96.875rem;
+  margin-top: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .participate_wrap{
-  position: relative;
-  top:-1.875rem;
-  height: 80rem;
+  /* height: 80rem; */
+
   width: 37.5rem;
   display: flex;
   flex-direction: column;
@@ -204,13 +201,15 @@
 .participate_title{
   margin:0 auto;
  background-image: url("../../../content/images/hackerhouse/chiangmai/participant.jpg");
+ /* background-size: 100% 100%; */
+ background-size: contain;
+ background-repeat: space;
  height: 5rem;
  width: 36.4rem;
  margin-bottom: 3rem;
 }
 
 .participate_content h2{
-
 font-family: 'Inter-Medium';
 font-weight: 700;
 font-size: 29px;
@@ -250,7 +249,31 @@ font-family: 'Inter-Regular';
 
 
 
-@media only screen and (max-width: 500px) {
+/* 手机端 */
+@media  only screen and (max-width: 380px) {
+
+  .chiangmai{
+    margin-top: 0rem; 
+    height: 49rem;
+    background-image: url('../../../content/images/hackerhouse/chiangmai/chiangmai_mobile.jpg');
+  }
+
+  .participate_wrap{
+    height: 80rem;
+  }
+
+
+  .chiangmai_activity {
+    width: 100vw;
+    height: 78%;
+  }
+
+}
+
+
+
+
+@media  (min-width: 381px) and (max-width: 540px) {
   .chiangmai {
     display: flex;
     flex-direction: column;
@@ -258,7 +281,7 @@ font-family: 'Inter-Regular';
   }
 
   .chiangmai_activity {
-    width: 100%;
+    width: 100vw;
     height: 76%;
   }
  
@@ -298,5 +321,21 @@ font-family: 'Inter-Regular';
       .contentbox3 ul {
         padding-left: 0.1rem;
       }
+
+}
+
+/* ipad */
+
+@media (min-width: 541px) and (max-width: 1025px) {
+.chiangmai{
+  height: 28rem;
+}
+.chiangmai_timelink{
+  font-size: 16px;
+}
+.chiangmai_activity{
+  height: 96%;
+}
+
 
 }
