@@ -78,7 +78,7 @@
 
 .web,
 .mobile {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -90,7 +90,7 @@
     display: none;
   }
   .mobile {
-    width: 100%;
+    width: 100vw;
     height: 3.75rem;
     display: flex;
     background-image: url("../../content/images/navi/navibg_small.png");
