@@ -139,10 +139,10 @@ export default function chiangmai() {
                     <div className="titleimg1"></div>
                     <div className="contentsupport">
                         <div className="bg1">
-                            <img src={ahh}></img>
+                            <img src={ahh} loading="lazy"></img>
                         </div>
                         <div className="bg1">
-                            <img src={mantle}></img>
+                            <img src={mantle} loading="lazy"></img>
                         </div>
                     </div>
                 </div>
@@ -151,10 +151,10 @@ export default function chiangmai() {
                     <div className="titleimg2"></div>
                     <div className="contentsupport">
                         <div className="bg1">
-                            <img src={secbit}></img>
+                            <img src={secbit} loading="lazy"></img>
                         </div>
                         <div className="bg1">
-                            <img src={scroll}></img>
+                            <img src={scroll} loading="lazy"></img>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ export default function chiangmai() {
                     <div className="titleimg3"></div>
                     <div className="contentsupport">
                         <div className="bg1">
-                            <img src={atcapital}></img>
+                            <img src={atcapital} loading="lazy"></img>
                         </div>
                     </div>
                 </div>
@@ -172,49 +172,49 @@ export default function chiangmai() {
                     <div className="titleimg4"></div>
                     <div className="contentsupport">
                         <div className="bg2">
-                            <img src={buidler}></img>
+                            <img src={buidler} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={csdn}></img>
+                            <img src={csdn} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={ethereum}></img>
+                            <img src={ethereum} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                             <img src={ethplanet}></img>
+                             <img src={ethplanet} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={ethstorage}></img>
+                            <img src={ethstorage} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                        <img src={hyper}></img>
+                        <img src={hyper} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={kucoin}></img>
+                            <img src={kucoin} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={movefuns}></img>
+                            <img src={movefuns} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={mze}></img>
+                            <img src={mze} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={planker}></img>
+                            <img src={planker} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={rebase}></img>
+                            <img src={rebase} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={starknet}></img>
+                            <img src={starknet} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={social}></img>
+                            <img src={social} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={oldfashion}></img>
+                            <img src={oldfashion} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                        <img src={logo706}></img>
+                        <img src={logo706} loading="lazy"></img>
                         </div>
                     </div>
 
@@ -224,19 +224,19 @@ export default function chiangmai() {
                     <div className="titleimg5"></div>
                     <div className="contentsupport">
                         <div className="bg2">
-                            <img src={blockbeats}></img>
+                            <img src={blockbeats} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={chain}></img>
+                            <img src={chain} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={marsbit}></img>
+                            <img src={marsbit} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={panews}></img>
+                            <img src={panews} loading="lazy"></img>
                         </div>
                         <div className="bg2">
-                            <img src={foresight}></img>
+                            <img src={foresight} loading="lazy"></img>
                         </div>
 
                     </div>

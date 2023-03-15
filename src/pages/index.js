@@ -292,7 +292,7 @@ export default function IndexPage() {
                     </div>
                     {/* 主要内容 */}
                     <div className="antalpha-mianlogo">
-                        <img src={mianlogo}
+                        <img src={mianlogo} loading="lazy"
                             alt=""
                             className="Icon"/>
                     </div>
@@ -305,7 +305,7 @@ export default function IndexPage() {
                     </div>
 
                     <a href="#aboutus" className="nextpage">
-                        <img src={nextpage}
+                        <img src={nextpage} 
                             alt=""></img>
                     </a>
                 </div>
@@ -371,7 +371,7 @@ export default function IndexPage() {
                                                 className=" thefirsthacker-linkcase"
                                                 hidefocus="true">
                                                 <img src={imgurl}
-                                                    className="case-photo"
+                                                    className="case-photo" loading="lazy"
                                                     alt=""/>
 
                                                 <span>{text}</span>
@@ -398,7 +398,7 @@ export default function IndexPage() {
                                                 className=" thefirsthacker-linkcase"
                                                 hidefocus="true">
                                                 <img src={imgurl}
-                                                    className="case-photo"
+                                                    className="case-photo" loading="lazy"
                                                     alt=""/>
 
                                                 <span>{text}</span>
@@ -424,7 +424,7 @@ export default function IndexPage() {
                                                 className=" thefirsthacker-linkcase"
                                                 hidefocus="true">
                                                 <img src={imgurl}
-                                                    className="case-photo"
+                                                    className="case-photo" loading="lazy"
                                                     alt=""/>
 
                                                 <span>{text}</span>
@@ -451,8 +451,8 @@ export default function IndexPage() {
                                                 className=" thefirsthacker-linkcase"
                                                 hidefocus="true">
                                                 <img src={imgurl}
-                                                    className="case-photo"
-                                                    alt=""/>
+                                                    className="case-photo" loading="lazy"
+                                                    alt=""/ >
 
                                                 <span>{text}</span>
                                             </a>

@@ -187,7 +187,7 @@ export default function HackerHouse() {
                                     <div className="event_footer">
                                         <span>Learn More</span>
 
-                                        <img src={rightarrow}
+                                        <img src={rightarrow} loading="lazy"
                                             alt=""></img>
                                     </div>
 
@@ -195,7 +195,7 @@ export default function HackerHouse() {
                             </Link>
                             {/* </a> */} </div>
                     )) : (
-                        <img src={comingsoon}
+                        <img src={comingsoon} loading="lazy"
                             className="coming_img"/>
                     )
                 } </div>
