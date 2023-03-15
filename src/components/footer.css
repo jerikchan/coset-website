@@ -50,8 +50,8 @@
     font-family: "Montserrat6";
     margin-top: 30px;
   }
-
   .footer {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
@@ -59,20 +59,16 @@
     margin: 40px 40px;
     flex-wrap: wrap;
   }
-
-  img {
+  .footer-right img {
     width: 100%;
   }
   .footer-left {
     margin: 40px 40px;
 }
-
-
   .footer-right {
     gap: .875rem;
     font-size: .8125rem;
   }
-  
 }
 
 
@@ -80,10 +76,12 @@
   .footer {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
 
 .footer-right {
   margin: 40px 40px;
   flex-wrap: wrap;
 }
+
 }

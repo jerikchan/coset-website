@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 
 import Footer from "../components/footer"
 import "./global.css";
@@ -10,6 +10,7 @@ import nextpage from "../../content/images/hackerhouse/nextpage.png"
 import mianlogo from "../../content/images/antalpha/mainlogo.svg"
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
+// 第一期
 import check from "../../content/images/antalpha/check.svg"
 import arrow from "../../content/images/antalpha/arrow-up-right.svg"
 import chatbot from "../../content/images/antalpha/chatbot.jpg"
@@ -24,6 +25,7 @@ import daoverselink from "../../content/images/antalpha/daoverselink.png"
 import owlad from "../../content/images/antalpha/owlad.png"
 import meow from "../../content/images/antalpha/meow.png"
 
+// 第二期
 import dog from "../../content/images/antalpha/dog.jpg"
 import join3 from "../../content/images/antalpha/join3.jpg"
 import zkdoge from "../../content/images/antalpha/zkdoge.png"
@@ -32,6 +34,25 @@ import DB3 from "../../content/images/antalpha/DB3.png"
 import GIT3 from "../../content/images/antalpha/GIT3.png"
 import Tokhub from "../../content/images/antalpha/Tokhub.png"
 import upgradedoge from "../../content/images/antalpha/upgradedoge.jpg"
+
+// 第三期
+import Dsearch from "../../content/images/project/Dsearch.jpeg"
+import Seren from "../../content/images/project/Seren.png"
+import BOBYARD from "../../content/images/project/BOBYARD.jpeg"
+import Onchain from "../../content/images/project/Onchain.png"
+import Moveflow from "../../content/images/project/Moveflow.png"
+import Airdropper from "../../content/images/project/Airdropper.png"
+import Movebarter from "../../content/images/project/Movebarter.png"
+import Missionboard from "../../content/images/project/Missionboard.jpeg"
+import Daliorchard from "../../content/images/project/Daliorchard.png"
+import sandtable from "../../content/images/project/sandtable.png"
+
+
+// 第四期
+import atomiclinks from "../../content/images/project/atomiclinks.jpeg"
+import hunter from "../../content/images/project/hunter.png"
+import kakarot from "../../content/images/project/kakarot.png"
+import web3mq from "../../content/images/project/web3mq.jpeg"
 
 
 import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
@@ -123,14 +144,12 @@ export default function IndexPage() {
             projectlink: 'https://www.notion.so/DAO-WeDo-e9ccc44999d746e58c817c07a32aa479',
             imgurl: wedo,
             text: 'WeDo-DAO工具'
-        }, 
-         {
+        }, {
             id: '5',
             projectlink: 'https://www.notion.so/Upgrade-Doge-upgradeable-smart-contract-toolkit-5c7f4bed24dc45d69ac64436cf463006',
-            imgurl:upgradedoge,
+            imgurl: upgradedoge,
             text: 'Smart Contract Toolkit'
-        },
-         {
+        }, {
             id: '6',
             projectlink: 'https://www.notion.so/Tokhub-Carta-for-Web3-41074f2cda714006bb7441159cace007',
             imgurl: Tokhub,
@@ -140,7 +159,7 @@ export default function IndexPage() {
             projectlink: 'https://www.notion.so/GitHub-934a2b4c700f41ea9d9d4868770eff81',
             imgurl: GIT3,
             text: '去中心化的GitHub'
-        },{
+        }, {
             id: '8',
             projectlink: 'https://www.notion.so/DAO-Plugins-based-on-Github-71dd5b41e78f42e295357bd535b05f79',
             imgurl: dog,
@@ -148,6 +167,89 @@ export default function IndexPage() {
         }
     ]
 
+
+    const img3list = [
+        {
+            id: '1',
+            projectlink: 'https://antalpha.notion.site/Dsearch-5655cc82e15e417da1416708e23afbe2',
+            imgurl: Dsearch,
+            text: 'Dsearch'
+        },
+        {
+            id: '2',
+            projectlink: 'https://antalpha.notion.site/Seren-5c7092659f70488d9589dfcd3c660eeb',
+            imgurl: Seren,
+            text: 'Seren'
+        },
+        {
+            id: '3',
+            projectlink: 'https://antalpha.notion.site/BOB-YARD-ebf641a5a79a4dfaac697aae5172d899',
+            imgurl: BOBYARD,
+            text: 'BOB YARD'
+        },
+        {
+            id: '4',
+            projectlink: 'https://antalpha.notion.site/On-chain-Game-ba67d6c2b98e4dd8aae847bafd0a2eb6',
+            imgurl: Onchain,
+            text: 'On-chain Game'
+        }, {
+            id: '5',
+            projectlink: 'https://antalpha.notion.site/Moveflow-04289bd1e9c94511b3e6c5b8f73c1643',
+            imgurl: Moveflow,
+            text: 'Moveflow'
+        }, {
+            id: '6',
+            projectlink: 'https://antalpha.notion.site/Airdropper-31438141fb5a4466960bf904c31898e5',
+            imgurl: Airdropper,
+            text: 'Airdropper'
+        }, {
+            id: '7',
+            projectlink: 'https://antalpha.notion.site/Move-barter-c58fe2c173b543909fef5a8752a239a9',
+            imgurl: Movebarter,
+            text: 'Move barter'
+        }, {
+            id: '8',
+            projectlink: 'https://antalpha.notion.site/Mission-board-dd515d905bb949ba977e509dfbc3ed30',
+            imgurl: Missionboard,
+            text: 'Mission board'
+        }, {
+            id: '9',
+            projectlink: 'https://antalpha.notion.site/Dali-orchard-1eb64fc96fb94ee8a34a7a12dde040eb',
+            imgurl: Daliorchard,
+            text: 'Dali orchard'
+        }, {
+            id: '10',
+            projectlink: 'https://antalpha.notion.site/sandtable-xyz-6854d9974b3d49d08ee163152c7e1b41',
+            imgurl: sandtable,
+            text: 'sandtable.xyz '
+        }
+
+    ]
+
+
+    const img4list = [
+        {
+            id: '1',
+            projectlink: 'https://antalpha.notion.site/Kakarot-9b8d21434d5542d892fef16e58021ae3',
+            imgurl: kakarot,
+            text: 'Kakarot'
+        }, {
+            id: '2',
+            projectlink: 'https://antalpha.notion.site/Hunter-Z-Hunter-4e77e251ea8f49f78612993775bae339',
+            imgurl: hunter,
+            text: 'Hunter Z Hunter'
+        }, {
+            id: '3',
+            projectlink: 'https://antalpha.notion.site/Web3-MQ-8059f6c23e9b4c5abbce87abb9302e0d',
+            imgurl: web3mq,
+            text: 'Web3 MQ'
+        }, {
+            id: '4',
+            projectlink: 'https://antalpha.notion.site/Atomiclinks-9e3437937ca4437c9c75c2b5b76f76aa',
+            imgurl: atomiclinks,
+            text: 'Atomiclinks'
+        }
+    ]
 
 
     let arrowImg = arrow
@@ -177,10 +279,10 @@ export default function IndexPage() {
                         </a>
                         <div className="antalpha-navi">
                             {/* <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi"> */}
-                               <Link to="/hackerhouse" className="hackerhouse-navi">
+                            <Link to="/hackerhouse" className="hackerhouse-navi">
                                 <span>HackerHouse</span>
                                 <div className="line"></div>
-                                </Link>
+                            </Link>
                             {/* </a> */}
                             <a href="#showcase" className="showcase-navi">
                                 <span>Showcase</span>
@@ -252,32 +354,8 @@ export default function IndexPage() {
                         <div className="showcase-cutline"></div>
                         <div className="showcase-scroll">
 
-                        <div className="showcase-list2">
-                                {
-                                img2list.map(({
-                                    projectlink,
-                                    text,
-                                    imgurl
-                                }, idx) => {
-                                    return (
-                                        <div className="thefirsthacker-case"
-                                            key={
-                                                text + idx
-                                        }>
-                                            <a href={projectlink}
-                                                className=" thefirsthacker-linkcase"
-                                                hidefocus="true">
-                                                <img src={imgurl}
-                                                    className="case-photo"
-                                                    alt=""/>
 
-                                                <span>{text}</span>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            } </div>
-                        <div className="showcase-list">
+                            <div className="showcase-list">
                                 {
                                 imglist.map(({
                                     projectlink,
@@ -302,16 +380,94 @@ export default function IndexPage() {
                                     )
                                 })
                             } </div>
-                      
-                        
+
+
+                            <div className="showcase-list3">
+                                {
+                                img3list.map(({
+                                    projectlink,
+                                    text,
+                                    imgurl
+                                }, idx) => {
+                                    return (
+                                        <div className="thefirsthacker-case"
+                                            key={
+                                                text + idx
+                                        }>
+                                            <a href={projectlink}
+                                                className=" thefirsthacker-linkcase"
+                                                hidefocus="true">
+                                                <img src={imgurl}
+                                                    className="case-photo"
+                                                    alt=""/>
+
+                                                <span>{text}</span>
+                                            </a>
+                                        </div>
+                                    )
+                                })
+                            } </div>
+
+                            <div className="showcase-list2">
+                                {
+                                img2list.map(({
+                                    projectlink,
+                                    text,
+                                    imgurl
+                                }, idx) => {
+                                    return (
+                                        <div className="thefirsthacker-case"
+                                            key={
+                                                text + idx
+                                        }>
+                                            <a href={projectlink}
+                                                className=" thefirsthacker-linkcase"
+                                                hidefocus="true">
+                                                <img src={imgurl}
+                                                    className="case-photo"
+                                                    alt=""/>
+
+                                                <span>{text}</span>
+                                            </a>
+                                        </div>
+                                    )
+                                })
+                            } </div>
+
+
+                            <div className="showcase-list4">
+                                {
+                                img4list.map(({
+                                    projectlink,
+                                    text,
+                                    imgurl
+                                }, idx) => {
+                                    return (
+                                        <div className="thefirsthacker-case"
+                                            key={
+                                                text + idx
+                                        }>
+                                            <a href={projectlink}
+                                                className=" thefirsthacker-linkcase"
+                                                hidefocus="true">
+                                                <img src={imgurl}
+                                                    className="case-photo"
+                                                    alt=""/>
+
+                                                <span>{text}</span>
+                                            </a>
+                                        </div>
+                                    )
+                                })
+                            } </div>
+
                         </div>
                     </div>
                 </div>
-                    {/* 4、footer */}
+                {/* 4、footer */}
 
 
-                    <Footer></Footer>
-          
+                <Footer></Footer>
 
 
             </div>

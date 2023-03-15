@@ -40,7 +40,7 @@ export default function HackerHouse() {
             startDate: "21st Feb, 2023",
             endDate: "06th, Mar 2023",
             location: "@Denver",
-            belong: "ONGOING"
+            belong: "PAST"
 
 
         }, {
@@ -51,7 +51,7 @@ export default function HackerHouse() {
             startDate: "13th Feb, 2023",
             endDate: "05th, Mar 2023",
             location: "@Dali",
-            belong: "ONGOING"
+            belong: "PAST"
 
         }, {
             id: '4',
@@ -210,33 +210,6 @@ export default function HackerHouse() {
             </a> */}
         {/* </div> */}
 
-        {/* 2、活动提供的福利 */}
-        {/* <div id="weoffer">
-                <div className="hackerhouse-offer-tittle">What We Offer</div>
-                <div className="hackerhouse-offer-container">
-                    <div className="hackerhouse-offer">
-                        <img src={freeaccommodation}></img>
-                        <span className="hackerhouse-offer-littletittle">Free Accommodation</span>
-                        <span>Provide excellent accommodation with a view of the Erhai Lake by the Cang Mountain</span>
-                    </div>
-                    <div className="hackerhouse-offer">
-                        <img src={industrymentor}></img>
-                        <span className="hackerhouse-offer-littletittle">Tech Mentors</span>
-                        <span>Enjoy a smooth development experience with the presence of technical experts and industry experts</span>
-                    </div>
-                    <div className="hackerhouse-offer">
-                        <img src={businesscoach}></img>
-                        <span className="hackerhouse-offer-littletittle">Business Coach</span>
-                        <span>Provide participants with business consulting and coaching to assist in project implementation</span>
-                    </div>
-                    <div className="hackerhouse-offer">
-                        <img src={communityatmosphere}></img>
-                        <span className="hackerhouse-offer-littletittle">Community Vibe</span>
-                        <span>Organizing various activities, and integrating with the local community in Dali</span>
-                    </div>
-                </div>
-            </div> */}
-        {/* 3、合作伙伴 */}
         <Footer></Footer>
     </>
     );

@@ -161,14 +161,7 @@
   gap: 10px;
 }
 
-.chiangmai_support {
-  width: 100%;
-  /* height: 31.8125rem; */
-  margin: 7rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* 
 .support_box {
   margin-top: 2.875rem;
   width: 44.25rem;
@@ -176,7 +169,7 @@
   background-image: url("../../../content/images/hackerhouse/chiangmai/support.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-}
+} */
 
 .participate {
   width: 100%;
@@ -240,6 +233,95 @@
   padding-left: -0.1rem;
 }
 
+
+
+.chiangmai_support {
+  width: 45rem;
+  margin: 7rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.cohost, .techsupport, .talentsupport, .communitysupport, .media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentsupport{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:1.25rem;
+  align-items: center;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+
+.titleimg1 {
+  width: 20.875rem;
+  height:5rem;
+  background-image: url("../../../content/images/hackerhouse/chiangmai/support/cohost.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titleimg2{
+  width: 36.125rem;
+  height: 5rem;
+  background-image: url("../../../content/images/hackerhouse/chiangmai/support/techsupport.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titleimg3{
+  width: 36.125rem;
+  height: 5rem;
+  background-image: url("../../../content/images/hackerhouse/chiangmai/support/talentsupport.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titleimg4{
+  width: 39.875rem;
+  height: 5rem;
+  background-image: url("../../../content/images/hackerhouse/chiangmai/support/communitysupport.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titleimg5{
+  width: 16.875rem;
+  height: 5rem;
+  background-image: url("../../../content/images/hackerhouse/chiangmai/support/media.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+ .bg1{
+  width: 20.9375rem;
+height: 7.375rem;
+background: #5C5CF7;
+border-radius: .625rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.bg2{
+  width: 14rem;
+  height: 4.875rem;
+  background: #5C5CF7;
+  border-radius: .625rem;
+  display: flex;
+align-items: center;
+justify-content: center;
+} 
+
 /* 手机端 */
 
 @media only screen and (max-width: 249px) {
@@ -302,6 +384,53 @@
   .support_box {
     height: 9.75rem;
   }
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 13rem;
+    gap:3rem;
+  }
+
+  .bg1{
+    width: 10rem;
+    height: 3rem;
+    padding: .5rem;
+  }
+
+  .bg1 img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg2{
+    width: 8rem;
+    height: 3rem;
+    padding: .5rem;
+  } 
+  .bg2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleimg1{
+    width: 10rem;
+  }
+  .titleimg2{
+    width: 15rem;
+  }
+  .titleimg3{
+    width: 15rem;
+  }
+  .titleimg4{
+    width: 15rem;
+  }
+  .titleimg5{
+    width: 10rem;
+  }
+  .contentsupport{
+    margin-top: 0.1rem;
+  }
+
+
 }
 
 @media (min-width: 250px) and (max-width: 299px) {
@@ -363,6 +492,54 @@
   .support_box {
     height: 10.75rem;
   }
+
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 13rem;
+    gap:3rem;
+  }
+
+  .bg1{
+    width: 10rem;
+    height: 3rem;
+    padding: .5rem;
+  }
+
+  .bg1 img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg2{
+    width: 8rem;
+    height: 3rem;
+    padding: .5rem;
+  } 
+  .bg2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleimg1{
+    width: 10rem;
+  }
+  .titleimg2{
+    width: 15rem;
+  }
+  .titleimg3{
+    width: 15rem;
+  }
+  .titleimg4{
+    width: 15rem;
+  }
+  .titleimg5{
+    width: 10rem;
+  }
+  .contentsupport{
+    margin-top: 0.1rem;
+  }
+
+
 }
 
 @media (min-width: 301px) and (max-width: 329px) {
@@ -422,6 +599,52 @@
   .support_box {
     height: 13.75rem;
   }
+
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 13rem;
+    gap:3rem;
+  }
+
+  .bg1{
+    width: 12rem;
+    height: 5rem;
+    padding: .8rem;
+  }
+
+  .bg1 img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg2{
+    width: 10rem;
+    height: 3.75rem;
+    padding: .8rem;
+  } 
+  .bg2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleimg1{
+    width: 10rem;
+  }
+  .titleimg2{
+    width: 16rem;
+  }
+  .titleimg3{
+    width: 16rem;
+  }
+  .titleimg4{
+    width: 16rem;
+  }
+  .titleimg5{
+    width: 10rem;
+  }
+  .contentsupport{
+    margin-top: 0.1rem;
+  }
 }
 
 @media (min-width: 330px) and (max-width: 360px) {
@@ -464,6 +687,40 @@
   .support_box {
     height: 15.75rem;
   }
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 20rem;
+  }
+
+  .bg1{
+    width: 19rem;
+    height: 6rem;
+  }
+  
+  .bg2{
+    width: 13rem;
+    height: 5rem;
+  } 
+
+  .titleimg1{
+    width: 13rem;
+  }
+  .titleimg2{
+    width: 22rem;
+  }
+  .titleimg3{
+    width: 22rem;
+  }
+  .titleimg4{
+    width: 22rem;
+  }
+  .titleimg5{
+    width: 13rem;
+  }
+  .contentsupport{
+    margin-top: 0.85rem;
+  }
+
 }
 
 @media (min-width: 361px) and (max-width: 399px) {
@@ -502,6 +759,43 @@
     height: 3rem;
     margin: 0;
   }
+  .chiangmai_support {
+    width: 25rem;
+  }
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 20rem;
+  }
+
+  .bg1{
+    width: 19rem;
+    height: 6rem;
+  }
+  
+  .bg2{
+    width: 13rem;
+    height: 5rem;
+  } 
+
+  .titleimg1{
+    width: 13rem;
+  }
+  .titleimg2{
+    width: 22rem;
+  }
+  .titleimg3{
+    width: 22rem;
+  }
+  .titleimg4{
+    width: 22rem;
+  }
+  .titleimg5{
+    width: 13rem;
+  }
+  .contentsupport{
+    margin-top: 0.85rem;
+  }
+
 }
 
 @media (min-width: 400px) and (max-width: 539px) {
@@ -527,9 +821,7 @@
     width: 100vw;
     height: 78%;
   }
-  .chiangmai_support {
-    margin: 0rem auto;
-  }
+
 
   .participate {
     margin-top: 5rem;
@@ -540,6 +832,42 @@
     height: 3rem;
     margin: 0;
   }
+
+
+  .chiangmai_support {
+    margin: 2rem auto;
+    width: 25rem;
+  }
+
+  .bg1{
+    width: 19.9rem;
+    height: 6.3rem;
+  }
+  
+  .bg2{
+    width: 12rem;
+    height: 4rem;
+  } 
+
+  .titleimg1{
+    width: 15rem;
+  }
+  .titleimg2{
+    width: 25.8rem;
+  }
+  .titleimg3{
+    width: 25.8rem;
+  }
+  .titleimg4{
+    width: 25.8rem;
+  }
+  .titleimg5{
+    width: 15rem;
+  }
+  .contentsupport{
+    margin-top: 1rem;
+  }
+
 }
 
 /* ipad */
@@ -574,6 +902,9 @@
   }
   .chiangmai_add {
     font-size: 12px;
+  }
+  .chiangmai_support {
+    width: 25rem;
   }
 
 }
@@ -611,6 +942,9 @@
   }
   .chiangmai_add {
     font-size: 12px;
+  }
+  .chiangmai_support {
+    width: 33rem;
   }
 }
 
