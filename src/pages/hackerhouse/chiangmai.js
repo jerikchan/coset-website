@@ -115,7 +115,7 @@ export default function chiangmai() {
                         <div className="contentbox3">
                             <h2>Schedule of Events</h2>
                             <p>To enhance your knowledge and understanding of ZKP, we will provide you with ZKP learning materials prior to the event. During the event, we will organize a variety of&nbsp;
-                                <span>activities, such as lectures, discussions, and brainstorming sessions</span>
+                                <span>activities, such as lectures, discussions, and brainstorming sessions</span>&nbsp;
                                 to help participants develop project ideas. Additionally, we will have mentors available to offer&nbsp;
                                 <span>technical and strategic guidance</span>.</p>
                             <p>
