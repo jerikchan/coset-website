@@ -40,9 +40,7 @@ export default function chiangmai() {
     return (
         <>
             <Seo title="Antalpha Labs-Web3 developers community"/> 
-            <head>
-            <meta property="og:image" content="../../../content/images/og/chiangmai.png"/>
-            </head>   
+      
 
            
             {/* 1、这里是logo */}

@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "gatsby"
-import { Helmet } from "react-helmet"
 import Footer from "../components/footer"
 import "./global.css";
 import "./indexpage.css";
@@ -266,15 +265,16 @@ export default function IndexPage() {
         <>
 
 
-<Helmet>
-      <title>Antalpha Labs</title>
-      <meta name="description" content="Antalpha Labs is a web3 developer community" />
-      <meta property="og:title" content="A web3 developer community" />
-      <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" />
-      <meta property="og:image" content="ahhlogo"/>
-    </Helmet>
       
-    <Seo title="Antalpha Labs-Web3 developers community"/> 
+   
+   <head>
+   title="Antalpha Labs-Web3 developers community"
+    <meta name="description" content="Antalpha Labs is a web3 developer community" />
+    <meta property="og:title" content="A web3 developer community" />
+    <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" />
+    <meta property="og:image" content="../../content/images/og/ahhlogo.png"/>
+  </head>
+ 
         
        
              {/* 1、首页 */}
