@@ -92,10 +92,7 @@ export default function HackerHouse() {
 
         <head>
             <Seo title="Antalpha Labs-Web3 developers community" /> 
-
-        </head>
-            
-         
+        </head>    
           
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}

@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "gatsby"
+// import Helmet from "react-helmet"
 import Footer from "../components/footer"
 import "./global.css";
 import "./indexpage.css";
@@ -54,9 +55,6 @@ import web3mq from "../../content/images/project/web3mq.jpeg"
 
 import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
 import arrow3 from "../../content/images/antalpha/arrow-up-right -white.svg"
-
-
-import ahhlogo from "../../content/images/og/ahhlogo.png"
 
 export default function IndexPage() {
     const imglist = [
@@ -261,229 +259,228 @@ export default function IndexPage() {
         }
     }
 
-    return (
-        <>
+    return (<>
 
-
+        <Seo title="Antalpha Labs-Web3 developers community"/>
       
-   
-   <head>
-   title="Antalpha Labs-Web3 developers community"
-    <meta name="description" content="Antalpha Labs is a web3 developer community" />
-    <meta property="og:title" content="A web3 developer community" />
-    <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" />
-    <meta property="og:image" content="../../content/images/og/ahhlogo.png"/>
-  </head>
- 
-        
-       
-             {/* 1、首页 */}
-            <div className="antalpha-container">
-                {/* 顶部导航 */}
-                <div className="antalpha-container1">
-                    <div className="antalpha-navigator">
-                        <a href="/" target="_self">
-                            <div className="antalpha-logo">
-                                <img src={logo}
-                                    alt=""
-                                    className="Icon1"/>
-                                <img src={logo2}
-                                    alt=""
-                                    className="Icon2"/>
-                            </div>
-                        </a>
-                        <div className="antalpha-navi">
-                            {/* <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi"> */}
-                            <Link to="/hackerhouse" className="hackerhouse-navi">
-                                <span>HackerHouse</span>
-                                <div className="line"></div>
-                            </Link>
-                            {/* </a> */}
-                            <a href="#showcase" className="showcase-navi">
-                                <span>Showcase</span>
-                                <div className="line"></div>
-                            </a>
+
+           
+        {/* <Helmet>
+            <meta name="description" content="Antalpha Labs is a web3 developer community"/>
+            <meta property="og:title" content="A web3 developer community"/>
+            <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology"/>
+            <meta property="og:image" content="../../content/images/og/ahhlogo.png"/>
+        </Helmet> */}
+
+
+        {/* 1、首页 */}
+        <div className="antalpha-container">
+            {/* 顶部导航 */}
+            <div className="antalpha-container1">
+                <div className="antalpha-navigator">
+                    <a href="/" target="_self">
+                        <div className="antalpha-logo">
+                            <img src={logo}
+                                alt=""
+                                className="Icon1"/>
+                            <img src={logo2}
+                                alt=""
+                                className="Icon2"/>
                         </div>
-                    </div>
-                    {/* 主要内容 */}
-                    <div className="antalpha-mianlogo">
-                        <img src={mianlogo} loading="lazy"
-                            alt=""
-                            className="Icon"/>
-                    </div>
-
-                    <div className="antalpha-intro">
-                        <div>Antalpha Labs is a web3 developer community...</div>
-                        <a href="https://discord.gg/5VDVhY6czv">
-                            <button className="botton">Join us</button>
+                    </a>
+                    <div className="antalpha-navi">
+                        {/* <a href="https://labs.antalpha.com/hackerhouse" className="hackerhouse-navi"> */}
+                        <Link to="/hackerhouse" className="hackerhouse-navi">
+                            <span>HackerHouse</span>
+                            <div className="line"></div>
+                        </Link>
+                        {/* </a> */}
+                        <a href="#showcase" className="showcase-navi">
+                            <span>Showcase</span>
+                            <div className="line"></div>
                         </a>
                     </div>
+                </div>
+                {/* 主要内容 */}
+                <div className="antalpha-mianlogo">
+                    <img src={mianlogo}
+                        loading="lazy"
+                        alt=""
+                        className="Icon"/>
+                </div>
 
-                    <a href="#aboutus" className="nextpage">
-                        <img src={nextpage} 
-                            alt=""></img>
+                <div className="antalpha-intro">
+                    <div>Antalpha Labs is a web3 developer community...</div>
+                    <a href="https://discord.gg/5VDVhY6czv">
+                        <button className="botton">Join us</button>
                     </a>
                 </div>
 
-                {/* 2、关于我们 */}
-                <div id="aboutus">
-                    <div className="antalpha-containe1">
-                        <div className="about-antalpha">
-                            <div className="about-antalpha-box">
-                                <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
-                                <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
-                                <div className="antalpha-title antalpha-aboutus">We are here to:</div>
-                                <ul className="antalpha-title antalpha-aboutuslist">
-                                    <li>
-                                        <img src={check}
-                                            alt=""></img>Learn web3 technology.</li>
-                                    <li>
-                                        <img src={check}
-                                            alt=""></img>Build open source projects.</li>
-                                    <li className="check3">
-                                        <img src={check}
-                                            alt=""></img>Support open source projects by grant and user growth strategy.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* 3、案例 */}
-                <div id="showcase">
-                    <div className="antalpha-showcase">
-                        <div className="showcase-title">
-                            <div>Showcase</div>
-                            <a className="viewALl-href" href="https://antalpha.notion.site/">
-                                <button className="botton viewall-button"
-                                    onFocus={
-                                        () => viewAllOnchange("focus")
-                                    }
-                                    onClick={
-                                        () => viewAllOnchange("click")
-                                }>View all {/*arrowImg*/}
-                                    {/* <img src={arrow} alt="" className="arrow" ></img>  */}
-                                    <div className="viewAll-arrow"></div>
-                                </button>
-                            </a>
-                        </div>
-                        <div className="showcase-cutline"></div>
-                        <div className="showcase-scroll">
-
-
-                            <div className="showcase-list">
-                                {
-                                imglist.map(({
-                                    projectlink,
-                                    text,
-                                    imgurl
-                                }, idx) => {
-                                    return (
-                                        <div className="thefirsthacker-case"
-                                            key={
-                                                text + idx
-                                        }>
-                                            <a href={projectlink}
-                                                className=" thefirsthacker-linkcase"
-                                                hidefocus="true">
-                                                <img src={imgurl}
-                                                    className="case-photo" loading="lazy"
-                                                    alt=""/>
-
-                                                <span>{text}</span>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            } </div>
-
-
-                            <div className="showcase-list3">
-                                {
-                                img3list.map(({
-                                    projectlink,
-                                    text,
-                                    imgurl
-                                }, idx) => {
-                                    return (
-                                        <div className="thefirsthacker-case"
-                                            key={
-                                                text + idx
-                                        }>
-                                            <a href={projectlink}
-                                                className=" thefirsthacker-linkcase"
-                                                hidefocus="true">
-                                                <img src={imgurl}
-                                                    className="case-photo" loading="lazy"
-                                                    alt=""/>
-                                                <span>{text}</span>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            } </div>
-
-                            <div className="showcase-list2">
-                                {
-                                img2list.map(({
-                                    projectlink,
-                                    text,
-                                    imgurl
-                                }, idx) => {
-                                    return (
-                                        <div className="thefirsthacker-case"
-                                            key={
-                                                text + idx
-                                        }>
-                                            <a href={projectlink}
-                                                className=" thefirsthacker-linkcase"
-                                                hidefocus="true">
-                                                <img src={imgurl}
-                                                    className="case-photo" loading="lazy"
-                                                    alt=""/>
-                                                <span>{text}</span>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            } </div>
-
-                            <div className="showcase-list4">
-                                {
-                                img4list.map(({
-                                    projectlink,
-                                    text,
-                                    imgurl
-                                }, idx) => {
-                                    return (
-                                        <div className="thefirsthacker-case"
-                                            key={
-                                                text + idx
-                                        }>
-                                            <a href={projectlink}
-                                                className=" thefirsthacker-linkcase"
-                                                hidefocus="true">
-                                                <img src={imgurl}
-                                                    className="case-photo" loading="lazy"
-                                                    alt=""/ >
-                                                <span>{text}</span>
-                                            </a>
-                                        </div>
-                                    )
-                                })
-                            } </div>
-
-                        </div>
-                    </div>
-                </div>
-                {/* 4、footer */}
-
-
-                <Footer></Footer>
-
-
+                <a href="#aboutus" className="nextpage">
+                    <img src={nextpage}
+                        alt=""></img>
+                </a>
             </div>
 
-        </>
-    );
-}
+            {/* 2、关于我们 */}
+            <div id="aboutus">
+                <div className="antalpha-containe1">
+                    <div className="about-antalpha">
+                        <div className="about-antalpha-box">
+                            <div className="antalpha-title antalpha-bigtitle">About Antalpha Labs</div>
+                            <div className="antalpha-title antalpha-detailintro">Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.</div>
+                            <div className="antalpha-title antalpha-aboutus">We are here to:</div>
+                            <ul className="antalpha-title antalpha-aboutuslist">
+                                <li>
+                                    <img src={check}
+                                        alt=""></img>Learn web3 technology.</li>
+                                <li>
+                                    <img src={check}
+                                        alt=""></img>Build open source projects.</li>
+                                <li className="check3">
+                                    <img src={check}
+                                        alt=""></img>Support open source projects by grant and user growth strategy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* 3、案例 */}
+            <div id="showcase">
+                <div className="antalpha-showcase">
+                    <div className="showcase-title">
+                        <div>Showcase</div>
+                        <a className="viewALl-href" href="https://antalpha.notion.site/">
+                            <button className="botton viewall-button"
+                                onFocus={
+                                    () => viewAllOnchange("focus")
+                                }
+                                onClick={
+                                    () => viewAllOnchange("click")
+                            }>View all {/*arrowImg*/}
+                                {/* <img src={arrow} alt="" className="arrow" ></img>  */}
+                                <div className="viewAll-arrow"></div>
+                            </button>
+                        </a>
+                    </div>
+                    <div className="showcase-cutline"></div>
+                    <div className="showcase-scroll">
+
+
+                        <div className="showcase-list">
+                            {
+                            imglist.map(({
+                                projectlink,
+                                text,
+                                imgurl
+                            }, idx) => {
+                                return (
+                                    <div className="thefirsthacker-case"
+                                        key={
+                                            text + idx
+                                    }>
+                                        <a href={projectlink}
+                                            className=" thefirsthacker-linkcase"
+                                            hidefocus="true">
+                                            <img src={imgurl}
+                                                className="case-photo"
+                                                loading="lazy"
+                                                alt=""/>
+
+                                            <span>{text}</span>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        } </div>
+
+
+                        <div className="showcase-list3">
+                            {
+                            img3list.map(({
+                                projectlink,
+                                text,
+                                imgurl
+                            }, idx) => {
+                                return (
+                                    <div className="thefirsthacker-case"
+                                        key={
+                                            text + idx
+                                    }>
+                                        <a href={projectlink}
+                                            className=" thefirsthacker-linkcase"
+                                            hidefocus="true">
+                                            <img src={imgurl}
+                                                className="case-photo"
+                                                loading="lazy"
+                                                alt=""/>
+                                            <span>{text}</span>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        } </div>
+
+                        <div className="showcase-list2">
+                            {
+                            img2list.map(({
+                                projectlink,
+                                text,
+                                imgurl
+                            }, idx) => {
+                                return (
+                                    <div className="thefirsthacker-case"
+                                        key={
+                                            text + idx
+                                    }>
+                                        <a href={projectlink}
+                                            className=" thefirsthacker-linkcase"
+                                            hidefocus="true">
+                                            <img src={imgurl}
+                                                className="case-photo"
+                                                loading="lazy"
+                                                alt=""/>
+                                            <span>{text}</span>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        } </div>
+
+                        <div className="showcase-list4">
+                            {
+                            img4list.map(({
+                                projectlink,
+                                text,
+                                imgurl
+                            }, idx) => {
+                                return (<div className="thefirsthacker-case"
+                                    key={
+                                        text + idx
+                                }>
+                                    <a href={projectlink}
+                                        className=" thefirsthacker-linkcase"
+                                        hidefocus="true">
+                                        <img src={imgurl}
+                                            className="case-photo"
+                                            loading="lazy"
+                                            alt="" />
+                                            <span>{text}</span>
+                                        </a>
+                                    </div>)
+                                                                    })
+                                    
+                        } </div>
+
+                    </div>
+                </div>
+            </div>
+            {/* 4、footer */}
+            <Footer></Footer>
+
+
+        </div>
+
+    </>
+);}
