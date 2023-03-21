@@ -30,6 +30,7 @@ import ethplanet from "../../../content/images/hackerhouse/chiangmai/support/eth
 import ethstorage from "../../../content/images/hackerhouse/chiangmai/support/ethstorage.png";
 import logo706 from "../../../content/images/hackerhouse/chiangmai/support/706.png";
 import hyper from "../../../content/images/hackerhouse/chiangmai/support/hyper.png";
+import aspecta from "../../../content/images/hackerhouse/chiangmai/support/aspecta.png";
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
@@ -38,7 +39,13 @@ export default function chiangmai() {
 
     return (
         <>
-            <Seo title="Antalpha Labs-Web3 developers community"/> {/* 1、这里是logo */}
+            <Seo title="Antalpha Labs-Web3 developers community"/> 
+            <head>
+            <meta property="og:image" content="../../../content/images/og/chiangmai.png"/>
+            </head>   
+
+           
+            {/* 1、这里是logo */}
             <Navi styles={
                 {}
             }></Navi>
@@ -167,6 +174,17 @@ export default function chiangmai() {
                         </div>
                     </div>
                 </div>
+
+
+                <div className="hackerid">
+                    <div className="titleimg6"></div>
+                    <div className="contentsupport">
+                        <div className="bg1">
+                            <img src={aspecta} loading="lazy"></img>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className="communitysupport">
                     <div className="titleimg4"></div>

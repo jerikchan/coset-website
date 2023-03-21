@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "gatsby"
-
+import { Helmet } from "react-helmet"
 import Footer from "../components/footer"
 import "./global.css";
 import "./indexpage.css";
@@ -47,16 +47,17 @@ import Missionboard from "../../content/images/project/Missionboard.jpeg"
 import Daliorchard from "../../content/images/project/Daliorchard.png"
 import sandtable from "../../content/images/project/sandtable.png"
 
-
 // 第四期
 import atomiclinks from "../../content/images/project/atomiclinks.jpeg"
 import hunter from "../../content/images/project/hunter.png"
 import kakarot from "../../content/images/project/kakarot.png"
 import web3mq from "../../content/images/project/web3mq.jpeg"
 
-
 import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
 import arrow3 from "../../content/images/antalpha/arrow-up-right -white.svg"
+
+
+import ahhlogo from "../../content/images/og/ahhlogo.png"
 
 export default function IndexPage() {
     const imglist = [
@@ -260,9 +261,23 @@ export default function IndexPage() {
             arrowImg = arrow3
         }
     }
+
     return (
         <>
-            <Seo title="Antalpha Labs-Web3 developers community"/> {/* 1、首页 */}
+
+
+<Helmet>
+      <title>Antalpha Labs</title>
+      <meta name="description" content="Antalpha Labs is a web3 developer community" />
+      <meta property="og:title" content="A web3 developer community" />
+      <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" />
+      <meta property="og:image" content="ahhlogo"/>
+    </Helmet>
+      
+    <Seo title="Antalpha Labs-Web3 developers community"/> 
+        
+       
+             {/* 1、首页 */}
             <div className="antalpha-container">
                 {/* 顶部导航 */}
                 <div className="antalpha-container1">
@@ -333,6 +348,7 @@ export default function IndexPage() {
                         </div>
                     </div>
                 </div>
+
                 {/* 3、案例 */}
                 <div id="showcase">
                     <div className="antalpha-showcase">
@@ -400,7 +416,6 @@ export default function IndexPage() {
                                                 <img src={imgurl}
                                                     className="case-photo" loading="lazy"
                                                     alt=""/>
-
                                                 <span>{text}</span>
                                             </a>
                                         </div>
@@ -426,14 +441,12 @@ export default function IndexPage() {
                                                 <img src={imgurl}
                                                     className="case-photo" loading="lazy"
                                                     alt=""/>
-
                                                 <span>{text}</span>
                                             </a>
                                         </div>
                                     )
                                 })
                             } </div>
-
 
                             <div className="showcase-list4">
                                 {
@@ -453,7 +466,6 @@ export default function IndexPage() {
                                                 <img src={imgurl}
                                                     className="case-photo" loading="lazy"
                                                     alt=""/ >
-
                                                 <span>{text}</span>
                                             </a>
                                         </div>

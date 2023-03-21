@@ -88,9 +88,14 @@ export default function HackerHouse() {
     }
     return (
         <>
-            <Seo title="Antalpha Labs-Web3 developers community"/> {/* <div className="container">  */}
 
 
+        <head>
+            <Seo title="Antalpha Labs-Web3 developers community" /> 
+
+        </head>
+            
+         
           
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}
@@ -135,7 +140,6 @@ export default function HackerHouse() {
                     } </ul>
                 </div>
                 <div className="event_container">
-
 
                     {
                     filteredList.length !== 0 ? filteredList.map((item, idx) => (
