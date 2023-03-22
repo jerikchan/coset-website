@@ -164,14 +164,14 @@ export default function chiangmai() {
                     </div>
                 </div>
 
-                <div className="talentsupport">
+                {/* <div className="talentsupport">
                     <div className="titleimg3"></div>
                     <div className="contentsupport">
                         <div className="bg1">
                             <img src={atcapital} loading="lazy"></img>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className="hackerid">
