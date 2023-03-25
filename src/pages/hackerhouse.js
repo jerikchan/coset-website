@@ -10,7 +10,6 @@ import comingsoon from "../../content/images/hackerhouse/comingsoon.svg"
 import timearrow from "../../content/images/hackerhouse/timearrow.svg"
 import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
 
-import SEO from "../components/SEO/SEO.js"
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
@@ -87,9 +86,7 @@ export default function HackerHouse() {
         <>
 
             <Seo title="Antalpha Labs-Web3 developers community" /> 
-            <SEO title="HackerHouse Events"
-description="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" 
-image={mainlogo} ></SEO>
+
           
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}
