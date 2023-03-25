@@ -9,11 +9,8 @@ import lens from "../../content/images/hackerhouse/lens.svg"
 import comingsoon from "../../content/images/hackerhouse/comingsoon.svg"
 import timearrow from "../../content/images/hackerhouse/timearrow.svg"
 import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
-// import nextpage from "../../content/images/hackerhouse/nextpage.png"
-// import freeaccommodation from "../../content/images/hackerhouse/freeaccommodation.png"
-// import communityatmosphere from "../../content/images/hackerhouse/communityatmosphere.png"
-// import businesscoach from "../../content/images/hackerhouse/businesscoach.png"
-// import industrymentor from "../../content/images/hackerhouse/industrymentor.png"
+
+import SEO from "../components/SEO/SEO.js"
 
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
@@ -89,10 +86,10 @@ export default function HackerHouse() {
     return (
         <>
 
-
-        <head>
             <Seo title="Antalpha Labs-Web3 developers community" /> 
-        </head>    
+            <SEO title="HackerHouse Events"
+description="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" 
+image={mainlogo} ></SEO>
           
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}

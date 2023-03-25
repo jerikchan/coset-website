@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Your Site Title",
-    titleTemplate: "%s · Your Site Name", // 添加这一行
-    description: "Your site description",
-    url:"",
-    image:"",
+    title: "Antalpha Labs",
+    titleTemplate: "%s · Antalpha Labs", // 添加这一行
+    description: "Antalpha Labs is a web3 developer community",
+    url:"https://hackhack111-8mf4.vercel.app",
+    image:"https://hackhack111-8mf4.vercel.app/static/mainlogo-eabcf082112087699216b13369d1413c.svg",
     twitterUsername:"",
     // 其他字段...
   },
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://labs.antalpha.com", // Used for sitemap generation
+        siteUrl: "https://hackhack111-8mf4.vercel.app", // Used for sitemap generation    https://labs.antalpha.com
         manifestSettings: {
           favicon: "./content/images/favicon.png", // Path is relative to the root
           siteName: "Antalpha Labs", // Used in manifest.json
