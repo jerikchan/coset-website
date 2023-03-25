@@ -1,4 +1,13 @@
 module.exports = {
+  siteMetadata: {
+    title: "Your Site Title",
+    titleTemplate: "%s · Your Site Name", // 添加这一行
+    description: "Your site description",
+    url:"",
+    image:"",
+    twitterUsername:"",
+    // 其他字段...
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -19,6 +28,8 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
+
+        
         
         // googleAnalytics: {
         //     trackingId: "UA-XXXXXX-X",

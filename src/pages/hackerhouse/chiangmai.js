@@ -8,7 +8,7 @@ import ahh from "../../../content/images/hackerhouse/chiangmai/support/ahh.png";
 import mantle from "../../../content/images/hackerhouse/chiangmai/support/mantle.png";
 import secbit from "../../../content/images/hackerhouse/chiangmai/support/secbit.png";
 import scroll from "../../../content/images/hackerhouse/chiangmai/support/scroll.png";
-import atcapital from "../../../content/images/hackerhouse/chiangmai/support/a&tcapital.png";
+
 import blockbeats from "../../../content/images/hackerhouse/chiangmai/support/blockbeats.png";
 import chain from "../../../content/images/hackerhouse/chiangmai/support/chain.png";
 import panews from "../../../content/images/hackerhouse/chiangmai/support/panews.png";
