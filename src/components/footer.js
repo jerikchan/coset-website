@@ -63,7 +63,7 @@ class Footer extends Component {
                             }
                             name="email"
                             placeholder="Your email address"/> */}
-                        <iframe src="https://woshizhengqiuwan.substack.com/embed" width="380"
+                        <iframe src="https://antalphalabs.substack.com/embed" width="380"
                             style={
                                 {
                                     border: "1px solid transparent",

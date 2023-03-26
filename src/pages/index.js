@@ -11,6 +11,8 @@ import mianlogo from "../../content/images/antalpha/mainlogo.svg"
 import {Seo} from "gatsby-theme-portfolio-minimal";
 import SEO from "../components/SEO/SEO.js"
 
+import ahhlogo from "../../content/images/og/ahhlogo.png"
+
 
 // 第一期
 import check from "../../content/images/antalpha/check.svg"
@@ -268,14 +270,9 @@ export default function IndexPage() {
         {/* 调用组件 */}
         <SEO title="Antalpha Labs-Web3 developers community"
          description="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" 
-         image={mianlogo} ></SEO>
+         image={ahhlogo} ></SEO>
            
-        {/* <Helmet>
-            <meta name="description" content="Antalpha Labs is a web3 developer community"/>
-            <meta property="og:title" content="A web3 developer community"/>
-            <meta property="og:description" content="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology"/>
-            <meta property="og:image" content="../../content/images/og/ahhlogo.png"/>
-        </Helmet> */}
+   
 
 
         {/* 1、首页 */}
