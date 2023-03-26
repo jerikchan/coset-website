@@ -67,9 +67,12 @@
 .input-box {
   /* background-color: transparent; */
   width: 477.35px;
-  height: 68px;
+  height: 98px;
   display: flex;
   flex-direction: row;
+  margin-left: -40px;
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
 input{
   width: 400px;

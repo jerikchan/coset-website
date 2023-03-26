@@ -1,3 +1,6 @@
+
+const { createProxyMiddleware } = require("http-proxy-middleware");
+
 module.exports = {
   siteMetadata: {
     title: "Antalpha Labs",
@@ -7,6 +10,15 @@ module.exports = {
     image:"https://hackhack111-8mf4.vercel.app/static/mainlogo-eabcf082112087699216b13369d1413c.svg",
     twitterUsername:"",
     // 其他字段...
+  },
+  developMiddleware: (app) => {
+    app.use(
+      "/api", // 代理的路径
+      createProxyMiddleware({
+        target: "https://woshizhengqiuwan.substack.com", // 目标 API 的 URL
+        changeOrigin: true, // 是否更改源（允许跨域）
+      })
+    );
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

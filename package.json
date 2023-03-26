@@ -15,6 +15,7 @@
     "gatsby": "^4.18.2",
     "gatsby-plugin-react-helmet": "^5.0.0",
     "gatsby-theme-portfolio-minimal": "latest",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -52,5 +53,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "axios": "^1.3.4"
+  }
 }

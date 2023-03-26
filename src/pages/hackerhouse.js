@@ -4,13 +4,13 @@ import Footer from "../components/footer"
 import "./global.css";
 import "./hackerhouse.css"
 import Navi from "../components/navi"
-
+import SEO from "../components/SEO/SEO.js"
 import lens from "../../content/images/hackerhouse/lens.svg"
 import comingsoon from "../../content/images/hackerhouse/comingsoon.svg"
 import timearrow from "../../content/images/hackerhouse/timearrow.svg"
 import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
 
-
+import events from "../../content/images/og/events.png"
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
@@ -86,7 +86,9 @@ export default function HackerHouse() {
         <>
 
             <Seo title="Antalpha Labs-Web3 developers community" /> 
-
+            <SEO title="HackerHouse Events"
+         description="Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects." 
+         image={events} ></SEO>
           
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}

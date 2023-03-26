@@ -4,6 +4,8 @@ import Navi from "../../components/navi"
 import "../global.css";
 import "./chiangmai.css";
 
+import chiangmaitwitter from "../../../content/images/og/chiangmaitwitter.png";
+
 import ahh from "../../../content/images/hackerhouse/chiangmai/support/ahh.png";
 import mantle from "../../../content/images/hackerhouse/chiangmai/support/mantle.png";
 import secbit from "../../../content/images/hackerhouse/chiangmai/support/secbit.png";
@@ -32,7 +34,7 @@ import logo706 from "../../../content/images/hackerhouse/chiangmai/support/706.p
 import hyper from "../../../content/images/hackerhouse/chiangmai/support/hyper.png";
 import aspecta from "../../../content/images/hackerhouse/chiangmai/support/aspecta.png";
 
-
+import SEO from "../../components/SEO/SEO.js"
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
 export default function chiangmai() {
@@ -41,7 +43,10 @@ export default function chiangmai() {
         <>
             <Seo title="Antalpha Labs-Web3 developers community"/> 
       
-
+            <SEO title="Antalpha Labs-Web3 developers community"
+         description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program." 
+         image={chiangmaitwitter} ></SEO>
+           
            
             {/* 1、这里是logo */}
             <Navi styles={
