@@ -93,7 +93,7 @@
     width: 100vw;
     height: 3.75rem;
     display: flex;
-    background-image: url("../../content/images/navi/navibg_small.png");
+    background-image: url("../../content/images/navi/navibg_small.svg");
     top: 0;
     background-color: white;
     z-index: 9999999999;
