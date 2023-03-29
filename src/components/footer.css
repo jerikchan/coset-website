@@ -118,7 +118,7 @@ input::placeholder{
     font-family: "Montserrat6";
   }
   .footer {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     flex-direction: column;
   }

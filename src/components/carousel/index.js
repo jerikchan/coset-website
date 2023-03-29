@@ -157,11 +157,11 @@ export default class Test extends Component {
     renderIndicators() {
         
         return (
-            <div className = 'carousel-footer'>
-                <ul className = 'indicators-container'>
+            <div className = 'carousel-footer1'>
+                <ul className = 'indicators-container1'>
                     {this.props.children.map((item, index) => {
                         let active = this.getIndicatorsActive(index)
-                        return <li onMouseOver = {() => this.handleCarouselFooterMouseOver(index)} className = {`indicators-item ${active}`} key = {index} ></li>
+                        return <li onMouseOver = {() => this.handleCarouselFooterMouseOver(index)} className = {`indicators-item1 ${active}`} key = {index} ></li>
                     })}
                 </ul>
             </div>
@@ -170,19 +170,17 @@ export default class Test extends Component {
 
     render() {
         return( 
-            <div className = 'carousel-container' onMouseOver = {this.handleCarouselBodyMouseOver} onMouseOut = {this.handleCarouselBodyMouseOut}>
-                <div className = 'carousel-body' onTransitionEnd = {this.handlerTransitionEnd} style = {{transition: `transform ${this.state.animationStep}s`,width: `${(this.props.children.length+2)*100}%`, transform: `translateX(${-100/(this.props.children.length+2)*(this.state.currentCarousel+1)}%)`}}>
-                    <div className = {`carousel-item`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {'strat'} >{this.props.children[this.props.children.length-1]}</div>
+            <div className = 'carousel-container1' onMouseOver = {this.handleCarouselBodyMouseOver} onMouseOut = {this.handleCarouselBodyMouseOut}>
+                <div className = 'carousel-body1' onTransitionEnd = {this.handlerTransitionEnd} style = {{transition: `transform ${this.state.animationStep}s`,width: `${(this.props.children.length+2)*100}%`, transform: `translateX(${-100/(this.props.children.length+2)*(this.state.currentCarousel+1)}%)`}}>
+                    <div className = {`carousel-item1`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {'strat'} >{this.props.children[this.props.children.length-1]}</div>
                     {this.props.children.map((item, index) => {
-                        return <div className = {`carousel-item`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {index} >{item}</div>
+                        return <div className = {`carousel-item1`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {index} >{item}</div>
                     })}
-                     <div className = {`carousel-item`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {'end'} >{this.props.children[0]}</div>
+                     <div className = {`carousel-item1`} style = {{width: `${100/(this.props.children.length+2)}%`}} key = {'end'} >{this.props.children[0]}</div>
                 </div>
+                  
                 {this.renderIndicators()}
-                <div className = 'btn-container'>
-                    <div className = 'btn-direction pre' onClick = {this.handlerPre}>{'<'}</div>
-                    <div className = 'btn-direction next' onClick = {this.handlerNext}>{'>'}</div>  
-                </div>
+              
             </div>
         )
     }
