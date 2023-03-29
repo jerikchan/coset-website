@@ -301,12 +301,19 @@ padding-bottom: 5.5rem;
     width: 23rem;
     padding: -0.65rem 3.375rem;
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .montenegro_title{
     padding-top: 4rem;
     font-size: 1.0625rem;
   }
+
+  .montenegro_fifth {
+    margin-top: -2rem;;
+  }
+
+
 
   .montenegro_button{
     width: 11rem;
