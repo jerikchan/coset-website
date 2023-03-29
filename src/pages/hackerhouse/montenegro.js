@@ -12,6 +12,7 @@ import harry from "../../../content/images/hackerhouse/montenegro/harry.png"
 import gigi from "../../../content/images/hackerhouse/montenegro/gigi.png"
 import circle from "../../../content/images/hackerhouse/montenegro/circle.png"
 import youai from "../../../content/images/hackerhouse/montenegro/youai.png"
+import Geoge from "../../../content/images/hackerhouse/montenegro/geoge.png"
 
 import Carousel from '../../components/carousel/index.js';
 
@@ -206,7 +207,29 @@ export default function montenegro() {
                                         <p>By separating contract logic into multiple modules and managing and combining them through abstract accounts, more complex and feature-rich applications can be built, and they can be shared and reused across different applications.</p>
                                     </div>
                                 </div>
+                                <div>
+                                    <div className="avatar">
+                                        <img src={Geoge}></img>
+                                        <div className="name_company">
+                                            <span>George</span>
+                                            <span>@Unipass  </span>
+                                        </div>
+                                    </div>
 
+                                    <div>
+                                        <p>1.Explore different modular architectures.  </p>
+                                        <p>Implement a different modular architecture;Build modules based on them </p>
+                                        <p>e.g, EthDenver2023 finalist <a href="https://www.rhinestone.wtf/" className="underline">https://www.rhinestone.wtf/</a></p>
+                                        <p>
+                                        </p>
+                                      
+                                    </div>
+                                    <div  className="commentgap">
+                                        <p>2.Automated detection of contract and app that are not compatible with  Account Abstraction</p>
+                                        <p> (public good)</p>
+                                        
+                                    </div>
+                                </div>
 
                             </Carousel>
                         </div>

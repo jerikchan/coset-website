@@ -103,7 +103,7 @@
   width: 8.3125rem;
   height: 1.5625rem;
   margin-left: 1rem;
-  background-image: url("../../content/images/navi/logo.png"); 
+  /* background-image: url("../../content/images/navi/logo.png");  */
   background-size: 100%;
   background-repeat: no-repeat;
   cursor: pointer;
