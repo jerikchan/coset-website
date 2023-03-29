@@ -92,7 +92,7 @@
   .mobile {
     width: 100vw;
     height: 3rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
     display: flex;
   
     top: 0;
@@ -104,9 +104,6 @@
   width: 8.3125rem;
   height: 1.5625rem;
   margin-left: 1rem;
-
-  background-size: 100%;
-  background-repeat: no-repeat;
   cursor: pointer;
 }
 
@@ -123,7 +120,7 @@
 
 .mobile ul {
   width: 100%;
-  top: 5.62rem;
+  top: 5rem;
   flex-direction: column;
   position: relative;
   right: 0px;
