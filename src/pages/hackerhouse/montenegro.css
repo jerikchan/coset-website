@@ -233,7 +233,151 @@ padding-bottom: 5.5rem;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 340px) {
+
+  .montenegro_fourth, .montenegro_third,.montenegro_fourth,.montenegro_fifth{
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+.montenegro_fourth{
+  flex-direction: column-reverse;
+}
+
+
+
+  .montenegro_first {
+    height: 32.1875rem;
+    padding-top:1.25rem;
+     margin-top: 0rem;
+     background-image: url("../../../content/images/hackerhouse/montenegro/montenegrobgsmall.png");
+  }
+
+  .montenegro_button{
+    padding: 6px 24px 8px;
+    gap: 10px;
+    width: 140px;
+height: 38px;
+border: 1px solid #FFFFFF;
+font-size: 12px;
+line-height: 18px;
+box-sizing: border-box;
+margin-top: 32px;
+  }
+
+  .montenegro_detail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .montenegro_second {
+    padding: 4.6875rem 2.8125rem;
+  } 
+  
+  .montenegro_content{
+    font-size: 12px;
+     width: 18.75rem; 
+    margin-left: 0.675rem;
+    margin-top: 1rem;
+
+  }
+
+  .montenegro_title{
+    padding-top: 0rem;
+    font-size: 1rem;
+    color: #333333;
+    font-family: "Space Mono Bold";
+  }
+
+  .montenegro_content, .montenegro_require{
+    font-size: .75rem;
+  }
+
+  .montenegro_slogon {
+    font-size: 1.25rem;
+    width: 22.125rem;
+  }
+
+
+
+  .montenegro_theme1,.montenegro_theme2,.montenegro_theme3{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .montenegro_activity{
+    padding-top: 3.9375rem;
+    gap:0rem;
+  }
+
+  .montenegro_seventh{
+    height: 32rem;
+    padding:3.25rem 2.375rem;
+    font-size: .75rem;
+    background-size: 100% 100%;
+  }
+
+
+
+  .montenegro_third {
+    background-color: #FFFFFF;
+  }
+
+ .montenegro_require{
+  font-size: 12px;
+ }
+
+ .montenegro_participate{
+  width: 20rem;
+  gap: .9375rem;
+  padding: 4rem 2rem;
+  font-size: .75rem;
+  height: 24rem;
+}
+
+
+.keyboard,.schedule,.coding{
+  height: 18rem;
+  width: 100%;
+  padding-top: 15%;
+  background-color: #000000;
+
+}
+ 
+
+  .montenegro_ideas {
+    padding-bottom:2rem;
+  }
+
+  .statement{
+    padding: 4rem 2rem;
+    font-size: .625rem;
+  }
+
+  .montenegro_third img,.montenegro_fourth img ,.montenegro_fifth img {
+    width: 100%;
+  }
+
+
+  .vertical {
+    width: 2px;
+    height: 26px;
+
+  }
+  
+  .incline {
+    width: 10px;
+    height: 2px;
+    margin-top: -6px;
+  }
+
+
+
+}
+
+
+
+@media (min-width: 340px) and (max-width: 500px) {
   .montenegro_fourth, .montenegro_third,.montenegro_fourth,.montenegro_fifth{
     flex-direction: column;
     font-size: 1rem;
@@ -367,8 +511,11 @@ margin-top: 32px;
   .incline {
     width: 10px;
     height: 2px;
+    margin-top: -6px;
   }
 
 
 
 }
+
+
