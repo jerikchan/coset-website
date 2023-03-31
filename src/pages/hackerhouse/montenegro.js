@@ -27,8 +27,8 @@ export default function montenegro() {
         <>
 
             <Seo title="Antalpha Labs-Web3 developers community"/>
-            <SEO title="Antalpha Labs-Web3 developers community"
-         description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a hub for residents over the program." 
+            <SEO title="AA-themed HackerHouse"
+         description="AA learning materials will be provided before the event, which includes lectures, discussions, and brainstorming sessions for project development." 
          image={montenegroog} ></SEO>
             
             {/* 1、这里是导航栏 */}
