@@ -14,16 +14,24 @@ import circle from "../../../content/images/hackerhouse/montenegro/circle.png"
 import youai from "../../../content/images/hackerhouse/montenegro/youai.png"
 import Geoge from "../../../content/images/hackerhouse/montenegro/geoge.png"
 
+import montenegroog from "../../../content/images/og/montenegro.png"
+
 import Carousel from '../../components/carousel/index.js';
 
 import {Seo} from "gatsby-theme-portfolio-minimal";
+import SEO from "../../components/SEO/SEO.js"
 
 export default function montenegro() {
 
     return (
         <>
 
-            <Seo title="Antalpha Labs-Web3 developers community"/> {/* 1、这里是导航栏 */}
+            <Seo title="Antalpha Labs-Web3 developers community"/>
+            <SEO title="Antalpha Labs-Web3 developers community"
+         description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a hub for residents over the program." 
+         image={montenegroog} ></SEO>
+            
+            {/* 1、这里是导航栏 */}
             <Navi></Navi>
 
             {/* 报名页面 */}
@@ -37,9 +45,9 @@ export default function montenegro() {
                         <div className="montenegro_slogon">Register Now for Our AA-themed HackerHouse</div>
 
                         <div className="montenegro_detail">
-                            <span className="montenegro_theme">#Account Abstraction</span>
-                            <span className="montenegro_theme">19th May 2023 - 24th May 2023</span>
-                            <span className="montenegro_theme">@Podgorica</span>
+                            <span className="montenegro_theme1">#Account Abstraction</span>
+                            <span className="montenegro_theme2">19th May 2023 - 24th May 2023</span>
+                            <span className="montenegro_theme3">@Podgorica</span>
                         </div>
                         <a href="">
                             <button className="montenegro_button">Coming soon</button>
@@ -74,9 +82,8 @@ export default function montenegro() {
                     </div>
 
                     {/* 图片 */}
-                    <div>
-                        <img src={keyboard}
-                            className="keyboard"></img>
+                    <div className="keyboard">
+                        <img src={keyboard}></img>
                     </div>
 
                 </div>
@@ -86,7 +93,7 @@ export default function montenegro() {
 
                 <div className="montenegro_fourth">
                     {/* 图片 */}
-                    <div>
+                    <div className="coding">
                         <img src={coding}></img>
                     </div>
                     <div className="montenegro_participate">
@@ -105,7 +112,7 @@ export default function montenegro() {
                     </div>
 
                     {/* 图片 */}
-                    <div>
+                    <div className="schedule">
                         <img src={schedule}></img>
                     </div>
 
