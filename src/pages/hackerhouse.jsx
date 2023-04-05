@@ -29,6 +29,17 @@ export default function HackerHouse() {
         },
         {
             id: '2',
+            signuplink: "/hackerhouse/tokyo",
+            theme: "# On-Chain Gaming",
+            "name": "",
+            startDate: "11st Apr, 2023",
+            endDate: "17th, Apr 2023",
+            location: "@Tokyo",
+            belong: "UPCOMING"
+        }, 
+
+        {
+            id: '3',
             signuplink: "/hackerhouse/chiangmai", // 跳转到notion项目页面
             theme: "# Zkp",
             "name": "",
@@ -36,10 +47,8 @@ export default function HackerHouse() {
             endDate: "29th Apr, 2023",
             location: "@Chiang Mai",
             belong: "UPCOMING"
-
-
         }, {
-            id: '3',
+            id: '4',
             signuplink: "/hackerhouse/zkp",
             theme: "# Zkp",
             "name": "x ETHDenver",
@@ -47,10 +56,8 @@ export default function HackerHouse() {
             endDate: "06th, Mar 2023",
             location: "@Denver",
             belong: "PAST"
-
-
         }, {
-            id: '4',
+            id: '5',
             signuplink: "/hackerhouse/move",
             theme: "# Move",
             "name": "x NonceGeek",
@@ -58,9 +65,8 @@ export default function HackerHouse() {
             endDate: "05th, Mar 2023",
             location: "@Dali",
             belong: "PAST"
-
         }, {
-            id: '5',
+            id: '6',
             signuplink: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
             theme: "# Infra and open source tools",
             "name": "",
@@ -68,7 +74,7 @@ export default function HackerHouse() {
             endDate: "21st Dec, 2022",
             location: "@Dali",
             belong: "PAST"
-        },
+        }
     ]
     const [filteredList, setFilteredList] = useState(cardlist)
     const [menuType, setMenuType] = useState(0)
@@ -81,16 +87,6 @@ export default function HackerHouse() {
         const target = cardlist.filter(item => item.belong.toUpperCase() === value.toUpperCase())
         setFilteredList(() => target)
         console.log(filteredList);
-
-
-        // const currentDate = +new Date()
-        // return  cardlist.filter(item =>{
-        //     if(value === "Upcoming") return currentDate> item.startDate.valueOf()
-        //     if(value === "Ongoing") return item.startDate.valueOf() <= currentDate && currentDate <= item.endDate.valueOf()
-        //     if(value === "Past") return currentDate > item.startDate.valueOf()
-        // })
-
-
     }
     return (
         <>
@@ -210,12 +206,6 @@ export default function HackerHouse() {
 
         </div>
 
-
-        {/* <a href="#weoffer" className="weoffer_nextpage">
-                <img src={nextpage}
-                    alt=""></img>
-            </a> */}
-        {/* </div> */}
 
         <Footer></Footer>
     </>

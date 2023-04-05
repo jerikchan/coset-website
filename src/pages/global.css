@@ -4,3 +4,13 @@ a,a:focus {
 *{
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+   
+}
+
+p,ul{
+    margin: 0; 
+    padding: 0;
+}

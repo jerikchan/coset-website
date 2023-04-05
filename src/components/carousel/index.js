@@ -3,7 +3,7 @@ import  './index.css';
 
 export default class Test extends Component {
     static defaultProps = {
-        step: 4000,
+        step: 4000000,
         animationStep: 1
     }
 
