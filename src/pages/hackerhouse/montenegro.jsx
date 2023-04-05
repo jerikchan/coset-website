@@ -112,7 +112,7 @@ export default function montenegro() {
               <img src={coding}></img>
             </div>
             <div className="montenegro_participate montenegro-list-item-text ">
-              <div className="montenegro_title">What are we Looking for ?</div>
+              <div className="montenegro_title montenegro_title2">What are we Looking for ?</div>
               <div className="montenegro-list-item-text--web">
               <p className="montenegro_require"></p>
               <p> During this event, we'll be bringing together the </p>
@@ -141,7 +141,7 @@ export default function montenegro() {
 
           <div className="montenegro_fifth montenegro-list-item">
             <div className="montenegro_participate montenegro-list-item-text">
-              <div className="montenegro_title">Schedule of Events</div>
+              <div className="montenegro_title montenegro_title2">Schedule of Events</div>
 
               <div className="montenegro-list-item-text--web">
                 <p>
@@ -400,6 +400,7 @@ export default function montenegro() {
                       </div>
                     </div>
                   </div>
+                  
                   <div>
                     <div className="avatar">
                       <img src={Geoge}></img>

@@ -185,8 +185,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 2.5rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 3.2rem;
   padding-left: 4rem;
   font-family: "Space Mono";
 }
@@ -330,8 +330,8 @@
   }
 
   .montenegro_title {
-    padding-top: 3rem;
-    font-size: 1.275rem;
+    padding-top: 0rem;
+    font-size: 1rem;
     color: #333333;
     font-family: "Space Mono Bold";
     margin-bottom: 0rem;
@@ -388,8 +388,6 @@
   .coding {
     height: 18rem;
     width: 100%;
-    padding-top: 15%;
-    background-color: #000000;
   }
 
   .montenegro_ideas {
@@ -397,7 +395,7 @@
   }
 
   .statement {
-    padding: 4rem 2rem;
+    padding: 10rem 2rem 3rem;
     font-size: 0.625rem;
   }
 
@@ -425,6 +423,11 @@
   }
   .margingap{
     margin-top: .8rem;
+  }
+
+  .montenegro_title2{
+    margin-top:5rem;
+
   }
 
 }
@@ -552,7 +555,7 @@
   }
 
   .statement {
-    padding: 6rem 2rem;
+    padding: 7rem 2rem 3.2rem;
     font-size: 0.625rem;
   }
 
