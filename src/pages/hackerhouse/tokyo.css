@@ -227,6 +227,11 @@ p,ul{
     background-image: url("../../../content/images/hackerhouse/toyko/toykosmall.png");
   }
 
+  .tokyocontent {
+    margin-top: 0;
+    padding: 1.2rem 0.5rem;
+  }
+
   .tokyo_activity {
     padding: 9rem;
   }
@@ -367,9 +372,12 @@ p,ul{
     padding: 0.3125rem 0 0 0.625rem;
   }
 
+
   .tokyocontent {
     margin-top: 0;
+    padding: 1.2rem 0.5rem;
   }
+
 
   .tokyoansbox_list {
     font-size: 0.875rem;
@@ -468,6 +476,7 @@ p,ul{
 
   .tokyocontent {
     margin-top: 0;
+    padding: 1.2rem 0.5rem;
   }
 
   .tokyoansbox_list {

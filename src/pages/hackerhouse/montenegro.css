@@ -488,7 +488,7 @@
   }
 
   .montenegro_title {
-    padding-top: 3rem;
+    padding-top: 0rem;
     font-size: 1.275rem;
     color: #333333;
     font-family: "Space Mono Bold";
@@ -546,8 +546,6 @@
   .coding {
     height: 22.375rem;
     width: 100%;
-    padding-top: 15%;
-    background-color: #000000;
   }
 
   .montenegro_ideas {

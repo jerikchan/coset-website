@@ -89,13 +89,13 @@ export default function Toyko() { // 选项列表
 
 
                         </div> : currentIndex === 1 ? <div className="tokyocontent tokyocontent2">
-                            <ul>
+                            <ol>
                                 <li>Smart Contract Programmers.
                                 </li>
                                 <li>Web2 Game Designers.</li>
                                 <li>Experienced On-Chain Game Developer.</li>
                                 <li>Participating EthTokyo Hackathon.</li>
-                            </ul>
+                            </ol>
                         </div> : currentIndex === 2 ? <div className="tokyocontent">
                             <div>
 
@@ -114,15 +114,15 @@ export default function Toyko() { // 选项列表
                             </div>
                         </div> : currentIndex === 3 ? <div className="tokyocontent tokyocontent2">
 
-                            <ul>
+                            <ol>
                                 <li>Prior to the EthTokyo, we will organize brainstorming, tech sharing sessions and events between Hackerhouses in Tokyo. Experienced game designers or tech leads from on-chain gaming will help participants develop their projects.
                                 </li>
 
-                                <li>During the EthTokyo, HACK all day long.
+                                <li className="contactgap">During the EthTokyo, HACK all day long.
                                     After the EthTokyo, there will be a Virtual Demo Day to showcase the outcomes of our hackers. We will invite VCs and industry experts to attend and review the projects.
                                 </li>
 
-                            </ul>
+                            </ol>
 
 
                         </div> : currentIndex === 4 ? <div className="tokyocontent">
