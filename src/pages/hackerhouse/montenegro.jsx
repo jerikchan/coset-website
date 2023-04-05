@@ -111,13 +111,27 @@ export default function montenegro() {
             <div className="coding montenegro-list-item-img">
               <img src={coding}></img>
             </div>
-            <div className="montenegro_participate montenegro-list-item-text">
+            <div className="montenegro_participate montenegro-list-item-text ">
               <div className="montenegro_title">What are we Looking for ?</div>
-          <p className="montenegro_require"></p>
+              <div className="montenegro-list-item-text--web">
+              <p className="montenegro_require"></p>
               <p> During this event, we'll be bringing together the </p>
-              <p>brightest minds in Web3 development and researcher {" "} </p>
-              <p> for <span>a week-long</span> deep dive into all things{" "}
+              <p>brightest minds in Web3 development and researcher </p>
+              <p>
+                {" "}
+                for <span>a week-long</span> deep dive into all things{" "}
                 <span>AA</span>.
+              </p>
+              </div>
+              <p className="montenegro-list-item-text--mobile">
+
+               During this event, we'll be bringing together the 
+              brightest minds in Web3 development and researcher 
+           
+                {" "}
+                for <span>a week-long</span> deep dive into all things{" "}
+                <span>AA</span>.
+
               </p>
             </div>
           </div>
@@ -128,16 +142,40 @@ export default function montenegro() {
           <div className="montenegro_fifth montenegro-list-item">
             <div className="montenegro_participate montenegro-list-item-text">
               <div className="montenegro_title">Schedule of Events</div>
-              <p>
-                <span>AA learning materials</span> will be provided before the   </p>
-                <p>  event, which includes{" "} <span>lectures, discussions, and</span> </p>
-                <p> <span>  brainstorming sessions</span>{" "}
-                for project development.  </p>
-                <p>  Mentors will offer guidance, and a{" "}
-                <span> Demo Day </span> with VC </p>
-                <p> and industry expert where
-                attendee will showcase </p>
-                <p> project outcomes.
+
+              <div className="montenegro-list-item-text--web">
+                <p>
+                  <span>AA learning materials</span> will be provided before the{" "}
+                </p>
+                <p>
+                  {" "}
+                  event, which includes <span>
+                    lectures, discussions, and
+                  </span>{" "}
+                </p>
+                <p>
+                  {" "}
+                  <span> brainstorming sessions</span> for project development.{" "}
+                </p>
+                <p>
+                  {" "}
+                  Mentors will offer guidance, and a <span>
+                    {" "}
+                    Demo Day{" "}
+                  </span>{" "}
+                  with VC{" "}
+                </p>
+                <p> and industry expert where attendee will showcase </p>
+                <p> project outcomes.</p>
+              </div>
+
+              <p className="montenegro-list-item-text--mobile">
+                <span>AA learning materials</span> will be provided before the{" "}
+                event, which includes <span>lectures, discussions, and</span>{" "}
+                <span> brainstorming sessions</span> for project development.{" "}
+                Mentors will offer guidance, and a <span> Demo Day </span> with
+                VC and industry expert where attendee will showcase project
+                outcomes.
               </p>
             </div>
 
@@ -155,7 +193,7 @@ export default function montenegro() {
 
               <div className="Carousel">
                 <Carousel>
-                  <div >
+                  <div>
                     <div className="avatar">
                       <img src={harry}></img>
                       <div className="name_company">
@@ -164,45 +202,52 @@ export default function montenegro() {
                       </div>
                     </div>
 
-                    <div  >
+                    <div>
                       <p>1.Decentralized bundler network</p>
                       <div className="mobilegap">
                         <p className="character">
                           Transactions will be cached in the pool, and which
                           transaction go first
                         </p>
-                        <p className="character">is where MEV take place,there are several teams working on this:</p>
-                    
-                      <p>
-                        <a
-                          href="https://github.com/kristofgazso/erc4337-mev-searcher-bot"
-                          className="underline character"
-                        >
-                          https://github.com/kristofgazso/erc4337-mev-searcher-bot
-                        </a>{" "}
-                      </p>
-                      <p>
-                        <a
-                          href="https://github.com/NethermindEth/mev-aa-geth"
-                          className="underline character"
-                        >
-                          https://github.com/NethermindEth/mev-aa-geth
-                        </a>
-                      </p>
-                    </div>
-                    <div className="commentgap">
-                      <p>
-                        2.Solidity library: different types of contracts for
-                        factory, paymaster
-                      </p>
-                      <div className="mobilegap" >
-                      <p className="character">
-                        There will be different implementations for those
-                        contracts to meet different needs. For example for DAOs,   </p>
-                        <p className="character"> they may need multi-sign and verify.
-                      </p>
+                        <p className="character">
+                          is where MEV take place,there are several teams
+                          working on this:
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://github.com/kristofgazso/erc4337-mev-searcher-bot"
+                            className="underline character"
+                          >
+                            https://github.com/kristofgazso/erc4337-mev-searcher-bot
+                          </a>{" "}
+                        </p>
+                        <p>
+                          <a
+                            href="https://github.com/NethermindEth/mev-aa-geth"
+                            className="underline character"
+                          >
+                            https://github.com/NethermindEth/mev-aa-geth
+                          </a>
+                        </p>
                       </div>
-                    </div>
+                      <div className="commentgap">
+                        <p>
+                          2.Solidity library: different types of contracts for
+                          factory, paymaster
+                        </p>
+                        <div className="mobilegap">
+                          <p className="character">
+                            There will be different implementations for those
+                            contracts to meet different needs. For example for
+                            DAOs,{" "}
+                          </p>
+                          <p className="character">
+                            {" "}
+                            they may need multi-sign and verify.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -220,29 +265,44 @@ export default function montenegro() {
                         1.Mobile interface improvement for the mass adoption
                       </p>
                       <div className="mobilegap">
-                      <p className="character">
-                        AA brings mass adoption and what would be better than a
-                        seamless mobile app where you won't even notice the gas
-                         </p>
-                        <p className="character">  fee. A thorough research of the available AA wallet
-                        would be essential. eg. Pimlico, Stackup, Candidewallet. </p>
                         <p className="character">
-                        More so by searching on the AA embedded Starkware &
-                        Zksync chains. </p>
-                        </div>
+                          AA brings mass adoption and what would be better than
+                          a seamless mobile app where you won't even notice the
+                          gas
+                        </p>
+                        <p className="character">
+                          {" "}
+                          fee. A thorough research of the available AA wallet
+                          would be essential. eg. Pimlico, Stackup,
+                          Candidewallet.{" "}
+                        </p>
+                        <p className="character">
+                          More so by searching on the AA embedded Starkware &
+                          Zksync chains.{" "}
+                        </p>
+                      </div>
                     </div>
                     <div className="commentgap">
                       <p>2.Sub EIP standard for dapps interacting with AA</p>
-                    
+
                       <div className="mobilegap">
-                      <p className="character"> It sucks when you try to connect but it shows your dapp
-                        does not support such activity, it would cause a lot  </p>
-                        <p className="character">  of
-                        friction if all dapp come up with their own way each
-                        time aa gets updated. So instead if there are some </p>
-                        <p className="character">  standard few lines of could but simple enough for dapp
-                        to integrate.
-                      </p>
+                        <p className="character">
+                          {" "}
+                          It sucks when you try to connect but it shows your
+                          dapp does not support such activity, it would cause a
+                          lot{" "}
+                        </p>
+                        <p className="character">
+                          {" "}
+                          of friction if all dapp come up with their own way
+                          each time aa gets updated. So instead if there are
+                          some{" "}
+                        </p>
+                        <p className="character">
+                          {" "}
+                          standard few lines of could but simple enough for dapp
+                          to integrate.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -262,28 +322,42 @@ export default function montenegro() {
                         to enable Ethereum's validator to act as Paymaster.
                       </p>
                       <div className="mobilegap">
-                      <p className="character">
-                        The current plan to prevent a DOS attack from Paymaster
-                        is to build a reputation system or have them stake funds </p>
-                        <p className="character"> into the entry point contract, However, this method
-                        yields weak trust assumptions and low capital
-                        efficiency, why </p>
-                        <p className="character">   not try to leverage re-staking to push
-                        the slash-able conditions on to Ethereum's validator so
-                        that Paymaster</p>    <p className="character">  can be more trustless.
-                      </p>
+                        <p className="character">
+                          The current plan to prevent a DOS attack from
+                          Paymaster is to build a reputation system or have them
+                          stake funds{" "}
+                        </p>
+                        <p className="character">
+                          {" "}
+                          into the entry point contract, However, this method
+                          yields weak trust assumptions and low capital
+                          efficiency, why{" "}
+                        </p>
+                        <p className="character">
+                          {" "}
+                          not try to leverage re-staking to push the slash-able
+                          conditions on to Ethereum's validator so that
+                          Paymaster
+                        </p>{" "}
+                        <p className="character"> can be more trustless.</p>
                       </div>
                     </div>
                     <div className="commentgap">
                       <p>2.How to make AA more chain-agnostic?</p>
                       <div className="mobilegap">
-                      <p className="character"> 
-                        One of the advantages that MPC wallet has compared to
-                        Multisig wallet is that they are Chain-agnostic. It    </p>
-                        <p className="character"> seems like ERC 4337 only stands in an EVM-compatible
-                        environment, are there any methods that we can</p>
-                        <p className="character"> accomplish chain-agnostic AA?
-                      </p>
+                        <p className="character">
+                          One of the advantages that MPC wallet has compared to
+                          Multisig wallet is that they are Chain-agnostic. It{" "}
+                        </p>
+                        <p className="character">
+                          {" "}
+                          seems like ERC 4337 only stands in an EVM-compatible
+                          environment, are there any methods that we can
+                        </p>
+                        <p className="character">
+                          {" "}
+                          accomplish chain-agnostic AA?
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -313,14 +387,17 @@ export default function montenegro() {
                     <div className="commentgap">
                       <p>2.Composability:</p>
                       <div className="mobilegap">
-                      <p className="character"> 
-                        By separating contract logic into multiple modules and
-                        managing and combining them through abstract accounts,     </p>       <p className="character"> 
-                        more complex and feature-rich applications can be built,
-                        and they can be shared and reused across different  </p>
-                        <p className="character"> applications.
-                      </p>
-                    </div>
+                        <p className="character">
+                          By separating contract logic into multiple modules and
+                          managing and combining them through abstract accounts,{" "}
+                        </p>{" "}
+                        <p className="character">
+                          more complex and feature-rich applications can be
+                          built, and they can be shared and reused across
+                          different{" "}
+                        </p>
+                        <p className="character"> applications.</p>
+                      </div>
                     </div>
                   </div>
                   <div>
@@ -331,23 +408,23 @@ export default function montenegro() {
                         <span>@Unipass </span>
                       </div>
                     </div>
-             
+
                     <div>
                       <p>1.Explore different modular architectures. </p>
                       <div className="mobilegap">
-                      <p className="character"> 
-                        Implement a different modular architecture;Build modules
-                        based on them{" "}
-                      </p>
-                      <p className="character">
-                        e.g, EthDenver2023 finalist{" "}
-                        <a
-                          href="https://www.rhinestone.wtf/"
-                          className="underline"
-                        >
-                          https://www.rhinestone.wtf/
-                        </a>
-                      </p>
+                        <p className="character">
+                          Implement a different modular architecture;Build
+                          modules based on them{" "}
+                        </p>
+                        <p className="character">
+                          e.g, EthDenver2023 finalist{" "}
+                          <a
+                            href="https://www.rhinestone.wtf/"
+                            className="underline"
+                          >
+                            https://www.rhinestone.wtf/
+                          </a>
+                        </p>
                       </div>
                     </div>
                     <div className="commentgap mobilegap">
@@ -370,15 +447,17 @@ export default function montenegro() {
             <div className="montenegro_seventh_content">
               <p>
                 Whether you're an experienced Web3 developer looking to push the
-                limits of what's possible, or a curious  </p>
-                <p>  researcher eager to
-                explore new possibilities, our HackerHouse event is the perfect
-                place to take your  </p> <p> skills to the next level.
+                limits of what's possible, or a curious{" "}
               </p>
+              <p>
+                {" "}
+                researcher eager to explore new possibilities, our HackerHouse
+                event is the perfect place to take your{" "}
+              </p>{" "}
+              <p> skills to the next level.</p>
               <p className="margingap">
                 So why wait? Sign up today and be part of the future of Web3!
               </p>
-
               <div className="mon_vector">
                 <div className="vertical"></div>
                 <div className="incline"></div>
