@@ -363,7 +363,7 @@
     height: 32rem;
     padding: 3.25rem 2.375rem;
     font-size: 0.75rem;
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%; 
     background-image: url("../../../content/images/hackerhouse/montenegro/codingbg.png");
   }
 
@@ -416,6 +416,7 @@
     margin-top: -6px;
   }
   .character {
+    margin-left: .625rem;
     text-indent: 0em;
   }
   .olcharacter{
@@ -428,6 +429,10 @@
   .montenegro_title2{
     margin-top:5rem;
 
+  }
+
+  .underline {
+    word-break:break-all;
   }
 
 }
@@ -574,6 +579,7 @@
     margin-top: -6px;
   }
   .character {
+    margin-left: .625rem;
     text-indent: 0em;
   }
 
@@ -583,5 +589,30 @@
 .olcharacter{
   margin-left: 0rem;
 }
+.underline {
+  word-break:break-all;
+}
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .montenegro_slogon {
+    font-size: 1.8rem;
+  }
+
+  .montenegro-list-item-text--mobile{
+    display: block;
+  }
+  .montenegro-list-item-text--web{
+    display: none;
+  }
+
+}
+
+@media (min-width: 2000px) and (max-width: 2600px) {
+
+  .montenegro{
+
+    max-width: 1920px;
+  }
 
 }

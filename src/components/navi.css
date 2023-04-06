@@ -158,3 +158,13 @@
 @media (min-width: 700px) and (max-width: 1400px) {
   .mobile{display: none;}
 }
+
+@media (min-width: 2000px) and (max-width: 2600px) {
+
+    .web {
+      width: 120rem;
+  
+    }
+  
+
+}
