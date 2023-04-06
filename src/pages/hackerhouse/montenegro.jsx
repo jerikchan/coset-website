@@ -78,9 +78,7 @@ export default function montenegro() {
                                     <li>
                                         <p>Preferably have participated in the</p>
                                         <p>
-                                            development of
-                                            <span>Web3</span>
-                                            and{" "}
+                                            development of <span>Web3</span>&nbsp;and&nbsp;
                                             <span>open-source projects</span>.
                                         </p>
                                     </li>
@@ -89,8 +87,8 @@ export default function montenegro() {
                                         </p>
                                         <p>
                                             <span>next-gen AA infra</span>
-                                            and
-                                            <span>dapps</span>like the ones
+                                            &nbsp;   and&nbsp;
+                                            <span>dapps</span>&nbsp;like the ones
                                         </p>
                                         <p>below or with your own ideas.</p>
                                     </li>
@@ -140,7 +138,7 @@ export default function montenegro() {
                                 </p>
                                 <p> {" "}
                                     for
-                                    <span>a week-long</span>
+                                    &nbsp;<span>a week-long</span>&nbsp;
                                     deep dive into all things{" "}
                                     <span>AA</span>.
                                 </p>
@@ -167,23 +165,21 @@ export default function montenegro() {
                             <div className="montenegro-list-item-text--web">
                                 <p>
                                     <span>AA learning materials</span>&nbsp;
-                                    will be provided before the{" "} </p>
-                                <p> {" "}
+                                    will be provided before the</p>
+                                <p> 
                                     event, which includes&nbsp;
                                     <span>
                                         lectures, discussions, and
                                     </span>
-                                    {" "} </p>
-                                <p> {" "}
+                                   </p>
+                                <p>
                                     <span>
                                         brainstorming sessions</span>&nbsp;
                                     for project development.{" "} </p>
                                 <p> {" "}
-                                    Mentors will offer guidance, and a&nbsp;
-                                    <span> {" "}
-                                        Demo Day{" "} </span>&nbsp;
-                                    {" "}
-                                    with VC{" "} </p>
+                                    Mentors will offer guidance, anda&nbsp;
+                                    <span> 
+                                        Demo Day </span>with VC</p>
                                 <p>
                                     and industry expert where attendee will showcase
                                 </p>
