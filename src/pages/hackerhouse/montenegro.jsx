@@ -389,7 +389,7 @@ export default function montenegro() {
 
                                      
                                             <p>
-                                                1.Leverage
+                                                1.Leverage&nbsp;
                                                 <span className="underline">EigenLayer</span>
                                                 {" "}
                                                 to enable Ethereum's validator to act as Paymaster.
@@ -553,7 +553,7 @@ export default function montenegro() {
                                             <p>
                                                 2.Automated detection of contract and app that are not compatible with Account Abstraction
                                             </p>
-                                            <p className="character">
+                                            <p>
                                                 (public good)</p>
                                         </div>
                                     </div>
