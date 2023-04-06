@@ -233,16 +233,24 @@ p,ul{
   }
 
   .tokyo_activity {
-    padding: 9rem;
-  }
-  .tokyo_detail img {
-    width: 30%;
+    padding: 7rem;
   }
 
   .tokyo_box {
     width: 21.875rem;
     height: 12.5rem;
     margin: 0 0 3.125rem 0;
+  }
+
+  .tokyo_detail img {
+    width: 88%;
+
+  }
+  .tokyo_detail a {
+    width: 10rem;
+  }
+  .tokyo_detail a img{
+   margin-top: 1.2rem;
   }
 
   .tokyoboxtitle {
@@ -257,6 +265,7 @@ p,ul{
 
   .tokyo_detail {
     height: 14.0625rem;
+    width: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,7 +277,7 @@ p,ul{
   }
 
   .tokyofaqsbox_list ul li {
-    width: 120%;
+    width: 106%;
     padding: 1.25rem 1.6875rem 1.375rem 1.3125rem;
   }
 
@@ -302,7 +311,7 @@ p,ul{
   }
 
   .tokyo_activity {
-    padding: 9rem;
+    padding: 9.5rem;
   }
   .tokyo_detail img {
     width: 38%;
@@ -326,10 +335,25 @@ p,ul{
 
   .tokyo_detail {
     height: 14.0625rem;
+    width: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+
+  .tokyo_detail img {
+    width: 80%;
+
+  }
+  .tokyo_detail a {
+    width: 12rem;
+  }
+  .tokyo_detail a img{
+   margin-top: 2.5rem;
+  }
+
+
 
   .tokyo_timeloca {
     font-size: 0.825rem;
@@ -366,7 +390,7 @@ p,ul{
   }
 
   .tokyofaqsbox_list ul li {
-    width: 16.5rem;
+    width: 18rem;
     height: 3.125rem;
     font-size: 0.875rem;
     padding: 0.3125rem 0 0 0.625rem;
@@ -401,13 +425,13 @@ p,ul{
     margin-top: 0rem;
   }
   .tokyo {
-    height: 4rem;
+    height: 51rem;
     background-color: #572a27;
     background-image: url("../../../content/images/hackerhouse/toyko/toykosmall.png");
   }
 
   .tokyo_activity {
-    padding: 9rem;
+    padding: 12rem;
   }
   .tokyo_detail img {
     width: 38%;
@@ -431,10 +455,24 @@ p,ul{
 
   .tokyo_detail {
     height: 14.0625rem;
+    width: 28rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .tokyo_detail img {
+    width: 70%;
+
+  }
+  .tokyo_detail a {
+    width: 18rem;
+  }
+  .tokyo_detail a img{
+   margin-top: 3.5rem;
+  }
+
+
 
   .tokyo_timeloca {
     font-size: 0.825rem;
@@ -468,7 +506,7 @@ p,ul{
   }
 
   .tokyofaqsbox_list ul li {
-    width: 17.5rem;
+    width: 24rem;
     height: 3.125rem;
     font-size: 0.875rem;
     padding: 0.3125rem 0 0 0.625rem;

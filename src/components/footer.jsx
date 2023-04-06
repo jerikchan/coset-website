@@ -73,7 +73,8 @@ class Footer extends Component {
                                     border: "1px solid transparent",
                                     background: "transparent"
                                 }
-                            }/> {/* <button type="button" className="white-box"
+                            }/>
+                             {/* <button type="button" className="white-box"
                             ref={
                                 this.button
                             }
