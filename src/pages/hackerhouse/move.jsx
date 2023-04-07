@@ -27,8 +27,8 @@ export default function move() {
                     <span className="move_theme">#Build on Move</span>
                     <span className="move_timeloca">13th Feb 2023 - 05th Mar 2023</span>
                     <span className="move_timeloca">Yunnan, Dali</span>
-                    <a href="https://tally.so/r/n9NMEE">
-                        <button className="move_button" onclick="changeColor('green')">Apply to Hack</button>
+                    <a href="https://antalpha.notion.site/AHH-Move-Dali-x-NonceGeek-6d02538abd2e452ab361aecb8ff83277">
+                        <button className="move_button" onclick="changeColor('green')">Final Demo</button>
                     </a>
                     <div className="move_contact">
                         <span className="move_add">Interesting in partnering?</span>

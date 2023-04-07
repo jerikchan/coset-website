@@ -59,8 +59,8 @@ export default function Zkp() {
                             <span className="denver_timeloca">21st Feb 2023 - 06th Mar 2023</span>
 
                             <span className="denver_timeloca">Denver, Colorado</span>
-                            <a href="https://tally.so/r/nGe5Je">
-                            <button className="denver_button">Apply to Hack</button>
+                            <a href="https://antalpha.notion.site/AHH-ZKP-Denver-Feb2023-f91b2c5cf7c54e0895d1a7dba473228a">
+                            <button className="denver_button">Final Demo</button>
                             </a>
                             <div className="denver_contact">
                                 <span className="denver_add">Interesting in partnering?</span>

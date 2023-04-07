@@ -861,3 +861,9 @@ right: 10%;
     width: 80vw;
   }
 }
+
+@media (min-width:1920) and (max-width: 3600px) {
+  .hackerhouse_container{
+    max-width: 1920px;
+  }
+}

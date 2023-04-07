@@ -39,7 +39,7 @@ export default function Toyko() { // 选项列表
                 <div className="tokyo_detail">
                     <img src={toykotitle}></img>
                     <span className="tokyo_timeloca"># On-Chain Gaming @ Tokyo</span>
-                    <span className="tokyo_timeloca">11th April 2023 - 17th April 2023 (1 Week)</span>
+                    <span className="tokyo_timeloca">09th April 2023 - 17th April 2023 (1 Week)</span>
                     <a href="https://antalpha.notion.site/AHH-On-Chain-Gaming-Tokyo-April-2023-ae1e8da8b4e940499cc5bbb19898a457">
                         <img src={toykobutton}
                             className="tokyo_button"></img>

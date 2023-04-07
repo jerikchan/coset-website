@@ -149,7 +149,7 @@ export default function montenegro() {
                                               brightest minds in Web3 development and researcher {" "}
                                 for
                                 &nbsp;<span>a week-long</span>&nbsp;
-                                deep dive into all things{" "}
+                                deep dive into all things
                                 <span>AA</span>.
 
                             </p>
@@ -175,8 +175,8 @@ export default function montenegro() {
                                 <p>
                                     <span>
                                         brainstorming sessions</span>&nbsp;
-                                    for project development.{" "} </p>
-                                <p> {" "}
+                                    for project development. </p>
+                                <p>
                                     Mentors will offer guidance, anda&nbsp;
                                     <span> 
                                         Demo Day </span>with VC</p>
@@ -189,13 +189,13 @@ export default function montenegro() {
 
                             <p className="montenegro-list-item-text--mobile">
                                 <span>AA learning materials</span>&nbsp;
-                                will be provided before the{" "}
+                                will be provided before the
                                 event, which includes&nbsp;
                                 <span>lectures, discussions, and</span>
-                                {" "}
+                            
                                 <span>
                                     brainstorming sessions</span>
-                                for project development.{" "}
+                                for project development.
                                 Mentors will offer guidance, and a
                                 <span>&nbsp;
                                     Demo Day &nbsp;

@@ -718,9 +718,10 @@ p,ul{
   }
 }
 
-@media (min-width: 1330px) and (max-width: 1500px) {
+@media (min-width: 1331px) and (max-width: 1500px) {
   .tokyo {
     height: 56rem;
+    margin-top: 4rem;
   }
 
   .tokyo_activity {
@@ -734,6 +735,7 @@ p,ul{
 @media (min-width: 1501px) and (max-width: 1700px) {
   .tokyo {
     height: 64rem;
+    margin-top: 3.625rem;
   }
 
   .tokyo_activity {
@@ -758,8 +760,7 @@ p,ul{
 }
 
 @media (min-width: 2000px) and (max-width: 2600px) {
-  .tokyocontainer {
-
+  .tokyo .tokyocontainer {
     max-width: 1920px;
   }
 }

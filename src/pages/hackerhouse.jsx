@@ -32,7 +32,7 @@ export default function HackerHouse() {
             signuplink: "/hackerhouse/tokyo",
             theme: "# On-Chain Gaming",
             "name": "",
-            startDate: "11st Apr, 2023",
+            startDate: "09th Apr, 2023",
             endDate: "17th, Apr 2023",
             location: "@Tokyo",
             belong: "UPCOMING"
