@@ -301,7 +301,128 @@ p,ul{
   }
 }
 
-@media (min-width: 361px) and (max-width: 420px) {
+@media (min-width: 361px) and (max-width: 390px) {
+  .tokyocontainer {
+    margin-top: 0rem;
+  }
+  .tokyo {
+    height: 38rem;
+    background-color: #572a27;
+    background-image: url("../../../content/images/hackerhouse/toyko/toykosmall.png");
+  }
+
+  .tokyo_activity {
+    padding: 9.5rem;
+  }
+  .tokyo_detail img {
+    width: 38%;
+  }
+
+  .tokyo_box {
+    width: 21.875rem;
+    height: 12.5rem;
+    margin: 0 0 3.125rem 0;
+  }
+
+  .tokyo_title {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+  }
+
+  .tokyo_theme {
+    font-size: 2.875rem;
+    line-height: 5.375rem;
+  }
+
+  .tokyo_detail {
+    height: 14.0625rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .tokyo_detail img {
+    width: 80%;
+
+  }
+  .tokyo_detail a {
+    width: 12rem;
+  }
+  .tokyo_detail a img{
+   margin-top: 2.5rem;
+  }
+
+
+
+  .tokyo_timeloca {
+    font-size: 0.825rem;
+    margin-top: 0.75rem;
+  }
+
+  .tokyoFAQs {
+    display: flex;
+    flex-direction: column;
+    padding: 2.25rem 2.25rem;
+    width: 90%;
+    height: 68rem;
+    border-radius: 1rem;
+    margin: 0rem 1.25rem 0 1.25rem;
+
+    background: #fbeed7;
+    border: 4px solid black;
+    border-radius: 20px;
+  }
+
+  .tokyofbox {
+    height: 80%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .denver_bg {
+    height: 42.125rem;
+  }
+
+  .tokyoboxtitle {
+    font-size: 2.25rem;
+    margin-bottom: -5px;
+  }
+
+  .tokyofaqsbox_list ul li {
+    width: 16rem;
+    height: 3.125rem;
+    font-size: 0.875rem;
+    padding: 0.3125rem 0 0 0.625rem;
+  }
+
+
+  .tokyocontent {
+    margin-top: 0;
+    overflow-y: auto;
+    padding: 1.2rem 0.5rem;
+  }
+
+
+  .tokyoansbox_list {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    margin-top: 0.75rem;
+    padding: 2.1875rem 1.5625rem 1.5625rem 1.5625rem;
+  }
+
+  .tokyoansbox_list div img {
+    margin-bottom: 0.625rem;
+  }
+
+  .tokyoansbox_list {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 420px) {
   .tokyocontainer {
     margin-top: 0rem;
   }
