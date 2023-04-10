@@ -67,9 +67,9 @@ class Footer extends Component {
 {/* 
 <iframe src="https://woshizhengqiuwan.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> */}
 
-                        <iframe src="https://antalphalabs.substack.com/embed" width="380"
+                        <iframe src="https://antalphalabs.substack.com/embed" width="380" className="newsletter"
                             style={
-                                {
+                                {   
                                     border: "1px solid transparent",
                                     background: "transparent"
                                 }

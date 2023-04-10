@@ -109,6 +109,9 @@ input::placeholder{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.newsletter{
+  margin-left: -2.5rem;
+}
 
 @media only screen and (max-width: 500px) {
   .footer-text {
@@ -168,6 +171,10 @@ input::placeholder{
 
   .footer-mail {
     font-size: 14px;
+  }
+
+  .newsletter{
+    margin-left: -1.2rem;
   }
 
 }
