@@ -19,13 +19,14 @@ export default function HackerHouse() {
     const cardlist = [
         {
             id: '1',
-            signuplink: "/hackerhouse/montenegro", // 跳转到notion项目页面
-            theme: "# Account Abstraction",
+            signuplink: "/hackerhouse/chiangmai", // 跳转到notion项目页面
+            theme: "# Zkp",
             "name": "",
-            startDate: "19th May, 2023",
-            endDate: "24th May, 2023",
-            location: "@Podgorica",
-            belong: "UPCOMING"
+            startDate: "08th Apr, 2023",
+            endDate: "29th Apr, 2023",
+            location: "@Chiang Mai",
+            belong: "ONGOING"
+       
         },
         {
             id: '2',
@@ -35,17 +36,18 @@ export default function HackerHouse() {
             startDate: "09th Apr, 2023",
             endDate: "17th, Apr 2023",
             location: "@Tokyo",
-            belong: "UPCOMING"
+            belong: "ONGOING"
+      
         }, 
 
         {
             id: '3',
-            signuplink: "/hackerhouse/chiangmai", // 跳转到notion项目页面
-            theme: "# Zkp",
+            signuplink: "/hackerhouse/montenegro", // 跳转到notion项目页面
+            theme: "# Account Abstraction",
             "name": "",
-            startDate: "08th Apr, 2023",
-            endDate: "29th Apr, 2023",
-            location: "@Chiang Mai",
+            startDate: "19th May, 2023",
+            endDate: "24th May, 2023",
+            location: "@Podgorica",
             belong: "UPCOMING"
         }, {
             id: '4',
