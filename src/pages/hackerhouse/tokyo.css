@@ -47,9 +47,10 @@ p,ul{
   align-items: center;
   justify-content: center;
   background-image: url("../../../content/images/hackerhouse/toyko/toyko.png");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #572a27;
+  margin-top: 3rem;
 }
 
 .tokyo_activity {
@@ -114,10 +115,11 @@ p,ul{
   padding: 36px 36px;
   background-image: url("../../../content/images/hackerhouse/toyko/boxbg.png");
   width: 90%;
-  height: 61.25rem;
-  background-size: 100%;
+  /* height: 61.25rem; */
+  height: 46rem;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  overflow: scroll;
+  overflow: hidden;
   /* background: #fbeed7;
     border: 6px solid black;
     border-radius: 20px; */
@@ -179,7 +181,8 @@ p,ul{
 
 .tokyoansbox_list {
   width: 100%;
-  height: 70%;
+  /* height: 70%; */
+  height: 100%;
   border-radius: 1rem;
   background-color: #fadb62;
   display: flex;
@@ -190,6 +193,7 @@ p,ul{
   font-size: 1.375rem;
   line-height: 2.25rem;
   margin-top: 0.75rem;
+  overflow-y: auto;
 }
 
 .tokyoansbox_list div img {
