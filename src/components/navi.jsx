@@ -2,7 +2,7 @@ import React, {useState, useRef} from "react"
 import {Link} from "gatsby"
 import "./navi.css"
 
-import smalllogo from "../../content/images/navi/logo.png"
+import smalllogo from "../../content/images/navi/logo.svg"
 
 export default(props) => {
     const [isNavShowing, setIsNavShowing] = useState(false)

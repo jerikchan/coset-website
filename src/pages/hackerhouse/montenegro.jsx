@@ -48,8 +48,8 @@ export default function montenegro() {
                                 </span>
                                 <span className="montenegro_theme3">@Podgorica</span>
                             </div>
-                            <a href="">
-                                <button className="montenegro_button">Coming soon</button>
+                            <a href="https://tally.so/r/wAzO6o">
+                                <button className="montenegro_button">Apply to Hack</button>
                             </a>
                         </div>
                     </div>
@@ -594,7 +594,9 @@ export default function montenegro() {
                                 <div className="vertical"></div>
                                 <div className="incline"></div>
                             </div>
-                            <button className="montenegro_button">Coming soon</button>
+                            <a href="https://tally.so/r/wAzO6o">
+                            <button className="montenegro_button">Apply to Hack</button>
+                            </a>
                         </div>
                     </div>
                 </li>
