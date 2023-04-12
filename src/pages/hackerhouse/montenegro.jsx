@@ -13,7 +13,7 @@ import gigi from "../../../content/images/hackerhouse/montenegro/gigi.png";
 import circle from "../../../content/images/hackerhouse/montenegro/circle.png";
 import youai from "../../../content/images/hackerhouse/montenegro/youai.png";
 import Geoge from "../../../content/images/hackerhouse/montenegro/geoge.png";
-
+import marc from "../../../content/images/hackerhouse/montenegro/marc.png";
 import montenegroog from "../../../content/images/og/montenegro.png";
 
 import Carousel from "../../components/carousel/index.js";
@@ -387,7 +387,7 @@ export default function montenegro() {
                                             <p>
                                                 1.Leverage&nbsp;
                                                 <span className="underline">EigenLayer</span>
-                                                {" "}
+                                          
                                                 to enable Ethereum's validator to act as Paymaster.
                                             </p>
                                             <div className="montenegro-list-item-text--web mobilegap">
@@ -397,20 +397,19 @@ export default function montenegro() {
                                                                               Paymaster is to build a reputation system or have them
                                                                               stake funds{" "} </p>
                                                 <p className="character">
-                                                    {" "}
+                                          
                                                     into the entry point contract, However, this method
                                                                               yields weak trust assumptions and low capital
                                                                               efficiency, why{" "} </p>
                                                 <p className="character">
-                                                    {" "}
+                                 
                                                     not try to leverage re-staking to push the slash-able
                                                                               conditions on to Ethereum's validator so that
                                                                               Paymaster
                                                 </p>
-                                                {" "}
+                                   
                                                 <p className="character">
                                                     can be more trustless.</p>
-                                       
                                         </div>
 
                         
@@ -441,7 +440,7 @@ export default function montenegro() {
                                                                               environment, are there any methods that we can
                                                 </p>
                                                 <p className="character">
-                                                    {" "}
+                                        
                                                     accomplish chain-agnostic AA?
                                                 </p>
                                             </div>
@@ -489,7 +488,7 @@ export default function montenegro() {
                                                 <p className="character">
                                                     By separating contract logic into multiple modules and
                                                                               managing and combining them through abstract accounts,{" "} </p>
-                                                {" "}
+                                            
                                                 <p className="character">
                                                     more complex and feature-rich applications can be
                                                                               built, and they can be shared and reused across
@@ -524,7 +523,7 @@ export default function montenegro() {
                                             <div className="mobilegap montenegro-list-item-text--web">
                                                 <p className="character">
                                                     Implement a different modular architecture;Build
-                                                                              modules based on them{" "} </p>
+                                                                              modules based on them </p>
                                                 <p className="character">
                                                     e.g, EthDenver2023 finalist{" "}
                                                     <a href="https://www.rhinestone.wtf/" className="underline">
@@ -553,12 +552,67 @@ export default function montenegro() {
                                                 (public good)</p>
                                         </div>
                                     </div>
+
+
+                                        <div>
+                                        <div className="avatar">
+                                            <img src={marc}></img>
+                                            <div className="name_company">
+                                                <span>Marc</span>
+                                                <span>@Candide Wallet</span>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <p>1.Dapp with a single Tap:</p>
+                                            <div className="montenegro-list-item-text--web mobilegap">
+                                            <p className="character">Batched transactions allow you to perform multiple transactions in one single on-chain transaction. You can send</p>
+                                            <p className="character"> an array of transactions and they will all get processed in 1 single transaction. Some ideas:</p>
+                                            <ol className="olcharacter">
+                                                <li>Leverage: Build a one click experience on single sided lending protocols that allows users to leverage their
+                                                    <p>collateral by depositing and borrowing x amount of times</p>
+                                                </li>
+                                          
+                                                <li>Multi-trades: Build a way for users to trade multiple assets in a single tx on an exchange</li>        
+                                            </ol>
+                                            </div>
+                                            <div className="character montenegro-list-item-text--mobile">
+                                            <p className="character">Batched transactions allow you to perform multiple transactions in one single on-chain transaction. You can send
+                                           an array of transactions and they will all get processed in 1 single transaction. Some ideas:</p>
+                                            <ol className="olcharacter">
+                                                <li>Leverage: Build a one click experience on single sided lending protocols that allows users to leverage their
+                                                collateral by depositing and borrowing x amount of times
+                                                </li>
+                                          
+                                                <li>Multi-trades: Build a way for users to trade multiple assets in a single tx on an exchange</li>        
+                                            </ol>
+                                            </div>
+
+
+                                        </div>
+                                        <div className="commentgap">
+                                            <p>2.Different Signature Verification Schemes:</p>
+                                            <div className="mobilegap montenegro-list-item-text--web">
+                                                <p className="character">
+                                                Use mobile devices secure enclave;BLS aggregation</p>
+                                       
+                                            </div>
+                                            <div className="mobilegap">
+                                                <p className="character montenegro-list-item-text--mobile">
+                                                <p>Use mobile devices secure enclave;</p>
+                                                <p>BLS aggregation</p>
+                                                  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </Carousel>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li> {" "}
+                <li>
                     {/* 第七个 */}
                     <div className="montenegro_seventh">
                         <div className="montenegro_seventh_content">
@@ -566,10 +620,9 @@ export default function montenegro() {
                             <p>
                                 Whether you're an experienced Web3 developer looking to push the
                                                 limits of what's possible, or a curious{" "} </p>
-                            <p> {" "}
+                            <p> 
                                 researcher eager to explore new possibilities, our HackerHouse
                                                 event is the perfect place to take your{" "} </p>
-                            {" "}
                             <p>
                                 skills to the next level.</p>
                             <p className="margingap">
