@@ -272,8 +272,6 @@ export default function IndexPage() {
          description="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology" 
          image={ahhlogo} ></SEO>
            
-   
-
 
         {/* 1、首页 */}
         <div className="antalpha-container">
