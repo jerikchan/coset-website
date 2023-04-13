@@ -18,15 +18,17 @@ import montenegroog from "../../../content/images/og/montenegro.png";
 
 import Carousel from "../../components/carousel/index.js";
 
+import SEO from "../../components/SEO/SEO.js"
 import {Seo} from "gatsby-theme-portfolio-minimal";
-import SEO from "../../components/SEO/SEO.js";
 
 export default function montenegro() {
     return (
         <>
             <Seo title="Antalpha Labs-Web3 developers community"/>
-            <SEO title="AA-themed HackerHouse" description="AA learning materials will be provided before the event, which includes lectures, discussions, and brainstorming sessions for project development."
+            <SEO title="AA-themed HackerHouse" 
+            description="AA learning materials will be provided before the event, which includes lectures, discussions, and brainstorming sessions for project development."
                 image={montenegroog}></SEO>
+    
 
             {/* 1、这里是导航栏 */}
             <Navi></Navi>
