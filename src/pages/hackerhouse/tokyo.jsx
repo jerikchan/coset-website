@@ -26,9 +26,10 @@ export default function Toyko() { // 选项列表
 
         <Seo title="Antalpha Labs-Web3 developers community"/>
 
-        <SEO title="Antalpha Labs-Web3 developers community" description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program."
+        <SEO title="On-Chain Gaming" 
+        description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program."
             image={toykoog}></SEO>
-
+      
 
         {/* 1、这里是logo */}
         <Navi></Navi>
