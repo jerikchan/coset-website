@@ -48,7 +48,7 @@ export default function montenegro() {
                                 <span className="montenegro_theme2">
                                     19th May 2023 - 24th May 2023
                                 </span>
-                                <span className="montenegro_theme3">@Podgorica</span>
+                                <span className="montenegro_theme3">@Podgorica, Montenegro</span>
                             </div>
                             <a href="https://tally.so/r/wAzO6o">
                                 <button className="montenegro_button">Apply to Hack</button>
@@ -138,17 +138,17 @@ export default function montenegro() {
                                 </p>
                                 <p>brightest minds in Web3 development and researcher
                                 </p>
-                                <p> {" "}
+                                <p> 
                                     for
                                     &nbsp;<span>a week-long</span>&nbsp;
-                                    deep dive into all things{" "}
+                                    deep dive into all things
                                     <span>AA</span>.
                                 </p>
                             </div>
                             <p className="montenegro-list-item-text--mobile">
 
                                 During this event, we'll be bringing together the 
-                                              brightest minds in Web3 development and researcher {" "}
+                                              brightest minds in Web3 development and researcher 
                                 for
                                 &nbsp;<span>a week-long</span>&nbsp;
                                 deep dive into all things
@@ -245,7 +245,7 @@ export default function montenegro() {
                                                     <a href="https://github.com/kristofgazso/erc4337-mev-searcher-bot" className="underline character">
                                                         https://github.com/kristofgazso/erc4337-mev-searcher-bot
                                                     </a>
-                                                    {" "} </p>
+                                                   </p>
                                                 <p>
                                                     <a href="https://github.com/NethermindEth/mev-aa-geth" className="underline character">
                                                         https://github.com/NethermindEth/mev-aa-geth
@@ -281,7 +281,7 @@ export default function montenegro() {
                                                                                     contracts to meet different needs. For example for
                                                                                     DAOs,{" "} </p>
                                                     <p className="character">
-                                                        {" "}
+                                                 
                                                         they may need multi-sign and verify.
                                                     </p>
                                                 </div>
@@ -317,7 +317,7 @@ export default function montenegro() {
                                                                               gas
                                                 </p>
                                                 <p className="character">
-                                                    {" "}
+                              
                                                     fee. A thorough research of the available AA wallet
                                                                               would be essential. eg. Pimlico, Stackup,
                                                                               Candidewallet.{" "} </p>
@@ -330,8 +330,7 @@ export default function montenegro() {
                                                     AA brings mass adoption and what would be better than
                                                                               a seamless mobile app where you won't even notice the
                                                                               gas
-                                            
-                                                    {" "}
+                                    
                                                     fee. A thorough research of the available AA wallet
                                                                               would be essential. eg. Pimlico, Stackup,
                                                                               Candidewallet.{" "} 
@@ -344,17 +343,17 @@ export default function montenegro() {
 
                                             <div className="mobilegap montenegro-list-item-text--web">
                                                 <p className="character">
-                                                    {" "}
+                                         
                                                     It sucks when you try to connect but it shows your
                                                                               dapp does not support such activity, it would cause a
                                                                               lot{" "} </p>
                                                 <p className="character">
-                                                    {" "}
+                                           
                                                     of friction if all dapp come up with their own way
                                                                               each time aa gets updated. So instead if there are
                                                                               some{" "} </p>
                                                 <p className="character">
-                                                    {" "}
+                                 
                                                     standard few lines of could but simple enough for dapp
                                                                               to integrate.
                                                 </p>
@@ -437,7 +436,7 @@ export default function montenegro() {
                                                     One of the advantages that MPC wallet has compared to
                                                                               Multisig wallet is that they are Chain-agnostic. It{" "} </p>
                                                 <p className="character">
-                                                    {" "}
+                                     
                                                     seems like ERC 4337 only stands in an EVM-compatible
                                                                               environment, are there any methods that we can
                                                 </p>
@@ -494,7 +493,7 @@ export default function montenegro() {
                                                 <p className="character">
                                                     more complex and feature-rich applications can be
                                                                               built, and they can be shared and reused across
-                                                                              different{" "} </p>
+                                                                              different </p>
                                                 <p className="character">
                                                     applications.</p>
                                             </div>
@@ -527,7 +526,7 @@ export default function montenegro() {
                                                     Implement a different modular architecture;Build
                                                                               modules based on them </p>
                                                 <p className="character">
-                                                    e.g, EthDenver2023 finalist{" "}
+                                                    e.g, EthDenver2023 finalist
                                                     <a href="https://www.rhinestone.wtf/" className="underline">
                                                         https://www.rhinestone.wtf/
                                                     </a>
