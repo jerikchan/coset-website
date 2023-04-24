@@ -8,6 +8,8 @@ import keyboard from "../../../content/images/hackerhouse/montenegro/keyboard.pn
 import schedule from "../../../content/images/hackerhouse/montenegro/schedule.png";
 import coding from "../../../content/images/hackerhouse/montenegro/coding.png";
 
+import support from "../../../content/images/hackerhouse/montenegro/support.png";
+
 import harry from "../../../content/images/hackerhouse/montenegro/harry.png";
 import gigi from "../../../content/images/hackerhouse/montenegro/gigi.png";
 import circle from "../../../content/images/hackerhouse/montenegro/circle.png";
@@ -53,6 +55,7 @@ export default function montenegro() {
                             <a href="https://tally.so/r/wAzO6o">
                                 <button className="montenegro_button">Apply to Hack</button>
                             </a>
+                            <div> <img src={support}></img></div>
                         </div>
                     </div>
                 </li>

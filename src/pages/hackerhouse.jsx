@@ -28,20 +28,10 @@ export default function HackerHouse() {
             belong: "ONGOING"
        
         },
-        {
-            id: '2',
-            signuplink: "/hackerhouse/tokyo",
-            theme: "# On-Chain Gaming",
-            "name": "",
-            startDate: "09th Apr, 2023",
-            endDate: "17th, Apr 2023",
-            location: "@Tokyo",
-            belong: "ONGOING"
-      
-        }, 
+       
 
         {
-            id: '3',
+            id: '2',
             signuplink: "/hackerhouse/montenegro", // 跳转到notion项目页面
             theme: "# Account Abstraction",
             "name": "",
@@ -49,7 +39,20 @@ export default function HackerHouse() {
             endDate: "24th May, 2023",
             location: "@Podgorica",
             belong: "UPCOMING"
-        }, {
+        }, 
+        {
+            id: '3',
+            signuplink: "/hackerhouse/tokyo",
+            theme: "# On-Chain Gaming",
+            "name": "",
+            startDate: "09th Apr, 2023",
+            endDate: "17th, Apr 2023",
+            location: "@Tokyo",
+            belong: "PAST"
+      
+        },
+
+        {
             id: '4',
             signuplink: "/hackerhouse/zkp",
             theme: "# Zkp",
