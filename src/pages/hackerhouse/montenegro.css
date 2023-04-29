@@ -278,6 +278,43 @@
   cursor: pointer;
 }
 
+.oursologon{
+  margin-top: 7rem;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 27.5px;
+line-height: 33px;
+text-align: center;
+}
+
+.ourpartner{
+  padding: 7rem 10rem;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.suportbg{
+width: 14rem;
+height: 8rem;
+margin-left: 4rem;
+margin-bottom: 1rem;
+background: #272727;
+border-radius: 11.7735px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.suportbg img{
+  width: 130px;
+  height: 45px;
+}
+
+
 @media only screen and (max-width: 340px) {
   .montenegro-list-item-text--mobile{
     display: block;
@@ -440,6 +477,37 @@
     word-break:break-all;
   }
 
+
+.oursologon{
+  margin-top: 6rem;
+font-size: 22px;
+}
+
+.ourpartner{
+  padding: 4rem 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.suportbg{
+width: 9rem;
+height: 5rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+background: #272727;
+border-radius: 11.7735px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.suportbg img{
+  width: 70px;
+  height: 30px;
+}
+
+
 }
 
 @media (min-width: 340px) and (max-width: 600px) {
@@ -599,6 +667,39 @@
 .underline {
   word-break:break-all;
 }
+
+
+.oursologon{
+  margin-top: 6rem;
+font-size: 22px;
+}
+
+.ourpartner{
+  padding: 4rem 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.suportbg{
+width: 9rem;
+height: 5rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+background: #272727;
+border-radius: 11.7735px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.suportbg img{
+  width: 70px;
+  height: 30px;
+}
+
+
+
 }
 
 @media (min-width: 501px) and (max-width: 1024px) {

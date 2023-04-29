@@ -18,20 +18,39 @@ import Geoge from "../../../content/images/hackerhouse/montenegro/geoge.png";
 import marc from "../../../content/images/hackerhouse/montenegro/marc.png";
 import montenegroog from "../../../content/images/og/montenegro.png";
 
+
+import argent from "../../../content/images/hackerhouse/montenegro/support/argent-logo.png";
+import biconomy from "../../../content/images/hackerhouse/montenegro/support/biconomy-logo.png";
+import candide from "../../../content/images/hackerhouse/montenegro/support/candide-logo.png";
+import particale from "../../../content/images/hackerhouse/montenegro/support/particale-logo.png";
+import pimlico from "../../../content/images/hackerhouse/montenegro/support/pimlico-logo.png";
+import safe from "../../../content/images/hackerhouse/montenegro/support/safe-logo.png";
+import soulwallet from "../../../content/images/hackerhouse/montenegro/support/soulwallet-logo.png";
+import taiko from "../../../content/images/hackerhouse/montenegro/support/taiko-logo.png";
+import unipass from "../../../content/images/hackerhouse/montenegro/support/unipass-logo.png";
+import versa from "../../../content/images/hackerhouse/montenegro/support/versa-logo.png";
+import web3mq from "../../../content/images/hackerhouse/montenegro/support/web3mq-logo.png";
+
+
 import Carousel from "../../components/carousel/index.js";
 
 import SEO from "../../components/SEO/SEO.js"
 import {Seo} from "gatsby-theme-portfolio-minimal";
 
 export default function montenegro() {
+    const supportlist = [
+        {
+       
+        },
+        {
+         
+        }]
     return (
         <>
             <Seo title="Antalpha Labs-Web3 developers community"/>
             <SEO title="AA-themed HackerHouse" 
             description="AA learning materials will be provided before the event, which includes lectures, discussions, and brainstorming sessions for project development."
                 image={montenegroog}></SEO>
-    
-
             {/* 1、这里是导航栏 */}
             <Navi></Navi>
 
@@ -59,8 +78,8 @@ export default function montenegro() {
                         </div>
                     </div>
                 </li>
-                <li> {" "}
-                    {/* 第二个 */}
+                <li> {/* 第二个 */}
+         
                     <div className="montenegro_second">
                         <div className="montenegro_title">Call for Participants</div>
                         <span className="montenegro_content">
@@ -616,8 +635,7 @@ export default function montenegro() {
                         </div>
                     </div>
                 </li>
-                <li>
-                    {/* 第七个 */}
+                <li>{/* 第七个 */}
                     <div className="montenegro_seventh">
                         <div className="montenegro_seventh_content">
                         <div className="montenegro-list-item-text--web">
@@ -656,6 +674,24 @@ export default function montenegro() {
                             </a>
                         </div>
                     </div>
+                </li>
+                <li>{/* 第八个 */}
+                <div className="montenegro_eighth">
+                    <div className="oursologon">We're Proud to partner with...</div>
+                    <div className="ourpartner">
+                        <div className="suportbg"><img src={safe} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={taiko} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={candide} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={pimlico} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={argent} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={biconomy} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={particale} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={unipass} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={web3mq} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={soulwallet} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={versa} loading="lazy"></img></div>               
+                    </div>
+                </div>
                 </li>
             </ul>
             <Footer></Footer>

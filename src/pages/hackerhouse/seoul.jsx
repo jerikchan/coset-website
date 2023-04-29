@@ -14,16 +14,21 @@ import schedule3 from '../../../content/images/hackerhouse/seoul/schedule3.png';
 import apply from '../../../content/images/hackerhouse/seoul/apply.png';
 import detailicon from '../../../content/images/hackerhouse/seoul/detailicon.png';
 import seoulvideo from '../../../content/images/hackerhouse/seoul/0428.mp4';
+import seoulog from "../../../content/images/og/seoul.png";
+
 
 export default function Seoul() {
+
   const [isNavShowing, setIsNavShowing] = useState(false);
   return (
     <>
       <Seo title="Antalpha Labs-Web3 developers community" />
       <SEO
-        title="Antalpha Labs-Web3 developers community"
+        title="Web3+AI"
         description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program."
+        image={seoulog}
       ></SEO>
+
 
       {/* 1、这里是导航栏 */}
       {/* PC端 */}
