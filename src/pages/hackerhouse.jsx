@@ -19,7 +19,7 @@ export default function HackerHouse() {
     const cardlist = [
         {
             id: '1',
-            signuplink: "/hackerhouse/chiangmai", // 跳转到notion项目页面
+            signuplink: "/hackerhouse/chiangmai", 
             theme: "# Zkp",
             "name": "",
             startDate: "08th Apr, 2023",
@@ -32,7 +32,7 @@ export default function HackerHouse() {
 
         {
             id: '2',
-            signuplink: "/hackerhouse/montenegro", // 跳转到notion项目页面
+            signuplink: "/hackerhouse/montenegro", 
             theme: "# Account Abstraction",
             "name": "",
             startDate: "19th May, 2023",
@@ -40,8 +40,21 @@ export default function HackerHouse() {
             location: "@Podgorica",
             belong: "UPCOMING"
         }, 
-        {
+
+            {
             id: '3',
+            signuplink: "/hackerhouse/seoul", 
+            theme: "# AI + Web3",
+            "name": "",
+            startDate: "31st May, 2023",
+            endDate: "5th June, 2023",
+            location: "@Seoul",
+            belong: "UPCOMING"
+       
+        },
+
+        {
+            id: '4',
             signuplink: "/hackerhouse/tokyo",
             theme: "# On-Chain Gaming",
             "name": "",
@@ -53,7 +66,7 @@ export default function HackerHouse() {
         },
 
         {
-            id: '4',
+            id: '5',
             signuplink: "/hackerhouse/zkp",
             theme: "# Zkp",
             "name": "x ETHDenver",
@@ -62,7 +75,7 @@ export default function HackerHouse() {
             location: "@Denver",
             belong: "PAST"
         }, {
-            id: '5',
+            id: '6',
             signuplink: "/hackerhouse/move",
             theme: "# Move",
             "name": "x NonceGeek",
@@ -71,7 +84,7 @@ export default function HackerHouse() {
             location: "@Dali",
             belong: "PAST"
         }, {
-            id: '6',
+            id: '7',
             signuplink: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
             theme: "# Infra and open source tools",
             "name": "",
