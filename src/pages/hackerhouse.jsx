@@ -17,21 +17,11 @@ import {Seo} from "gatsby-theme-portfolio-minimal";
 export default function HackerHouse() {
 
     const cardlist = [
-        {
-            id: '1',
-            signuplink: "/hackerhouse/chiangmai", 
-            theme: "# Zkp",
-            "name": "",
-            startDate: "08th Apr, 2023",
-            endDate: "29th Apr, 2023",
-            location: "@Chiang Mai",
-            belong: "ONGOING"
-       
-        },
+     
        
 
         {
-            id: '2',
+            id: '1',
             signuplink: "/hackerhouse/montenegro", 
             theme: "# Account Abstraction",
             "name": "",
@@ -42,7 +32,7 @@ export default function HackerHouse() {
         }, 
 
             {
-            id: '3',
+            id: '2',
             signuplink: "/hackerhouse/seoul", 
             theme: "# AI + Web3",
             "name": "",
@@ -50,6 +40,18 @@ export default function HackerHouse() {
             endDate: "5th June, 2023",
             location: "@Seoul",
             belong: "UPCOMING"
+       
+        },
+
+           {
+            id: '3',
+            signuplink: "/hackerhouse/chiangmai", 
+            theme: "# Zkp",
+            "name": "",
+            startDate: "08th Apr, 2023",
+            endDate: "29th Apr, 2023",
+            location: "@Chiang Mai",
+            belong: "PAST"
        
         },
 
