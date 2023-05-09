@@ -82,7 +82,7 @@ export default function Seoul() {
             playsInline
             autoPlay
             muted
-            src="https://bdway.oss-cn-beijing.aliyuncs.com/qiuqiushiping.mp4"
+            src="https://qiuqiu-1314770506.cos.ap-singapore.myqcloud.com/WeChat_20230509113754.mp4 "
           ></video>
           <div className="seoul-detail">
             <div className="seoul-detail_title">
