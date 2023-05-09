@@ -13,7 +13,6 @@ import schedule2 from '../../../content/images/hackerhouse/seoul/schedule2.png';
 import schedule3 from '../../../content/images/hackerhouse/seoul/schedule3.png';
 import apply from '../../../content/images/hackerhouse/seoul/apply.png';
 import detailicon from '../../../content/images/hackerhouse/seoul/detailicon.png';
-import seoulvideo from '../../../content/images/hackerhouse/seoul/0428.mp4';
 import seoulog from "../../../content/images/og/seoul.png";
 
 
