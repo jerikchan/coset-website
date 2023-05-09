@@ -39,7 +39,7 @@ export default function Seoul() {
         <ul className="seoul-navi-links">
           <li className="seoul-navi-links__item1">
             <Link to="/hackerhouse">Hacker House</Link>
-            <div className="seoul-line"></div>
+            <div className="seoul-line"></div> 
           </li>
           <li className="seoul-navi-links__item2">
             <Link to="https://t.me/AntalphaLabs">Join Us</Link>
@@ -87,7 +87,7 @@ export default function Seoul() {
           <div className="seoul-detail">
             <div className="seoul-detail_title">
               <p>
-                <span className="blod">AI</span> + WEB
+                <span className="blod">AI +</span>  WEB
                 <span className="blod">3</span>
               </p>
               <p>HACKERHOUSE</p>
@@ -125,8 +125,10 @@ export default function Seoul() {
 
         {/* 3、报名详情页面 */}
         <div className="seoul-item-text--web">
-        <div className="seoul-title">our Schedule</div>
-
+        <div  className="seoul-title-box">
+        <div className="seoul-title-arrow"></div>
+        <div className="seoul-title">OUR SCHEDULE</div>
+        </div>
         <div className="schedule">
           <div className="schedule-left">
             <div>
@@ -169,8 +171,8 @@ export default function Seoul() {
               <div className="participate-attention">
                 <div className="flower">*</div>
                 <span className="quetion">
-                  Any questions or concerns about the event,feel free to contact
-                  us.Looking forward to meet you!
+                  Any questions or concerns about the event,&nbsp; feel free to contact
+                  us.&nbsp; Looking forward to meet you!
                 </span>
               </div>
             </div>
@@ -191,7 +193,9 @@ export default function Seoul() {
                 ARE YOU READY TO LAUNCH YOUR WEB3 PROJECT?
               </span>
               <img src={apply}></img>
-              <button>COMING SOON</button>
+              <a href="https://tally.so/r/3XL664">
+                            <button className="seoul_button">Apply to Hack</button>
+                        </a>
             </div>
           </div>
         </div>
@@ -201,7 +205,10 @@ export default function Seoul() {
 
 
       <div className="seoul-item-text--mobile">
-        <div className="seoul-title">our Schedule</div>
+      <div  className="seoul-title-box">
+        <div className="seoul-title-arrow"></div>
+        <div className="seoul-title">OUR SCHEDULE</div>
+        </div>
 
         <div className="schedule">
           <div className="">
@@ -254,10 +261,10 @@ export default function Seoul() {
                 </ul>
               </div>
               <div className="participate-attention">
-                <div className="flower">*</div>
-                <span className="quetion">
-                  Any questions or concerns about the event,feel free to contact
-                  us.Looking forward to meet you!
+              <span className="flower">*</span>
+                <span className="quetion">   
+                  Any questions or concerns about the event,&nbsp; feel free to contact
+                  us.&nbsp; Looking forward to meet you!
                 </span>
               </div>
             </div>
@@ -269,23 +276,16 @@ export default function Seoul() {
                 ARE YOU READY TO LAUNCH YOUR WEB3 PROJECT?
               </span>
               <img src={apply}></img>
-              <button>COMING SOON</button>
+
+              <a href="https://tally.so/r/3XL664" >
+               <button className="seoul_button">Apply to Hack</button>
+              </a>
+          
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-      
-
       </div>
-
-
-
-
-
       {/* 4、尾栏 */}
       {/* <Footer></Footer> */}
     </>

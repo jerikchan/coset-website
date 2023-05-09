@@ -310,8 +310,9 @@ justify-content: center;
 }
 
 .suportbg img{
-  width: 130px;
-  height: 45px;
+  width: 200px;
+  height: 60px;
+  object-fit: scale-down;
 }
 
 
@@ -484,13 +485,13 @@ font-size: 22px;
 }
 
 .ourpartner{
-  padding: 4rem 1rem;
+  padding: 4rem 0rem;
   display: flex;
   gap: 1rem;
 }
 
 .suportbg{
-width: 9rem;
+width: 8rem;
 height: 5rem;
 margin-left: 1rem;
 margin-bottom: 1rem;
@@ -505,6 +506,10 @@ justify-content: center;
 .suportbg img{
   width: 70px;
   height: 30px;
+}
+.bigger{
+  width: 110px!important;
+  height: 35px!important;
 }
 
 
@@ -698,7 +703,10 @@ justify-content: center;
   height: 30px;
 }
 
-
+.bigger{
+  width: 110px!important;
+  height: 35px!important;
+}
 
 }
 

@@ -8,7 +8,7 @@ import keyboard from "../../../content/images/hackerhouse/montenegro/keyboard.pn
 import schedule from "../../../content/images/hackerhouse/montenegro/schedule.png";
 import coding from "../../../content/images/hackerhouse/montenegro/coding.png";
 
-import support from "../../../content/images/hackerhouse/montenegro/support.png";
+import support from "../../../content/images/hackerhouse/montenegro/support.svg";
 
 import harry from "../../../content/images/hackerhouse/montenegro/harry.png";
 import gigi from "../../../content/images/hackerhouse/montenegro/gigi.png";
@@ -19,17 +19,17 @@ import marc from "../../../content/images/hackerhouse/montenegro/marc.png";
 import montenegroog from "../../../content/images/og/montenegro.png";
 
 
-import argent from "../../../content/images/hackerhouse/montenegro/support/argent-logo.png";
-import biconomy from "../../../content/images/hackerhouse/montenegro/support/biconomy-logo.png";
-import candide from "../../../content/images/hackerhouse/montenegro/support/candide-logo.png";
-import particale from "../../../content/images/hackerhouse/montenegro/support/particale-logo.png";
-import pimlico from "../../../content/images/hackerhouse/montenegro/support/pimlico-logo.png";
-import safe from "../../../content/images/hackerhouse/montenegro/support/safe-logo.png";
-import soulwallet from "../../../content/images/hackerhouse/montenegro/support/soulwallet-logo.png";
-import taiko from "../../../content/images/hackerhouse/montenegro/support/taiko-logo.png";
-import unipass from "../../../content/images/hackerhouse/montenegro/support/unipass-logo.png";
-import versa from "../../../content/images/hackerhouse/montenegro/support/versa-logo.png";
-import web3mq from "../../../content/images/hackerhouse/montenegro/support/web3mq-logo.png";
+import argent from "../../../content/images/hackerhouse/montenegro/support/argent-logo.svg";
+import biconomy from "../../../content/images/hackerhouse/montenegro/support/biconomy-logo.svg";
+import candide from "../../../content/images/hackerhouse/montenegro/support/candide-logo.svg";
+import particale from "../../../content/images/hackerhouse/montenegro/support/particale-logo.svg";
+import pimlico from "../../../content/images/hackerhouse/montenegro/support/pimlico-logo.svg";
+import safe from "../../../content/images/hackerhouse/montenegro/support/safe-logo.svg";
+import soulwallet from "../../../content/images/hackerhouse/montenegro/support/soulwallet-logo.svg";
+import taiko from "../../../content/images/hackerhouse/montenegro/support/taiko-logo.svg";
+import unipass from "../../../content/images/hackerhouse/montenegro/support/unipass-logo.svg";
+import versa from "../../../content/images/hackerhouse/montenegro/support/versa-logo.svg";
+import web3mq from "../../../content/images/hackerhouse/montenegro/support/web3mq-logo.svg";
 
 
 import Carousel from "../../components/carousel/index.js";
@@ -681,14 +681,14 @@ export default function montenegro() {
                     <div className="ourpartner">
                         <div className="suportbg"><img src={safe} loading="lazy"></img></div>
                         <div className="suportbg"><img src={taiko} loading="lazy"></img></div>
-                        <div className="suportbg"><img src={candide} loading="lazy"></img></div>
-                        <div className="suportbg"><img src={pimlico} loading="lazy"></img></div>
-                        <div className="suportbg"><img src={argent} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={candide} loading="lazy" className="bigger"></img></div>
+                        <div className="suportbg"><img src={pimlico} loading="lazy" className="bigger"></img></div>
+                        <div className="suportbg"><img src={argent} loading="lazy" className="bigger"></img></div>
                         <div className="suportbg"><img src={biconomy} loading="lazy"></img></div>
-                        <div className="suportbg"><img src={particale} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={particale} loading="lazy" className="bigger"></img></div>
                         <div className="suportbg"><img src={unipass} loading="lazy"></img></div>
                         <div className="suportbg"><img src={web3mq} loading="lazy"></img></div>
-                        <div className="suportbg"><img src={soulwallet} loading="lazy"></img></div>
+                        <div className="suportbg"><img src={soulwallet} loading="lazy" className="bigger"></img></div>
                         <div className="suportbg"><img src={versa} loading="lazy"></img></div>               
                     </div>
                 </div>

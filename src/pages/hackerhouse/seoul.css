@@ -14,19 +14,19 @@
 
 @font-face {
   font-family: Thunder;
-  src: url(../../font/Bubble-Thunder-2.otf);
+  src: url(../../font/Thunder-ExtraBoldLC.woff2);
 }
 
 /* PC端 */
 
 .seoul {
   background-color: black;
-  padding: 0 6rem;
+  padding: 0 8.5rem;
   color: white;
 }
 
 .seoul2 {
-  padding: 0 6rem;
+  padding: 0 8.5rem;
   background-color: black;
 
 }
@@ -35,7 +35,7 @@
   position: fixed;
   z-index: 999;
   top: 0;
-  height: 5.5rem;
+  height: 6.5rem;
   margin: auto;
   display: flex;
   flex-flow: column wrap;
@@ -60,6 +60,11 @@
   color: white;
 }
 
+.seoul-navi-links__item1{
+  display: flex;
+  position: relative;
+}
+
 .seoul-navi-links__item1::before {
   left: 0.975rem;
   padding-right: 0.5rem;
@@ -67,8 +72,20 @@
   font-size: 25px;
   color: #435aff;
 }
+.seoul-navi-links__item1::after{
+
+  padding:0 0.5rem;
+  content: '>';
+  font-size: 28px;
+  color: #435aff;
+}
+
+.seoul-navi-links__item2{
+  position: relative;
+}
 
 .seoul-line {
+  position: absolute;
   width: 0px;
   height: 1px;
   background-color: #2222ff;
@@ -85,7 +102,7 @@
 }
 
 .seoul-video-bg {
-  margin-top: 3.6rem;
+  margin-top: 3.8rem;
   width: 100%;
   position: relative;
 }
@@ -200,12 +217,18 @@ position: relative;
   color: #435aff;
   font-family: 'SSInter';
 }
-.seoul-title::before {
-  color: #2222ff;
+
+.seoul-title-box{
   position: relative;
-  top: -120px;
-  font-size: 20px;
-  content: '↘';
+}
+
+.seoul-title-arrow{
+position: absolute;
+left: 420px;
+top: 90px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image:url("../../../content/images/hackerhouse/seoul/arrow.png") ;  
 }
 
 .seoul-title {
@@ -294,6 +317,8 @@ padding: 1rem 0 0 2rem;
 
 .participate-attention {
   margin-top: 3.5rem;
+  display: flex;
+  gap: .625rem;
 }
 
 .flower {
@@ -305,6 +330,7 @@ padding: 1rem 0 0 2rem;
   color: #7c7c7c;
   font-family: 'SInter';
   font-size: 1.15rem;
+  line-height: 1rem;
 }
 
 .applynow {
@@ -346,7 +372,7 @@ padding: 1rem 0 0 2rem;
   height: auto;
   text-align: center;
 }
-.applynow button {
+.seoul_button {
   font-family: 'SInter';
   width: 25rem;
   height: 7.25rem;
@@ -355,7 +381,22 @@ padding: 1rem 0 0 2rem;
   background-color: transparent;
   color: #dcdcdc;
   font-size: 2.275rem;
+  cursor: pointer;
 }
+
+.seoul_button:hover {
+  background-color: #435aff;
+  -webkit-box-shadow: 10px 10px 99px 6px #435aff;
+  -moz-box-shadow: 10px 10px 99px 6px #435aff;
+  box-shadow: 10px 10px 99px 6px #435aff;
+  border-color: white;
+  color: white;
+}
+
+.blanke {
+  margin-left:10px;
+}
+
 
 /* 移动端 */
 .seoul-web,
@@ -514,7 +555,7 @@ padding: 1rem 0 0 2rem;
 
 
 .seoul-title {
-  padding: 54rem 0 0 0;
+  padding: 55rem 0 0 0;
   font-size: 4rem;
 }
 
@@ -526,7 +567,7 @@ padding: 1rem 0 0 2rem;
   display: flex;
   flex-direction: column;
   gap: 10rem;
-  padding: 1rem ;
+  padding: 1rem;
 }
 
 .participate-title {
@@ -567,13 +608,13 @@ padding: 1rem 0 0 2rem;
 }
 .schedule {
   gap: 5rem;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 .applynow-title {
   font-size: 1.2rem;
 
 }
-.applynow button {
+.seoul_button {
   font-family: 'SInter';
   width: 12.5rem;
   height: 3.6rem;
@@ -582,9 +623,16 @@ padding: 1rem 0 0 2rem;
   background-color: transparent;
   color: #dcdcdc;
   font-size: 1.2rem;
-
+  cursor: pointer;
 }
-
+.seoul_button:hover {
+  background-color: #435aff;
+  -webkit-box-shadow: 10px 10px 99px 6px #435aff;
+  -moz-box-shadow: 10px 10px 99px 6px #435aff;
+  box-shadow: 10px 10px 99px 6px #435aff;
+  border-color: white;
+  color: white;
+}
 .participate-gap{
   margin-top: 128rem;
 }
@@ -602,6 +650,11 @@ padding: 1rem 0 0 2rem;
 
 .applynow {
 padding-top: 0rem;
+}
+
+.seoul-title-arrow {
+  left: 40px;
+  top: 820px;
 }
 
 }
@@ -700,6 +753,10 @@ padding-top: 0rem;
   padding: 1rem 0 0 1rem
   }
 
+  .seoul-title-arrow {
+    left: 45px;
+    top: 825px;
+  }
   .schedule-title {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -762,12 +819,7 @@ padding-top: 0rem;
   top: -50px;
 }
 
-.schedule {
-  display: flex;
-  flex-direction: column;
-  gap: 10rem;
-  padding: 1rem ;
-}
+
 
 .participate-title {
   margin: 5rem 0;
@@ -801,12 +853,15 @@ padding-top: 0rem;
 .schedule li img{
   width: 90%;
 }
+
 .schedule {
+  display: flex;
+  flex-direction: column;
   gap: 5rem;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
-.applynow button {
+.seoul_button {
   font-family: 'SInter';
   width: 12.5rem;
   height: 3.6rem;
@@ -815,8 +870,18 @@ padding-top: 0rem;
   background-color: transparent;
   color: #dcdcdc;
   font-size: 1.2rem;
-
 }
+
+
+.seoul_button:hover {
+  background-color: #435aff;
+  -webkit-box-shadow: 10px 10px 99px 6px #435aff;
+  -moz-box-shadow: 10px 10px 99px 6px #435aff;
+  box-shadow: 10px 10px 99px 6px #435aff;
+  border-color: white;
+  color: white;
+}
+
 
 .participate-gap{
   margin-top: 128rem;
