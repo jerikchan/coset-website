@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: Thunder;
-  src: url(../../font/Thunder-BoldLC.otf);
+  src: url(../../font/Thunder-BoldLC.ttf);
 }
 
 /* PC端 */
@@ -204,7 +204,7 @@ position: relative;
 }
 .seoul-hackerhouse-detail {
   width: 76%;
-  height: 16.9rem;
+  height: 4rem;
   font-family: 'SInter';
   font-size: 2.4rem;
   line-height: 54px;
@@ -215,7 +215,6 @@ position: relative;
 
 .blod {
   color: #435aff;
-  font-family: 'SSInter';
 }
 
 .seoul-title-box{
@@ -224,8 +223,8 @@ position: relative;
 
 .seoul-title-arrow{
 position: absolute;
-left: 420px;
-top: 90px;
+left: 390px;
+top: 85px;
   width: 1.5rem;
   height: 1.5rem;
   background-image:url("../../../content/images/hackerhouse/seoul/arrow.png") ;  
@@ -241,13 +240,13 @@ top: 90px;
 }
 
 .seoul-detail_title{
-  font-family: 'Thunder';
+font-family: 'Thunder';
 font-style: normal;
 font-weight: 700;
 font-size: 11rem;
 line-height: 10rem;
 color: #FFFFFF;
-padding: 1rem 0 0 2rem;
+padding: 2rem 0 0 2rem;
 }
 
 .schedule {
@@ -283,6 +282,7 @@ padding: 1rem 0 0 2rem;
   color: #dcdcdc;
   margin-bottom: 1rem;
 }
+
 
 .schedule-detail {
   font-family: 'Inter';
@@ -374,13 +374,13 @@ padding: 1rem 0 0 2rem;
 }
 .seoul_button {
   font-family: 'SInter';
-  width: 25rem;
-  height: 7.25rem;
+  width: 21rem;
+  height: 5.8rem;
   border: 2px solid #435aff;
   border-radius: 960px;
-  background-color: transparent;
+  background-color: black;
   color: #dcdcdc;
-  font-size: 2.275rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -396,6 +396,50 @@ padding: 1rem 0 0 2rem;
 .blanke {
   margin-left:10px;
 }
+
+
+.seoul_button2{
+  background-color: black;
+}
+.slide-button {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+
+.slide-background {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #5465EC;
+  transition: transform 0.5s ease-in-out;
+}
+
+.defdiv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  transition: transform 0.5s ease-in-out;
+  background-color: #000;
+  text-align: center;
+}
+
 
 
 /* 移动端 */
@@ -491,14 +535,15 @@ padding: 1rem 0 0 2rem;
 
 .seoul2 {
   padding: 0rem;
-  height: 300rem;
+  height: 275rem;
   background-color: black;
 }
 
   .seoul-detail_title{
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 5rem;
-  padding: 1rem 0 0 1rem
+  padding: 1rem 0 0 1rem;
+  text-align:center;
   }
 
   .schedule-title {
@@ -511,9 +556,9 @@ padding: 1rem 0 0 2rem;
   }
 
   .seoul-video-bg{
-    background-image: url("../../../content/images/hackerhouse/seoul/seoulmobilebg.png");
+    background-image: url("../../../content/images/hackerhouse/seoul/seoulmobilebg.svg");
     width: 100%;
-    height: 31rem;
+    height: 30rem;
   }
 
   .seoul-video-bg {
@@ -542,9 +587,9 @@ padding: 1rem 0 0 2rem;
 }
 
 .seoul-hackerhouse-detail {
-  margin-top: 3.125rem;
+  margin-top: 2.125rem;
   width: 90%;
-  height: 16.9rem;
+  height: 5rem;
   font-family: 'SInter';
   font-size: 1.2rem;
   line-height: 2.5rem;
@@ -555,7 +600,7 @@ padding: 1rem 0 0 2rem;
 
 
 .seoul-title {
-  padding: 55rem 0 0 0;
+  padding: 32rem 0 0 0;
   font-size: 4rem;
 }
 
@@ -620,7 +665,7 @@ padding: 1rem 0 0 2rem;
   height: 3.6rem;
   border: 2px solid #435aff;
   border-radius: 30rem;
-  background-color: transparent;
+  background-color: black;
   color: #dcdcdc;
   font-size: 1.2rem;
   cursor: pointer;
@@ -654,14 +699,29 @@ padding-top: 0rem;
 
 .seoul-title-arrow {
   left: 40px;
-  top: 820px;
+  top: 450px;
 }
+
+.seoul-hackerhouse-text {
+  position: absolute;
+  top:330px;
+  left: 25%;
+}
+
+.detail-box2{
+  background-image: url("../../../content/images/hackerhouse/seoul/bigbluearrow.png");
+  background-repeat: no-repeat;
+  background-position:30%;
+}
+
+
 
 }
 
 
 
 @media (min-width: 381px) and (max-width: 580px) {
+
   .seoul-web {
     display: none;
   }
@@ -750,12 +810,13 @@ padding-top: 0rem;
   .seoul-detail_title{
   font-size: 5.6rem;
   line-height: 6rem;
-  padding: 1rem 0 0 1rem
+  padding: 1rem 0 0 1rem;
+  text-align:center;
   }
 
   .seoul-title-arrow {
     left: 45px;
-    top: 825px;
+    top: 450px;
   }
   .schedule-title {
     font-size: 3rem;
@@ -767,7 +828,9 @@ padding-top: 0rem;
   }
 
   .seoul-video-bg{
-    background-image: url("../../../content/images/hackerhouse/seoul/seoulmobilebg.png");
+    background-image: url("../../../content/images/hackerhouse/seoul/seoulmobilebg.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 31rem;
   }
@@ -775,7 +838,6 @@ padding-top: 0rem;
   .seoul-video-bg {
     margin-top: 0rem;
     width: 100%;
-
   }
   
   .detail-box-wrap {
@@ -784,8 +846,8 @@ padding-top: 0rem;
     align-items: center;
     padding: 1rem 0rem 2rem 0.8rem;
     gap: 4.5rem;
-
 }
+
 .seoul-video-bg::after {
   display: none;
 }
@@ -798,9 +860,9 @@ padding-top: 0rem;
 }
 
 .seoul-hackerhouse-detail {
-  margin-top: 3.125rem;
+  margin-top: 2.125rem;
   width: 90%;
-  height: 16.9rem;
+  height: rem;
   font-family: 'SInter';
   font-size: 1.2rem;
   line-height: 2.5rem;
@@ -809,9 +871,14 @@ padding-top: 0rem;
   text-align: left;
 }
 
+.detail-box2{
+  background-image: url("../../../content/images/hackerhouse/seoul/bigbluearrow.png");
+  background-repeat: no-repeat;
+  background-position:30%;
+}
 
 .seoul-title {
-  padding: 54rem 0 0 0;
+  padding: 32rem 0 0 0;
   font-size: 4rem;
 }
 
@@ -819,6 +886,11 @@ padding-top: 0rem;
   top: -50px;
 }
 
+.seoul-hackerhouse-text {
+  position: absolute;
+  top:330px;
+  left: 25%;
+}
 
 
 .participate-title {
@@ -867,7 +939,7 @@ padding-top: 0rem;
   height: 3.6rem;
   border: 2px solid #435aff;
   border-radius: 30rem;
-  background-color: transparent;
+  background-color: black;
   color: #dcdcdc;
   font-size: 1.2rem;
 }
@@ -954,9 +1026,10 @@ padding-top: 0rem;
   font-size: 9rem;
 }
 
-..seoul-hackerhouse-detail {
+.seoul-hackerhouse-detail {
   font-size: 2rem;
 }
+
 
 
 }
@@ -964,6 +1037,7 @@ padding-top: 0rem;
 
 @media (min-width: 2000px) and (max-width: 2600px) {
   .seoul-web {
-    width: 120rem;
+    max-width: 1920px;
   }
+
 }

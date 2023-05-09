@@ -101,15 +101,26 @@ export default function Seoul() {
               </div>
               <div className="detail-box detail-box2">
                 <p className="detail-box-inline">Seoul</p>
-                <p>&nbsp;&nbsp;Korean</p>
+                <p>&nbsp;&nbsp;South Korean</p>
               </div>
               <div className="detail-box detail-box3">
-                <p className="detail-box-inline">Innovative AI+Web3 Ideas</p>
-                <p>&nbsp;&nbsp;Infra Tools</p>
+                <p className="detail-box-inline">AI+Web3</p>
+                 <p>&nbsp;Hackerhouse</p> 
               </div>
             </div>
             <div className="seoul-hackerhouse-text">
-              <div className="seoul-hackerhouse-detail">
+            <a href="https://tally.so/r/3XL664"  className="seoul-hackerhouse-detail">
+                            <button className="seoul_button seoul_button2">APPLY NOW</button>
+                        </a>
+
+                        {/* <a href="https://tally.so/r/3XL664"  className="seoul-hackerhouse-detail" id="slide-button">
+                <div className="slide-backgroud"><img src={whitearrow} ></img></div>
+                <div className="seoul_button seoul_button2 defdiv">APPLY NOW</div>
+                </a> */}
+
+
+                        
+              {/* <div className="seoul-hackerhouse-detail">
                 Antalpha HackerHouse is a&nbsp;
                 <span className="blod">X week co-living community</span>&nbsp;
                 providing Quality Free Accommodations for developers who is or
@@ -117,7 +128,7 @@ export default function Seoul() {
                 <span className="blod">open-source</span> projects Theme, time
                 and location varies from one event to another but our excitement
                 to meet free-spirited hackers doesn’t !
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -193,15 +204,12 @@ export default function Seoul() {
               </span>
               <img src={apply}></img>
               <a href="https://tally.so/r/3XL664">
-                            <button className="seoul_button">Apply to Hack</button>
+                            <button className="seoul_button">APPLY NOW</button>
                         </a>
             </div>
           </div>
         </div>
       </div>
-
-
-
 
       <div className="seoul-item-text--mobile">
       <div  className="seoul-title-box">
@@ -277,7 +285,7 @@ export default function Seoul() {
               <img src={apply}></img>
 
               <a href="https://tally.so/r/3XL664" >
-               <button className="seoul_button">Apply to Hack</button>
+               <button className="seoul_button">APPLY NOW</button>
               </a>
           
             </div>
