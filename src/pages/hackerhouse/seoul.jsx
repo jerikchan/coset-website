@@ -101,7 +101,7 @@ export default function Seoul() {
               </div>
               <div className="detail-box detail-box2">
                 <p className="detail-box-inline">Seoul</p>
-                <p>&nbsp;&nbsp;South Korean</p>
+                <p>&nbsp;&nbsp;South Korea</p>
               </div>
               <div className="detail-box detail-box3">
                 <p className="detail-box-inline">AI+Web3</p>
