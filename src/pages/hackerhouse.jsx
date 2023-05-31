@@ -22,8 +22,8 @@ export default function HackerHouse() {
           signuplink: "https://pari-eight.vercel.app/",
           theme: "# Pari",
           "name": "x Pari",
-          startDate: "13th July, 2023",
-          endDate: "20th July, 2023",
+          startDate: "15th July, 2023",
+          endDate: "24th July, 2023",
           location: "@Paris",
           belong: "UPCOMING"
         },
@@ -49,7 +49,7 @@ export default function HackerHouse() {
             endDate: "5th June, 2023",
             location: "@Seoul",
             belong: "ONGOING"
-       
+
         },
 
            {
