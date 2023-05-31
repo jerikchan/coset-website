@@ -17,42 +17,51 @@ import {Seo} from "gatsby-theme-portfolio-minimal";
 export default function HackerHouse() {
 
     const cardlist = [
-     
-       
+        {
+          id: '8',
+          signuplink: "https://pari-eight.vercel.app/",
+          theme: "# Pari",
+          "name": "x Pari",
+          startDate: "13th July, 2023",
+          endDate: "20th July, 2023",
+          location: "@Paris",
+          belong: "UPCOMING"
+        },
+
 
         {
             id: '1',
-            signuplink: "/hackerhouse/montenegro", 
+            signuplink: "/hackerhouse/montenegro",
             theme: "# Account Abstraction",
             "name": "",
             startDate: "19th May, 2023",
             endDate: "24th May, 2023",
             location: "@Podgorica",
             belong: "ONGOING"
-        }, 
+        },
 
             {
             id: '2',
-            signuplink: "/hackerhouse/seoul", 
+            signuplink: "/hackerhouse/seoul",
             theme: "# AI + Web3",
             "name": "",
             startDate: "31st May, 2023",
             endDate: "5th June, 2023",
             location: "@Seoul",
             belong: "UPCOMING"
-       
+
         },
 
            {
             id: '3',
-            signuplink: "/hackerhouse/chiangmai", 
+            signuplink: "/hackerhouse/chiangmai",
             theme: "# Zkp",
             "name": "",
             startDate: "08th Apr, 2023",
             endDate: "29th Apr, 2023",
             location: "@Chiang Mai",
             belong: "PAST"
-       
+
         },
 
         {
@@ -64,7 +73,7 @@ export default function HackerHouse() {
             endDate: "17th, Apr 2023",
             location: "@Tokyo",
             belong: "PAST"
-      
+
         },
 
         {
@@ -111,15 +120,15 @@ export default function HackerHouse() {
     return (
         <>
 
-            <Seo title="Antalpha Labs-Web3 developers community" /> 
+            <Seo title="Antalpha Labs-Web3 developers community" />
             <SEO title="HackerHouse Events"
-         description="Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects." 
+         description="Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects."
          image={events} ></SEO>
-          
+
             <Navi></Navi>
         {/* 1、这里是标题和活动介绍 */}
         <div className="hackerhouse_container">
-        
+
             <div className="hackerhouse_navi">
                 <div className="hackerhouse_navi_left">
                     <div className="hackerhouse_navi_title">HackerHouse Events</div>
