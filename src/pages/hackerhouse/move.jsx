@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../../components/footer"
 import Navi from "../../components/navi"
-import "./move.css"
+import "../../styles/move.css"
 
 import movebg from "../../../content/images/hackerhouse/movebg.png"
 import SEO from '../../components/seo'

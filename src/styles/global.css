@@ -46,3 +46,11 @@
   --font-ps: "ps";
   --font-fa: "fa";
 }
+
+a,
+a:focus {
+  outline: none !important;
+}
+* {
+  box-sizing: border-box;
+}

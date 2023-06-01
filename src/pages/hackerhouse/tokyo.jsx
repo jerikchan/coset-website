@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Footer from "../../components/footer"
 import Navi from "../../components/navi"
 
-import "./tokyo.css"
+import "../../styles/tokyo.css"
 import toykoog from "../../../content/images/og/toyko.png"
 import toykotitle from "../../../content/images/hackerhouse/toyko/title.png"
 import toykobutton from "../../../content/images/hackerhouse/toyko/button.png"

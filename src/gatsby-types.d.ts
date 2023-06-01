@@ -1777,10 +1777,5 @@ type StringQueryOperatorInput = {
   readonly regex: InputMaybe<Scalars['String']>;
 };
 
-type SEOQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-type SEOQuery = { readonly site: { readonly siteMetadata: { readonly titleTemplate: string | null, readonly twitterUsername: string | null, readonly defaultTitle: string | null, readonly defaultDescription: string | null, readonly siteUrl: string | null, readonly defaultImage: string | null } | null } | null };
-
 
 }

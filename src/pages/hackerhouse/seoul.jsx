@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import "./seoul.css"
+import "../../styles/seoul.css"
 import { Link } from "gatsby"
 import smalllogo from "../../../content/images/navi/logo.svg"
 import SEO from "../../components/seo"
