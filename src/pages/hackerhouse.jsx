@@ -136,7 +136,7 @@ export default function HackerHouse() {
             <ul className="eventslist">
               {navList.map((item, idx) => (
                 <li
-                  key={`event-${item.name}-${signuplink}`}
+                  key={`event-${item.name}-${item.signuplink}`}
                   style={{
                     color: menuType == idx ? "blue" : "",
                   }}
@@ -150,9 +150,8 @@ export default function HackerHouse() {
           </div>
           <div className="event_container">
             {filteredList.length !== 0 ? (
-              filteredList.map((item, idx) => (
-                <div key={`event-${item.name}-${signuplink}`}>
-                  {/* <a href={item.signuplink}> */}
+              filteredList.map((item) => (
+                <div key={`event-${item.name}-${item.signuplink}`}>
                   <Link to={item.signuplink}>
                     <div className="event_card">
                       <div className="event_tag">
@@ -180,7 +179,6 @@ export default function HackerHouse() {
                       </div>
                     </div>
                   </Link>
-                  {/* </a> */}{" "}
                 </div>
               ))
             ) : (

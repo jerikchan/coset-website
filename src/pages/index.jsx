@@ -54,9 +54,6 @@ import hunter from "../../content/images/project/hunter.png"
 import kakarot from "../../content/images/project/kakarot.png"
 import web3mq from "../../content/images/project/web3mq.jpeg"
 
-import arrow2 from "../../content/images/antalpha/arrow-up-right -blue.svg"
-import arrow3 from "../../content/images/antalpha/arrow-up-right -white.svg"
-
 export default function IndexPage() {
   const imglist = [
     {
@@ -300,15 +297,6 @@ export default function IndexPage() {
     },
   ]
 
-  let arrowImg = arrow
-  const viewAllOnchange = (type) => {
-    if ((type = "focus")) {
-      arrowImg = arrow2
-    } else if ((type = "click")) {
-      arrowImg = arrow3
-    }
-  }
-
   return (
     <>
       {/* 1、首页 */}
@@ -391,13 +379,8 @@ export default function IndexPage() {
             <div className="showcase-title">
               <div>Showcase</div>
               <a className="viewALl-href" href="https://antalpha.notion.site/">
-                <button
-                  className="botton viewall-button"
-                  onFocus={() => viewAllOnchange("focus")}
-                  onClick={() => viewAllOnchange("click")}
-                >
-                  View all {/*arrowImg*/}
-                  {/* <img src={arrow} alt="" className="arrow" ></img>  */}
+                <button className="botton viewall-button">
+                  View all
                   <div className="viewAll-arrow"></div>
                 </button>
               </a>
@@ -410,7 +393,7 @@ export default function IndexPage() {
                     <div className="thefirsthacker-case" key={text + idx}>
                       <a
                         href={projectlink}
-                        className=" thefirsthacker-linkcase"
+                        className="thefirsthacker-linkcase"
                         hidefocus="true"
                       >
                         <img
