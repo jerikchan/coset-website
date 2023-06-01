@@ -1,20 +1,20 @@
 @font-face {
   font-family: mobileMontserrat;
-  src: url(../../font/Montserrat-Regular-8.otf);
+  src: url(/fonts/Montserrat-Regular-8.otf);
 }
 @font-face {
   font-family: SInter;
-  src: url(../../font/Inter-Light-7.otf);
+  src: url(/fonts/Inter-Light-7.otf);
 }
 
 @font-face {
   font-family: SSInter;
-  src: url(../../font/Inter-Medium-8.otf);
+  src: url(/fonts/Inter-Medium-8.otf);
 }
 
 @font-face {
   font-family: Thunder;
-  src: url(../../font/Thunder-BoldLC.ttf);
+  src: url(/fonts/Thunder-BoldLC.ttf);
 }
 
 /* PC端 */
@@ -227,7 +227,7 @@ left: 390px;
 top: 85px;
   width: 1.5rem;
   height: 1.5rem;
-  background-image:url("../../../content/images/hackerhouse/seoul/arrow.png") ;  
+  background-image:url("../../../content/images/hackerhouse/seoul/arrow.png") ;
 }
 
 .seoul-title {
@@ -465,7 +465,6 @@ padding: 2rem 0 0 2rem;
     display: block;
     word-break:break-all;
   }
- 
   .seoul-mobile {
     width: 100vw;
     height: 3rem;
@@ -566,7 +565,6 @@ padding: 2rem 0 0 2rem;
     width: 100%;
 
   }
-  
   .detail-box-wrap {
     margin-top: 20rem;
     flex-direction: column;
@@ -733,7 +731,6 @@ padding-top: 0rem;
     display: block;
     word-break:break-all;
   }
- 
   .seoul-mobile {
     width: 100vw;
     height: 3rem;
@@ -839,7 +836,6 @@ padding-top: 0rem;
     margin-top: 0rem;
     width: 100%;
   }
-  
   .detail-box-wrap {
     margin-top: 20rem;
     flex-direction: column;
@@ -984,7 +980,6 @@ padding-top: 0rem;
   .seoul-item-text--web{
     display: block;
     word-break:break-all;
- 
   }
   .seoul-item-text--mobile{
     display: none;
@@ -999,7 +994,6 @@ padding-top: 0rem;
   .seoul-item-text--web{
     display: block;
     word-break:break-all;
- 
   }
   .seoul-item-text--mobile{
     display: none;

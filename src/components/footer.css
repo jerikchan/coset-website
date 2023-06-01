@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: Interlight;
-  src: url(../font/Inter-Light-7.otf);
+  src: url(/fonts/Inter-Light-7.otf);
 }
 
 @font-face {
   font-family: Montserrat-ExtraLight;
-  src: url(../font/Montserrat-ExtraLight-5.otf);
+  src: url(/fonts/Montserrat-ExtraLight-5.otf);
 }
 
 

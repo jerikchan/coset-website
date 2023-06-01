@@ -1,11 +1,11 @@
 @font-face {
   font-family: Space Mono;
-  src: url(../../font/SpaceMono-Regular.ttf);
+  src: url(/fonts/SpaceMono-Regular.ttf);
 }
 
 @font-face {
   font-family: Space Mono Bold;
-  src: url(../../font/SpaceMono-Bold.ttf);
+  src: url(/fonts/SpaceMono-Bold.ttf);
 }
 
 .montenegro-list-item {
@@ -406,7 +406,7 @@ justify-content: center;
     height: 32rem;
     padding: 3.25rem 2.375rem;
     font-size: 0.75rem;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
     background-image: url("../../../content/images/hackerhouse/montenegro/codingbg.png");
   }
 

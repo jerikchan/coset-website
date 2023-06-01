@@ -2,38 +2,38 @@
 
 @font-face {
   font-family: Montserrat11;
-  src: url(../../font/Montserrat-Regular-8.otf);
+  src: url(/fonts/Montserrat-Regular-8.otf);
 }
 
 @font-face {
   font-family: Montserrat22;
-  src: url(../../font/Montserrat-Light-6.otf);
+  src: url(/fonts/Montserrat-Light-6.otf);
 }
 
 @font-face {
   font-family: Montserrat33;
-  src: url(../../font/Montserrat-Bold-3.otf);
+  src: url(/fonts/Montserrat-Bold-3.otf);
 }
 
 @font-face {
   font-family: Alibaba_PuHuiTi;
-  src: url(../../font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+  src: url(/fonts/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
 }
 
 @font-face {
   font-family: PlusJakartaSans;
-  src: url(../../font/PlusJakartaSans-ExtraBold.ttf);
+  src: url(/fonts/PlusJakartaSans-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: PlusJakartaSansRegular;
-  src: url(../../font/PlusJakartaSans-Regular.ttf);
+  src: url(/fonts/PlusJakartaSans-Regular.ttf);
 }
 
 
 .container {
   margin: auto;
-  margin-top: 3rem; 
+  margin-top: 3rem;
 }
 
 
@@ -215,7 +215,7 @@
   color: #131313;
   margin-top: .625rem;
   margin-left: -2.5rem;
-  cursor:pointer; 
+  cursor:pointer;
 }
 .faqsbox_list ul li.highlight{
   background-color: blue;
@@ -349,7 +349,7 @@
 @media only screen and (max-width: 500px) {
 
   .container {
-    margin-top: 0rem; 
+    margin-top: 0rem;
   }
   .denver {
     height: 42rem;
@@ -363,30 +363,27 @@
     margin: 0 0 3.125rem 0;
 
   }
-  
+
   .denver_title {
-  
+
     font-size: 2.125rem;
     line-height: 2.5rem;
   }
-  
+
   .denver_theme {
     font-size: 2.875rem;
     line-height: 5.375rem;
   }
-  
   .denver_detail {
     height: 14.0625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
   .denver_timeloca {
     font-size: 1.125rem;
     margin-top: 0.75rem;
   }
-  
   .denver_button {
 
     width: 9.6875rem;
@@ -394,27 +391,25 @@
     font-size: .875rem;
     margin: 2.725rem 0;
   }
-  
   .denver_contact {
     display: flex;
     flex-direction: row;
   }
-  
 
   .denver_add {
     font-size: .625rem;
     padding-top: 2px;
 
   }
-  
+
   .denver_email {
     font-size: .75rem;
   }
-  
+
   .FAQsbg {
     height: 120rem;
   }
-  
+
   .FAQs {
     display: flex;
     flex-direction: column;
@@ -424,7 +419,6 @@
     border-radius: 1rem;
     margin: -2.7rem 1.25rem 0 1.25rem;
   }
-  
   .fbox {
     height: 80%;
     display: flex;
@@ -434,7 +428,6 @@
 .denver_bg{
   height: 42.125rem;
 }
-  
   .boxtitle {
     font-size: 2.25rem;
     margin-bottom: -5px;
@@ -451,7 +444,6 @@
     margin-left: -1.25rem;
     margin-top: 0;
   }
-  
   .ansbox_list {
     font-size: .875rem;
     line-height: 1.1875rem;
@@ -459,12 +451,12 @@
     padding: 2.1875rem 1.5625rem 1.5625rem 1.5625rem;
   }
 
-  
+
   .ansbox_list div img{
     margin-bottom: .625rem;
   }
-  
-  
+
+
   .denver_photos {
     display: flex;
     flex-direction: column;
@@ -475,7 +467,6 @@
     margin-top: 4.6875rem;
     gap: 1.5625rem;
   }
-  
   .denver_photos_leftbox {
     background: #ffffff;
     height: 100%;
@@ -484,39 +475,36 @@
     display: flex;
     flex-direction: column;
   }
-  
   .denver_house_title {
     display: flex;
     gap: 6.25rem;
   }
-  
   .denver_photos_rightbox {
     background: #ffffff;
     height: 100%;
     border-radius: 1rem;
   }
-  
   .photos_title {
     font-size: 2.375rem;
     height: 70%;
     line-height: 3.25rem;
     margin: 2.625rem 0 0 2.5rem;
   }
-  
- 
-  
+
+
+
   .twitterbutton img{
     margin: 0 .3125rem;
   }
-  
+
   .denverhousimg {
     margin: 5rem 0 1.875rem 0;
   }
-  
+
   .photos_right_arrow {
     margin-top: 3.125rem;
   }
-  
+
   .denver_photos_rightbox {
     margin: 0 auto;
     position: relative;
@@ -525,7 +513,6 @@
     line-height: initial;
   }
 
-  
 .photos_right_arrow{
   display: none;
 }
@@ -534,7 +521,6 @@
     width: 100%;
     overflow: hidden;
   }
-  
 
 .swipper{
   height: 24.5rem;
@@ -542,14 +528,13 @@
 
  .box img{
   height: 25rem;
-  
  }
 
   .denverhousimg img{
     width: 100%;
-   
+
   }
 
 
-  
+
 }
