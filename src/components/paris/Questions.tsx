@@ -99,7 +99,7 @@ export default function Questions() {
                 >
                   <Disclosure.Panel className="max-w-2xl px-4 pb-8 py-2 text-lg xl:text-xl font-ps font-medium leading-7 text-stone-black">
                     <p>Location： Paris, France</p>
-                    <p>Date: 13th July 2023 - 20th July 2023 (1 week)</p>
+                    <p>Date: 15th July 2023 - 24th July 2023 (1 week)</p>
                   </Disclosure.Panel>
                 </Transition>
               </>

@@ -26,6 +26,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
