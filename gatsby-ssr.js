@@ -8,6 +8,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff"
       crossOrigin="anonymous"
+      key="font ps"
     />,
     <link
       rel="preload"
@@ -15,6 +16,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/otf"
       crossOrigin="anonymous"
+      key="font fa"
     />,
   ])
 }

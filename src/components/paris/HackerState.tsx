@@ -17,7 +17,7 @@ export default function HackerState() {
         <img
           src="/images/hackerstate-background.svg"
           alt="Chill hacker state background"
-          className="absolute top-0 left-0 right-0 -bottom-32 z-0 object-cover transform translate-y-36 scale-125 h-[100vh] md:h-[93vh] w-full max-w-full"
+          className="absolute top-0 left-0 right-0 -bottom-32 object-cover transform translate-y-36 scale-125 h-[100vh] md:h-[93vh] w-full max-w-full"
         />
       </div>
 
