@@ -1,35 +1,35 @@
 @font-face {
   font-family: Montserrat11;
-  src: url(../../font/Montserrat-Regular-8.otf);
+  src: url(/fonts/Montserrat-Regular-8.otf);
 }
 
 @font-face {
   font-family: Montserrat22;
-  src: url(../../font/Montserrat-Light-6.otf);
+  src: url(/fonts/Montserrat-Light-6.otf);
 }
 
 @font-face {
   font-family: Montserrat33;
-  src: url(../../font/Montserrat-Bold-3.otf);
+  src: url(/fonts/Montserrat-Bold-3.otf);
 }
 
 @font-face {
   font-family: Consolas;
-  src: url(../../font/Consolas.ttf);
+  src: url(/fonts/Consolas.ttf);
 }
 
 @font-face {
   font-family: Silkscreen-Regular;
-  src: url(../../font/Silkscreen-Regular.ttf);
+  src: url(/fonts/Silkscreen-Regular.ttf);
 }
 
 ul{
   list-style: none;
- 
+
 }
 
 p,ul{
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
@@ -643,7 +643,6 @@ p,ul{
     margin-top: 0;
     padding: 1.2rem 0.5rem;
     overflow-y: auto;
-    
   }
 
   .tokyoansbox_list {
@@ -832,7 +831,6 @@ p,ul{
     font-size: 3.5rem;
   }
 
-  
 
   .tokyofaqsbox_list ul li {
     font-size: 1rem;

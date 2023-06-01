@@ -5,9 +5,8 @@
 
 @font-face {
   font-family: mobileMontserrat;
-  src: url(../font/Montserrat-Regular-8.otf);
+  src: url(/fonts/Montserrat-Regular-8.otf);
 }
-
 
 /* PC端 */
 .web {
@@ -20,7 +19,6 @@
   align-items: center;
   background-color: #f5f5f6;
   z-index: 9999999999;
-
 }
 
 .logo {
@@ -58,7 +56,6 @@
 }
 
 .line {
-
   width: 0px;
   height: 1px;
   background-color: #2222ff;
@@ -72,7 +69,7 @@
 
 .navi-links__item2:hover .line {
   width: 24%;
-}  
+}
 
 /* 移动端 */
 
@@ -94,77 +91,73 @@
     height: 3rem;
     padding-bottom: 0rem;
     display: flex;
-  background-image: url("../../content/images/navi/Navbar_small.png");
+    background-image: url("../../content/images/navi/Navbar_small.png");
     top: 0;
     background-color: white;
     z-index: 9999999999;
   }
 
-.mobile .mobilelogo {
-  width: 8.3125rem;
-  height: 1.5625rem;
-  margin-left: 1rem;
-  cursor: pointer;
-}
+  .mobile .mobilelogo {
+    width: 8.3125rem;
+    height: 1.5625rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
 
-.mobile .menu {
-  background-image: url("../../content/images/navi/menu.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 1.5625rem;
-  width: 1.5625rem;
-  right: 1rem;
-  cursor: pointer;
-  position: absolute;
-}
+  .mobile .menu {
+    background-image: url("../../content/images/navi/menu.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    right: 1rem;
+    cursor: pointer;
+    position: absolute;
+  }
 
-.mobile ul {
-  width: 100%;
-  top: 5rem;
-  flex-direction: column;
-  position: relative;
-  right: 0px;
-  z-index: 9999;
-}
+  .mobile ul {
+    width: 100%;
+    top: 5rem;
+    flex-direction: column;
+    position: relative;
+    right: 0px;
+    z-index: 9999;
+  }
 
-.navi-links {
-  display: flex;
-  gap: 0rem;
-  justify-content: flex-end;
-  right: 12px;
-}
+  .navi-links {
+    display: flex;
+    gap: 0rem;
+    justify-content: flex-end;
+    right: 12px;
+  }
 
+  .navi-links__item {
+    font-family: "mobileMontserrat";
+    font-size: 0.875rem;
+    height: 3.75rem;
+    background-image: url("../../content/images/navi/navibg_small.png");
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+  }
 
-.navi-links__item{
-  font-family: 'mobileMontserrat';
-  font-size: .875rem;
-  height: 3.75rem;
-  background-image: url("../../content/images/navi/navibg_small.png");
-  display: flex;
-  justify-content: flex-end;
-  padding-right:10px;
-  align-items: center;
-  width: 100%;
-  border-bottom: 1px solid #d0d0d0;
-}
-
-.navi-links__item img{
-  width: 1.5rem;
-  height:1.5rem;
-}
-
+  .navi-links__item img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1400px) {
-  .mobile{display: none;}
+  .mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 2000px) and (max-width: 2600px) {
-
-    .web {
-      width: 120rem;
-  
-    }
-  
-
+  .web {
+    width: 120rem;
+  }
 }
