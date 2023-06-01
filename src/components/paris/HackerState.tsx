@@ -1,6 +1,5 @@
 import React, { useRef } from "react"
 import cx from "clsx"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Button from "./Button"
 
@@ -14,7 +13,7 @@ export default function HackerState() {
       <div className="absolute h-[140vh] w-[100vw] bg-[#9290F2] overflow-hidden -z-10" />
 
       <div className="sticky top-10 left-0 right-0 -bottom-32 z-0 h-[140vh] w-full max-w-full overflow-hidden">
-        <StaticImage
+        <img
           src="/images/hackerstate-background.svg"
           alt="Chill hacker state background"
           className="absolute top-0 left-0 right-0 -bottom-32 object-cover transform translate-y-36 scale-125 h-[100vh] md:h-[93vh] w-full max-w-full"

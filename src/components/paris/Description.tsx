@@ -145,19 +145,7 @@ export default function Description() {
             icon={<Accommodation />}
             heading="Large house For party"
             title="Free Accommodation"
-            content={
-              <p>
-                Complimentary accommodation in{" "}
-                <span className="underline underline-offset-4 decoration-1">
-                  a stunning private villa
-                </span>
-                , and{" "}
-                <span className="underline underline-offset-4 decoration-1">
-                  a Private Luxury car
-                </span>
-                .
-              </p>
-            }
+            content="Central location in Paris"
             bgIcon={<Furniture />}
             color="purple"
             lamp
@@ -183,19 +171,7 @@ export default function Description() {
             icon={<Heart />}
             heading="Are we going to have fun? ( For sure )"
             title="Leisure & Networking"
-            content={
-              <p>
-                Activities designed for{" "}
-                <span className="underline underline-offset-4 decoration-1">
-                  networking and bonding
-                </span>
-                , as well as gourmet meals crafted by our in-house chef &{" "}
-                <span className="underline underline-offset-4 decoration-1">
-                  French breakfast
-                </span>
-                .
-              </p>
-            }
+            content="Activities designed for networking and bonding, with opportunities to meet hackers from other hacker house as well."
             bgIcon={<DinnerBackground />}
             color="pink"
           />
