@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
           <div>
             <p className="max-w-2xl text-secondary-black md:text-lg lg:text-xl font-ps">
-              Date: 13th July 2023 - 20th July 2023 (1 week)
+              Date: 15th July 2023 - 24th July 2023 (1 week)
             </p>
             <p className="max-w-2xl text-secondary-black mb-8 md:text-lg lg:text-xl font-ps">
               Location： Paris, France
