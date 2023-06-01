@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Footer from "../../components/footer"
 import Navi from "../../components/navi"
 
-import "./zkp.css"
+import "../../styles/zkp.css"
 import star from "../../../content/images/hackerhouse/star.png"
 import denverbg from "../../../content/images/hackerhouse/denverbg2.jpg"
 import denverhouse from "../../../content/images/hackerhouse/denverhouse.png"

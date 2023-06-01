@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../../components/footer"
 import Navi from "../../components/navi"
-import "./chiangmai.css"
+import "../../styles/chiangmai.css"
 
 import chiangmaitwitter from "../../../content/images/og/chiangmaitwitter.png"
 

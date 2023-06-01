@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../../components/footer"
 import Navi from "../../components/navi"
-import "./montenegro.css"
+import "../../styles/montenegro.css"
 
 import keyboard from "../../../content/images/hackerhouse/montenegro/keyboard.png"
 import schedule from "../../../content/images/hackerhouse/montenegro/schedule.png"

@@ -86,7 +86,7 @@ right: 10%;
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url("../../content/images/hackerhouse/time.png");
+  background-image: url("/images/hackerhouse/time.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -103,7 +103,7 @@ right: 10%;
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url("../../content/images/hackerhouse/location.png");
+  background-image: url("/images/hackerhouse/location.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -463,10 +463,10 @@ right: 10%;
   }
   .hackerhouse1 {
     height: 700px;
-    background-image: url("../../content/images/hackerhouse/background-media.png");
+    background-image: url("/images/hackerhouse/background-media.png");
   }
   .hackerhouse1:before {
-    background-image: url("../../content/images/hackerhouse/gradient-media.png");
+    background-image: url("/images/hackerhouse/gradient-media.png");
   }
   .hackerhouse-project-title {
     width: 100%;
@@ -641,10 +641,10 @@ right: 10%;
   }
   .hackerhouse1 {
     height: 700px;
-    background-image: url("../../content/images/hackerhouse/background-media.png");
+    background-image: url("/images/hackerhouse/background-media.png");
   }
   .hackerhouse1:before {
-    background-image: url("../../content/images/hackerhouse/gradient-media.png");
+    background-image: url("/images/hackerhouse/gradient-media.png");
   }
   .hackerhouse-project-title {
     width: 100%;
@@ -806,10 +806,10 @@ right: 10%;
   }
   .hackerhouse1 {
     height: 700px;
-    background-image: url("../../content/images/hackerhouse/background-media.png");
+    background-image: url("/images/hackerhouse/background-media.png");
   }
   .hackerhouse1:before {
-    background-image: url("../../content/images/hackerhouse/gradient-media.png");
+    background-image: url("/images/hackerhouse/gradient-media.png");
   }
   .hackerhouse-project-title {
     width: 100%;

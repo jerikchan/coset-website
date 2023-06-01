@@ -13,7 +13,6 @@ import ahhlogo from "../../content/images/og/ahhlogo.png"
 
 // 第一期
 import check from "../../content/images/antalpha/check.svg"
-import arrow from "../../content/images/antalpha/arrow-up-right.svg"
 import chatbot from "../../content/images/antalpha/chatbot.jpg"
 import geolink from "../../content/images/antalpha/geolink.png"
 import produceart from "../../content/images/antalpha/produceart.png"
