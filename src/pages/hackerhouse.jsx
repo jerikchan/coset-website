@@ -15,8 +15,8 @@ export default function HackerHouse() {
   const cardlist = [
     {
       signuplink: "/hackerhouse/paris",
-      theme: "# Paris",
-      name: "x Paris",
+      theme: "# ZKML",
+      name: "x ETHCC",
       startDate: "15th July, 2023",
       endDate: "24th July, 2023",
       location: "@Paris",
