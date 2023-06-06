@@ -11,7 +11,7 @@ export const Head = () => (
   <SEO
     title="HackerHouse Paris Event"
     description="Antalpha Labs is a web3 developer community. Paris event is coming soon!"
-    image="/static/images/hackerhouse/paris/paris_poster.png"
+    image="static/images/hackerhouse/paris/paris_poster.png"
   />
 )
 
