@@ -48,7 +48,7 @@ export default function HackerHouse() {
             startDate: "31st May, 2023",
             endDate: "5th June, 2023",
             location: "@Seoul",
-            belong: "ONGOING"
+            belong: "PAST"
        
         },
 
