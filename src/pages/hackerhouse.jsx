@@ -37,7 +37,7 @@ export default function HackerHouse() {
             startDate: "19th May, 2023",
             endDate: "24th May, 2023",
             location: "@Podgorica",
-            belong: "ONGOING"
+            belong: "PAST"
         },
 
             {
