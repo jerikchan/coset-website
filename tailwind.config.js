@@ -29,6 +29,9 @@ module.exports = {
       },
       maxWidth: {
         'half': '50%',
+      },
+      fontSize: {
+        'mobile': '2rem'
       }
     },
   },

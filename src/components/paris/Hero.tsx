@@ -35,7 +35,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="absolute z-0 -bottom-1 top-[155px] scale-75 -left-[60rem] sm:scale-100 sm:top-[3px] sm:-left-[48rem] lg:top-[4rem] lg:-left-[32rem] xl:top-[4rem] xl:-left-[20rem] 2xl:top-0 2xl:left-0">
+          <div className="absolute z-0 -bottom-1 top-[155px] scale-75 -left-[66rem] sm:scale-100 sm:top-[3px] sm:-left-[48rem] lg:top-[4rem] lg:-left-[32rem] xl:top-[4rem] xl:-left-[20rem] 2xl:top-0 2xl:left-0">
             <HeroAnimationBackground />
           </div>
         </div>

@@ -45,10 +45,10 @@ const DescriptionCard = ({
             {heading}
           </h5>
         </div>
-        <h1 className="mt-8 text-5xl 2xl:text-7xl font-bold max-w-lg leading-snug 2xl:leading-[6rem]">
+        <h1 className="mt-8 text-4xl sm:text-5xl 2xl:text-7xl font-bold max-w-lg leading-snug 2xl:leading-[6rem] break-words lg:break-normal">
           {title}
         </h1>
-        <p className="mt-7 text-xl font-medium font-ps max-w-md">{content}</p>
+        <p className="mt-7 text-xs sm:text-xl font-medium font-ps max-w-md">{content}</p>
       </div>
 
       <div className="absolute z-0 right-0 bottom-0">{bgIcon}</div>
@@ -97,11 +97,11 @@ const DescriptionCard = ({
 
 export default function Description() {
   return (
-    <section className="p-10 lg:p-28 xl:p-42 text-primary-black relative bg-white w-full z-10">
+    <section className="p-6 sm:p-10 lg:p-20 xl:p-42 text-primary-black relative bg-white w-full z-10">
       <div className="max-w-[1920px] mx-auto flex flex-wrap flex-col-reverse 2xl:flex-row-reverse justify-center relative">
         <HaveFunCircle className="hover:animate-spin-medium ml-auto order-2 2xl:ml-0 2xl:mr-auto 2xl:order-1" />
 
-        <div className="text-6xl mb-20 font-bold space-y-2 inline-block">
+        <div className="text-mobile lg:text-5xl mb-20 font-bold space-y-2 inline-block">
           <h1 className="break-keep 2xl:mt-40">If you have missed</h1>
 
           <div className="inline-flex gap-4">
@@ -111,7 +111,7 @@ export default function Description() {
             </span>
           </div>
 
-          <h1>
+          <h1 className="break-words">
             We bring them to <span className="text-[#E497FF]">Paris</span> for{" "}
             <span className="text-[#E497FF]">YOU</span>
           </h1>
@@ -120,13 +120,15 @@ export default function Description() {
 
       <div className="mt-20 2xl:mt-42 mx-auto xl:grid grid-cols-2 auto-cols-auto auto-rows-auto clear-both">
         <div className="space-y-3 w-[95%] xl:max-w-screen-sm ">
-          <h1 className="font-bold text-6xl">Network state 🪩</h1>
+          <h1 className="font-bold text-mobile lg:text-6xl">Network state 🪩</h1>
 
-          <h1 className="font-bold text-6xl">but for hackers ?!</h1>
+          <h1 className="font-bold text-mobile lg:text-6xl">
+            but for hackers ?!
+          </h1>
 
-          <h1 className="font-bold text-6xl">Hell’ya LFG !</h1>
+          <h1 className="font-bold text-mobile lg:text-6xl">Hell’ya LFG !</h1>
 
-          <p className="text-xl font-ps">
+          <p className="text-xs lg:text-xl font-ps">
             In July, a worldwide group of developers, designers, creators, and
             thinkers will unite at 🤌{" "}
             <a

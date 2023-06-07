@@ -7,7 +7,7 @@ export default function Card(props: ComponentProps<"div">) {
     <div
       {...props}
       className={cx(
-        "rounded-3xl px-14 py-12 overflow-hidden relative flex flex-col",
+        "rounded-3xl px-6 md:px-14 py-10 md:py-12 overflow-hidden relative flex flex-col",
         props.className,
       )}
     >

@@ -10,26 +10,26 @@ export default function HackerState() {
     <section className="relative z-0" ref={containerRef}>
       <div className="h-11 bg-stone-black relative z-30" />
 
-      <div className="absolute h-[140vh] w-[100vw] bg-[#9290F2] overflow-hidden -z-10" />
+      <div className="absolute h-full sm:h-[140vh] w-[100vw] bg-[#9290F2] overflow-hidden -z-10" />
 
-      <div className="sticky top-10 left-0 right-0 -bottom-32 z-0 h-[140vh] w-full max-w-full overflow-hidden">
+      <div className="sticky top-10 left-0 right-0 -bottom-32 z-0 h-[480px] sm:h-[140vh] w-full max-w-full overflow-hidden">
         <img
           src="/images/hackerstate-background.svg"
           alt="Chill hacker state background"
-          className="absolute top-0 left-0 right-0 -bottom-32 object-cover transform translate-y-36 scale-125 h-[100vh] md:h-[93vh] w-full max-w-full"
+          className="absolute -bottom-10 sm:bottom-72 object-cover lg:transform lg:translate-y-36 scale-125 -scale-x-125 sm:scale-125 sm:h-[100vh] md:h-[93vh] w-full max-w-full"
         />
       </div>
 
       <div className="w-full flex justify-end absolute top-0 left-0 right-0 bottom-0 -z-10">
-        <div className="max-w-sm lg:max-w-screen-sm mt-[16vh] lg:mt-[24vh] 2xl:mt-[32vh] mr-8 md:mr-12 lg:mr-32 md:sm-32 text-primary-black text-3xl lg:text-4xl 2xl:text-5xl space-y-4">
+        <div className="max-w-sm lg:max-w-screen-sm mt-20 sm:mt-[16vh] lg:mt-[24vh] 2xl:mt-[32vh] mr-36 md:mr-12 lg:mr-32 md:sm-32 pl-4 text-primary-black text-base sm:text-3xl lg:text-4xl 2xl:text-5xl space-y-4">
           <h1 className="font-bold">Our Hacker State Includes...</h1>
-          <p className="font-medium bg-white rounded-2xl px-4 py-6 max-w-fit font-ps">
+          <p className="font-medium bg-white rounded-lg sm:rounded-2xl px-2 py-1 sm:px-4 sm:py-6 max-w-fit font-ps">
             Hack Zk by Lambda Class
           </p>
-          <p className="font-medium bg-white rounded-2xl px-4 py-6 max-w-fit font-ps">
+          <p className="font-medium bg-white rounded-lg sm:rounded-2xl px-2 py-1 sm:px-4 sm:py-6 max-w-fit font-ps">
             Autonomous World gaming House
           </p>
-          <p className="font-medium bg-white rounded-2xl px-4 py-6 max-w-fit font-ps">
+          <p className="font-medium bg-white rounded-lg sm:rounded-2xl px-2 py-1 sm:px-4 sm:py-6 max-w-fit font-ps">
             Sozu Haus
           </p>
           <h1 className="text-8xl text-white">...</h1>
@@ -40,7 +40,7 @@ export default function HackerState() {
         </div>
       </div>
 
-      <div className="relative z-40 bg-stone-black text-white py-32 xl:py-24 px-8 md:px-12 xl:px-20 flex flex-col">
+      <div className="relative z-40 bg-stone-black text-white py-16 sm:py-32 xl:py-24 px-8 md:px-12 xl:px-20 flex flex-col">
         <h1 className="text-5xl font-bold">Why ZKML ?</h1>
 
         <div className="flex flex-wrap justify-between mt-12 xl:mt-8 -mr-20 pr-8">

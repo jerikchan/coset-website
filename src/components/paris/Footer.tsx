@@ -7,14 +7,14 @@ import CircleBackground from "./CircleBackground"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#A3F7F7] py-32 px-12 lg:px-20 relative overflow-hidden h-[52rem] md:h-[42rem] flex justify-center items-center">
-      <Card className="rounded-2xl bg-white flex flex-col justify-center items-center z-10 w-full">
+    <footer className="bg-[#A3F7F7] py-14 sm:py-32 px-4 sm:px-12 lg:px-20 relative overflow-hidden h-[38rem] sm:h-[52rem] md:h-[42rem] flex justify-center items-center">
+      <Card className="rounded-2xl bg-white flex flex-col justify-center items-center z-10 w-full h-full">
         <div className="flex flex-col gap-8 items-center">
-          <p className="font-medium text-secondary-black font-ps uppercase">
+          <p className="font-medium text-secondary-black font-ps uppercase text-center text-sm sm:text-base">
             Get Involved with the future of ZKML today!
           </p>
 
-          <h1 className="font-bold text-6xl max-w-2xl text-center">
+          <h1 className="font-bold text-[44px] sm:text-6xl max-w-2xl text-center break-all sm:break-normal">
             We seek for all brains focusing ZKML
           </h1>
 
@@ -29,7 +29,7 @@ export default function Footer() {
           <a
             href="https://t.me/AntalphaLabs"
             target="_blank"
-            className="underline underline-offset-4 decoration-1 tracking-widest font-ps font-medium text-xl"
+            className="underline underline-offset-4 decoration-1 tracking-widest font-ps font-medium text-sm sm:text-xl"
           >
             or contact us at telegram
           </a>
