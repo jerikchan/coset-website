@@ -6,7 +6,7 @@ const config: GatsbyConfig = {
     title: "Antalpha Labs",
     titleTemplate: "%s · Antalpha Labs", // 添加这一行
     description: "Antalpha Labs is a web3 developer community",
-    url: "https://labs.antalpha.com/",
+    url: "https://labs.antalpha.com",
     image:
       "https://labs.antalpha.com/static/mainlogo-eabcf082112087699216b13369d1413c.svg",
     twitterUsername: "Antalpha_Labs",
