@@ -7,11 +7,14 @@ import Questions from "../../components/paris/Questions"
 import Header from "../../components/paris/Header"
 import SEO from "../../components/seo"
 
+// @ts-expect-error no .png typings yet
+import ParisPoster from "../../../static/images/hackerhouse/paris/paris_poster.png"
+
 export const Head = () => (
   <SEO
     title="HackerHouse Paris Event"
     description="Antalpha Labs is a web3 developer community. Paris event is coming soon!"
-    image="static/images/hackerhouse/paris/paris_poster.png"
+    image={ParisPoster}
   />
 )
 
