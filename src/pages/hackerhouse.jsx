@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import dayjs from 'dayjs'
+import CustomParseFormat from 'dayjs/plugin/customParseFormat'
 import Footer from "../components/footer"
 import "../styles/hackerhouse.css"
 import Navi from "../components/navi"
@@ -11,6 +13,31 @@ import rightarrow from "../../content/images/hackerhouse/rightarrow.svg"
 
 import events from "../../content/images/og/events.png"
 
+dayjs.extend(CustomParseFormat)
+
+const getDay = (givenDate) => {
+  const day = dayjs(givenDate, 'Do MMM, YYYY')
+  if (!day.isValid()) {
+    return dayjs(givenDate, 'Do MMMM, YYYY')
+  }
+  return day
+}
+
+// startDate and endDate is a string of the form "15th July, 2023"
+const getBeing = (startDate, endDate) => {
+  const now = dayjs()
+  const start = getDay(startDate)
+  const end = getDay(endDate)
+  if (start.diff(now) > 0) {
+    return "UPCOMING"
+  }
+  if (end.diff(now) < 0) {
+    return "PAST"
+  }
+  console.log(end.diff(now))
+  return "ONGOING"
+}
+
 export default function HackerHouse() {
   const cardlist = [
     {
@@ -20,7 +47,6 @@ export default function HackerHouse() {
       startDate: "15th July, 2023",
       endDate: "24th July, 2023",
       location: "@Paris",
-      belong: "UPCOMING",
     },
 
     {
@@ -30,37 +56,33 @@ export default function HackerHouse() {
       startDate: "19th May, 2023",
       endDate: "24th May, 2023",
       location: "@Podgorica",
-      belong: "ONGOING",
     },
 
     {
       signuplink: "/hackerhouse/seoul",
       theme: "# AI + Web3",
       name: "",
-      startDate: "31st May, 2023",
+      startDate: "31th May, 2023",
       endDate: "5th June, 2023",
       location: "@Seoul",
-      belong: "PAST",
     },
 
     {
       signuplink: "/hackerhouse/chiangmai",
       theme: "# Zkp",
       name: "",
-      startDate: "08th Apr, 2023",
+      startDate: "8th Apr, 2023",
       endDate: "29th Apr, 2023",
       location: "@Chiang Mai",
-      belong: "PAST",
     },
 
     {
       signuplink: "/hackerhouse/tokyo",
       theme: "# On-Chain Gaming",
       name: "",
-      startDate: "09th Apr, 2023",
+      startDate: "9th Apr, 2023",
       endDate: "17th, Apr 2023",
       location: "@Tokyo",
-      belong: "PAST",
     },
 
     {
@@ -70,7 +92,6 @@ export default function HackerHouse() {
       startDate: "21st Feb, 2023",
       endDate: "06th, Mar 2023",
       location: "@Denver",
-      belong: "PAST",
     },
     {
       signuplink: "/hackerhouse/move",
@@ -79,7 +100,6 @@ export default function HackerHouse() {
       startDate: "13th Feb, 2023",
       endDate: "05th, Mar 2023",
       location: "@Dali",
-      belong: "PAST",
     },
     {
       signuplink:
@@ -89,7 +109,6 @@ export default function HackerHouse() {
       startDate: "1st Dec, 2022",
       endDate: "21st Dec, 2022",
       location: "@Dali",
-      belong: "PAST",
     },
   ]
   const [filteredList, setFilteredList] = useState(cardlist)
@@ -101,11 +120,11 @@ export default function HackerHouse() {
     }
     setMenuType(idx)
     const target = cardlist.filter(
-      (item) => item.belong.toUpperCase() === value.toUpperCase(),
+      (item) => getBeing(item.startDate, item.endDate).toUpperCase() === value.toUpperCase(),
     )
     setFilteredList(() => target)
-    console.log(filteredList)
   }
+
   return (
     <>
       <Navi></Navi>
@@ -155,7 +174,11 @@ export default function HackerHouse() {
                   <Link to={item.signuplink}>
                     <div className="event_card">
                       <div className="event_tag">
-                        <button className={item.belong}>{item.belong}</button>
+                        <button
+                          className={getBeing(item.startDate, item.endDate)}
+                        >
+                          {getBeing(item.startDate, item.endDate)}
+                        </button>
 
                         <div className="event_theme">{item.theme}</div>
                       </div>
