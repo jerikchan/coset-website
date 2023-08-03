@@ -26,7 +26,9 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
-    "gatsby-plugin-image",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,6 +40,19 @@ const config: GatsbyConfig = {
         display: `minimal-ui`,
         // Generate PWA icons and a favicon
         icon: `static/images/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Inter`,
+            file: `https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap`,
+          },
+        ],
       },
     },
   ],
