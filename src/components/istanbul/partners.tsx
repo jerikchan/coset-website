@@ -100,7 +100,6 @@ const partnersData = [
     ),
     tag: "Co-Host",
   },
-
   {
     title: "mirana",
     link: "https://mirana.xyz/",
@@ -142,18 +141,21 @@ const partnersData = [
     ),
     tag: "Partner",
   },
-
   {
     title: "secbit",
     link: "https://secbit.io/",
     icon: "/images/logo/secbit.png",
     tag: "Tech Support",
   },
-
   {
     title: "ingonyama",
     link: "https://www.ingonyama.com/",
     icon: "/images/logo/ingonyama.png",
+    tag: "Tech Support",
+  },
+  {
+    title: "EZKL",
+    link: "https://github.com/zkonduit/ezkl",
     tag: "Tech Support",
   },
 ]
@@ -192,14 +194,14 @@ export const Partners = (props: React.ComponentProps<"div">) => {
         </div>
       </div>
 
-      <div className="py-8 grid grid-cols-2 gap-2">
+      <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-2">
         {partnersData.map((x) => (
           <div key={x.title ?? x.link} className="flex flex-col h-full">
             <a
               href={x.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="max-w-xs px-12 py-12 border border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1"
+              className="max-w-xs px-12 py-12 border border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 hover:underline"
             >
               {typeof x.icon === "string" ? (
                 <img
@@ -207,11 +209,15 @@ export const Partners = (props: React.ComponentProps<"div">) => {
                   alt={`Logo of ${x.title}`}
                   className="w-full h-full"
                 />
-              ) : (
+              ) : React.isValidElement(x.icon) ? (
                 x.icon
+              ) : (
+                <p className="text-4xl">{x.title}</p>
               )}
             </a>
-            <div className="bg-web-tile border border-web-gray/30 -mt-[1px] flex justify-center items-center py-3 text-web-black">{x.tag}</div>
+            <div className="bg-web-tile border border-web-gray/30 -mt-[1px] flex justify-center items-center py-3 text-web-black">
+              {x.tag}
+            </div>
           </div>
         ))}
       </div>
