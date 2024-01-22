@@ -61,9 +61,9 @@ const notionsToArticles = (notions?: Notion[]): Article[] | undefined => {
   const data = notions?.map((notion) => ({
     date: notion.created_time,
     link: notion.public_url ?? notion.url,
-    title: notion.properties.HeadTitle.title?.[0]?.plain_text,
+    title: notion.properties.HeadTitle.title?.map(x => x.plain_text).join(''),
     type: notion.properties.Type?.multi_select,
-    author: notion.properties.Author.rich_text?.[0]?.plain_text,
+    author: notion.properties.Author.rich_text?.map(x => x.plain_text).join(''),
     coverUrl: notion.cover?.file?.url ?? notion.cover?.external?.url,
   }))
   return data
@@ -72,7 +72,7 @@ const notionsToArticles = (notions?: Notion[]): Article[] | undefined => {
 export const LatestNews = () => {
   const { data: notions } = useNotionArticles()
   const articles = notionsToArticles(notions)
-  const latest3Articles = (articles ?? DATA).slice(0, 6)
+  const latest6Articles = (articles ?? DATA).slice(0, 6)
 
   return (
     <section className="pt-12 md:pt-20 lg:pt-32 pb-20">
@@ -181,9 +181,9 @@ export const LatestNews = () => {
           </svg>
         </h1>
 
-        {!!latest3Articles?.length && (
+        {!!latest6Articles?.length && (
           <div className="flex flex-col flex-wrap md:flex-row gap-x-4 gap-y-6 md:gap-x-4 md:gap-y-10 justify-between mt-24">
-            {latest3Articles.map((x) => (
+            {latest6Articles.map((x) => (
               <a
                 className="flex flex-col space-y-3 w-full md:max-w-xs xl:max-w-sm 2xl:max-w-md group"
                 href={x.link}
