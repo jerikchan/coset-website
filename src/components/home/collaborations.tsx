@@ -1,34 +1,39 @@
-import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import clsx from "clsx"
+import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
+import clsx from "clsx";
 
 const PARTNERS = [
-  { imageUrl: "ocean.png", name: "ocean" },
+  { imageUrl: "secbit.png", name: "secbit" },
   { imageUrl: "worldcoin.png", name: "worldcoin" },
   { imageUrl: "pse.png", name: "pse" },
-  { imageUrl: "mantle.png", name: "mantle" },
   { imageUrl: "hashkey.png", name: "hashkey" },
-  { imageUrl: "kakapot.png", name: "kakapot" },
-  { imageUrl: "modulus_labs.png", name: "modulus labs" },
-  { imageUrl: "giza.png", name: "giza" },
-  { imageUrl: "safe.png", name: "safe", className: "invert" },
-  { imageUrl: "etherspot.png", name: "etherspot", className: "invert" },
-  { imageUrl: "biconomy.png", name: "biconomy", className: "invert" },
-  { imageUrl: "argent.png", name: "argent", className: "invert" },
-  { imageUrl: "hyper_oracle.png", name: "hyper" },
-  { imageUrl: "pimlico.png", name: "pimlico", className: "invert" },
-  { imageUrl: "oas.png", name: "oas" },
-  { imageUrl: "versa.png", name: "versa" },
-  { imageUrl: "aztec.png", name: "aztec" },
-  { imageUrl: "kucoin.png", name: "kucoin" },
+  { imageUrl: "qiming.svg", name: "qiming" },
   { imageUrl: "sevenx.png", name: "sevenx" },
+  { imageUrl: "mantle.png", name: "mantle" },
+  { imageUrl: "mirana.png", name: "mirana" },
+  { imageUrl: "kakapot.png", name: "kakapot" },
+  { imageUrl: "safe.png", name: "safe", className: "invert" },
+  { imageUrl: "aztec.png", name: "aztec" },
+  { name: "ezkl", title: "💭 EZKL", className: 'text-6xl select-none' },
   { imageUrl: "taiko.png", name: "taiko" },
   { imageUrl: "scroll.png", name: "scroll" },
-  { imageUrl: "ofr.png", name: "ofr" },
   { imageUrl: "sui.png", name: "sui", className: "!ml-8" },
+  { imageUrl: "giza.png", name: "giza" },
+  { imageUrl: "biconomy.png", name: "biconomy", className: "invert" },
+  { imageUrl: "ingonyama.png", name: "ingonyama" },
+  { imageUrl: "pimlico.png", name: "pimlico", className: "invert" },
+  { imageUrl: "qed.svg", name: "qed" },
+  { imageUrl: "versa.png", name: "versa" },
+  { imageUrl: "kucoin.png", name: "kucoin" },
+  { imageUrl: "modulus_labs.png", name: "modulus labs" },
+  { imageUrl: "argent.png", name: "argent", className: "invert" },
+  { imageUrl: "hyper_oracle.png", name: "hyper" },
+  { imageUrl: "ofr.png", name: "ofr" },
   { imageUrl: "filecoin.png", name: "filecoin" },
   { imageUrl: "ipfs.png", name: "ipfs" },
-]
+  { imageUrl: "etherspot.png", name: "etherspot", className: "invert" },
+  { imageUrl: "ocean.png", name: "ocean" },
+];
 
 export const Collaborations = () => {
   return (
@@ -42,19 +47,26 @@ export const Collaborations = () => {
           <div className="grid grid-flow-row grid-cols-3 md:grid-cols-4 lg:grid-cols-5 px-6">
             {PARTNERS.map((x) => (
               <div
-                className={clsx(x.className, "scale-50 flex items-center justify-center -m-4 lg:-m-12")}
+                className={clsx(
+                  x.className,
+                  "scale-50 flex items-center justify-center -m-4 lg:-m-12"
+                )}
                 key={x.name}
               >
-                <img
-                  src={`/images/logo/${x.imageUrl}`}
-                  alt={`Logo of ${x.name}`}
-                  className=""
-                />
+                {x.imageUrl ? (
+                  <img
+                    src={`/images/logo/${x.imageUrl}`}
+                    alt={`Logo of ${x.name}`}
+                    className=""
+                  />
+                ) : (
+                  <p className="">{x.title}</p>
+                )}
               </div>
             ))}
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
