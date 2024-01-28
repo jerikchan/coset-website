@@ -1,32 +1,42 @@
-import React, { useState } from "react"
-import dayjs from "dayjs"
-import CustomParseFormat from "dayjs/plugin/customParseFormat"
-import clsx from "clsx"
+import React, { useState } from "react";
+import dayjs from "dayjs";
+import CustomParseFormat from "dayjs/plugin/customParseFormat";
+import clsx from "clsx";
 
-import Header from "../components/site-header"
-import Footer from "../components/footer"
-import { TailwindIndicator } from "../components/tailwind-indicator"
-import MoveHouseImage from "../components/hackerhouse/images/move-account-abstraction.png"
-import ZkpImage from "../components/hackerhouse/images/zkp.png"
-import TokyoImage from "../components/hackerhouse/images/tokyo.png"
-import ChiangmaiImage from "../components/hackerhouse/images/chiangmai.png"
-import ParisImage from "../components/hackerhouse/images/paris.png"
-import SuiDaliImage from "../components/hackerhouse/images/sui-dali.png"
-import IstanbulImage from "../components/istanbul/images/poster.png"
-import SeoulImage from "../../content/images/og/seoul.png"
-import MontenegroImage from "../../content/images/og/montenegro.png"
+import Header from "../components/site-header";
+import Footer from "../components/footer";
+import { TailwindIndicator } from "../components/tailwind-indicator";
+import MoveHouseImage from "../components/hackerhouse/images/move-account-abstraction.png";
+import ZkpImage from "../components/hackerhouse/images/zkp.png";
+import TokyoImage from "../components/hackerhouse/images/tokyo.png";
+import ChiangmaiImage from "../components/hackerhouse/images/chiangmai.png";
+import ParisImage from "../components/hackerhouse/images/paris.png";
+import SuiDaliImage from "../components/hackerhouse/images/sui-dali.png";
+import IstanbulImage from "../components/istanbul/images/poster.png";
+import LondonImage from "../components/london/images/poster.jpg";
+import SeoulImage from "../../content/images/og/seoul.png";
+import MontenegroImage from "../../content/images/og/montenegro.png";
 
 type House = {
-  link: string
-  theme: string
-  name: string
-  startDate: string
-  endDate: string
-  location: string
-  coverUrl?: string
-}
+  link: string;
+  theme: string;
+  name: string;
+  startDate: string;
+  endDate: string;
+  location: string;
+  coverUrl?: string;
+};
 
 const HOUSES: House[] = [
+  {
+    link: "/hackerhouse/london",
+    theme: "# London",
+    name: "ZKONNECT",
+    startDate: "7th March, 2024",
+    endDate: "18th March, 2024",
+    location: "@London",
+    coverUrl: LondonImage,
+  },
   {
     link: "/hackerhouse/istanbul",
     theme: "# Istanbul",
@@ -116,18 +126,18 @@ const HOUSES: House[] = [
     endDate: "21st Dec, 2022",
     location: "@Dali",
   },
-]
+];
 
-type Filter = Being | "ALL"
-const FILTERS: Filter[] = ["ALL", "UPCOMING", "ONGOING", "PAST"]
+type Filter = Being | "ALL";
+const FILTERS: Filter[] = ["ALL", "UPCOMING", "ONGOING", "PAST"];
 
 export default function HackerHouse() {
-  const [currentFilter, setCurrentFilter] = useState<Filter>("ALL")
+  const [currentFilter, setCurrentFilter] = useState<Filter>("ALL");
   const filteredList = HOUSES.filter(
     (x) =>
       currentFilter === "ALL" ||
-      getBeing(x.startDate, x.endDate) === currentFilter,
-  )
+      getTimeBeing(x.startDate, x.endDate) === currentFilter
+  );
 
   return (
     <div className="font-inter bg-web-paper">
@@ -200,7 +210,7 @@ export default function HackerHouse() {
             <button
               className={clsx(
                 "w-full capitalize relative py-4 text-2xl",
-                currentFilter === x ? "text-primary-black" : "text-gray-500",
+                currentFilter === x ? "text-primary-black" : "text-gray-500"
               )}
               onClick={() => setCurrentFilter(x)}
             >
@@ -232,7 +242,7 @@ export default function HackerHouse() {
           {!!filteredList.length && (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
               {filteredList.map((x) => {
-                const being = getBeing(x.startDate, x.endDate)
+                const being = getTimeBeing(x.startDate, x.endDate);
 
                 return (
                   <a
@@ -279,7 +289,7 @@ export default function HackerHouse() {
                       Antalpha Hackerhouse {x.location} {x.theme}
                     </h2>
                   </a>
-                )
+                );
               })}
             </div>
           )}
@@ -296,31 +306,31 @@ export default function HackerHouse() {
       <Footer />
       <TailwindIndicator />
     </div>
-  )
+  );
 }
 
-dayjs.extend(CustomParseFormat)
+dayjs.extend(CustomParseFormat);
 
 function getDay(givenDate: string) {
-  const day = dayjs(givenDate, "Do MMM, YYYY")
+  const day = dayjs(givenDate, "Do MMM, YYYY");
   if (!day.isValid()) {
-    return dayjs(givenDate, "Do MMMM, YYYY")
+    return dayjs(givenDate, "Do MMMM, YYYY");
   }
-  return day
+  return day;
 }
 
-type Being = "UPCOMING" | "PAST" | "ONGOING"
+type Being = "UPCOMING" | "PAST" | "ONGOING";
 
 // startDate and endDate is a string of the form "15th July, 2023"
-function getBeing(startDate: string, endDate: string): Being {
-  const now = dayjs()
-  const start = getDay(startDate)
-  const end = getDay(endDate)
+function getTimeBeing(startDate: string, endDate: string): Being {
+  const now = dayjs();
+  const start = getDay(startDate);
+  const end = getDay(endDate);
   if (start.diff(now) > 0) {
-    return "UPCOMING"
+    return "UPCOMING";
   }
   if (end.diff(now) < 0) {
-    return "PAST"
+    return "PAST";
   }
-  return "ONGOING"
+  return "ONGOING";
 }
