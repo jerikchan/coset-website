@@ -16,6 +16,7 @@ import IstanbulImage from "../components/istanbul/images/poster.png";
 import LondonImage from "../components/london/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
+import { Link } from "gatsby";
 
 type House = {
   link: string;
@@ -245,10 +246,9 @@ export default function HackerHouse() {
                 const being = getTimeBeing(x.startDate, x.endDate);
 
                 return (
-                  <a
+                  <Link
                     className="flex flex-col space-y-3 w-full md:max-w-xs xl:max-w-sm 2xl:max-w-md group"
-                    href={x.link}
-                    target="_blank"
+                    to={x.link}
                   >
                     <div className="rounded-xl border overflow-hidden bg-white group-hover:border-web-white/70 group-hover:shadow-lg transition-all flex justify-center items-center h-[240px]">
                       {x.coverUrl ? (
@@ -288,7 +288,7 @@ export default function HackerHouse() {
                     <h2 className="text-2xl font-normal">
                       Antalpha Hackerhouse {x.location} {x.theme}
                     </h2>
-                  </a>
+                  </Link>
                 );
               })}
             </div>
