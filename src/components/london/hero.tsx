@@ -29,6 +29,13 @@ export const Hero = (props: React.ComponentProps<"div">) => {
           >
             Apply to join
           </a>
+
+          <p className="text-3xl text-web-gray/70 mt-6 max-w-3xl px-4">
+            Focused on both the development and research of Zero-Knowledge Proof
+            (ZKP) circuits. Such as New Language Development, Compiler
+            Optimization, Security, Scalability and Efficiency,
+            User-Friendliness and Accessibility and more!
+          </p>
         </div>
       </div>
     </>
