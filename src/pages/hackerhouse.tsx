@@ -14,6 +14,7 @@ import ParisImage from "../components/hackerhouse/images/paris.png";
 import SuiDaliImage from "../components/hackerhouse/images/sui-dali.png";
 import IstanbulImage from "../components/istanbul/images/poster.png";
 import LondonImage from "../components/london/images/poster.jpg";
+import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import { Link } from "gatsby";
@@ -29,6 +30,15 @@ type House = {
 };
 
 const HOUSES: House[] = [
+  {
+    link: "/hackerhouse/suzhou", // 跳转到notion项目页面
+    theme: "",
+    name: "",
+    startDate: "8th Apr, 2024",
+    endDate: "21st Apr, 2024",
+    location: "@Suzhou",
+    coverUrl: SuzhouPoster,
+  },
   {
     link: "/hackerhouse/london",
     theme: "# London",
