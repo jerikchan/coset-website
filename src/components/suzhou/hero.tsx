@@ -15,7 +15,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
             Antalpha HackerHouse
           </h1>
           <p className="text-lg md:text-3xl leading-normal text-web-gray/70 mt-6">
-            Apr 8th - Apr 21th
+            Apr 8th - Apr 21st
           </p>
           <p className="text-lg md:text-3xl leading-normal text-web-gray/70">At Suzhou</p>
           <a
