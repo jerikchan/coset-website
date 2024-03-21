@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export const Hero = (props: React.ComponentProps<"div">) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center md:pt-12" {...props}>
+      <div className="flex flex-col justify-center items-center" {...props}>
         <StaticImage
           alt="Antalpha Suzhou event poster"
           src="./images/poster.jpg"

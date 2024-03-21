@@ -9,6 +9,8 @@ import { InViewSection } from "../../components/in-view-section";
 import poster from "../../components/suzhou/images/poster.jpg";
 import { ActiveAnchorProvider } from "../../components/providers/active-anchor";
 import { FadeIn } from "../../components/fade-in";
+import { Partners } from "../../components/suzhou/partners";
+import { CommunitySupports } from "../../components/suzhou/community-supports";
 
 export const Head = () => (
   <SEO
@@ -46,10 +48,30 @@ export default function Suzhou() {
     <ActiveAnchorProvider>
       <Header />
       <main className="font-inter bg-web-tile">
-        {/* <Subheader /> */}
+        <Subheader />
         <InViewSection id="overview" context={context}>
           <FadeIn>
             <Hero />
+          </FadeIn>
+        </InViewSection>
+        {/* <InViewSection id="content" context={context}>
+          <FadeIn>
+            <div className="flex flex-col justify-center items-center container mx-auto">
+              <StaticImage
+                alt="Antalpha Suzhou event poster"
+                src="../../components/suzhou/images/content.png"
+              />
+            </div>
+          </FadeIn>
+        </InViewSection> */}
+        <InViewSection id="partners" context={context}>
+          <FadeIn>
+            <Partners />
+          </FadeIn>
+        </InViewSection>
+        <InViewSection id="community-partners" context={context}>
+          <FadeIn>
+            <CommunitySupports />
           </FadeIn>
         </InViewSection>
       </main>
