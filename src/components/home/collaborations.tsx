@@ -1,5 +1,4 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import clsx from "clsx";
 
 const PARTNERS = [
@@ -14,7 +13,7 @@ const PARTNERS = [
   { imageUrl: "kakapot.png", name: "kakapot" },
   { imageUrl: "safe.png", name: "safe", className: "invert" },
   { imageUrl: "aztec.png", name: "aztec" },
-  { name: "ezkl", title: "💭 EZKL", className: 'text-6xl select-none' },
+  { name: "ezkl", title: "💭 EZKL", className: "text-6xl select-none" },
   { imageUrl: "taiko.png", name: "taiko" },
   { imageUrl: "scroll.png", name: "scroll" },
   { imageUrl: "sui.png", name: "sui", className: "!ml-8" },
@@ -28,11 +27,13 @@ const PARTNERS = [
   { imageUrl: "modulus_labs.png", name: "modulus labs" },
   { imageUrl: "argent.png", name: "argent", className: "invert" },
   { imageUrl: "hyper_oracle.png", name: "hyper" },
-  { imageUrl: "ofr.png", name: "ofr" },
+  // { imageUrl: "ofr.png", name: "ofr" },
   { imageUrl: "filecoin.png", name: "filecoin" },
   { imageUrl: "ipfs.png", name: "ipfs" },
   { imageUrl: "etherspot.png", name: "etherspot", className: "invert" },
   { imageUrl: "ocean.png", name: "ocean" },
+  { imageUrl: "sin7y.png", name: "sin7y" },
+  { imageUrl: "ola.svg", name: "ola", className: 'm-0 lg:m-0' },
 ];
 
 export const Collaborations = () => {
