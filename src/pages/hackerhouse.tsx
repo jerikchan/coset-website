@@ -17,7 +17,9 @@ import LondonImage from "../components/london/images/poster.jpg";
 import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
+import LasVegasPoster from "../components/lasvegas/images/poster.png";
 import { Link } from "gatsby";
+import Balancer from "react-wrap-balancer";
 
 type House = {
   link: string;
@@ -31,6 +33,15 @@ type House = {
 
 const HOUSES: House[] = [
   {
+    link: "/hackerhouse/lasvegas", // 跳转到notion项目页面
+    theme: "#Unlock Bitcoin",
+    name: "",
+    startDate: "16th Jun, 2024",
+    endDate: "18th Jun, 2024",
+    location: "@LasVegas",
+    coverUrl: LasVegasPoster,
+  },
+  {
     link: "/hackerhouse/suzhou", // 跳转到notion项目页面
     theme: "",
     name: "",
@@ -41,7 +52,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/london",
-    theme: "# London",
+    theme: "#Proofcircuit",
     name: "ZKONNECT",
     startDate: "7th March, 2024",
     endDate: "18th March, 2024",
@@ -50,7 +61,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/istanbul",
-    theme: "# Istanbul",
+    theme: "#ZKCONNECT",
     name: "ZKONNECT",
     startDate: "22nd Oct, 2023",
     endDate: "20th Nov, 2023",
@@ -59,7 +70,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/sui",
-    theme: "# Move",
+    theme: "#Move",
     name: "x Sui Move",
     startDate: "3rd Sep, 2023",
     endDate: "24th Sep, 2023",
@@ -68,7 +79,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/paris",
-    theme: "# ZKML",
+    theme: "#ZKML",
     name: "x ETHCC",
     startDate: "15th July, 2023",
     endDate: "24th July, 2023",
@@ -77,7 +88,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/montenegro",
-    theme: "# Account Abstraction",
+    theme: "#Account Abstraction",
     name: "",
     startDate: "19th May, 2023",
     endDate: "24th May, 2023",
@@ -86,7 +97,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/seoul",
-    theme: "# AI + Web3",
+    theme: "#AI + Web3",
     name: "",
     startDate: "31th May, 2023",
     endDate: "5th June, 2023",
@@ -95,7 +106,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/chiangmai",
-    theme: "# Zkp",
+    theme: "#Zkp",
     name: "",
     startDate: "8th Apr, 2023",
     endDate: "29th Apr, 2023",
@@ -104,7 +115,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/tokyo",
-    theme: "# On-Chain Gaming",
+    theme: "#On-Chain Gaming",
     name: "",
     startDate: "9th Apr, 2023",
     endDate: "17th, Apr 2023",
@@ -113,7 +124,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/zkp",
-    theme: "# Zkp",
+    theme: "#Zkp",
     name: "x ETHDenver",
     startDate: "21st Feb, 2023",
     endDate: "06th, Mar 2023",
@@ -122,7 +133,7 @@ const HOUSES: House[] = [
   },
   {
     link: "/hackerhouse/move",
-    theme: "# Move",
+    theme: "#Move",
     name: "x NonceGeek",
     startDate: "13th Feb, 2023",
     endDate: "05th, Mar 2023",
@@ -131,7 +142,7 @@ const HOUSES: House[] = [
   },
   {
     link: "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
-    theme: "# Infra and open source tools",
+    theme: "#Infra and open source tools",
     name: "",
     startDate: "1st Dec, 2022",
     endDate: "21st Dec, 2022",
@@ -296,7 +307,9 @@ export default function HackerHouse() {
                       </p>
                     </div>
                     <h2 className="text-2xl font-normal">
-                      Antalpha Hackerhouse {x.location} {x.theme}
+                      <Balancer>
+                        Antalpha Hackerhouse {x.location} {x.theme}
+                      </Balancer>
                     </h2>
                   </Link>
                 );

@@ -30,6 +30,7 @@
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-wrap-balancer": "^1.1.0",
     "scroll-into-view-if-needed": "^3.0.10",
     "swr": "^2.2.1"
   },
