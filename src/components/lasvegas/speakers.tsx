@@ -19,7 +19,7 @@ const SPEAKERS: Speaker[] = [
   {
     name: "Kevin He",
     image: "/images/hackerhouse/lasvegas/kevin-he.jpg",
-    title: "CEO of Bitlayer",
+    title: "Cofounder of Bitlayer",
   },
 ];
 
