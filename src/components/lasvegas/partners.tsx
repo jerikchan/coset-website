@@ -9,13 +9,6 @@ const partnersData = [
     tag: "Partner",
     className: "!p-0",
   },
-  {
-    link: "https://scrypt.io/",
-    title: "sCrypt",
-    icon: "/images/logo/scrypt.svg",
-    tag: "Community Support",
-    className: "!p-0",
-  },
 ];
 
 export const Partners = (props: React.ComponentProps<"div">) => {
@@ -52,7 +45,7 @@ export const Partners = (props: React.ComponentProps<"div">) => {
         </div>
       </div>
 
-      <div className="py-8 grid grid-cols-2 gap-8">
+      <div className="py-8 grid grid-cols-1 gap-8">
         {partnersData.map((x) => (
           <div key={x.title ?? x.link} className="flex flex-col h-[338px] w-72">
             <a

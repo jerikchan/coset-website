@@ -11,6 +11,7 @@ import { ActiveAnchorProvider } from "../../components/providers/active-anchor";
 import { FadeIn } from "../../components/fade-in";
 import { Partners } from "../../components/lasvegas/partners";
 import { Speakers } from "../../components/lasvegas/speakers";
+import { CommunitySupports } from "../../components/lasvegas/community-supports";
 
 export const Head = () => (
   <SEO
@@ -59,11 +60,11 @@ export default function LasVegas() {
             <Partners />
           </FadeIn>
         </InViewSection>
-        {/* <InViewSection id="community-partners" context={context}>
+        <InViewSection id="community-partners" context={context}>
           <FadeIn>
             <CommunitySupports />
           </FadeIn>
-        </InViewSection> */}
+        </InViewSection>
         <InViewSection id="speakers" context={context}>
           <FadeIn>
             <Speakers />
