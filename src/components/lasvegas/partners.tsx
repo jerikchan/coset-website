@@ -5,7 +5,7 @@ const partnersData = [
   {
     link: "https://www.bitlayer.org",
     title: "Bitlayer",
-    icon: "/images/logo/bitlayer.jpg",
+    icon: "/images/logo/bitlayer.png",
     tag: "Partner",
     className: "!p-0",
   },

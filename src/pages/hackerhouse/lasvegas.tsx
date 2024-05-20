@@ -60,14 +60,14 @@ export default function LasVegas() {
             <Partners />
           </FadeIn>
         </InViewSection>
-        <InViewSection id="community-partners" context={context}>
-          <FadeIn>
-            <CommunitySupports />
-          </FadeIn>
-        </InViewSection>
         <InViewSection id="speakers" context={context}>
           <FadeIn>
             <Speakers />
+          </FadeIn>
+        </InViewSection>
+        <InViewSection id="community-partners" context={context}>
+          <FadeIn>
+            <CommunitySupports />
           </FadeIn>
         </InViewSection>
       </main>
