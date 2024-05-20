@@ -14,7 +14,7 @@ import { Speakers } from "../../components/lasvegas/speakers";
 
 export const Head = () => (
   <SEO
-    title="HackerHouse London Event"
+    title="HackerHouse Las Vegas Event"
     description="Antalpha Labs is a web3 developer community"
     image={poster}
   />

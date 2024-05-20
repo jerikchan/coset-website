@@ -6,7 +6,14 @@ const partnersData = [
     link: "https://www.bitlayer.org",
     title: "Bitlayer",
     icon: "/images/logo/bitlayer.jpg",
-    tag: "Co-Host",
+    tag: "Partner",
+    className: "!p-0",
+  },
+  {
+    link: "https://scrypt.io/",
+    title: "sCrypt",
+    icon: "/images/logo/scrypt.svg",
+    tag: "Community Support",
     className: "!p-0",
   },
 ];
@@ -74,9 +81,9 @@ export const Partners = (props: React.ComponentProps<"div">) => {
             </div>
           </div>
         ))}
-        <div className="h-[338px] flex items-center">
+        {/* <div className="h-[338px] flex items-center">
           <p className="text-web-gray/60">More Awaiting TBA...</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

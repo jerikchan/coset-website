@@ -1,11 +1,10 @@
 import clsx from "clsx";
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 type Speaker = {
   link?: string;
   name: string;
-  image: string;
+  image?: string;
   title: string;
   className?: string;
 };
@@ -17,9 +16,18 @@ const SPEAKERS: Speaker[] = [
     title: "Independent software developer",
   },
   {
+    name: "Xiaohui Liu",
+    image: "/images/hackerhouse/lasvegas/profile-xiaohui-liu.png",
+    title: "sCrypt",
+  },
+  {
     name: "Kevin He",
     image: "/images/hackerhouse/lasvegas/kevin-he.jpg",
     title: "Cofounder of Bitlayer",
+  },
+  {
+    name: "Liam Eagen",
+    title: "Alpen Labs and ZFT",
   },
 ];
 
@@ -79,7 +87,7 @@ export const Speakers = (props: React.ComponentProps<"div">) => {
 
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         {SPEAKERS.map((x) => (
-          <div key={x.name} className="flex flex-col h-[338px] w-72">
+          <div key={x.name} className="flex flex-col w-72">
             {x.link ? (
               <a
                 href={x.link}
@@ -96,15 +104,16 @@ export const Speakers = (props: React.ComponentProps<"div">) => {
                   className={clsx("w-full h-full object-contain")}
                 />
               </a>
-            ) : (
+            ) : typeof x.image === "string" ? (
               <img
                 src={x.image}
                 alt={`Avatar of ${x.name}`}
-                className={clsx(
-                  "object-contain w-72 h-72 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 hover:underline",
-                  x.className
-                )}
+                className="w-72 h-72 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 object-contain"
               />
+            ) : (
+              <div className="object-contain w-72 h-72 px-12 py-12 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1">
+                {x.title}
+              </div>
             )}
             <h4 className="text-2xl text-center mt-2">{x.name}</h4>
             <p className="-mt-[1px] flex justify-center items-center py-1 text-web-black">

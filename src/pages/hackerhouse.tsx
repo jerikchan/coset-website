@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import dayjs from "dayjs";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
 import clsx from "clsx";
+import { Link } from "gatsby";
+import Balancer from "react-wrap-balancer";
 
 import Header from "../components/site-header";
 import Footer from "../components/footer";
@@ -18,8 +20,7 @@ import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import LasVegasPoster from "../components/lasvegas/images/poster.png";
-import { Link } from "gatsby";
-import Balancer from "react-wrap-balancer";
+
 
 type House = {
   link: string;
