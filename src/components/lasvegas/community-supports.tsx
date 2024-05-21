@@ -9,6 +9,12 @@ const supportersData = [
     tag: "Community Support",
     className: "!p-0",
   },
+  {
+    link: "https://x.com/bitvm_cn",
+    title: "BitVM China",
+    icon: "/images/logo/bitvm.jpg",
+    tag: "Community Support",
+  },
 ];
 
 export const CommunitySupports = (props: React.ComponentProps<"div">) => {
@@ -45,11 +51,11 @@ export const CommunitySupports = (props: React.ComponentProps<"div">) => {
         </div>
       </div>
 
-      <div className="py-8 grid grid-cols-1 gap-8">
+      <div className="py-8 grid grid-cols-2 gap-8">
         {supportersData.map((x) => (
           <div
             key={x.title ?? x.link}
-            className={clsx("flex flex-col w-72 px-12 py-12", x.className)}
+            className={clsx("flex flex-col w-72", x.className)}
           >
             <a
               href={x.link}
@@ -63,7 +69,6 @@ export const CommunitySupports = (props: React.ComponentProps<"div">) => {
                   alt={`Logo of ${x.title}`}
                   className={clsx(
                     "w-full h-full object-contain",
-                    x.className
                   )}
                 />
               ) : React.isValidElement(x.icon) ? (
