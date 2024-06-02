@@ -55,11 +55,11 @@ export default function LasVegas() {
             <Hero />
           </FadeIn>
         </InViewSection>
-        <InViewSection id="partners" context={context}>
+        {/* <InViewSection id="partners" context={context}>
           <FadeIn>
             <Partners />
           </FadeIn>
-        </InViewSection>
+        </InViewSection> */}
         <InViewSection id="speakers" context={context}>
           <FadeIn>
             <Speakers />

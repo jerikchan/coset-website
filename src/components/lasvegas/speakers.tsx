@@ -19,11 +19,11 @@ const SPEAKERS: Speaker[] = [
     name: "Liam Eagen",
     title: "Alpen Labs and ZFT",
   },
-  {
-    name: "Kevin He",
-    image: "/images/hackerhouse/lasvegas/kevin-he.jpg",
-    title: "Bitlayer",
-  },
+  // {
+  //   name: "Kevin He",
+  //   image: "/images/hackerhouse/lasvegas/kevin-he.jpg",
+  //   title: "Bitlayer",
+  // },
   {
     name: "Xiaohui Liu",
     image: "/images/hackerhouse/lasvegas/profile-xiaohui-liu.png",
@@ -34,7 +34,7 @@ const SPEAKERS: Speaker[] = [
 export const Speakers = (props: React.ComponentProps<"div">) => {
   return (
     <div
-      className="py-16 md:py-48 flex flex-col space-y-12 justify-center items-center bg-web-tile"
+      className="py-16 md:py-48 flex flex-col space-y-12 justify-center items-center bg-web-paper"
       {...props}
     >
       <div className="relative">

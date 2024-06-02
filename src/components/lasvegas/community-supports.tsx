@@ -20,7 +20,7 @@ const supportersData = [
 export const CommunitySupports = (props: React.ComponentProps<"div">) => {
   return (
     <div
-      className="py-16 md:py-48 flex flex-col space-y-12 justify-center items-center bg-web-paper"
+      className="py-16 md:py-48 flex flex-col space-y-12 justify-center items-center bg-web-tile"
       {...props}
     >
       <div className="relative">
