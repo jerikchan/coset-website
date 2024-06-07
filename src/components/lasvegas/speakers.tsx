@@ -29,6 +29,16 @@ const SPEAKERS: Speaker[] = [
     image: "/images/hackerhouse/lasvegas/profile-xiaohui-liu.png",
     title: "sCrypt",
   },
+  {
+    name: "Weikeng",
+    image: "/images/hackerhouse/lasvegas/weikeng.jpg",
+    title: "L2 Iterative",
+  },
+  {
+    name: "Carter",
+    image: "/images/hackerhouse/lasvegas/carter.jpg",
+    title: "QED",
+  },
 ];
 
 export const Speakers = (props: React.ComponentProps<"div">) => {
@@ -85,7 +95,7 @@ export const Speakers = (props: React.ComponentProps<"div">) => {
         </div>
       </div>
 
-      <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {SPEAKERS.map((x) => (
           <div key={x.name} className="flex flex-col w-72">
             {x.link ? (
