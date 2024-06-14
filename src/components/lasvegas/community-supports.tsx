@@ -3,6 +3,13 @@ import React from "react";
 
 const supportersData = [
   {
+    icon: "/images/logo/starknet.png",
+    title: "Starknet",
+    link: "https://scrypt.io/",
+    tag: "Community Support",
+    containerClassName: "px-4",
+  },
+  {
     link: "https://scrypt.io/",
     title: "sCrypt",
     icon: "/images/logo/scrypt.svg",
@@ -61,15 +68,16 @@ export const CommunitySupports = (props: React.ComponentProps<"div">) => {
               href={x.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="max-w-xs h-40 border border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 hover:underline"
+              className={clsx(
+                x.containerClassName,
+                "max-w-xs h-40 border border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 hover:underline"
+              )}
             >
               {typeof x.icon === "string" ? (
                 <img
                   src={x.icon}
                   alt={`Logo of ${x.title}`}
-                  className={clsx(
-                    "w-full h-full object-contain",
-                  )}
+                  className={clsx("w-full h-full object-contain")}
                 />
               ) : React.isValidElement(x.icon) ? (
                 x.icon

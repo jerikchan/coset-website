@@ -18,7 +18,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
             Jun 16th - Jun 18th
           </p>
           <p className="text-lg md:text-3xl leading-normal text-web-gray/70">
-            At Las Vegas
+            At 1304 East Oakey Boulevard, Las Vegas, NV 89104, United States
           </p>
           <a
             href="https://tally.so/r/nPAl8e"
