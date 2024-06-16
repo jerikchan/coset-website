@@ -34,7 +34,7 @@ export const CommunitySupports = (props: React.ComponentProps<"div">) => {
         <h1 className="text-3xl md:text-6xl font-semibold leading-tight capitalize text-web-gray text-center">
           Community Supports
         </h1>
-        <div className="absolute right-4 -top-12 translate-x-full">
+        <div className="absolute md:right-4 right-24 -top-20 md:-top-12 translate-x-full">
           <svg
             width="99"
             height="100"
