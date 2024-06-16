@@ -39,6 +39,11 @@ const SPEAKERS: Speaker[] = [
     image: "/images/hackerhouse/lasvegas/carter.jpg",
     title: "QED",
   },
+  {
+    name: "Arun",
+    title: "Arun",
+    image: "/images/hackerhouse/lasvegas/arun.jpg",
+  },
 ];
 
 export const Speakers = (props: React.ComponentProps<"div">) => {
