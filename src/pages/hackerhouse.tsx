@@ -20,6 +20,7 @@ import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import LasVegasPoster from "../components/lasvegas/images/poster.png";
+import ChengduPoster from "../components/Chengdu/images/poster.jpg";
 
 
 type House = {
@@ -33,6 +34,15 @@ type House = {
 };
 
 const HOUSES: House[] = [
+  {
+    link: "/hackerhouse/chengdu", // 跳转到notion项目页面
+    theme: "#move",
+    name: "",
+    startDate: "12nd Aug, 2024",
+    endDate: "26th Aug, 2024",
+    location: "@Chengdu",
+    coverUrl: ChengduPoster,
+  },
   {
     link: "/hackerhouse/lasvegas", // 跳转到notion项目页面
     theme: "#Unlock Bitcoin",
