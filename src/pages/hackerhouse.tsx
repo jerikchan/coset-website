@@ -20,7 +20,7 @@ import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import LasVegasPoster from "../components/lasvegas/images/poster.png";
-import ChengduPoster from "../components/Chengdu/images/poster.jpg";
+import ChengduPoster from "../components/chengdu/images/poster.jpg";
 
 
 type House = {

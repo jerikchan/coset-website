@@ -3,23 +3,23 @@ import scrollIntoView from "scroll-into-view-if-needed";
 import Header from "../../components/site-header";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
-import { Subheader } from "../../components/subheader";
+// import { Subheader } from "../../components/subheader";
 import { Hero } from "../../components/chengdu/hero";
 import { InViewSection } from "../../components/in-view-section";
-import poster from "../../components/lasvegas/images/poster.png";
+import poster from "../../components/chengdu/images/poster.jpg";
 import { ActiveAnchorProvider } from "../../components/providers/active-anchor";
 import { FadeIn } from "../../components/fade-in";
 
 export const Head = () => (
   <SEO
-    title="HackerHouse Las Vegas Event"
+    title="HackerHouse Chengdu Event"
     description="Antalpha Labs is a web3 developer community"
     image={poster}
   />
 );
 
 const context = { index: 0 };
-export default function LasVegas() {
+export default function Chengdu() {
   React.useEffect(() => {
     if (typeof window === "undefined") {
       return;
