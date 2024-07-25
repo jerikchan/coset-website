@@ -1,49 +1,35 @@
-import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
-
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+import * as React from "react";
+import { Link, HeadFC, PageProps } from "gatsby";
+import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import Header from "../components/site-header";
+import Footer from "../components/footer";
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <>
+      <Header />
+      <main className="py-12 min-h-[56vh] flex items-center">
+        <div className="container mx-auto flex h-full justify-center items-center">
+          <div className="flex flex-col items-center justify-center text-center gap-4 text-[hsl(240,100%,57%)]">
+            <h1 className="text-9xl font-extrabold">404</h1>
+            <h1 className="text-4xl">Page not found</h1>
+            <div className="flex flex-col items-center gap-2">
+              <p className="">
+                Sorry! We couldn’t find the page you were looking for.
+              </p>
+              <Link to="/" className="inline-flex items-center gap-1 underline underline-offset-4 font-bold">
+                <span>Back to home</span>
+                <ChevronRightIcon className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <title>Antalpha | Not found</title>;

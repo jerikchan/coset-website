@@ -62,8 +62,8 @@
 
 .input-box {
   /* background-color: transparent; */
-  width: 477.35px;
-  height: 98px;
+  /* width: 477.35px;
+  height: 98px; */
   display: flex;
   flex-direction: row;
   /* margin-left: -40px;
@@ -105,7 +105,12 @@ input::placeholder{
   background-size: 100% 100%;
 }
 .newsletter{
-  margin-left: -2.5rem;
+  margin-top: -1rem;
+  margin-left: -4rem;
+
+  a {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -148,11 +153,6 @@ input::placeholder{
     top:15px;
     right: 15px;
 
-  }
-
-  .input-box {
-    width: 260px;
-    height: 48px;
   }
 
   .footer-claim{
