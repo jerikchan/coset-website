@@ -6,9 +6,10 @@ import Footer from "../../components/footer";
 // import { Subheader } from "../../components/subheader";
 import { Hero } from "../../components/chengdu/hero";
 import { InViewSection } from "../../components/in-view-section";
-import poster from "../../components/chengdu/images/poster.jpg";
+import poster from "../../components/chengdu/images/poster.png";
 import { ActiveAnchorProvider } from "../../components/providers/active-anchor";
 import { FadeIn } from "../../components/fade-in";
+import { CommunitySupports } from "../../components/chengdu/community-supports";
 
 export const Head = () => (
   <SEO
@@ -61,12 +62,12 @@ export default function Chengdu() {
           <FadeIn>
             <Speakers />
           </FadeIn>
-        </InViewSection>
+        </InViewSection>*/}
         <InViewSection id="community-partners" context={context}>
           <FadeIn>
             <CommunitySupports />
           </FadeIn>
-        </InViewSection> */}
+        </InViewSection>
       </main>
       <Footer />
     </ActiveAnchorProvider>
