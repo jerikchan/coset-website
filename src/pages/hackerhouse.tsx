@@ -20,7 +20,8 @@ import SuzhouPoster from "../components/suzhou/images/poster.jpg";
 import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import LasVegasPoster from "../components/lasvegas/images/poster.png";
-import ChengduPoster from "../components/chengdu/images/poster.png";
+import ChengduPoster from "../components/chengdu/images/poster.jpg";
+import NewChiangmaiPoster from '../components/new-chiangmai/images/poster.png'
 
 
 type House = {
@@ -35,7 +36,16 @@ type House = {
 
 const HOUSES: House[] = [
   {
-    link: "/hackerhouse/chengdu", // 跳转到notion项目页面
+    link: "/hackerhouse/new-chiangmai",
+    theme: "",
+    name: "",
+    startDate: "20th Oct, 2024",
+    endDate: "10th Nov, 2024",
+    location: "@Chiangmai",
+    coverUrl: NewChiangmaiPoster,
+  },
+  {
+    link: "/hackerhouse/chengdu",
     theme: "#move",
     name: "",
     startDate: "12nd Aug, 2024",
@@ -44,7 +54,7 @@ const HOUSES: House[] = [
     coverUrl: ChengduPoster,
   },
   {
-    link: "/hackerhouse/lasvegas", // 跳转到notion项目页面
+    link: "/hackerhouse/lasvegas",
     theme: "#Unlock Bitcoin",
     name: "",
     startDate: "16th Jun, 2024",
@@ -53,7 +63,7 @@ const HOUSES: House[] = [
     coverUrl: LasVegasPoster,
   },
   {
-    link: "/hackerhouse/suzhou", // 跳转到notion项目页面
+    link: "/hackerhouse/suzhou",
     theme: "",
     name: "",
     startDate: "8th Apr, 2024",

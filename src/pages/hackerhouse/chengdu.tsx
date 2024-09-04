@@ -6,7 +6,7 @@ import Footer from "../../components/footer";
 // import { Subheader } from "../../components/subheader";
 import { Hero } from "../../components/chengdu/hero";
 import { InViewSection } from "../../components/in-view-section";
-import poster from "../../components/chengdu/images/poster.png";
+import poster from "../../components/chengdu/images/poster.jpg";
 import { ActiveAnchorProvider } from "../../components/providers/active-anchor";
 import { FadeIn } from "../../components/fade-in";
 import { CommunitySupports } from "../../components/chengdu/community-supports";
