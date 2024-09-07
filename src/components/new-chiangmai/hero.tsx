@@ -107,7 +107,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
 
       <section className="py-8 px-4 md:px-0 md:py-20 flex flex-col space-y-12 justify-center items-center bg-web-paper">
         <article
-          className="prose max-w-5xl"
+          className="prose prose-lg lg:prose-2xl max-w-5xl"
           dangerouslySetInnerHTML={{
             __html: articleContent,
           }}
