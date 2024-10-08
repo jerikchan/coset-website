@@ -93,7 +93,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
           objectFit="contain"
         />
 
-        <div className="flex flex-col pt-14 justify-center items-center text-center absolute bottom-8">
+        {/* <div className="flex flex-col pt-14 justify-center items-center text-center absolute bottom-8">
           <a
             href="https://tally.so/r/wookBe"
             target="_blank"
@@ -102,12 +102,12 @@ export const Hero = (props: React.ComponentProps<"div">) => {
           >
             Apply to join
           </a>
-        </div>
+        </div> */}
       </div>
 
       <section className="py-8 px-4 md:px-0 md:py-20 flex flex-col space-y-12 justify-center items-center bg-web-paper">
         <article
-          className="prose prose-lg lg:prose-2xl max-w-5xl"
+          className="prose prose-xl lg:prose-3xl max-w-5xl"
           dangerouslySetInnerHTML={{
             __html: articleContent,
           }}
