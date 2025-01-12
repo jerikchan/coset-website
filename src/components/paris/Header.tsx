@@ -2,9 +2,9 @@ import React, { useState, ComponentProps } from "react"
 import "./navi.css"
 
 // @ts-ignore
-import logo from "../../../content/images/coset/antalphalogo.svg"
+import logo from "../../../content/images/coset/cosetlogo.svg"
 // @ts-ignore
-import logo2 from "../../../content/images/coset/antalphalogo2.svg"
+import logo2 from "../../../content/images/coset/cosetlogo2.svg"
 import { siteConfig } from "../../config"
 
 export default function Header(props: ComponentProps<"div">) {

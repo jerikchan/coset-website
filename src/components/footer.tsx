@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import axios from "axios"
 import "./footer.css"
-import footerlogo from "../../content/images/footer/antalphalogo.svg"
+import footerlogo from "../../content/images/footer/cosetlogo.svg"
 import notion from "../../content/images/footer/notion.svg"
 import youtube from "../../content/images/footer/youtube.svg"
 import twitter from "../../content/images/footer/twitter.svg"

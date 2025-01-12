@@ -2,8 +2,8 @@ import React from "react"
 import { Disclosure, DisclosureProps, Transition } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
-import logo from "../../content/images/coset/antalphalogo.svg"
-import logoHeading from "../../content/images/coset/antalphalogo2.svg"
+import logo from "../../content/images/coset/cosetlogo.svg"
+import logoHeading from "../../content/images/coset/cosetlogo2.svg"
 import { Link } from "gatsby-link"
 import clsx from "clsx"
 
