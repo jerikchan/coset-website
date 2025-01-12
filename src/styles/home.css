@@ -20,7 +20,7 @@
   src: url(/fonts/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
 }
 
-.antalpha-container1 {
+.coset-container1 {
   max-width: 90rem;
   height: 50rem;
   margin: auto;
@@ -34,7 +34,7 @@
 .about {
   padding: 1.875rem 0;
 }
-.antalpha-navigator {
+.coset-navigator {
   width: 100%;
   margin: 0 2.5rem 0 2.5rem;
   display: flex;
@@ -42,13 +42,13 @@
   justify-content: space-between;
 }
 
-.antalpha-logo {
+.coset-logo {
   display: flex;
   align-items: center;
   gap: 0.625rem;
 }
 
-.antalpha-navi {
+.coset-navi {
   display: flex;
   gap: 3.75rem;
   font-family: "Montserrat5";
@@ -97,18 +97,18 @@
   width: 100%;
 }
 
-.antalpha-mianlogo {
+.coset-mianlogo {
   margin-top: 1.875rem;
   width: 76.25rem;
   height: 33.125rem;
 }
 
-.antalpha-mianlogo img {
+.coset-mianlogo img {
   position: absolute;
   left: 5.8125rem;
 }
 
-.antalpha-intro {
+.coset-intro {
   display: flex;
   font-family: "Montserrat6";
   font-size: 24px;
@@ -117,7 +117,7 @@
   justify-content: space-between;
 }
 
-.antalpha-intro a {
+.coset-intro a {
   color: inherit;
 }
 .viewALl-href {
@@ -178,11 +178,11 @@
   max-width: 90rem;
   margin: auto;
 }
-.about-antalpha-box {
+.about-coset-box {
   width: 600px;
 }
 
-.about-antalpha {
+.about-coset {
   /* margin-top: 3.125rem; */
   padding-right: 200px;
   display: flex;
@@ -196,34 +196,34 @@
   background-size: 100% 100%;
 }
 
-.antalpha-title {
+.coset-title {
   width: 39.375rem;
   /* margin-left: 38.75rem; */
   margin-bottom: 1.875rem;
 }
 
-.antalpha-bigtitle {
+.coset-bigtitle {
   font-family: "Montserrat7";
   font-size: 56px;
   font-weight: 700;
 }
 
-.antalpha-detailintro {
+.coset-detailintro {
   font-family: "Montserrat6";
   font-size: 20px;
 }
 
-.antalpha-aboutus {
+.coset-aboutus {
   font-family: "Montserrat7";
   font-size: 24px;
   margin-bottom: 0px;
 }
 
-.antalpha-aboutuslist {
+.coset-aboutuslist {
   padding-left: 2px;
 }
 
-.antalpha-title li {
+.coset-title li {
   margin-bottom: 1.25rem;
   font-family: "Montserrat6";
   font-size: 20px;
@@ -231,13 +231,13 @@
   position: relative;
 }
 
-.antalpha-title li img {
+.coset-title li img {
   left: -2.1875rem;
   position: absolute;
 }
 
 /* 第三页 */
-.antalpha-showcase {
+.coset-showcase {
   padding: 35px 0px 0px 72px;
   max-width: 90rem;
   margin: auto;
@@ -382,7 +382,7 @@ a.thefirsthacker-linkcase:focus {
   border-radius: 40px;
 }
 
-.antalpha-container {
+.coset-container {
   overflow: hidden;
   background-image: url("../../content/images/antalpha/noise.png");
 }
@@ -397,11 +397,11 @@ a.thefirsthacker-linkcase:focus {
 }
 
 @media (min-width: 320px) and (max-width: 540px) {
-  .antalpha-container {
+  .coset-container {
     background-image: url("../../content/images/antalpha/noise.png");
   }
 
-  .antalpha-container1 {
+  .coset-container1 {
     height: 31rem;
   }
   /* .Icon2{
@@ -418,11 +418,11 @@ a.thefirsthacker-linkcase:focus {
     height: 50%;
   }
 
-  .antalpha-navigator {
+  .coset-navigator {
     margin: 0 1rem;
   }
 
-  .antalpha-navi {
+  .coset-navi {
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -431,7 +431,7 @@ a.thefirsthacker-linkcase:focus {
     margin-right: 2rem;
   }
 
-  .antalpha-mianlogo {
+  .coset-mianlogo {
     margin-right: 10vw;
     width: 93%;
     height: 40%;
@@ -440,11 +440,11 @@ a.thefirsthacker-linkcase:focus {
     background-size: 100% 100%;
   }
 
-  .antalpha-mianlogo img {
+  .coset-mianlogo img {
     display: none;
   }
 
-  .antalpha-intro {
+  .coset-intro {
     font-size: 17px;
     font-weight: bold;
     width: 80%;
@@ -454,7 +454,7 @@ a.thefirsthacker-linkcase:focus {
     margin-top: 5vw;
   }
 
-  .antalpha-intro a button {
+  .coset-intro a button {
     font-size: 1.1875rem;
     margin-top: 3vw;
     height: 10vw;
@@ -471,51 +471,51 @@ a.thefirsthacker-linkcase:focus {
     padding-top: 10px;
   }
 
-  .about-antalpha {
+  .about-coset {
     padding-right: 10px;
     height: 540px;
     background-image: url("../../content/images/antalpha/backgroud-media.svg");
   }
 
-  .about-antalpha-box {
+  .about-coset-box {
     width: 95%;
     margin-top: -2.875rem;
   }
 
-  .antalpha-bigtitle {
+  .coset-bigtitle {
     font-size: 26px;
   }
 
-  .antalpha-title {
+  .coset-title {
     margin-left: 2rem;
     margin-bottom: 1rem;
   }
 
-  .antalpha-detailintro {
+  .coset-detailintro {
     width: 67%;
     font-size: 16px;
     font-weight: bold;
   }
 
-  .antalpha-aboutus {
+  .coset-aboutus {
     font-size: 20px;
   }
 
-  .antalpha-title li {
+  .coset-title li {
     font-size: 16px;
     font-weight: bold;
     width: 45%;
     margin-bottom: 0.25rem;
   }
 
-  .antalpha-title li img {
+  .coset-title li img {
     width: 1rem;
     height: 1rem;
     left: -1.35rem;
     top: 0.1875rem;
   }
 
-  .antalpha-showcase {
+  .coset-showcase {
     padding: 35px 0px 0px 3vw;
   }
 
@@ -525,7 +525,7 @@ a.thefirsthacker-linkcase:focus {
     padding: 30px 10px 20px 0px;
   }
 
-  .antalpha-intro a {
+  .coset-intro a {
     color: inherit;
   }
   .viewALl-href {
@@ -601,34 +601,34 @@ a.thefirsthacker-linkcase:focus {
   /* .Icon2{
     display: block;
   } */
-  .about-antalpha-box {
+  .about-coset-box {
     width: 85%;
   }
 }
 
 @media (min-width: 541px) and (max-width: 920px) {
-  .antalpha-container1 {
+  .coset-container1 {
     height: 38rem;
   }
 
-  .antalpha-mianlogo {
+  .coset-mianlogo {
     width: 50%;
     height: 50%;
   }
 
-  .antalpha-mianlogo img {
+  .coset-mianlogo img {
     width: 90%;
     height: 50%;
     margin-left: -80px;
   }
 
-  .antalpha-intro {
+  .coset-intro {
     width: 80%;
     margin-top: 3rem;
     margin-left: -90px;
   }
 
-  .antalpha-intro a {
+  .coset-intro a {
     color: inherit;
   }
 
@@ -640,7 +640,7 @@ a.thefirsthacker-linkcase:focus {
     height: 100%;
   }
 
-  .about-antalpha-box {
+  .about-coset-box {
     width: 85%;
   }
 }

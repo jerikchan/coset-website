@@ -181,7 +181,7 @@ export const Highlights = () => {
 
         <div className="flex justify-center mt-16">
           <a
-            href="https://www.youtube.com/@Antalpha_Labs"
+            href="https://www.youtube.com/@coset_io"
             className="border-2 border-web-black py-4 px-12 w-full md:max-w-fit text-center hover:bg-white hover:border-transparent hover:text-web-black uppercase font-semibold text-xs transition-colors"
             target="_blank"
           >

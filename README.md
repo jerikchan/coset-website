@@ -4,7 +4,7 @@
 <img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud" />
 </a>
 
-# Antalpha Website
+# Coset Website
 
 #### A Gatsby Starter Project to easily get started.
 

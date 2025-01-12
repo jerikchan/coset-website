@@ -26,12 +26,12 @@ export default function Header(props: DisclosureProps<"header">) {
                   <img
                     className="h-8 md:h-6 w-auto transition-all"
                     src={logo}
-                    alt="Antalpha Logo"
+                    alt="Coset Logo"
                   />
                   <img
                     className="h-4 md:h-3 w-auto transition-all"
                     src={logoHeading}
-                    alt="Antalpha Logo Heading"
+                    alt="Coset Logo Heading"
                   />
                 </Link>
                 <div className="hidden md:flex md:space-x-8">
@@ -43,7 +43,7 @@ export default function Header(props: DisclosureProps<"header">) {
                     Hackerhouse
                   </Link>
                   <Link
-                    to="https://mirror.xyz/antalpha-labs.eth/"
+                    to="https://mirror.xyz/coset-io.eth/"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
                     activeClassName="underline-offset-2 underline"
                   >
@@ -57,7 +57,7 @@ export default function Header(props: DisclosureProps<"header">) {
                     Showcases
                   </Link>
                   <a
-                    href="mailto:hello.labs@antalpha.com"
+                    href="mailto:emily@coset.io"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
                   >
                     Contact
@@ -98,7 +98,7 @@ export default function Header(props: DisclosureProps<"header">) {
                 </Disclosure.Button>
                 <Disclosure.Button
                   as={Link}
-                  to="https://mirror.xyz/antalpha-labs.eth/"
+                  to="https://mirror.xyz/coset-io.eth/"
                   className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
                   activeClassName="border-web-gray bg-web-tile"
                 >
@@ -114,7 +114,7 @@ export default function Header(props: DisclosureProps<"header">) {
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="mailto:hello.labs@antalpha.com"
+                  href="mailto:emily@coset.io"
                   className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
                 >
                   Contact

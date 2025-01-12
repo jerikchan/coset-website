@@ -233,7 +233,7 @@ export default function montenegro() {
                       <img src={harry}></img>
                       <div className="name_company">
                         <span>Harry</span>
-                        <span>@Antalpha Labs</span>
+                        <span>@Coset</span>
                       </div>
                     </div>
 
@@ -318,7 +318,7 @@ export default function montenegro() {
                       <img src={gigi}></img>
                       <div className="name_company">
                         <span>Gigi</span>
-                        <span>@Antalpha Labs</span>
+                        <span>@Coset</span>
                       </div>
                     </div>
 
@@ -390,7 +390,7 @@ export default function montenegro() {
                       <img src={circle}></img>
                       <div className="name_company">
                         <span>Circle</span>
-                        <span>@Antalpha Venture</span>
+                        <span>@Coset Venture</span>
                       </div>
                     </div>
 
@@ -461,7 +461,7 @@ export default function montenegro() {
                       <img src={youai}></img>
                       <div className="name_company">
                         <span>Youai</span>
-                        <span>@Antalpha</span>
+                        <span>@Coset</span>
                       </div>
                     </div>
 

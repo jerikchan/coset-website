@@ -19,12 +19,12 @@ export default function Header(props: ComponentProps<"div">) {
       {/* PC端 */}
       <div className="web">
         <a href="/" className="inline-flex items-center gap-[0.625rem] pl-12">
-          <img src={logo} alt="Antalpha logo icon" />
-          <img src={logo2} alt="Antalpha logo heading" />
+          <img src={logo} alt="Coset logo icon" />
+          <img src={logo2} alt="Coset logo heading" />
         </a>
         <ul className="navi-links">
           <li className="navi-links__item1">
-            <a href="https://labs.antalpha.com/hackerhouse/" rel="same">
+            <a href="https://coset.io/hackerhouse/" rel="same">
               Hacker House
             </a>
             <div className="line"></div>
@@ -136,7 +136,7 @@ export default function Header(props: ComponentProps<"div">) {
         {isNavShowing ? (
           <ul className="navi-links">
             <li className="navi-links__item">
-              <a href="https://labs.antalpha.com/hackerhouse" target="_blank">
+              <a href="https://coset.io/hackerhouse" target="_blank">
                 Hacker House Event
               </a>
             </li>

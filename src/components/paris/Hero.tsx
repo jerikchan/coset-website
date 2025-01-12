@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="relative grid max-w-[1920px] h-full px-4 py-8 mx-auto overflow-hidden">
           <div className="relative z-10 mr-auto mt-0 sm:mt-20 mb-40 ml-4 sm:ml-8 md:ml-6 lg:ml-8 xl:ml-10">
             <h1 className="max-w-2xl mb-4 text-6xl font-extrabold tracking-tight leading-none md:text-7xl xl:text-8xl">
-              Antalpha
+              Coset
             </h1>
             <h1 className="mb-4 text-5xl font-extrabold tracking-tight leading-none md:text-7xl xl:text-8xl">
               HackerHouse - ZKML

@@ -26,29 +26,29 @@ interface Article {
 
 const DATA: Article[] = [
   {
-    link: "https://mirror.xyz/antalpha-labs.eth/N3BKvnlaYVEHpERJSSivauPkmbCXPuD44a9xi5bHqkE",
+    link: "https://mirror.xyz/coset-io.eth/N3BKvnlaYVEHpERJSSivauPkmbCXPuD44a9xi5bHqkE",
     coverUrl:
       "https://images.mirror-media.xyz/publication-images/2n226nPDYl2EScP5BQyKb.png?height=960&width=1920",
     title: "ep2 On proving systems - What ZKP builders need to know",
-    author: "Antalpha",
+    author: "Coset",
     date: "August 25th, 2023",
   },
   {
-    link: "https://mirror.xyz/antalpha-labs.eth/laGJGh1UyRbUYM6bs4cKlY7Vp6YQeZaO5QBuidCXZpA",
+    link: "https://mirror.xyz/coset-io.eth/laGJGh1UyRbUYM6bs4cKlY7Vp6YQeZaO5QBuidCXZpA",
     title: "Qiming & AHH #ZKonnect @ Istanbul Oct 22nd - Nov 20th 2023",
-    author: "Antalpha",
+    author: "Coset",
     date: "August 19th, 2023",
   },
   {
-    link: "https://mirror.xyz/antalpha-labs.eth/Wl8R4-mKiZ1xMgqPyX3u_f1UN4IAzBEJb4AKcG6pjGw",
+    link: "https://mirror.xyz/coset-io.eth/Wl8R4-mKiZ1xMgqPyX3u_f1UN4IAzBEJb4AKcG6pjGw",
     coverUrl:
       "https://images.mirror-media.xyz/publication-images/_0Cu5FzIlAuzdNhQYPr9S.png?height=960&width=1920",
     title: "Wen Building上线啦 ｜ep1 当我们谈论如何build Dex时",
-    author: "Antalpha",
+    author: "Coset",
     date: "August 18th, 2023",
   },
   {
-    link: "https://mirror.xyz/antalpha-labs.eth/rBzGa_HdvYnRnCIMl2yygfHg_nitshpGloyAkks01Go",
+    link: "https://mirror.xyz/coset-io.eth/rBzGa_HdvYnRnCIMl2yygfHg_nitshpGloyAkks01Go",
     coverUrl:
       "https://images.mirror-media.xyz/publication-images/PpDwK47oZzx4bcq6U4T47.jpeg?height=544&width=1088",
     title: "「对话」Moveflow Founder Troy | 构建可编程的支付系统",

@@ -14,7 +14,7 @@ import { CommunitySupports } from "../../components/chengdu/community-supports";
 export const Head = () => (
   <SEO
     title="HackerHouse Chengdu Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 );

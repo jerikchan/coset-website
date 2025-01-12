@@ -54,7 +54,7 @@ class Footer extends Component {
                               alt=" "></img>
                       </div>
                       <div className="footer-text">
-                          Sign up to get the latest news and updates on Antalpha labs
+                          Sign up to get the latest news and updates on Coset
                       </div>
                       <div className="input-box">
                           {/* <input type="email"
@@ -66,7 +66,7 @@ class Footer extends Component {
 
                   {/*
                   <iframe src="https://woshizhengqiuwan.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> */}
-                          <iframe src="https://antalphalabs.substack.com/embed" width="480" height="240" className="newsletter"
+                          <iframe src="https://coset-io.substack.com/embed" width="480" height="240" className="newsletter"
                               style={
                                   {
                                       border: "1px solid transparent",
@@ -80,14 +80,14 @@ class Footer extends Component {
                               onClick={
                                   this.submitSubscribe
                           }></button> */} </div>
-                      <div className="footer-claim">© 2023 Antalphalabs. All Rights Reserved.</div>
+                      <div className="footer-claim">© 2024 Coset. All Rights Reserved.</div>
                   </div>
                   <div className="footer-right">
                       <a href="https://mirror.xyz/0xeA68d8B403FE1891ae4F309ABeE6D3C9D1089b25">
                           <img src={mirror}
                               alt=" "></img>
                       </a>
-                      <a href="https://antalpha.notion.site/Antalpha-HackerHouse-13884d3f3d214ed59d430bb472ce523c">
+                      <a href="https://coset.notion.site/Coset-HackerHouse-13884d3f3d214ed59d430bb472ce523c">
                           <img src={notion}
                               alt=" "></img>
                       </a>
@@ -95,12 +95,12 @@ class Footer extends Component {
                           <img src={youtube}
                               alt=" "></img>
                       </a>
-                      <a href="https://twitter.com/Antalpha_Labs">
+                      <a href="https://twitter.com/coset_io">
                           <img src={twitter}
                               alt=" "></img>
                       </a>
-                      <a href="mailto:hello.labs@antalpha.com">
-                          <div className="footer-mail">hello.labs@antalpha.com</div>
+                      <a href="mailto:emily@coset.io">
+                          <div className="footer-mail">emily@coset.io</div>
                       </a>
                   </div>
                 </div>

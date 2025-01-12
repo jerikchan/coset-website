@@ -1,9 +1,9 @@
 ---
 imageSrc: "../../images/favicon.png"
-imageAlt: "About Antalpha Labs"
+imageAlt: "About Coset"
 ---
 
-Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.
+Coset is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology.
 
 We are here to:
 

@@ -132,7 +132,7 @@ export default function Questions() {
                   leaveTo="transform opacity-0 max-h-0"
                 >
                   <Disclosure.Panel className="max-w-2xl px-4 pb-8 py-2 text-base sm:text-lg xl:text-xl font-ps font-medium leading-7 text-stone-black">
-                    Antalpha Labs is a Web3 developer community dedicated to
+                    Coset is a Web3 developer community dedicated to
                     push the boundaries of crypto space by supporting the
                     innovation and success of open-source projects.
                   </Disclosure.Panel>
@@ -200,7 +200,7 @@ export default function Questions() {
                     Hacker state: An innovative experiment of the Network state,
                     for more please visit{" "}
                     <a
-                      href="https://antalpha.notion.site/AHH-ZKML-Paris-July-2023-5df765cda32140d5accd9f96963cc48a"
+                      href="https://coset.notion.site/AHH-ZKML-Paris-July-2023-5df765cda32140d5accd9f96963cc48a"
                       target="_blank"
                       rel="next"
                       className="underline underline-offset-4 decoration-1"

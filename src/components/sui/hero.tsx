@@ -6,7 +6,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
     <>
       <div className="flex flex-col justify-center items-center" {...props}>
         <StaticImage
-          alt="Antalpha sui event poster"
+          alt="Coset sui event poster"
           src="./images/poster.png"
           aspectRatio={1393 / 833}
           style={{
@@ -19,7 +19,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
         {/* a tried on custom element */}
         {/* <div style={{ display: "grid" }}>
           <StaticImage
-            alt="Antalpha sui event poster"
+            alt="Coset sui event poster"
             src="./images/poster-background.png"
             layout="constrained"
             aspectRatio={1393 / 833}
@@ -45,7 +45,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
           >
             <div className="flex flex-col items-center">
               <StaticImage
-                alt="Antalpha sui event poster"
+                alt="Coset sui event poster"
                 src="./images/poster-title.svg"
                 width={1029}
                 height={351}
@@ -74,7 +74,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
 
         <div className="flex flex-col pt-14 pb-20 justify-center items-center text-center">
           <h1 className="text-6xl font-semibold leading-tight">
-            Antalpha HackerHouse
+            Coset HackerHouse
           </h1>
           <h1 className="text-6xl font-semibold underline decoration-2 decoration-double decoration-blue-700">
             # MOVE

@@ -87,7 +87,7 @@ export const Hero = (props: React.ComponentProps<"div">) => {
     <>
       <div className="flex flex-col justify-center items-center relative" {...props}>
         <StaticImage
-          alt="Antalpha Chiangmai event poster"
+          alt="Coset Chiangmai event poster"
           src="./images/poster.png"
           className="w-full lg:h-[920px] object-contain"
           objectFit="contain"

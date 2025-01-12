@@ -15,7 +15,7 @@ import { CommunitySupports } from "../../components/suzhou/community-supports";
 export const Head = () => (
   <SEO
     title="HackerHouse London Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 );
@@ -58,7 +58,7 @@ export default function Suzhou() {
           <FadeIn>
             <div className="flex flex-col justify-center items-center container mx-auto">
               <StaticImage
-                alt="Antalpha Suzhou event poster"
+                alt="Coset Suzhou event poster"
                 src="../../components/suzhou/images/content.png"
               />
             </div>

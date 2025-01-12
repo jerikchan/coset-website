@@ -12,7 +12,7 @@ import ParisPoster from "../../../static/images/hackerhouse/paris/paris_poster.p
 export const Head = () => (
   <SEO
     title="HackerHouse Paris Event"
-    description="Antalpha Labs is a web3 developer community. Paris event is coming soon!"
+    description="Coset is a web3 developer community. Paris event is coming soon!"
     image={ParisPoster}
   />
 )

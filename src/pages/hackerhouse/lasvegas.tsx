@@ -16,7 +16,7 @@ import { CommunitySupports } from "../../components/lasvegas/community-supports"
 export const Head = () => (
   <SEO
     title="HackerHouse Las Vegas Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 );

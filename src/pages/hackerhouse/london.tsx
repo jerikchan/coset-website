@@ -13,7 +13,7 @@ import { FadeIn } from "../../components/fade-in";
 export const Head = () => (
   <SEO
     title="HackerHouse London Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 );

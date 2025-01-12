@@ -8,13 +8,13 @@ dotenv.config({
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: "Antalpha Labs",
-    titleTemplate: "%s · Antalpha Labs", // 添加这一行
-    description: "Antalpha Labs is a web3 developer community",
-    url: "https://labs.antalpha.com",
+    title: "Coset",
+    titleTemplate: "%s · Coset", // 添加这一行
+    description: "Coset is a web3 developer community",
+    url: "https://coset.io",
     image:
-      "https://labs.antalpha.com/static/mainlogo-eabcf082112087699216b13369d1413c.svg",
-    twitterUsername: "Antalpha_Labs",
+      "https://coset.io/static/mainlogo-eabcf082112087699216b13369d1413c.svg",
+    twitterUsername: "coset_io",
   },
   developMiddleware: (app) => {
     app.use(
@@ -37,8 +37,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Antalpha Labs`,
-        short_name: `AL`,
+        name: `Coset`,
+        short_name: `Coset`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,

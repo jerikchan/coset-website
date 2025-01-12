@@ -15,7 +15,7 @@ import { Details } from "../../components/istanbul/details"
 export const Head = () => (
   <SEO
     title="HackerHouse Istanbul Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 )

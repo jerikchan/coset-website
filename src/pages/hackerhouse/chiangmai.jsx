@@ -61,8 +61,8 @@ export default function chiangmai() {
             </a>
             <div className="chiangmai_contact">
               <span className="chiangmai_add">Interesting in partnering?</span>
-              <a href="mailto:hello.labs@antalpha.com">
-                <span className="chiangmai_email">hello.labs@antalpha.com</span>
+              <a href="mailto:emily@coset.io">
+                <span className="chiangmai_email">emily@coset.io</span>
               </a>
             </div>
           </div>
@@ -295,7 +295,7 @@ export default function chiangmai() {
 
 export const Head = () => (
   <SEO
-    title="Antalpha Labs-Web3 developers community"
+    title="Coset-Web3 developers community"
     description="The primary goal of residents is to ship an applied ZK project, in one of the areas listed above. Our co-working space will serve as a “hub” for residents over the program."
     image={chiangmaitwitter}
   ></SEO>

@@ -4,7 +4,7 @@
       "visible": true,
       "category": "🧰 Defi",
       "title": "Defi Financial Engineering Tools",
-      "description": "Zelos is a group under Antalpha Labs. We focus on providing serious financial engineering tools for Defi. You can find in-depth and independent third-party reports, our open-source repository (e.g., backtesting v3), and high-level modeling papers from our github page below. Have fun!",
+      "description": "Zelos is a group under Coset. We focus on providing serious financial engineering tools for Defi. You can find in-depth and independent third-party reports, our open-source repository (e.g., backtesting v3), and high-level modeling papers from our github page below. Have fun!",
       "tags": ["Defi", "Financial Engineering", "Tool"],
       "image": {
         "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
@@ -27,13 +27,13 @@
       },
       "links": [{
         "type": "github",
-        "url": "https://github.com/Antalpha-Labs/ledger"
+        "url": "https://github.com/coset-io/ledger"
       }]
     }
   ],
   "button": {
     "visible": false,
     "label": "Visit on Github",
-    "url": "https://github.com/Antalpha-Labs"
+    "url": "https://github.com/coset-io"
   }
 }

@@ -243,7 +243,7 @@ export default function HackerHouse() {
             </div>
 
             <h1 className="text-6xl font-semibold leading-tight">
-              Antalpha HackerHouses
+              Coset HackerHouses
             </h1>
           </div>
         </div>
@@ -329,7 +329,7 @@ export default function HackerHouse() {
                     </div>
                     <h2 className="text-2xl font-normal">
                       <Balancer>
-                        Antalpha Hackerhouse {x.location} {x.theme}
+                        Coset Hackerhouse {x.location} {x.theme}
                       </Balancer>
                     </h2>
                   </Link>

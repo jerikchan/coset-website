@@ -196,70 +196,70 @@ export default function IndexPage() {
     {
       id: "1",
       projectlink:
-        "https://antalpha.notion.site/Dsearch-5655cc82e15e417da1416708e23afbe2",
+        "https://coset.notion.site/Dsearch-5655cc82e15e417da1416708e23afbe2",
       imgurl: Dsearch,
       text: "Dsearch",
     },
     {
       id: "2",
       projectlink:
-        "https://antalpha.notion.site/Seren-5c7092659f70488d9589dfcd3c660eeb",
+        "https://coset.notion.site/Seren-5c7092659f70488d9589dfcd3c660eeb",
       imgurl: Seren,
       text: "Seren",
     },
     {
       id: "3",
       projectlink:
-        "https://antalpha.notion.site/BOB-YARD-ebf641a5a79a4dfaac697aae5172d899",
+        "https://coset.notion.site/BOB-YARD-ebf641a5a79a4dfaac697aae5172d899",
       imgurl: BOBYARD,
       text: "BOB YARD",
     },
     {
       id: "4",
       projectlink:
-        "https://antalpha.notion.site/On-chain-Game-ba67d6c2b98e4dd8aae847bafd0a2eb6",
+        "https://coset.notion.site/On-chain-Game-ba67d6c2b98e4dd8aae847bafd0a2eb6",
       imgurl: Onchain,
       text: "On-chain Game",
     },
     {
       id: "5",
       projectlink:
-        "https://antalpha.notion.site/Moveflow-04289bd1e9c94511b3e6c5b8f73c1643",
+        "https://coset.notion.site/Moveflow-04289bd1e9c94511b3e6c5b8f73c1643",
       imgurl: Moveflow,
       text: "Moveflow",
     },
     {
       id: "6",
       projectlink:
-        "https://antalpha.notion.site/Airdropper-31438141fb5a4466960bf904c31898e5",
+        "https://coset.notion.site/Airdropper-31438141fb5a4466960bf904c31898e5",
       imgurl: Airdropper,
       text: "Airdropper",
     },
     {
       id: "7",
       projectlink:
-        "https://antalpha.notion.site/Move-barter-c58fe2c173b543909fef5a8752a239a9",
+        "https://coset.notion.site/Move-barter-c58fe2c173b543909fef5a8752a239a9",
       imgurl: Movebarter,
       text: "Move barter",
     },
     {
       id: "8",
       projectlink:
-        "https://antalpha.notion.site/Mission-board-dd515d905bb949ba977e509dfbc3ed30",
+        "https://coset.notion.site/Mission-board-dd515d905bb949ba977e509dfbc3ed30",
       imgurl: Missionboard,
       text: "Mission board",
     },
     {
       id: "9",
       projectlink:
-        "https://antalpha.notion.site/Dali-orchard-1eb64fc96fb94ee8a34a7a12dde040eb",
+        "https://coset.notion.site/Dali-orchard-1eb64fc96fb94ee8a34a7a12dde040eb",
       imgurl: Daliorchard,
       text: "Dali orchard",
     },
     {
       id: "10",
       projectlink:
-        "https://antalpha.notion.site/sandtable-xyz-6854d9974b3d49d08ee163152c7e1b41",
+        "https://coset.notion.site/sandtable-xyz-6854d9974b3d49d08ee163152c7e1b41",
       imgurl: sandtable,
       text: "sandtable.xyz ",
     },
@@ -269,28 +269,28 @@ export default function IndexPage() {
     {
       id: "1",
       projectlink:
-        "https://antalpha.notion.site/Kakarot-9b8d21434d5542d892fef16e58021ae3",
+        "https://coset.notion.site/Kakarot-9b8d21434d5542d892fef16e58021ae3",
       imgurl: kakarot,
       text: "Kakarot",
     },
     {
       id: "2",
       projectlink:
-        "https://antalpha.notion.site/Hunter-Z-Hunter-4e77e251ea8f49f78612993775bae339",
+        "https://coset.notion.site/Hunter-Z-Hunter-4e77e251ea8f49f78612993775bae339",
       imgurl: hunter,
       text: "Hunter Z Hunter",
     },
     {
       id: "3",
       projectlink:
-        "https://antalpha.notion.site/Web3-MQ-8059f6c23e9b4c5abbce87abb9302e0d",
+        "https://coset.notion.site/Web3-MQ-8059f6c23e9b4c5abbce87abb9302e0d",
       imgurl: web3mq,
       text: "Web3 MQ",
     },
     {
       id: "4",
       projectlink:
-        "https://antalpha.notion.site/Atomiclinks-9e3437937ca4437c9c75c2b5b76f76aa",
+        "https://coset.notion.site/Atomiclinks-9e3437937ca4437c9c75c2b5b76f76aa",
       imgurl: atomiclinks,
       text: "Atomiclinks",
     },
@@ -299,17 +299,17 @@ export default function IndexPage() {
   return (
     <>
       {/* 1、首页 */}
-      <div className="antalpha-container">
+      <div className="coset-container">
         {/* 顶部导航 */}
-        <div className="antalpha-container1">
-          <div className="antalpha-navigator">
+        <div className="coset-container1">
+          <div className="coset-navigator">
             <a href="/" target="_self">
-              <div className="antalpha-logo">
+              <div className="coset-logo">
                 <img src={logo} alt="" className="Icon1" />
                 <img src={logo2} alt="" className="Icon2" />
               </div>
             </a>
-            <div className="antalpha-navi">
+            <div className="coset-navi">
               <Link to="/hackerhouse" className="hackerhouse-navi">
                 <span>HackerHouse</span>
                 <div className="line"></div>
@@ -321,12 +321,12 @@ export default function IndexPage() {
             </div>
           </div>
           {/* 主要内容 */}
-          <div className="antalpha-mianlogo">
+          <div className="coset-mianlogo">
             <img src={mianlogo} loading="lazy" alt="" className="Icon" />
           </div>
 
-          <div className="antalpha-intro">
-            <div>Antalpha Labs is a web3 developer community...</div>
+          <div className="coset-intro">
+            <div>Coset is a web3 developer community...</div>
             <a href="https://discord.gg/5VDVhY6czv">
               <button className="botton">Join us</button>
             </a>
@@ -339,21 +339,21 @@ export default function IndexPage() {
 
         {/* 2、关于我们 */}
         <div id="aboutus">
-          <div className="antalpha-containe1">
-            <div className="about-antalpha">
-              <div className="about-antalpha-box">
-                <div className="antalpha-title antalpha-bigtitle">
-                  About Antalpha Labs
+          <div className="coset-containe1">
+            <div className="about-coset">
+              <div className="about-coset-box">
+                <div className="coset-title coset-bigtitle">
+                  About Coset
                 </div>
-                <div className="antalpha-title antalpha-detailintro">
-                  Antalpha Labs is a web3 developer community dedicated to
+                <div className="coset-title coset-detailintro">
+                  Coset is a web3 developer community dedicated to
                   helping developers build open source software to promote
                   innovation and application of web3 technology.
                 </div>
-                <div className="antalpha-title antalpha-aboutus">
+                <div className="coset-title coset-aboutus">
                   We are here to:
                 </div>
-                <ul className="antalpha-title antalpha-aboutuslist">
+                <ul className="coset-title coset-aboutuslist">
                   <li>
                     <img src={check} alt=""></img>Learn web3 technology.
                   </li>
@@ -372,10 +372,10 @@ export default function IndexPage() {
 
         {/* 3、案例 */}
         <div id="showcase">
-          <div className="antalpha-showcase">
+          <div className="coset-showcase">
             <div className="showcase-title">
               <div>Showcase</div>
-              <a className="viewALl-href" href="https://antalpha.notion.site/">
+              <a className="viewALl-href" href="https://coset.notion.site/">
                 <button className="botton viewall-button">
                   View all
                   <div className="viewAll-arrow"></div>
@@ -484,8 +484,8 @@ export default function IndexPage() {
 
 export const Head = () => (
   <SEO
-    title="Antalpha Labs-Web3 developers community"
-    description="Antalpha Labs is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology"
+    title="Coset-Web3 developers community"
+    description="Coset is a web3 developer community dedicated to helping developers build open source software to promote innovation and application of web3 technology"
     image={ahhlogo}
   />
 )

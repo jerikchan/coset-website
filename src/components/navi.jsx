@@ -47,7 +47,7 @@ export default(props) => {
                 {
                 isNavShowing ? <ul className="navi-links">
                     <li className="navi-links__item">
-                        <Link to="https://labs.antalpha.com/hackerhouse">
+                        <Link to="https://coset.io/hackerhouse">
                             Hacker House Event
                         </Link>
                     </li>

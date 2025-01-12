@@ -6,13 +6,13 @@ export const Hero = (props: React.ComponentProps<"div">) => {
     <>
       <div className="flex flex-col justify-center items-center" {...props}>
         <StaticImage
-          alt="Antalpha London event poster"
+          alt="Coset London event poster"
           src="./images/poster.jpg"
         />
 
         <div className="flex flex-col pt-14 pb-20 justify-center items-center text-center">
           <h1 className="text-6xl font-semibold leading-tight">
-            Antalpha HackerHouse
+            Coset HackerHouse
           </h1>
           <h1 className="text-6xl font-semibold underline decoration-2 decoration-double decoration-blue-700">
             # ProofCircuit

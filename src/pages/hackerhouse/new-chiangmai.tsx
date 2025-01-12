@@ -14,7 +14,7 @@ import poster from "../../components/new-chiangmai/images/poster.png";
 export const Head = () => (
   <SEO
     title="HackerHouse Chiangmai Event"
-    description="Antalpha Labs is a web3 developer community"
+    description="Coset is a web3 developer community"
     image={poster}
   />
 );

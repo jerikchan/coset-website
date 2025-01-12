@@ -32,4 +32,4 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Antalpha | Not found</title>;
+export const Head: HeadFC = () => <title>Coset | Not found</title>;

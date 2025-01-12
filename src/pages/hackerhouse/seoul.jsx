@@ -54,7 +54,7 @@ export default function Seoul() {
         {isNavShowing ? (
           <ul className="seoul-navi-links">
             <li className="seoul-navi-links__item">
-              <Link to="https://labs.antalpha.com/hackerhouse">
+              <Link to="https://coset.io/hackerhouse">
                 Hacker House Event
               </Link>
             </li>
@@ -120,7 +120,7 @@ export default function Seoul() {
                 </a> */}
 
               {/* <div className="seoul-hackerhouse-detail">
-                Antalpha HackerHouse is a&nbsp;
+                Coset HackerHouse is a&nbsp;
                 <span className="blod">X week co-living community</span>&nbsp;
                 providing Quality Free Accommodations for developers who is or
                 will be working on&nbsp;
