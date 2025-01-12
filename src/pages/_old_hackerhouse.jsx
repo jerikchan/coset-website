@@ -118,7 +118,7 @@ export default function HackerHouse() {
     },
     {
       signuplink:
-        "https://www.notion.so/antalpha/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
+        "https://www.notion.so/coset/1a7771e12a444d1b96dd8cfc3f72ed4d?v=b373397745164802ad82571141dd5fcc", // 跳转到notion项目页面
       theme: "# Infra and open source tools",
       name: "",
       startDate: "1st Dec, 2022",

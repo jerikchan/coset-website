@@ -2,8 +2,8 @@ import React from "react"
 import { Disclosure, DisclosureProps, Transition } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
-import logo from "../../content/images/antalpha/antalphalogo.svg"
-import logoHeading from "../../content/images/antalpha/antalphalogo2.svg"
+import logo from "../../content/images/coset/antalphalogo.svg"
+import logoHeading from "../../content/images/coset/antalphalogo2.svg"
 import { Link } from "gatsby-link"
 import clsx from "clsx"
 
@@ -50,7 +50,7 @@ export default function Header(props: DisclosureProps<"header">) {
                     Blog
                   </Link>
                   <Link
-                    to="https://www.notion.so/antalpha/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
+                    to="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
                     activeClassName="underline-offset-2 underline"
                   >
@@ -106,7 +106,7 @@ export default function Header(props: DisclosureProps<"header">) {
                 </Disclosure.Button>
                 <Disclosure.Button
                   as={Link}
-                  to="https://www.notion.so/antalpha/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
+                  to="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
                   className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
                   activeClassName="border-web-gray bg-web-tile"
                 >

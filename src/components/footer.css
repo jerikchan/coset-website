@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 1.25rem;
-  background-image: url("../../content/images/antalpha/noise.png");
+  background-image: url("../../content/images/coset/noise.png");
 }
 
 .footer-left {
