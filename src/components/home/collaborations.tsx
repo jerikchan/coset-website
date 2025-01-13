@@ -4,7 +4,6 @@ import clsx from "clsx";
 const PARTNERS = [
   { imageUrl: "secbit.png", name: "secbit" },
   { imageUrl: "worldcoin.png", name: "worldcoin" },
-  { imageUrl: "pse.png", name: "pse" },
   { imageUrl: "hashkey.png", name: "hashkey" },
   { imageUrl: "qiming.svg", name: "qiming" },
   { imageUrl: "sevenx.png", name: "sevenx" },
