@@ -16,7 +16,7 @@ const PARTNERS = [
   { name: "ezkl", title: "💭 EZKL", className: "text-6xl select-none" },
   { imageUrl: "taiko.png", name: "taiko" },
   { imageUrl: "scroll.png", name: "scroll" },
-  { imageUrl: "sui.png", name: "sui", className: "!ml-8" },
+  { imageUrl: "sui.png", name: "sui" },
   { imageUrl: "giza.png", name: "giza" },
   { imageUrl: "biconomy.png", name: "biconomy", className: "invert" },
   { imageUrl: "ingonyama.png", name: "ingonyama" },
