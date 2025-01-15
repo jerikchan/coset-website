@@ -53,33 +53,6 @@ class Footer extends Component {
                           <img src={footerlogo}
                               alt=" "></img>
                       </div>
-                      <div className="footer-text">
-                          Sign up to get the latest news and updates on Coset
-                      </div>
-                      <div className="input-box">
-                          {/* <input type="email"
-                              ref={
-                                  this.input
-                              }
-                              name="email"
-                              placeholder="Your email address"/> */}
-
-                  {/*
-                  <iframe src="https://woshizhengqiuwan.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> */}
-                          <iframe src="https://coset-io.substack.com/embed" width="480" height="240" className="newsletter"
-                              style={
-                                  {
-                                      border: "1px solid transparent",
-                                      background: "transparent"
-                                  }
-                              }/>
-                               {/* <button type="button" className="white-box"
-                              ref={
-                                  this.button
-                              }
-                              onClick={
-                                  this.submitSubscribe
-                          }></button> */} </div>
                       <div className="footer-claim">© 2024 Coset. All Rights Reserved.</div>
                   </div>
                   <div className="footer-right">
