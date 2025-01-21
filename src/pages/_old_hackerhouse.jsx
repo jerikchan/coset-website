@@ -153,7 +153,7 @@ export default function HackerHouse() {
 
             <div className="hackerhous_detail">
               <span>
-                Coset HackerHouse is a X week co-living community that
+                Antalpha HackerHouse is a X week co-living community that
                 provides quality free living space for developers who is or will
                 be working on open-source projects.
               </span>
@@ -200,7 +200,7 @@ export default function HackerHouse() {
                         <div className="event_theme">{item.theme}</div>
                       </div>
                       <div className="event_name">
-                        <div>Coset HackerHouse</div>
+                        <div>Antalpha HackerHouse</div>
                         {item.name}
                       </div>
 
@@ -236,7 +236,7 @@ export default function HackerHouse() {
 export const Head = () => (
   <SEO
     title="HackerHouse Events"
-    description="Coset HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects."
+    description="Antalpha HackerHouse is a X week co-living community that provides quality free living space for developers who is or will be working on open-source projects."
     image={events}
   />
 )

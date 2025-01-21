@@ -47,7 +47,7 @@ export default function Zkp() {
           <img className="denver_bg" src={denverbg}></img>
           <div className="denver_activity ">
             <div className="denver_box">
-              <span className="denver_title">Coset HackerHouse</span>
+              <span className="denver_title">Antalpha HackerHouse</span>
               <span className="denver_theme"># ZKP</span>
             </div>
 
@@ -142,7 +142,7 @@ export default function Zkp() {
                 ) : currentIndex === 3 ? (
                   <div>
                     <div>
-                      Coset HackerHouse is a X week co-living community,
+                      Antalpha HackerHouse is a X week co-living community,
                       providing quality free living space for developers who is
                       or will be working on open-source projects. Theme, time
                       and location varies from one event to another, but our

@@ -21,7 +21,7 @@ export default function move() {
       <div className="move">
         <img className="move_bg" src={movebg}></img>
         <div className="move_activity ">
-          <div className="move_title">Coset HackerHouse</div>
+          <div className="move_title">Antalpha HackerHouse</div>
           <span className="move_theme">#Build on Move</span>
           <span className="move_timeloca">13th Feb 2023 - 05th Mar 2023</span>
           <span className="move_timeloca">Yunnan, Dali</span>

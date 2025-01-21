@@ -120,7 +120,7 @@ export default function Seoul() {
                 </a> */}
 
               {/* <div className="seoul-hackerhouse-detail">
-                Coset HackerHouse is a&nbsp;
+                Antalpha HackerHouse is a&nbsp;
                 <span className="blod">X week co-living community</span>&nbsp;
                 providing Quality Free Accommodations for developers who is or
                 will be working on&nbsp;
