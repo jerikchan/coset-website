@@ -1,6 +1,6 @@
-import React from "react"
-import { Disclosure, DisclosureProps, Transition } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import React from "react";
+import { Disclosure, DisclosureProps, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import logo from "../../content/images/coset/cosetlogo.svg"
 import logoHeading from "../../content/images/coset/cosetlogo2.svg"
@@ -42,20 +42,22 @@ export default function Header(props: DisclosureProps<"header">) {
                   >
                     Hackerhouse
                   </Link>
-                  <Link
-                    to="https://mirror.xyz/coset-io.eth/"
+                  <a
+                    href="https://mirror.xyz/coset-io.eth/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                    activeClassName="underline-offset-2 underline"
                   >
                     Blog
-                  </Link>
-                  <Link
-                    to="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
+                  </a>
+                  <a
+                    href="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
+                    target="_blank"
+                    rel="noreferrer"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                    activeClassName="underline-offset-2 underline"
                   >
                     Showcases
-                  </Link>
+                  </a>
                   <a
                     href="mailto:emily@coset.io"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
@@ -125,5 +127,5 @@ export default function Header(props: DisclosureProps<"header">) {
         </>
       )}
     </Disclosure>
-  )
+  );
 }

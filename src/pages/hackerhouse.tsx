@@ -21,8 +21,8 @@ import SeoulImage from "../../content/images/og/seoul.png";
 import MontenegroImage from "../../content/images/og/montenegro.png";
 import LasVegasPoster from "../components/lasvegas/images/poster.png";
 import ChengduPoster from "../components/chengdu/images/poster.jpg";
-import NewChiangmaiPoster from '../components/new-chiangmai/images/poster.png'
-
+import NewChiangmaiPoster from "../components/new-chiangmai/images/poster.png";
+import SuiHangzhouPoster from "../components/sui-hangzhou/images/poster.png";
 
 type House = {
   link: string;
@@ -35,6 +35,15 @@ type House = {
 };
 
 const HOUSES: House[] = [
+  {
+    link: "/hackerhouse/sui-hangzhou",
+    theme: "",
+    name: "",
+    startDate: "17th Mar, 2025",
+    endDate: "30th Mar, 2025",
+    location: "@Hangzhou",
+    coverUrl: SuiHangzhouPoster,
+  },
   {
     link: "/hackerhouse/new-chiangmai",
     theme: "",
@@ -286,11 +295,15 @@ export default function HackerHouse() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
               {filteredList.map((x) => {
                 const being = getTimeBeing(x.startDate, x.endDate);
+                const isExternal = x.link.startsWith("http");
+                const LinkNode = isExternal ? "a" : Link;
 
                 return (
-                  <Link
+                  <LinkNode
                     className="flex flex-col space-y-3 w-full md:max-w-xs xl:max-w-sm 2xl:max-w-md group"
                     to={x.link}
+                    href={x.link}
+                    target={isExternal ? "_blank" : undefined}
                   >
                     <div className="rounded-xl border overflow-hidden bg-white group-hover:border-web-white/70 group-hover:shadow-lg transition-all flex justify-center items-center h-[240px]">
                       {x.coverUrl ? (
@@ -332,7 +345,7 @@ export default function HackerHouse() {
                         Antalpha HackerHouse {x.location} {x.theme}
                       </Balancer>
                     </h2>
-                  </Link>
+                  </LinkNode>
                 );
               })}
             </div>
