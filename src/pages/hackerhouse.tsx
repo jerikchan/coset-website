@@ -342,7 +342,7 @@ export default function HackerHouse() {
                     </div>
                     <h2 className="text-2xl font-normal">
                       <Balancer>
-                        Antalpha HackerHouse {x.location} {x.theme}
+                        HackerHouse {x.location} {x.theme}
                       </Balancer>
                     </h2>
                   </LinkNode>
