@@ -4,8 +4,8 @@ import Footer from "../../components/paris/Footer"
 import HackerState from "../../components/paris/HackerState"
 import Hero from "../../components/paris/Hero"
 import Questions from "../../components/paris/Questions"
-import Header from "../../components/paris/Header"
 import SEO from "../../components/seo"
+import Header from "../../components/site-header";
 
 import ParisPoster from "../../../static/images/hackerhouse/paris/paris_poster.png"
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Footer from "../../components/footer"
-import Navi from "../../components/navi"
+import Header from "../../components/site-header";
 
 import "../../styles/tokyo.css"
 import toykoog from "../../../content/images/og/toyko.png"
@@ -32,7 +32,7 @@ export default function Toyko() {
   return (
     <>
       {/* 1、这里是logo */}
-      <Navi></Navi>
+      <Header />
 
       {/* 2、报名页面 */}
       <div className="tokyo">
