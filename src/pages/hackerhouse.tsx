@@ -23,6 +23,7 @@ import LasVegasPoster from "../components/lasvegas/images/poster.png";
 import ChengduPoster from "../components/chengdu/images/poster.jpg";
 import NewChiangmaiPoster from "../components/new-chiangmai/images/poster.png";
 import SuiHangzhouPoster from "../components/sui-hangzhou/images/poster.png";
+import SuzhouZkvmPoster from "../components/suzhou-zkvm/images/poster.png";
 
 type House = {
   link: string;
@@ -35,6 +36,15 @@ type House = {
 };
 
 const HOUSES: House[] = [
+  {
+    link: "/hackerhouse/suzhou-zkvm",
+    theme: "",
+    name: "",
+    startDate: "14th Apr, 2025",
+    endDate: "27th Apr, 2025",
+    location: "@Suzhou",
+    coverUrl: SuzhouZkvmPoster,
+  },
   {
     link: "/hackerhouse/sui-hangzhou",
     theme: "",
