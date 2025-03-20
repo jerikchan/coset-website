@@ -8,7 +8,7 @@ const NotFoundPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-      <main className="py-12 min-h-[56vh] flex items-center">
+      <main className="py-12 min-h-screen flex items-center">
         <div className="container mx-auto flex h-full justify-center items-center">
           <div className="flex flex-col items-center justify-center text-center gap-4 text-[hsl(240,100%,57%)]">
             <h1 className="text-9xl font-extrabold">404</h1>
