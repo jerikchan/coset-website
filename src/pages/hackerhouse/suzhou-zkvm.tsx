@@ -12,6 +12,7 @@ import { FadeIn } from "../../components/fade-in"
 import { Partners } from "../../components/suzhou-zkvm/partners"
 import { Mentors } from "../../components/suzhou-zkvm/mentors"
 import { CommunitySupports } from "../../components/suzhou-zkvm/community-supports"
+import { Sponsors } from "../../components/suzhou-zkvm/sponsors"
 // import { Details } from "../../components/suzhou-zkvm/details"
 
 export const Head = () => (
@@ -61,12 +62,17 @@ export default function Istanbul() {
             <Mentors />
           </FadeIn>
         </InViewSection>
+        <InViewSection id="sponsors" context={context}>
+          <FadeIn>
+            <Sponsors />
+          </FadeIn>
+        </InViewSection>
         <InViewSection id="partners" context={context}>
           <FadeIn>
             <Partners />
           </FadeIn>
         </InViewSection>
-        <InViewSection id="community-supports" context={context}>
+        <InViewSection id="Community Supports" context={context}>
           <FadeIn>
             <CommunitySupports />
           </FadeIn>

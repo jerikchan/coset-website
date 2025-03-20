@@ -1,35 +1,29 @@
 import React from "react"
 
-const partnersData = [
+const sponsorsData = [
   {
-    title: "DelphinusLab",
-    link: "https://delphinuslab.com/",
-    icon: "/images/logo/delphinus-lab.webp",
-    tag: "Partner",
+    title: "zkm",
+    link: "https://www.zkm.io/",
+    icon: "/images/logo/zkm.webp",
+    tag: "Sponsor",
   },
   {
-    title: 'Mask Network',
-    link: 'https://www.mask.io/',
-    icon: "/images/logo/mask-network.webp",
-    tag: "Partner",
-  },
-  {
-    title: 'NextID',
-    link: 'https://next.id/',
-    icon: "/images/logo/nextid.webp",
-    tag: "Partner",
+    title: "Computation Frontier Labs",
+    link: "https://cflabs.ai/",
+    icon: "/images/logo/cflabs.webp",
+    tag: "Sponsor",
   },
 ]
 
-export const Partners = (props: React.ComponentProps<"div">) => {
+export const Sponsors = (props: React.ComponentProps<"div">) => {
   return (
     <div
-      className="py-48 flex flex-col space-y-12 justify-center items-center bg-web-paper"
+      className="py-48 flex flex-col space-y-12 justify-center items-center bg-web-tile"
       {...props}
     >
       <div className="relative">
         <h1 className="font-semibold text-6xl capitalize text-web-gray">
-          Partners
+          Sponsors
         </h1>
         <div className="absolute right-4 -top-12 translate-x-full">
           <svg
@@ -55,8 +49,8 @@ export const Partners = (props: React.ComponentProps<"div">) => {
         </div>
       </div>
 
-      <div className="py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {partnersData.map((x) => (
+      <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        {sponsorsData.map((x) => (
           <div key={x.title ?? x.link} className="flex flex-col h-full bg-white rounded-2xl overflow-hidden">
             <a
               href={x.link}

@@ -13,7 +13,8 @@ const SPEAKERS: Speaker[] = [
   {
     name: "Yu Guo",
     image: "/images/avatars/guoyu.webp",
-    title: "Founder of SECBIT Labs, a former college education practitioner, focuses on zero-knowledge proof, smart contract security, and program language theory.",
+    title:
+      "Founder of SECBIT Labs, a former college education practitioner, focuses on zero-knowledge proof, smart contract security, and program language theory.",
   },
   {
     name: "Kurt Pan",
@@ -23,7 +24,8 @@ const SPEAKERS: Speaker[] = [
   {
     name: "wangyao",
     image: "/images/avatars/wangyao.webp",
-    title: "fluent zk engineer. PhD Candidate in Mathematics Study ZK, Study FHE, Exploring the Intersection of Algebra and Cryptography.",
+    title:
+      "fluent zk engineer. PhD Candidate in Mathematics Study ZK, Study FHE, Exploring the Intersection of Algebra and Cryptography.",
   },
   {
     name: "zhuo zhang",
@@ -33,17 +35,24 @@ const SPEAKERS: Speaker[] = [
   {
     name: "Alva",
     image: "/images/avatars/alva.webp",
-    title: "ZKM Researcher, participated in ZKM architecture design and proof acceleration efforts. PhD in cryptography, whose main research directions include zero-knowledge proof, multi-party secure computing and homomorphic encryption.",
+    title:
+      "ZKM Researcher, participated in ZKM architecture design and proof acceleration efforts. PhD in cryptography, whose main research directions include zero-knowledge proof, multi-party secure computing and homomorphic encryption.",
   },
   {
-    name: "Purple",
-    title: 'Facilitator, Mentor Assistant, non-tech to zk-tech',
-    image: "/images/avatars/purple.webp",
+    name: "alpeh_v",
+    title: "zk security researcher",
+    image: "/images/avatars/alpeh_v.jpg",
+  },
+  {
+    name: "Hugo",
+    title: "cflabs researcher",
+    image: "/images/avatars/hugo.jpg",
   },
   {
     name: "More-TBA",
-    title: '',
+    title: "",
     image: "/images/avatars/more-tba.webp",
+    className: "p-4",
   },
 ];
 
@@ -124,7 +133,10 @@ export const Mentors = (props: React.ComponentProps<"div">) => {
               <img
                 src={x.image}
                 alt={`Avatar of ${x.name}`}
-                className="w-72 h-72 max-h-72 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 object-contain"
+                className={clsx(
+                  "w-72 h-72 max-h-72 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1 object-contain",
+                  x.className
+                )}
               />
             ) : (
               <div className="object-contain w-72 h-72 px-12 py-12 border rounded-lg shadow-xl border-web-gray/30 hover:opacity-75 transition flex justify-center items-center flex-1">
