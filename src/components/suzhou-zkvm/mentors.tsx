@@ -49,6 +49,11 @@ const SPEAKERS: Speaker[] = [
     image: "/images/avatars/hugo.jpg",
   },
   {
+    name: 'Uma Roy',
+    title: 'co-founder and CEO of Succinct, dedicated to making zero-knowledge proofs (ZKPs) accessible to all developers, starting with SP1—the most performant and feature-complete zkVM.',
+    image: "/images/avatars/uma-roy.jpg",
+  },
+  {
     name: "More-TBA",
     title: "",
     image: "/images/avatars/more-tba.webp",
