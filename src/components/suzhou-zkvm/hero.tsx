@@ -12,11 +12,11 @@ export const Hero = (props: React.ComponentProps<"div">) => {
 
         <div className="flex flex-col pt-14 pb-20 justify-center items-center text-center">
           <h1 className="text-6xl font-semibold leading-tight">
-            Antalpha HackerHouse
+            zkVM HackerHouse
           </h1>
-          <h1 className="text-6xl font-semibold underline decoration-2 decoration-double decoration-blue-700">
+          {/* <h1 className="text-6xl font-semibold underline decoration-2 decoration-double decoration-blue-700">
             # zkVM
-          </h1>
+          </h1> */}
           <p className="text-3xl leading-normal text-web-gray/70 mt-6">
             Apr. 14th - Apr. 27th
           </p>
