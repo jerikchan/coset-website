@@ -10,13 +10,18 @@ export default async function handler(
   _: GatsbyFunctionRequest,
   res: GatsbyFunctionResponse,
 ) {
-  const notion = new Client({
-    auth: process.env.NOTION_TOKEN,
-  })
-  const databaseId = process.env.NOTION_DB_ID!
-  const response = await notion.databases.query({
-    database_id: databaseId,
-    sorts: [{ timestamp: "created_time", direction: "descending" }],
-  })
-  res.send({ data: response.results })
+  try {
+    const notion = new Client({
+      auth: process.env.NOTION_TOKEN,
+    })
+    const databaseId = process.env.NOTION_DB_ID!
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      sorts: [{ timestamp: "created_time", direction: "descending" }],
+    })
+    res.send({ data: response.results })
+  } catch (error) {
+    console.error(error)
+    res.status(500).send({ error: "Failed to fetch data from Notion" })
+  }
 }

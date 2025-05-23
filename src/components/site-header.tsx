@@ -50,14 +50,21 @@ export default function Header(props: DisclosureProps<"header">) {
                   >
                     Blog
                   </a>
-                  <a
+                  {/* <a
                     href="https://coset.notion.site/Coset-Wiki-adba3ae862eb49cea66f10d929ec1067"
                     target="_blank"
                     rel="noreferrer"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
                   >
                     Showcases
-                  </a>
+                  </a> */}
+                  <Link
+                    to="/courses"
+                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
+                    activeClassName="underline-offset-2 underline"
+                  >
+                    Courses
+                  </Link>
                   <a
                     href="mailto:emily@coset.io"
                     className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
@@ -106,13 +113,21 @@ export default function Header(props: DisclosureProps<"header">) {
                 >
                   Blog
                 </Disclosure.Button>
-                <Disclosure.Button
+                {/* <Disclosure.Button
                   as={Link}
                   to="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
                   className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
                   activeClassName="border-web-gray bg-web-tile"
                 >
                   Showcases
+                </Disclosure.Button> */}
+                <Disclosure.Button
+                  as={Link}
+                  to="/courses"
+                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
+                  activeClassName="border-web-gray bg-web-tile"
+                >
+                  Courses
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
