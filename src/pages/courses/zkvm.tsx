@@ -118,14 +118,6 @@ export default function CourseZkvm() {
                 </li>
               ))}
             </ul>
-            
-            <div className="mt-8 pt-6 border-t border-gray-200">
-              <h3 className="text-sm font-semibold text-gray-700 mb-4">赞助方</h3>
-              <div className="flex flex-col items-center gap-4">
-                <div className="py-3 px-6 rounded-md bg-gray-100/50 border border-gray-200 w-full text-center text-gray-700">Antalpha Labs</div>
-                <div className="py-3 px-6 rounded-md bg-gray-100/50 border border-gray-200 w-full text-center text-gray-700">Antalpha Labs</div>
-              </div>
-            </div>
           </div>
         </div>
         
@@ -157,14 +149,6 @@ export default function CourseZkvm() {
                 </li>
               ))}
             </ul>
-            
-            <div className="mt-8 pt-6 border-t border-gray-200">
-              <h3 className="text-sm font-semibold text-gray-700 mb-4">赞助方</h3>
-              <div className="flex flex-col items-center gap-4">
-                <div className="py-3 px-6 rounded-md bg-gray-100/50 border border-gray-200 w-full text-center text-gray-700">Antalpha Labs</div>
-                <div className="py-3 px-6 rounded-md bg-gray-100/50 border border-gray-200 w-full text-center text-gray-700">Antalpha Labs</div>
-              </div>
-            </div>
           </div>
         </aside>
         
@@ -242,8 +226,20 @@ export default function CourseZkvm() {
             </section>
           ))}
           
-          {/* 底部讨论区块 */}
-          <div className="mt-16 mb-10 mx-auto max-w-3xl rounded-lg p-6 lg:p-8 text-center border border-gray-200 shadow-sm">
+          {/* 赞助商展示区块 */}
+          <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 text-center border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm">
+            <h2 className="text-lg lg:text-xl font-bold text-gray-800 mb-6">感谢本期课程赞助方</h2>
+            <div className="flex justify-center">
+              <img 
+                src="/images/sponsors/zkm.png" 
+                alt="ZKM Sponsor" 
+                className="max-h-16 lg:max-h-20 object-contain"
+              />
+            </div>
+          </div>
+
+            {/* 底部讨论区块 */}
+          <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 text-center border-t border-gray-200">
             <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-4">Learn More / 了解更多信息</h2>
             <p className="text-gray-700 mb-3">
               New to here? Don't worry, we are welcome for your questions.<br />
