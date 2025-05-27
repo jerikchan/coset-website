@@ -6,8 +6,16 @@ import logo from "../../content/images/coset/cosetlogo.svg"
 import logoHeading from "../../content/images/coset/cosetlogo2.svg"
 import { Link } from "gatsby-link"
 import clsx from "clsx"
+import { NavigationItem, navigationItems } from "../config/navigation";
+import { NavigationItemComponent } from "./navigation-item";
 
 export default function Header(props: DisclosureProps<"header">) {
+  return <PureHeader {...props} navigationItems={navigationItems} />
+}
+
+export function PureHeader(props: DisclosureProps<"header"> & {
+  navigationItems: NavigationItem[]
+}) {
   return (
     <Disclosure
       as="header"
@@ -35,42 +43,12 @@ export default function Header(props: DisclosureProps<"header">) {
                   />
                 </Link>
                 <div className="hidden md:flex md:space-x-8">
-                  <Link
-                    to="/hackerhouse"
-                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                    activeClassName="underline-offset-2 underline"
-                  >
-                    Hackerhouse
-                  </Link>
-                  <a
-                    href="https://mirror.xyz/coset-io.eth/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                  >
-                    Blog
-                  </a>
-                  {/* <a
-                    href="https://coset.notion.site/Coset-Wiki-adba3ae862eb49cea66f10d929ec1067"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                  >
-                    Showcases
-                  </a> */}
-                  <Link
-                    to="/courses"
-                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                    activeClassName="underline-offset-2 underline"
-                  >
-                    Courses
-                  </Link>
-                  <a
-                    href="mailto:emily@coset.io"
-                    className="uppercase inline-flex items-center justify-center px-1 text-sm font-medium text-web-black hover:underline underline-offset-2"
-                  >
-                    Contact
-                  </a>
+                  {props.navigationItems.map((item) => (
+                    <NavigationItemComponent
+                      key={item.label}
+                      item={item}
+                    />
+                  ))}
                 </div>
               </div>
               <div className="flex items-center md:hidden">
@@ -97,45 +75,14 @@ export default function Header(props: DisclosureProps<"header">) {
           >
             <Disclosure.Panel className="flex fixed z-30 inset-0 w-full bg-inherit px-6 pt-[80px]">
               <div className="pb-3 w-full">
-                <Disclosure.Button
-                  as={Link}
-                  to="/hackerhouse"
-                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
-                  activeClassName="border-web-gray bg-web-tile"
-                >
-                  Hackerhouse
-                </Disclosure.Button>
-                <Disclosure.Button
-                  as={Link}
-                  to="https://mirror.xyz/coset-io.eth/"
-                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
-                  activeClassName="border-web-gray bg-web-tile"
-                >
-                  Blog
-                </Disclosure.Button>
-                {/* <Disclosure.Button
-                  as={Link}
-                  to="https://www.notion.so/coset/230cbd296a164261a0648a383da08060?v=5373cd12ac1d4dd09e8337c4a6a5ea48"
-                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
-                  activeClassName="border-web-gray bg-web-tile"
-                >
-                  Showcases
-                </Disclosure.Button> */}
-                <Disclosure.Button
-                  as={Link}
-                  to="/courses"
-                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
-                  activeClassName="border-web-gray bg-web-tile"
-                >
-                  Courses
-                </Disclosure.Button>
-                <Disclosure.Button
-                  as="a"
-                  href="mailto:emily@coset.io"
-                  className="uppercase block py-5 font-medium text-web-black border-b border-web-black"
-                >
-                  Contact
-                </Disclosure.Button>
+                {props.navigationItems.map((item) => (
+                  <Disclosure.Button
+                    key={item.label}
+                    as={NavigationItemComponent}
+                    item={item}
+                    isMobile={true}
+                  />
+                ))}
               </div>
             </Disclosure.Panel>
           </Transition>

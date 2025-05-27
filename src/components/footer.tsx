@@ -1,86 +1,37 @@
-import React, {Component} from "react"
-import axios from "axios"
-import "./footer.css"
-import footerlogo from "../../content/images/footer/cosetlogo.svg"
-import notion from "../../content/images/footer/notion.svg"
-import youtube from "../../content/images/footer/youtube.svg"
-import twitter from "../../content/images/footer/twitter.svg"
-import mirror from "../../content/images/footer/mirror.svg"
+import React from "react";
+import "./footer.css";
+import { footerConfig, FooterConfig } from "../config/footer";
+import { SocialLinkComponent } from "./social-link";
+import { NewsletterSubscription } from "./newsletter-subscription";
 
-class Footer extends Component {
-    input = React.createRef();
-    button = React.createRef();
-    validateEmail = (email) => {
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(email).toLowerCase());
-    };
-    submitSubscribe = () => {
-        const email = this.input.current.value;
-        if (!this.validateEmail(email)) {
-            alert("Please enter a valid email address");
-            return;
-        }
-
-        this.button.current.disabled = true;
-
-        const formData = {
-            "first_url": "https://woshizhengqiuwan.substack.com/publish/dashboard",
-            "first_referrer": "https://substack.com/",
-            "current_url": "https://woshizhengqiuwan.substack.com/embed",
-            "current_referrer": window.location.protocol + '//' + window.location.host,
-            "referral_code": "",
-            "source": "embed",
-            "referring_pub_id": "",
-            "additional_referring_pub_ids": "",
-            "email": email
-        }
-        axios.post("/api/substack/v1/free", formData).then((res) => {
-            console.log(res);
-            this.input.current.value = "";
-        }).catch((error) => {
-            console.log(error);
-        }). finally(() => {
-            this.button.current.disabled = false;
-        });
-    }
-
-    render() {
-        return (
-            <div className="footer">
-                <div className="container mx-auto flex justify-between flex-wrap">
-                  <div className="footer-left">
-                      <div className="footer-logo">
-                          <img src={footerlogo}
-                              alt=" "></img>
-                      </div>
-                      <div className="footer-claim">© 2024 Coset. All Rights Reserved.</div>
-                  </div>
-                  <div className="footer-right">
-                      <a href="https://mirror.xyz/0xeA68d8B403FE1891ae4F309ABeE6D3C9D1089b25">
-                          <img src={mirror}
-                              alt=" "></img>
-                      </a>
-                      <a href="https://coset.notion.site/Coset-HackerHouse-13884d3f3d214ed59d430bb472ce523c">
-                          <img src={notion}
-                              alt=" "></img>
-                      </a>
-                      <a href="https://www.youtube.com/channel/UCNFowsoGM9OI2NcEP2EFgrw">
-                          <img src={youtube}
-                              alt=" "></img>
-                      </a>
-                      <a href="https://twitter.com/coset_io">
-                          <img src={twitter}
-                              alt=" "></img>
-                      </a>
-                      <a href="mailto:emily@coset.io">
-                          <div className="footer-mail">emily@coset.io</div>
-                      </a>
-                  </div>
-                </div>
-            </div>
-        )
-    }
+interface FooterProps {
+  config?: FooterConfig;
+  className?: string;
 }
 
+export default function Footer({ config = footerConfig, className = "" }: FooterProps) {
+  return <PureFooter config={config} className={className} />;
+}
 
-export default Footer;
+export function PureFooter({ config, className = "" }: Required<FooterProps>) {
+  return (
+    <div className={`footer ${className}`}>
+      <div className="container mx-auto flex justify-between flex-wrap">
+        <div className="footer-left">
+          {config.logo && <div className="footer-logo">
+            <img src={config.logo} alt="Coset Logo" />
+          </div>}
+          <div className="footer-claim">{config.copyright}</div>
+        </div>
+        <div className="footer-right">
+          {config.socialLinks.map((link) => (
+            <SocialLinkComponent key={link.label} link={link} />
+          ))}
+          <a href={`mailto:${config.email}`}>
+            <div className="footer-mail">{config.email}</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}

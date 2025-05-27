@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react"
-import Header from "../../components/site-header"
-import Footer from "../../components/footer"
+import { PureHeader} from "../../components/site-header"
+import { PureFooter} from "../../components/footer"
 import { TailwindIndicator } from "../../components/tailwind-indicator"
+import { coursesNavigationItems } from "../../config/navigation"
+import { coursesFooterConfig } from "../../config/footer"
 
 export default function CourseZkvm() {
   const [activeSection, setActiveSection] = useState("episode-1");
@@ -34,7 +36,7 @@ export default function CourseZkvm() {
 
   return(
     <div className="bg-web-paper text-gray-800 font-inter min-h-screen">
-      <Header />
+      <PureHeader navigationItems={coursesNavigationItems} />
       
       {/* 移动端菜单按钮 */}
       <div className="lg:hidden sticky top-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200 py-3 px-4">
@@ -263,7 +265,7 @@ export default function CourseZkvm() {
           </div>
         </main>
       </div>
-      <Footer />
+      <PureFooter config={coursesFooterConfig} className="" />
       <TailwindIndicator />
       
       {/* 自定义滚动条样式 */}
