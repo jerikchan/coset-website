@@ -228,6 +228,88 @@ export default function CourseZkvm() {
             </section>
           ))}
           
+          {/* 课程作业模块 */}
+          <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm">
+            <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-6 text-center">课程作业</h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+              {/* 作业1 */}
+              <a 
+                href="https://github.com/coset-io/zkp-academy/discussions/66"
+                target="_blank"
+                rel="noreferrer"
+                className="group block p-6 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center">
+                    <span className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-medium mr-3">1</span>
+                    <h3 className="font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">第一周作业</h3>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400 group-hover:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+                <p className="text-gray-600 text-sm line-clamp-3">zkVM 课程第一周作业</p>
+                <div className="mt-4 flex items-center text-xs text-gray-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  </svg>
+                  GitHub Discussion
+                </div>
+              </a>
+
+              {/* 作业2 */}
+              <a 
+                href="https://github.com/coset-io/zkp-academy/discussions/69"
+                target="_blank"
+                rel="noreferrer"
+                className="group block p-6 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center">
+                    <span className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-medium mr-3">2</span>
+                    <h3 className="font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">第二周作业</h3>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400 group-hover:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+                <p className="text-gray-600 text-sm line-clamp-3">zkVM 课程第二周作业</p>
+                <div className="mt-4 flex items-center text-xs text-gray-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  </svg>
+                  GitHub Discussion
+                </div>
+              </a>
+
+              {/* 作业3 */}
+              <a 
+                href="https://github.com/coset-io/zkp-academy/discussions/70"
+                target="_blank"
+                rel="noreferrer"
+                className="group block p-6 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200 md:col-span-2 lg:col-span-1"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center">
+                    <span className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-medium mr-3">3</span>
+                    <h3 className="font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">第三周作业</h3>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400 group-hover:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+                <p className="text-gray-600 text-sm line-clamp-3">Add instruction in SP1</p>
+                <div className="mt-4 flex items-center text-xs text-gray-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  </svg>
+                  GitHub Discussion
+                </div>
+              </a>
+            </div>
+          </div>
+
           {/* 赞助商展示区块 */}
           <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 text-center border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm">
             <h2 className="text-lg lg:text-xl font-bold text-gray-800 mb-6">感谢本期课程赞助方</h2>
