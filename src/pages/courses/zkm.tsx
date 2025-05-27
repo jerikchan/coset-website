@@ -2,14 +2,14 @@ import React from "react"
 import Course from "../../components/Course"
 import { coursesNavigationItems } from "../../config/navigation"
 import { coursesFooterConfig } from "../../config/footer"
-import { zkvmCourseData } from "../../data/zkvm-course"
+import { zkmCourseData } from "../../data/zkm-course"
 
-export default function CourseZkvm() {
+export default function CourseZkm() {
   return (
     <Course 
-      courseData={zkvmCourseData}
+      courseData={zkmCourseData}
       navigationItems={coursesNavigationItems}
       footerConfig={coursesFooterConfig}
     />
   )
-}
+} 

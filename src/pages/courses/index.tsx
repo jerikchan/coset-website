@@ -89,7 +89,7 @@ export default function Courses() {
         {/* Featured Courses Section */}
         <section className="mb-16">
           <div className="flex justify-between items-center mb-8">
-            <h2 className="text-2xl font-bold">Astronomy</h2>
+            <h2 className="text-2xl font-bold">ZKP</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {FEATURED_COURSES.map((course) => (
