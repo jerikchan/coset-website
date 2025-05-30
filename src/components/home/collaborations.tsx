@@ -33,7 +33,8 @@ const PARTNERS = [
   { imageUrl: "etherspot.png", name: "etherspot", className: "invert" },
   { imageUrl: "ocean.png", name: "ocean" },
   { imageUrl: "sin7y.png", name: "sin7y" },
-  { imageUrl: "ola.svg", name: "ola", className: 'm-0 lg:m-0' },
+  { imageUrl: "ola.svg", name: "ola", className: "m-0 lg:m-0" },
+  { imageUrl: "zkm.png", name: "zkm" },
 ];
 
 export const Collaborations = () => {

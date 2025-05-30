@@ -19,6 +19,11 @@
   background-image: url("../../content/images/coset/noise.png");
 }
 
+.footer-logo {
+  width: 100px;
+  height: auto;
+}
+
 .footer-left {
   margin: 70px 40px;
   display: flex;
