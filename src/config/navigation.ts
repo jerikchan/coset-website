@@ -14,7 +14,7 @@ export const navigationItems: NavigationItem[] = [
   },
   {
     label: "Blog",
-    href: "https://mirror.xyz/coset-io.eth/",
+    href: "https://mirror.xyz/co-set.eth/",
     isExternal: true,
     target: "_blank",
     rel: "noreferrer",
