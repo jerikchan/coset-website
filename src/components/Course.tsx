@@ -240,7 +240,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                   <p className="text-sm text-gray-600">主讲人：{courseData.speakers[index]}</p>
                 </div>
                 <a 
-                  href={`${courseData.githubBaseUrl}/lesson%20${index + 1}`}
+                  href={`${courseData.githubBaseUrl}`}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-md bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200 transition-colors"

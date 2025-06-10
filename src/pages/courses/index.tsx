@@ -13,6 +13,14 @@ const FEATURED_COURSES = [
     category: "Zero Knowledge Proof",
     image: "/images/courses/zkp.jpg"
   },
+  {
+    id: 'fri-stark',
+    title: "FRI & Stark Course",
+    date: "August 13, 2024",
+    description: "本课程深入探讨 FRI (Fast Reed-Solomon Interactive Oracle Proof of Proximity) 和 STARK (Scalable Transparent ARgument of Knowledge) 技术，从理论到实践，帮助学习者掌握这些重要的零知识证明技术。",
+    category: "Zero Knowledge Proof",
+    image: "/images/courses/zkp.jpg"
+  }
 ]
 
 export default function Courses() {

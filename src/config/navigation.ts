@@ -40,7 +40,7 @@ export const coursesNavigationItems: NavigationItem[] = [
   },
   {
     label: "Github",
-    href: "https://github.com/coset-io",
+    href: "https://github.com/coset-io/zkp-academy",
     isExternal: true,
     target: "_blank",
     rel: "noreferrer",
