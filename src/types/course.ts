@@ -27,6 +27,7 @@ export interface Part {
   title: string;
   episodes: Episode[];
   assignments?: Assignment[];
+  supplementaryResources?: Resource[];
 }
 
 export interface CourseData {
@@ -36,6 +37,7 @@ export interface CourseData {
   discussionUrl: string;
   parts: Part[];
   sponsors?: Sponsor[];
+  generalSupplementaryResources?: Resource[];
 }
 
 export interface CourseProps {

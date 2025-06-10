@@ -101,7 +101,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
           <div className="p-4 max-h-[calc(100dvh-4rem)] overflow-y-auto">
             {courseData.parts.map((part, partIndex) => (
               <div key={`mobile-part-${partIndex}`} className="mb-6">
-                <h3 className="text-base font-semibold text-gray-800 mb-3">{part.title}</h3>
+                {part.title && <h3 className="text-base font-semibold text-gray-800 mb-3">{part.title}</h3>}
                 <ul className="space-y-2">
                   {part.episodes.map((episode, episodeIndex) => {
                     const globalIndex = courseData.parts.slice(0, partIndex).reduce((acc, p) => acc + p.episodes.length, 0) + episodeIndex + 1;
@@ -254,7 +254,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
         <main className="flex-1 space-y-10 lg:space-y-16 custom-scrollbar mt-4 lg:mt-0">
           {courseData.parts.map((part, partIndex) => (
             <div key={`part-${partIndex}`} className="space-y-8">
-              <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">{part.title}</h2>
+              {part.title && <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">{part.title}</h2>}
               {part.episodes.map((episode, episodeIndex) => {
                 const globalIndex = courseData.parts.slice(0, partIndex).reduce((acc, p) => acc + p.episodes.length, 0) + episodeIndex + 1;
                 const episodeNumber = episodeIndex + 1;
@@ -368,8 +368,62 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                   </div>
                 </div>
               )}
+
+              {/* 补充资源模块 */}
+              {part.supplementaryResources && part.supplementaryResources.length > 0 && (
+                <div className="mt-8 rounded-lg p-6 lg:p-8 border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm">
+                  <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-6 text-center">补充资源</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+                    {part.supplementaryResources.map((resource, index) => (
+                      <a
+                        key={`supplementary-${partIndex}-${index}`}
+                        href={resource.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="group block p-4 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200"
+                      >
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <h3 className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors line-clamp-2">{resource.title}</h3>
+                          </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400 group-hover:text-blue-500 transition-colors flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ))}
+          
+          {/* 通用补充资源区块 */}
+          {courseData.generalSupplementaryResources && courseData.generalSupplementaryResources.length > 0 && (
+            <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm">
+              <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-6 text-center">课程补充学习资料</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+                {courseData.generalSupplementaryResources.map((resource, index) => (
+                  <a
+                    key={`general-supplementary-${index}`}
+                    href={resource.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group block p-4 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex-1">
+                        <h3 className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors line-clamp-2">{resource.title}</h3>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400 group-hover:text-blue-500 transition-colors flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
           
           {/* 赞助商展示区块 */}
           {courseData.sponsors && courseData.sponsors.length > 0 && (

@@ -49,6 +49,8 @@ export const friStarkCourseData: CourseData = {
           url: "https://github.com/Antalpha-Labs/zkp-academy/discussions/35"
         },
       ],
+      supplementaryResources: [
+      ]
     },
     {
       title: "Part 2: zk-learning.org Lecture 8",
@@ -58,8 +60,7 @@ export const friStarkCourseData: CourseData = {
           speaker: "backdoor",
           videoLink: "https://www.youtube.com/embed/W5dXnaSwrQw",
           resources: [
-            { title: "STARK Anatomy", url: "https://aszepieniec.github.io/stark-anatomy/" },
-            { title: "Vitalik Blogs", url: "https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html" }
+            { title: "zk-learning.org", url: "https://zk-learning.org/" },
           ]
         },
         {
@@ -67,8 +68,7 @@ export const friStarkCourseData: CourseData = {
           speaker: "Kyrin",
           videoLink: "https://www.youtube.com/embed/_0aMoAZ1L7k",
           resources: [
-            { title: "SNARK Security and Performance", url: "https://a16zcrypto.com/posts/article/snark-security-and-performance/" },
-            { title: "Safe and Sound – A Deep Dive into STARK Security", url: "https://starkware.co/safe-and-sound-a-deep-dive-into-stark-security" }
+            { title: "zk-learning.org", url: "https://zk-learning.org/" },
           ]
         },
         {
@@ -76,7 +76,7 @@ export const friStarkCourseData: CourseData = {
           speaker: "0xhhh",
           videoLink: "https://www.youtube.com/embed/ak1wGXfGlyc",
           resources: [
-            { title: "ethSTARK Documentation", url: "https://eprint.iacr.org/2021/582.pdf" }
+            { title: "zk-learning.org", url: "https://zk-learning.org/" },
           ]
         },
         {
@@ -84,7 +84,7 @@ export const friStarkCourseData: CourseData = {
           speaker: "Yingfei",
           videoLink: "https://www.youtube.com/embed/p3zxhnSDqFM",
           resources: [
-            { title: "Fiat-Shamir Security of FRI", url: "https://eprint.iacr.org/2023/1071.pdf" }
+            { title: "zk-learning.org", url: "https://zk-learning.org/" },
           ]
         },
         {
@@ -92,9 +92,21 @@ export const friStarkCourseData: CourseData = {
           speaker: "Yingfei",
           videoLink: "https://www.youtube.com/embed/Sfm5GjI69fc",
           resources: [
-            { title: "Proximity Gaps for Reed-Solomon Codes", url: "https://eprint.iacr.org/2020/654.pdf" }
+            { title: "zk-learning.org", url: "https://zk-learning.org/" },
           ]
         }
+      ],
+      supplementaryResources: [
+        { title: "STARK Anatomy", url: "https://aszepieniec.github.io/stark-anatomy/" },
+        { title: "Vitalik Blogs Part 1", url: "https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html" },
+        { title: "Vitalik Blogs Part 2", url: "https://vitalik.eth.limo/general/2017/11/22/starks_part_2.html" },
+        { title: "Vitalik Blogs Part 3", url: "https://vitalik.eth.limo/general/2018/07/21/starks_part_3.html" },
+        { title: "SNARK Security and Performance", url: "https://a16zcrypto.com/posts/article/snark-security-and-performance/" },
+        { title: "Safe and Sound – A Deep Dive into STARK Security", url: "https://starkware.co/safe-and-sound-a-deep-dive-into-stark-security" },
+        { title: "ethSTARK Documentation", url: "https://eprint.iacr.org/2021/582.pdf" },
+        { title: "Fiat-Shamir Security of FRI", url: "https://eprint.iacr.org/2023/1071.pdf" },
+        { title: "Proximity Gaps for Reed-Solomon Codes", url: "https://eprint.iacr.org/2020/654.pdf" },
+        { title: "SNARGS Book", url: "https://snargsbook.org/" }
       ]
     },
     {
@@ -143,7 +155,21 @@ export const friStarkCourseData: CourseData = {
           url: "https://github.com/Antalpha-Labs/zkp-academy/discussions/58"
         }
       ],
+      supplementaryResources: [
+        { title: "Winterfell - FRI", url: "https://github.com/facebook/winterfell" },
+        { title: "RiscZero - FRI", url: "https://github.com/risc0/risc0/blob/main/risc0/zkp/src/prove/fri.rs" },
+        { title: "How to code FRI from scratch", url: "https://blog.lambdaclass.com/how-to-code-fri-from-scratch/" }
+      ]
     }
+  ],
+  generalSupplementaryResources: [
+    { title: "Cairo VM", url: "https://github.com/lambdaclass/cairo-vm?tab=readme-ov-file#starks" },
+    { title: "RiscZero Reference", url: "https://dev.risczero.com/reference-docs/about-fri" },
+    { title: "RiscZero Introduction to FRI", url: "https://www.youtube.com/playlist?list=PLcPzhUaCxlCi6rRRiIlkzJ_YELUlKO4Mz" },
+    { title: "Fast Reed-Solomon IOP (FRI) Proximity Test", url: "https://rot256.dev/post/fri/" },
+    { title: "A summary on the FRI low degree test", url: "https://eprint.iacr.org/2022/1216.pdf" },
+    { title: "FRIDA: Data Availability Sampling from FRI", url: "https://eprint.iacr.org/2024/248.pdf" },
+    { title: "Study of Arithmetization Methods for STARKs", url: "https://eprint.iacr.org/2023/661.pdf" }
   ],
   sponsors: [
     {
