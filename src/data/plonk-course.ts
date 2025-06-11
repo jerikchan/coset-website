@@ -2,7 +2,7 @@ import { CourseData } from "../types/course"
 
 export const plonkCourseData: CourseData = {
   title: "Plonk Course",
-  description: "本课程深入探讨 Plonk 协议，从理论到实践，帮助学习者掌握这个重要的零知识证明技术。",
+  description: "本课程深入探讨 Plonk 协议，从理论到实践，帮助学习者掌握这个重要的零知识证明技术。课程内容包括 Plonk 算术化、多项式编码、置换证明、约束系统、多项式承诺、Lookup Gate 等核心概念，并通过代码实践帮助学习者深入理解。",
   githubBaseUrl: "https://github.com/Antalpha-Labs/plonk-intro-notebook",
   discussionUrl: "https://github.com/Antalpha-Labs/plonk-intro-notebook/discussions",
   parts: [

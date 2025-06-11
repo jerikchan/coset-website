@@ -2,7 +2,7 @@ import { CourseData } from "../types/course"
 
 export const friStarkCourseData: CourseData = {
   title: "FRI & Stark Course",
-  description: "A comprehensive course covering FRI (Fast Reed-Solomon Interactive Oracle Proofs) and STARKs (Scalable Transparent Arguments of Knowledge).",
+  description: "本课程深入探讨 FRI (Fast Reed-Solomon Interactive Oracle Proof of Proximity) 和 STARK (Scalable Transparent ARgument of Knowledge) 技术，从理论到实践，帮助学习者掌握这些重要的零知识证明技术。",
   parts: [
     {
       title: "Part 1: STARK101",

@@ -32,6 +32,10 @@ export const navigationItems: NavigationItem[] = [
 
 export const coursesNavigationItems: NavigationItem[] = [
   {
+    label: "Home",
+    href: "/",
+  },
+  {
     label: "Twitter",
     href: "https://x.com/coset_io",
     isExternal: true,

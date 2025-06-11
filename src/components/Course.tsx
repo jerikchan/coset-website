@@ -211,7 +211,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                                 ? "bg-blue-500 text-white"
                                 : "bg-gray-100 text-gray-600"
                             }`}>{episodeNumber}</span>
-                            <span className="line-clamp-1">{episode.title}</span>
+                            <span className="line-clamp-3 text-sm" title={episode.title}>{episode.title}</span>
                           </span>
                         </a>
                       </li>
@@ -251,7 +251,13 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
         </aside>
         
         {/* Main Content */}
-        <main className="flex-1 space-y-10 lg:space-y-16 custom-scrollbar mt-4 lg:mt-0">
+        <main className="flex-1 space-y-10 lg:space-y-10 custom-scrollbar mt-4 lg:mt-0">
+          {/* 标题和描述 */}
+          <div className="rounded-lg p-6 lg:p-8 border bg-white/50 backdrop-blur-sm border-gray-200 shadow-sm mx-auto">
+            <h2 className="text-xl lg:text-3xl font-bold text-gray-800 mb-6 text-center">{courseData.title}</h2>
+            <p className="text-sm text-gray-600">{courseData.description}</p>
+          </div>
+
           {courseData.parts.map((part, partIndex) => (
             <div key={`part-${partIndex}`} className="space-y-8">
               {part.title && <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">{part.title}</h2>}
@@ -310,7 +316,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                     
                     {episode.resources && episode.resources.length > 0 && (
                       <div className="mt-4 lg:mt-6 pt-4 lg:pt-6 border-t border-gray-200">
-                        <h3 className="text-base font-medium mb-3 lg:mb-4 text-gray-700">推荐资源</h3>
+                        <h3 className="text-base font-medium mb-3 lg:mb-4 text-gray-700">推荐资料</h3>
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-3">
                           {episode.resources.map((resource, i) => (
                             <li key={`resource-${globalIndex}-${i}`} className="flex">
@@ -443,7 +449,7 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
           )}
 
           {/* 底部讨论区块 */}
-          <div className="mt-16 mb-10 mx-auto rounded-lg p-6 lg:p-8 text-center border-t border-gray-200">
+          <div className="mt-16 mb-10 mx-auto p-6 lg:p-8 text-center border-t border-gray-200">
             <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-4">Learn More / 了解更多信息</h2>
             <p className="text-gray-700 mb-3">
               New to here? Don't worry, we are welcome for your questions.<br />

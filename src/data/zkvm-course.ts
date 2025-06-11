@@ -1,8 +1,8 @@
 import { CourseData } from "../types/course"
 
 export const zkvmCourseData: CourseData = {
-  title: "zkVM 课程",
-  description: "零知识虚拟机（zkVM）课程，深入讲解 zkVM 的原理、实现和应用。",
+  title: "zkVM Course",
+  description: "zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟机（Virtual Machine, VM）的新型技术，背后承载了多个领域的努力，包括密码学、区块链、分布式系统和计算理论，才走到如今，被普遍认为是突破区块链和分布式系统技术瓶颈的「潜力股」。",
   parts: [
     {
       title: "",
