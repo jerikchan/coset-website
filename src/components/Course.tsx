@@ -489,10 +489,14 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
           background: transparent;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: #d1d5db;
+          background: transparent;
           border-radius: 4px;
         }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        .custom-scrollbar:hover::-webkit-scrollbar-thumb {
+          background: #d1d5db;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover,
+        .custom-scrollbar:hover::-webkit-scrollbar-thumb:hover {
           background: #9ca3af;
         }
         @keyframes slideDown {
