@@ -25,12 +25,14 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
       const scrollPosition = window.scrollY + 100;
 
       sections.forEach((section) => {
-        const sectionTop = (section as HTMLElement).offsetTop;
-        const sectionHeight = (section as HTMLElement).offsetHeight;
-        const sectionId = section.getAttribute('id');
+        if (section instanceof HTMLElement) {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('id');
 
-        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-          setActiveSection(sectionId || "episode-1");
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            setActiveSection(sectionId || "episode-1");
+          }
         }
       });
     };
@@ -343,14 +345,14 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                   <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-6 text-center">课程作业</h2>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
-                    {part.assignments.map((assignment, index) => (
+                    {(part.assignments ?? []).map((assignment, index, arr) => (
                       <a 
                         key={`assignment-${partIndex}-${index}`}
                         href={assignment.url}
                         target="_blank"
                         rel="noreferrer"
                         className={`group block p-6 rounded-lg border border-gray-200 bg-white/70 hover:bg-white hover:shadow-md transition-all duration-200 hover:border-blue-200 ${
-                          index === part.assignments.length - 1 && part.assignments.length % 3 === 1 ? 'md:col-span-2 lg:col-span-1' : ''
+                          index === arr.length - 1 && arr.length % 3 === 1 ? 'md:col-span-2 lg:col-span-1' : ''
                         }`}
                       >
                         <div className="flex items-start justify-between mb-4">
