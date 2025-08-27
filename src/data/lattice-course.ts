@@ -30,12 +30,6 @@ export const latticeCourseData: CourseData = {
           ]
         },
         {
-          title: "第一周答疑",
-          speaker: "",
-          videoLink: "https://www.youtube.com/embed/xEXm5crprbI",
-          resources: [],
-        },
-        {
           title: "Discrete Gaussians, Rejection Sampling, Rings and Modules",
           speaker: "Yingfei",
           videoLink: "https://www.youtube.com/embed/cMIiD4tmdVg",
