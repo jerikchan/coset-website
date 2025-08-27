@@ -1,8 +1,16 @@
 export const featuredCourses = [
   {
+    id: 'lattice',
+    title: "Lattice Course",
+    date: "June 16, 2025",
+    description: "从数学、PCS 到工程化的 Lattice-based SNARK 系统课程，覆盖 NTT、Ajtai/Lyubashevsky、PCS、LaBRADOR、Greyhound、工程实践与密码分析。",
+    category: "Zero Knowledge Proof",
+    image: "/images/courses/lattic.jpg"
+  },
+  {
     id: 'zkvm',
     title: "zkVM Course",
-    date: "May 21, 2025",
+    date: "Dec 30, 2024",
     description: "zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟机（Virtual Machine, VM）的新型技术，背后承载了多个领域的努力，包括密码学、区块链、分布式系统和计算理论，才走到如今，被普遍认为是突破区块链和分布式系统技术瓶颈的「潜力股」。",
     category: "Zero Knowledge Proof",
     image: "/images/courses/zkp.jpg"
