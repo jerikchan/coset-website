@@ -2,12 +2,12 @@ import { CourseData } from "../types/course"
 
 export const latticeCourseData: CourseData = {
   title: "Lattice Course",
-  description: "本课程以 Lattice-based SNARK 为主，从数学、PCS 及工程化三个部分展开，系统介绍格密码在 ZKP 中的原理、实现与前沿进展。课程时间：2025 年 6 月 16 日 - 2025 年 7 月 27 日（6 周）。课程形式：每周二/四线上直播，微信群交流，GitHub 讨论区答疑。",
+  description: "本课程以 Lattice-based SNARK 为主，从数学、PCS 及工程化三个部分展开，系统介绍格密码在 ZKP 中的原理、实现与前沿进展。",
   githubBaseUrl: "https://github.com/coset-io/zkp-academy/tree/main/lattice",
   discussionUrl: "https://github.com/coset-io/zkp-academy/discussions",
   parts: [
     {
-      title: "第一周课程安排",
+      title: "",
       episodes: [
         {
           title: "Lattice Cryptography Overview & Why Lattice is the Future of PQ ZK Blockchain",
@@ -34,12 +34,7 @@ export const latticeCourseData: CourseData = {
           speaker: "",
           videoLink: "https://www.youtube.com/embed/xEXm5crprbI",
           resources: [],
-        }
-      ]
-    },
-    {
-      title: "第二周课程安排",
-      episodes: [
+        },
         {
           title: "Discrete Gaussians, Rejection Sampling, Rings and Modules",
           speaker: "Yingfei",
@@ -63,12 +58,7 @@ export const latticeCourseData: CourseData = {
             { title: "Beginner Guide to NTT", url: "https://eprint.iacr.org/2024/585.pdf" },
             { title: "NTT and Applications Survey", url: "https://arxiv.org/pdf/2211.13546" }
           ]
-        }
-      ]
-    },
-    {
-      title: "第三周课程安排",
-      episodes: [
+        },
         {
           title: "Ajtai Commitment and Lyubashevsky Signature/Proofs",
           speaker: "Yingfei",
@@ -88,12 +78,7 @@ export const latticeCourseData: CourseData = {
             { title: "Bilibili 视频", url: "https://www.bilibili.com/video/BV1hB3gz4Eur/" },
             { title: "How to Make SNARKs", url: "https://www.youtube.com/watch?v=KjkIQLJk4eQ" }
           ]
-        }
-      ]
-    },
-    {
-      title: "第四周课程安排",
-      episodes: [
+        },
         {
           title: "Realizing Polynomial Commitment Schemes",
           speaker: "高老师",
@@ -113,12 +98,7 @@ export const latticeCourseData: CourseData = {
             { title: "Bilibili 视频", url: "https://www.bilibili.com/video/BV1jWuTzpELX/" },
             { title: "LaBRADOR paper", url: "https://eprint.iacr.org/2022/1341.pdf" }
           ]
-        }
-      ]
-    },
-    {
-      title: "第五周课程安排",
-      episodes: [
+        },
         {
           title: "Greyhound",
           speaker: "高老师",
@@ -141,12 +121,7 @@ export const latticeCourseData: CourseData = {
             { title: "LatticeFold", url: "https://github.com/NethermindEth/latticefold" },
             { title: "Fast Labrador Prover", url: "https://hackmd.io/@Ingonyama/fast-labrador-prover" }
           ]
-        }
-      ]
-    },
-    {
-      title: "第六周课程安排",
-      episodes: [
+        },
         {
           title: "格密碼分析初步",
           speaker: "Kurt",
@@ -189,7 +164,7 @@ export const latticeCourseData: CourseData = {
   sponsors: [
     {
       name: "KEF",
-      logo: "/images/sponsors/starknet.png",
+      logo: "/images/sponsors/KEF-LND-BLK.png",
       alt: "KEF Sponsor"
     }
   ]

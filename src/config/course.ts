@@ -13,7 +13,7 @@ export const featuredCourses = [
     date: "June 16, 2025",
     description: "从数学、PCS 到工程化的 Lattice-based SNARK 系统课程，覆盖 NTT、Ajtai/Lyubashevsky、PCS、LaBRADOR、Greyhound、工程实践与密码分析。",
     category: "Zero Knowledge Proof",
-    image: "/images/courses/zkp.jpg"
+    image: "/images/courses/lattic.jpg"
   },
   {
     id: 'fri-stark',
