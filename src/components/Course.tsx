@@ -291,12 +291,14 @@ export default function Course({ courseData, navigationItems, footerConfig }: Co
                     </div>
                     
                     <div className="aspect-video mb-4 lg:mb-6 rounded-lg overflow-hidden shadow-md">
-                      <iframe 
-                        className="w-full h-full" 
-                        src={episode.videoLink} 
-                        title={`Episode ${episodeNumber}: ${episode.title}`} 
-                        frameBorder="0" 
-                        allowFullScreen>
+                      <iframe
+                        className="w-full h-full"
+                        src={episode.videoLink}
+                        title={`Episode ${episodeNumber}: ${episode.title}`}
+                        frameBorder="0"
+                        allowFullScreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                       </iframe>
                     </div>
                     
